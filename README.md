@@ -3,4 +3,4 @@
 
 Thanks Github. 
 
-Thanks BeiYuu's Theme.
+Thanks [BeiYuu's](http://beiyuu.com/github-pages/) Theme.
