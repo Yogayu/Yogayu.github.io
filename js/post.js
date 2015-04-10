@@ -36,7 +36,14 @@ $(document).ready(function(){
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    
+ 
+ $('#disqus_container .comment').on('click',function(){
+        $(this).html('加载中...');
+        var disqus_shortname = 'yogayugithubio';
+        var that = this;
+        BYB.includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()}); //这是一个加载js的函数
+});
+
 <script type="text/javascript"> // 评论数目
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'yogayugithubio';
