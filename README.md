@@ -1,2 +1,6 @@
-# youxinyu.github.io
-My Blog
+# My Blog
+
+
+Thanks Github. 
+
+Thanks BeiYuu's Theme.
