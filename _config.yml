@@ -6,6 +6,6 @@ paginate: 8
 permalink: /:title
 
 title: Yogayu.com
-url: https://Yogayu.github.com
+url: https://Yogayu.github.io
 feed: /atom.xml
-author_info: <a href="https://Yogayu.github.com">youxinyu</a>
+author_info: <a href="https://Yogayu.github.io">youxinyu</a>
