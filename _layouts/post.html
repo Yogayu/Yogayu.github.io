@@ -18,7 +18,9 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
-        <div id="disqus_thread"></div>
+    </div>
+
+<div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     // Required: on line below, replace text in quotes with your forum shortname
@@ -32,7 +34,6 @@ layout: default
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    </div>
 
     <div class="sidenav">
         <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src=""></iframe>
