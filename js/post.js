@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
-    window.disqus_shortname = 'Yogayu'; // required: replace example with your forum shortname
+    window.disqus_shortname = 'yogayu'; // required: replace example with your forum shortname
     $('#disqus_container .comment').on('click',function(){
         $(this).html('加载中...');
         var that = this;
