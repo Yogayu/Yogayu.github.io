@@ -2,6 +2,9 @@
  * Author:           BeiYuu
  * Contact:          beiyuu.com
  */
+ /*
+ Changed by Yogayu
+ */
 
 /* 重置浏览器CSS */
 html{color:#000;}
@@ -84,13 +87,13 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-position:50% 50%;
 }
 .blog .aside{
-    background-image:url(http://d.pcs.baidu.com/thumbnail/f424b869522af3908d27d1594b04c144?fid=3809056738-250528-317743880783233&time=1433426400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-AXLKEOjRpDUXDilRhPDlRW1qOnc%3d&expires=8h&prisign=unknow&chkbd=0&chkv=0&size=c10000_u10000&quality=90);
+    background-image:url('http://img2.ph.126.net/9OGZrxkqOk1Dvk8NtdaHRA==/6630910535537253962.jpg');
 }
 .opinion .aside{
-    background-image:url('http://d.pcs.baidu.com/thumbnail/a6e7d96034eb7194a69119aee528df42?fid=3809056738-250528-826160203854865&time=1433422800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-GKyFl5ycrny5zHaKz45%2bhG0%2bTIw%3d&expires=8h&prisign=unknow&chkbd=0&chkv=0&size=c10000_u10000&quality=90');
+    background-image:url('http://img0.ph.126.net/Nfc2cPbmRMvuu1JOEnoxog==/6630824773630288257.jpeg');
 }
 .project .aside{
-    background-image:url('http://d.pcs.baidu.com/thumbnail/6c439a4bfe9964fd71952e483b43f247?fid=3809056738-250528-360198209203969&time=1433426400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-2ti6vLLuebPA%2fP6c6V6yoi974Ik%3d&expires=8h&prisign=unknow&chkbd=0&chkv=0&size=c10000_u10000&quality=90')
+    background-image:url('http://img2.ph.126.net/5jxXhAHsag-OqcCnIedtZQ==/6630323396327631485.jpg')
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
