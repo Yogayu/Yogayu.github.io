@@ -1,31 +1,11 @@
-name: AzureYu
-author: AzureYu
-baseurl: /herring-cove
-description: Love Life, Love nature.
-github: https://github.com/Yogayu/Yogayu.github.io
-weibo: http://weibo.com/yudelovesong/profile?rightmod=1&wvr=6&mod=personinfo
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email:  yudelovesong@iclode.com
-location: Chongqing, China
-disqus: Yogayu
+auto: true
 
-##Make sure to edit the above fields, especially for disqus.
+markdown: rdiscount
+pygments: true
+paginate: 8
+permalink: /:title
 
-
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+title: Yogayu
+url: https://Yogayu.github.io
+feed: /atom.xml
+author_info: <a href="https://Yogayu.github.io">Yogayu</a>
