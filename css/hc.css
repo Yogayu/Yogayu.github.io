@@ -284,13 +284,14 @@ pre
 
 #welcome-greeting
 {
+  text-align:center;
   width:100%;
   padding-top:5px
 }
 
 #welcome-greeting > h1
 {
-  font-size:3em;
+  font-size:2.4em;
   font-weight:700;
   color:#d90006;
   line-height:130%
@@ -298,7 +299,8 @@ pre
 
 #welcome-greeting h1:hover
 {
-  font-size:3em;
+  text-align:center;
+  font-size:2.5em;
   font-weight:700;
   color:#2d4440;
   transition:all .5s ease 0
@@ -548,15 +550,17 @@ time
 
 .user-card h1
 {
+  text-align:center;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-weight:bolder;
-  font-size:2.5em;
+  font-size:2.3em;
   line-height:55px;
   color:#d90006
 }
 
 .user-card p
-{
+{ 
+  text-align:center;
   color:#c4c4c4;
   font-size:small
 }
@@ -569,6 +573,7 @@ time
 
 .letter p
 {
+  text-align:center;
   font-size:1.2em;
   font-weight:lighter;
   color:#737373;

@@ -1,14 +1,14 @@
-name: Herring Cove
-author: Herring Cove
+name: AzureYu
+author: AzureYu
 baseurl: /herring-cove
-description: theme for jekyll
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
+description: Love Life, Love nature.
+github: https://github.com/Yogayu/Yogayu.github.io
+weibo: http://weibo.com/yudelovesong/profile?rightmod=1&wvr=6&mod=personinfo
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+email:  yudelovesong@iclode.com
+location: Chongqing, China
+disqus: Yogayu
 
 ##Make sure to edit the above fields, especially for disqus.
 
