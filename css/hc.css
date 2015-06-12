@@ -61,7 +61,7 @@ p
 {
   width:80%;
   padding-right:0;
-  padding-top:30px
+  padding-top:20px
 }
 
 .container a
@@ -285,12 +285,13 @@ pre
 #welcome-greeting
 {
   width:100%;
-  padding-top:5px
+  padding-top:3px
 }
 
 #welcome-greeting > h1
 {
-  font-size:3em;
+  text-align:center;
+  font-size:2em;
   font-weight:700;
   color:#d90006;
   line-height:130%
@@ -298,7 +299,8 @@ pre
 
 #welcome-greeting h1:hover
 {
-  font-size:3em;
+  text-align:center;
+  font-size:2em;
   font-weight:700;
   color:#2d4440;
   transition:all .5s ease 0
@@ -306,7 +308,7 @@ pre
 
 #welcome-greeting > h2
 {
-  font-size:2em;
+  font-size:1.8em;
   font-weight:100;
   color:#2e2e2e;
   padding-top:0;
@@ -548,6 +550,7 @@ time
 
 .user-card h1
 {
+  text-align:center;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-weight:bolder;
   font-size:2.5em;
@@ -557,6 +560,7 @@ time
 
 .user-card p
 {
+  text-align:center;
   color:#c4c4c4;
   font-size:small
 }
