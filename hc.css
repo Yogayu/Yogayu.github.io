@@ -6,14 +6,14 @@ body
   color:#2c3e50;
   background-color:#f0f0f0;
   width:100%;
-  border-top:solid #0044FF;
+  border-top:solid #d90006;
   border-width:4px
 }
 
 h1,h2,h3,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  color:#0044FF
+  color:#d90006
 }
 
 h1
@@ -98,7 +98,7 @@ p
   overflow-y:auto;
   z-index:1000;
   margin-top:-4px;
-  border-top:solid #0044FF;
+  border-top:solid #d90006;
   transition:all .4s ease 0;
   border-width:4px
 }
@@ -107,7 +107,7 @@ p
 {
   position:absolute;
   top:0;
-  width:300px;
+  width:250px;
   list-style:none;
   margin:0;
   padding:30px 0 0
@@ -116,7 +116,7 @@ p
 .sidebar-nav li
 {
   line-height:30px;
-  text-indent:30px;
+  text-indent:40px;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200;
   color:#9c9c9c;
@@ -157,7 +157,7 @@ p
 
 .nav-toggle {
     display: none;
-    color: #0044FF;
+    color: #d90006;
     padding-left: 10px;
     padding-top: 10px;
   }
@@ -173,7 +173,7 @@ p
 
 .brand:hover
 {
-  color:#d0099FF;
+  color:#d90006;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -207,8 +207,8 @@ p
 
 blockquote
 {
-  border-left:2px solid #0044FF;
-  border-right:2px solid #0044FF;
+  border-left:2px solid #d90006;
+  border-right:2px solid #d90006;
   margin-left:-40px;
   margin-right:-40px;
   padding-left:40px;
@@ -233,7 +233,7 @@ pre
 
 #social-wrapper a
 {
-  font-size:20px;
+  font-size:15px;
   text-indent:20px
 }
 
@@ -271,7 +271,7 @@ pre
   font-weight:bolder;
   color:#fff;
   text-align:center;
-  padding-top:7%
+  padding-top:20%
 }
 
 .wide
@@ -292,7 +292,7 @@ pre
 {
   font-size:3em;
   font-weight:700;
-  color:#0044FF;
+  color:#d90006;
   line-height:130%
 }
 
@@ -316,7 +316,7 @@ pre
 #welcome-greeting h2 a
 {
   font-weight:100;
-  color:#0044FF
+  color:#d90006
 }
 
 .credit
@@ -370,7 +370,7 @@ pre
 {
   font-size:35px;
   font-weight:700;
-  color:#0044FF;
+  color:#d90006;
   padding-top:15px
 }
 
@@ -552,7 +552,7 @@ time
   font-weight:bolder;
   font-size:2.5em;
   line-height:55px;
-  color:#0044FF
+  color:#d90006
 }
 
 .user-card p
@@ -693,7 +693,7 @@ time
 }
 
 #sidebar-wrapper {
-    border-right: 4px solid #0044FF;
+    border-right: 4px solid #d90006;
     border-top: none;
     left: 0px;
 }
@@ -744,21 +744,11 @@ time
 
 
 
+
 .showcase-wrapper {
   width: 100%;
   height: 50%;
   font-size: small;
 }
 
-}
-
-
-.headshot
-{
-  width:200px;
-  height:200px;
-  border-radius:100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  background: black;
 }
