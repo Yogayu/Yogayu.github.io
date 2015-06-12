@@ -6,14 +6,14 @@ body
   color:#2c3e50;
   background-color:#f0f0f0;
   width:100%;
-  border-top:solid #d90006;
+  border-top:solid #0044FF;
   border-width:4px
 }
 
 h1,h2,h3,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  color:#d90006
+  color:#0044FF
 }
 
 h1
@@ -98,7 +98,7 @@ p
   overflow-y:auto;
   z-index:1000;
   margin-top:-4px;
-  border-top:solid #d90006;
+  border-top:solid #0044FF;
   transition:all .4s ease 0;
   border-width:4px
 }
@@ -107,7 +107,7 @@ p
 {
   position:absolute;
   top:0;
-  width:250px;
+  width:300px;
   list-style:none;
   margin:0;
   padding:30px 0 0
@@ -116,7 +116,7 @@ p
 .sidebar-nav li
 {
   line-height:30px;
-  text-indent:40px;
+  text-indent:30px;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200;
   color:#9c9c9c;
@@ -157,7 +157,7 @@ p
 
 .nav-toggle {
     display: none;
-    color: #d90006;
+    color: #0044FF;
     padding-left: 10px;
     padding-top: 10px;
   }
@@ -173,7 +173,7 @@ p
 
 .brand:hover
 {
-  color:#d90006;
+  color:#d0099FF;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -207,8 +207,8 @@ p
 
 blockquote
 {
-  border-left:2px solid #d90006;
-  border-right:2px solid #d90006;
+  border-left:2px solid #0044FF;
+  border-right:2px solid #0044FF;
   margin-left:-40px;
   margin-right:-40px;
   padding-left:40px;
@@ -233,7 +233,7 @@ pre
 
 #social-wrapper a
 {
-  font-size:15px;
+  font-size:20px;
   text-indent:20px
 }
 
@@ -271,7 +271,7 @@ pre
   font-weight:bolder;
   color:#fff;
   text-align:center;
-  padding-top:20%
+  padding-top:7%
 }
 
 .wide
@@ -284,23 +284,21 @@ pre
 
 #welcome-greeting
 {
-  text-align:center;
   width:100%;
   padding-top:5px
 }
 
 #welcome-greeting > h1
 {
-  font-size:2.4em;
+  font-size:3em;
   font-weight:700;
-  color:#d90006;
+  color:#0044FF;
   line-height:130%
 }
 
 #welcome-greeting h1:hover
 {
-  text-align:center;
-  font-size:2.5em;
+  font-size:3em;
   font-weight:700;
   color:#2d4440;
   transition:all .5s ease 0
@@ -318,7 +316,7 @@ pre
 #welcome-greeting h2 a
 {
   font-weight:100;
-  color:#d90006
+  color:#0044FF
 }
 
 .credit
@@ -372,7 +370,7 @@ pre
 {
   font-size:35px;
   font-weight:700;
-  color:#d90006;
+  color:#0044FF;
   padding-top:15px
 }
 
@@ -550,17 +548,15 @@ time
 
 .user-card h1
 {
-  text-align:center;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-weight:bolder;
-  font-size:2.3em;
+  font-size:2.5em;
   line-height:55px;
-  color:#d90006
+  color:#0044FF
 }
 
 .user-card p
-{ 
-  text-align:center;
+{
   color:#c4c4c4;
   font-size:small
 }
@@ -573,7 +569,6 @@ time
 
 .letter p
 {
-  text-align:center;
   font-size:1.2em;
   font-weight:lighter;
   color:#737373;
@@ -698,7 +693,7 @@ time
 }
 
 #sidebar-wrapper {
-    border-right: 4px solid #d90006;
+    border-right: 4px solid #0044FF;
     border-top: none;
     left: 0px;
 }
@@ -749,11 +744,21 @@ time
 
 
 
-
 .showcase-wrapper {
   width: 100%;
   height: 50%;
   font-size: small;
 }
 
+}
+
+
+.headshot
+{
+  width:200px;
+  height:200px;
+  border-radius:100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background: black;
 }
