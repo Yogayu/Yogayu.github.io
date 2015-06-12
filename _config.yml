@@ -1,14 +1,10 @@
-name: AzureYu
+name: Azure Yu
 author: AzureYu
 baseurl: /Azure Yu
-description: Love Life, Love nature.
+description: Love life, Love nature 
 github: https://github.com/Yogayu/Yogayu.github.io
-weibo: http://weibo.com/yudelovesong/profile?rightmod=1&wvr=6&mod=personinfo
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email:  yudelovesong@iclode.com
-location: Chongqing, China
-disqus: Yogayu
+twitter: http://www.twitter.com/
+email: yudelovesong@icould.com
 
 ##Make sure to edit the above fields, especially for disqus.
 
