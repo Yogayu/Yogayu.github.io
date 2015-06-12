@@ -22,24 +22,7 @@ $('.nav-toggle').on('click', function () {
     }
 });
 */
-// 返回顶部
-$("#back-top").hide();
-$(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
-      $('#back-top').fadeIn();
-    } else {
-      $('#back-top').fadeOut();
-    }
-  });
-  $('#back-top a').click(function () {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 800);
-    return false;
-  });
-});
-// 返回顶部结束
+
 $(function() {
     $('.project-box').click(function() {
         $(this).find('.post').slideToggle();
