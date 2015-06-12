@@ -1,10 +1,14 @@
-name: Graham Mutter
-author: Graham Mutter
-baseurl:
-description: Code, Fitness, Music
-github: http://www.github.com/grahammutter
-twitter: http://www.twitter.com/GrahamMutter
-email: graham.mutter@gmail.com
+name: AzureYu
+author: AzureYu
+baseurl: /Azure Yu
+description: Love Life, Love nature.
+github: https://github.com/Yogayu/Yogayu.github.io
+weibo: http://weibo.com/yudelovesong/profile?rightmod=1&wvr=6&mod=personinfo
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email:  yudelovesong@iclode.com
+location: Chongqing, China
+disqus: Yogayu
 
 ##Make sure to edit the above fields, especially for disqus.
 

@@ -1,4 +1,6 @@
-Personal Website
-============
+# My Blog
 
-This is a modified version of the Herring-Cove Jekyll theme.
+
+Thanks Github. 
+
+Thanks [BeiYuu's](http://beiyuu.com/github-pages/) Theme.
