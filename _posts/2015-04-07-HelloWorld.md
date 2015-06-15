@@ -1,241 +1,120 @@
 ---
 layout: post
-title:  "Hello World!"
+title:  应用层——计算机网络(Part 2)
 category: blog
 ---
-# Mou
+## 应用层
+我们平时用网络做什么？web浏览网页，qq聊天，看视频，发邮件，发文件，
 
-![Mou icon](http://25.io/mou/Mou_128.png)
+	应用软件
+	- 操作系统升级
+	- 浏览器：浏览网页文本、看视频
+	- 通讯软件:qq 文本 图片语言 传文件
+	- 邮箱（web）：发文件
+	- 游戏：在线多人游戏 大型网页的是如何传输的，保证队伍进程的一致性
+	- 云同步：印象笔记
+	- 购物（web）
 
-## Overview
+因特网服务：搜索引擎、电子商务、邮件、社交网络
 
-**Mou**, the missing Markdown editor for *web developers*.
-
-### Syntax
-
-#### Strong and Emphasize 
-
-**strong** or __strong__ ( Cmd + B )
-
-*emphasize* or _emphasize_ ( Cmd + I )
-
-**Sometimes I want a lot of text to be bold.
-Like, seriously, a _LOT_ of text**
-
-#### Blockquotes
-
-> Right angle brackets &gt; are used for block quotes.
-
-#### Links and Email
-
-An email <example@example.com> link.
-
-Simple inline link <http://chenluois.com>, another inline link [Smaller](http://25.io/smaller/), one more inline link with title [Resize](http://resizesafari.com "a Safari extension").
-
-A [reference style][id] link. Input id, then anywhere in the doc, define the link with corresponding id:
-
-[id]: http://25.io/mou/ "Markdown editor on Mac OS X"
-
-Titles ( or called tool tips ) in the links are optional.
-
-#### Images
-
-An inline image ![Smaller icon](http://25.io/smaller/favicon.ico "Title here"), title is optional.
-
-A ![Resize icon][2] reference style image.
-
-[2]: http://resizesafari.com/favicon.ico "Title"
-
-#### Inline code and Block code
-
-Inline code are surround by `backtick` key. To create a block code:
-
-	Indent each line by at least 1 tab, or 4 spaces.
-    var Mou = exactlyTheAppIwant; 
-
-####  Ordered Lists
-
-Ordered lists are created using "1." + Space:
-
-1. Ordered list item
-2. Ordered list item
-3. Ordered list item
-
-#### Unordered Lists
-
-Unordered list are created using "*" + Space:
-
-* Unordered list item
-* Unordered list item
-* Unordered list item 
-
-Or using "-" + Space:
-
-- Unordered list item
-- Unordered list item
-- Unordered list item
-
-#### Hard Linebreak
-
-End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )  
-Above line ended with 2 spaces.
-
-#### Horizontal Rules
-
-Three or more asterisks or dashes:
-
-***
+文件传输 数据传输
 
 ---
+##1. 应用程序体系结构：
+	- C/S
+	- P2P
+##2. 进程通信
+*而不是应用通信-->`What is pocess?`*
 
-- - - -
+	Client: 发起通信的进程
+	Server: 等待联系的进程
+其实和生活中是一样的，一个餐厅提供服务，只有你去了，你发起想要在那吃饭的信息，它才开始为你提供服务。
 
-#### Headers
+可不可以一对多呢？进程一定要是一对一吗？作为服务器是不是很可能要
+多对多，那么是怎么实现的呢？是有多个进程吗？
 
-Setext-style:
+	每一个进程通过socket(套接字)向网络发送和接受message(报文)
 
-This is H1
-==========
+socket就像是，恩，怎么说呢，代理的商人吗？或者说是，邮局？你们彼此之间写信时，为你们传递信。因为有需求的人多嘛，所以就统一起来。好像不对也，书上说，进程是房子，套接字就是门，真心不理解为什么翻译成套接字，那么拗口难理解。自己说进程与网络之间的门多好。
+	网络那么的错综复杂，它怎么知道我这data是发给谁的呢？就算是发到了，又怎么知道是哪一个进程的呢？wow，好复杂的系统。
+		
+	API：Application Programing Interface 啊，就是应用程序这座房子的，各种门各种窗外咯
+	
+开发者能使用API，却几乎不能控制API。就是说，你直接用啊，我给你一支笔，你不需要知道笔怎么制作的，怎么能写出字，你直接用来写字就好了嘛。
 
-This is H2
-----------
+开始说怎么确定地址了。恩,好好看看。
 
-atx-style:
+##3. 进程寻址
+	- 主机地址
+	- 主机内的进程标识
+	
+你家在哪？送给你家的哪位啊？不太巧当。
+	你家是哪个小区？
+	是小区的哪户？
+	这个可以，找门（Socket）嘛，就照门牌号来找。
 
-# This is H1
-## This is H2
-### This is H3
-#### This is H4
-##### This is H5
-###### This is H6
+	主机-->IP 地址（32bit）
+	进程-->port number( 端口号 )
+	web:80
+	SMTP：25
+	www.iana.org
 
+##4. 可提供程序使用的运输服务
+来，我们来选交通方式。
+- **可靠不可靠**（能不能都到达）：能不能安全把信都送到，而不是半路掉了一些
+- **吞吐量**（一次能运输多少）：交付bit的输入，就是我一次能给你多少信咯，你要是一个人来，最多也就提两麻袋吧，要是卡车的话，啊，那就不一样了。对吞吐量有要求的程序：`**带宽敏感程序**`，你要是不能每次拿一定的数量走的话，我就不能和你愉快玩耍了。说话的时候，你只能半个字半个字的接收，还不如不接收。（不太恰当，再想想例子）。毕竟实际的数据还是和信不一样，有很多种类，音频，视频，文本。有的应用程序说，好吧，我要求不高，你有多少我就传多少吧。这叫`**弹性应用**`
+- **定时**（要多少时间才能到）
+		 交互式实时应用
+- **安全性 **
+	加密-解密
 
-### Extra Syntax
-
-#### Footnotes
-
-Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
-
-That's some text with a footnote.[^1]
-
-[^1]: And that's the footnote.
-
-
-#### Strikethrough
-
-Wrap with 2 tilde characters:
-
-~~Strikethrough~~
-
-
-#### Fenced Code Blocks
-
-Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:
-
-```
-Fenced code blocks are like Stardard Markdown’s regular code
-blocks, except that they’re not indented and instead rely on
-a start and end fence lines to delimit the code block.
-```
-
-#### Tables
-
-A simple table looks like this:
-
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-If you wish, you can add a leading and tailing pipe to each line of the table:
-
-| First Header | Second Header | Third Header |
-| ------------ | ------------- | ------------ |
-| Content Cell | Content Cell  | Content Cell |
-| Content Cell | Content Cell  | Content Cell |
-
-Specify alignment for each column by adding colons to separator lines:
-
-First Header | Second Header | Third Header
-:----------- | :-----------: | -----------:
-Left         | Center        | Right
-Left         | Center        | Right
+说了那么多结果只有两种运输协议，TCP/UDP，现实生活中就不一样了，有汽车、火车、高铁、地铁、飞机......
 
 
-### Shortcuts
+###4.1 TCP Server
+TCP: Transmission Contral Protocol
+- 面向连接的服务：就是指，在我们正式传输数据之前，我们先相互打个招呼，握握手，准备好接下来的交流。`**全双工**`:好难听的翻译对不对？其实就是双方可以同时传Message。
+- 可靠数据传输服务：无错、按序。是不是很可靠？
+ 它还有拥塞控制机制，还有交警先生。
+		
+**补充：安全性从何而来？**
+加强型TCP，没错就是Secoure Socket Layer（= =什么鬼），别急，简称你一定见过，`**SSL**`。它有，加密、数据完整性和**端点识别**（*这是什么？*）SSL在应用程序和TCP套接字之间，进行加密和解密。（| | ！！SSL！！*I'am a mistery box.*||）
+###4.2 UDP Sever
+UDP: User Data Protocal
+它很轻，对就是很不靠谱。不握手打招呼、不提供可靠数据传输、不保证顺序，当然更没有拥塞控制了。
+如此不靠谱的运输协议，为什么还会存在这个世界上！！？？
+没有拥塞控制，可以选定速率向网络层注入数据。（这又是在干嘛）
 
-#### View
+---
+##5. ** 应用层协议**
+网络应用的一部分，但也是很重要的一部分。
+定义主机应用程序之间如何传递Message。
 
-* Toggle live preview: Shift + Cmd + I
-* Toggle Words Counter: Shift + Cmd + W
-* Toggle Transparent: Shift + Cmd + T
-* Toggle Floating: Shift + Cmd + F
-* Left/Right = 1/1: Cmd + 0
-* Left/Right = 3/1: Cmd + +
-* Left/Right = 1/3: Cmd + -
-* Toggle Writing orientation: Cmd + L
-* Toggle fullscreen: Control + Cmd + F
+###5.1 网络应用:
+#### 5.1.1 WWW: World Wide Web
+特点：按需操作，C/S 架构。
 
-#### Actions
+组成：Web页面由object组成，HTML文档是一个object，一张图片也是一个object。
+协议：HTTP(HyperText Transfer Protocol)，由TCP支撑。
+性质：它是无状态协议(stateless protocol)，即不保存关于用户的任何信息。那是如何记住我怎么实现？Cookie
+分类：
+持续和非持续连接：
+同一个TCP，每个单独有一个TCP
+非持续连接每一个对象都有单独建立连接再传输
+**RTT**：往返时间（Round-Trip Time）
+	非连续开始连接，需要两个RTT
+	连续可以连接节省时间
+	但是连续是串行的，非连续是并行的，服务器有能力的话，并行不是会更快吗？可实际却使用的是流水线的连续连接。
+#### 5.1.2 文件传输，**FTP**：两个TCP
+#### 5.1.3 邮件系统，其中包括用户代理、邮件代理和**SMTP**
+特点：推协议
 
-* Copy HTML: Option + Cmd + C
-* Strong: Select text, Cmd + B
-* Emphasize: Select text, Cmd + I
-* Inline Code: Select text, Cmd + K
-* Strikethrough: Select text, Cmd + U
-* Link: Select text, Control + Shift + L
-* Image: Select text, Control + Shift + I
-* Select Word: Control + Option + W
-* Select Line: Shift + Cmd + L
-* Select All: Cmd + A
-* Deselect All: Cmd + D
-* Convert to Uppercase: Select text, Control + U
-* Convert to Lowercase: Select text, Control + Shift + U
-* Convert to Titlecase: Select text, Control + Option + U
-* Convert to List: Select lines, Control + L
-* Convert to Blockquote: Select lines, Control + Q
-* Convert to H1: Cmd + 1
-* Convert to H2: Cmd + 2
-* Convert to H3: Cmd + 3
-* Convert to H4: Cmd + 4
-* Convert to H5: Cmd + 5
-* Convert to H6: Cmd + 6
-* Convert Spaces to Tabs: Control + [
-* Convert Tabs to Spaces: Control + ]
-* Insert Current Date: Control + Shift + 1
-* Insert Current Time: Control + Shift + 2
-* Insert entity <: Control + Shift + ,
-* Insert entity >: Control + Shift + .
-* Insert entity &: Control + Shift + 7
-* Insert entity Space: Control + Shift + Space
-* Insert Scriptogr.am Header: Control + Shift + G
-* Shift Line Left: Select lines, Cmd + [
-* Shift Line Right: Select lines, Cmd + ]
-* New Line: Cmd + Return
-* Comment: Cmd + /
-* Hard Linebreak: Control + Return
+对比：HTTP是拉协议
 
-#### Edit
+注意：取邮件是拉，不能用SMTP，用POP3还有IMAP 
+#### 5.1.4 P2P
+我为人人，人人为我。
 
-* Auto complete current word: Esc
-* Find: Cmd + F
-* Close find bar: Esc
+**实现原理**
 
-#### Post
-
-* Post on Scriptogr.am: Control + Shift + S
-* Post on Tumblr: Control + Shift + T
-
-#### Export
-
-* Export HTML: Option + Cmd + E
-* Export PDF:  Option + Cmd + P
-
-
-### And more?
-
-Don't forget to check Preferences, lots of useful options are there.
-
-Follow [@Mou](https://twitter.com/mou) on Twitter for the latest news.
-
-For feedback, use the menu `Help` - `Send Feedback`
+待续......
