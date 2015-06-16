@@ -14,7 +14,7 @@ body
 
 h1,h2,h3,h4,h5,h6
 {
-  font-family:"Helvetica Neue", helvetica, "微软雅黑","Helvetica","sans-serif";
+  font-family:"微软雅黑","Arial","Helvetica","sans-serif";
   color:#d90006
 }
 
@@ -61,10 +61,11 @@ p
 
 .container
 {
-  width:80%;
+  width:70%;
   padding-right:0;
   padding-top:20px
 }
+
 
 .container a
 {
@@ -805,4 +806,6 @@ time
 	-ms-transform:rotate(360deg) scale(1.2);
 	transform:rotate(360deg) scale(1.2);
 }
+
+
 

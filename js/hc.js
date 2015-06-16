@@ -22,6 +22,7 @@ $('.nav-toggle').on('click', function () {
     }
 });
 */
+    $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
 $(function() {
     $('.project-box').click(function() {
