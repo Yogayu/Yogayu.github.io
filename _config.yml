@@ -9,10 +9,8 @@ email: yudelovesong@icould.com
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: rdiscount
+
 
 defaults:
   - scope:
