@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<!--link rel="stylesheet" href="/js/prettify/prettify.css" /-->
 <div id="article">
   <div class="article-title">{{ page.title }}</div>
   <p class="meta">
@@ -9,12 +8,10 @@ layout: default
       &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
     </small>
   </p> <hr/>
-  <div class="post">
+  <div class="article">
     {{ content }}
   </div>
 </div>
 {% include pager.html %}
 {% include comment.html %}
- {% include footer.html %}
-<!--script src="/js/post.js" type="text/javascript"></script-->
 
