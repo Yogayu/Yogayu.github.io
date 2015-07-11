@@ -6,23 +6,27 @@ $(document).ready(function() {
 });
 
 
-/*
-var toggle = false;
-$('.nav-toggle').on('click', function () {
-    if (toggle == false) {
-        $('#sidebar-wrapper').stop().animate({
-            'left': '4px'
-        });
-        toggle = true;
-    } else {
-        $('#sidebar-wrapper').stop().animate({
-            'left': '250px'
-        });
-        toggle = false;
-    }
-});
-*/
 
+/**
+ * 侧边目录
+ */
+function generateContent() {
+
+    // console.log($('#markdown-toc').html());
+    if (typeof $('#markdown-toc').html() === 'undefined') {
+        // $('#content .content-text').html('<ul><li>文本较短，暂无目录</li></ul>');
+        $('#content').hide();
+        $('#myArticle').removeClass('col-sm-9').addClass('col-sm-12');
+    } else {
+        $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
+        /*   //数据加载完成后，加固定边栏
+        $('#myAffix').attr({
+            'data-spy': 'affix',
+            'data-offset': '50'
+        });*/
+    }
+    console.log("myAffix!!!");
+}
 
 $(function() {
     $('.project-box').click(function() {
