@@ -10,10 +10,6 @@ body
   font-size: 16px;
   line-height: 24pt;
   color: #2c3e50;
-  
-  /*background-image: url("{{ site.baseurl }}/images/background.png");
-   *黑墙background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);
-  background-image: url(http://img0.ph.126.net/RmfSEg-JPBk6orkGk1FMhA==/6630591677164533018.png);*/
   background-color:#E6E6E6;
   width: 100%;
   border-top: solid #4192E3;
@@ -368,6 +364,18 @@ pre
 
 /*移动设备*/
 @media (max-width:767px) {
+blockquote { margin: 1em 0; }
+p {
+    text-align: initial;
+    text-justify: initial;
+    font-size: 14px;
+  }
+
+h1     { font-size: 1.6em; }
+h2     { font-size: 1.4em; }
+h3     { font-size: 1.2em; }
+h4     { font-size: 1em; }
+h5, h6 { font-size: 1em; }
 
 .container{
     width: 100%;
@@ -437,101 +445,6 @@ pre
 
 }
 
-/*项目
-.project-container
-{
-  width:100%;
-  height:170px;
-  box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
-  -moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
-  -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
-  border-bottom:solid 1px #fff;
-  background-image:url(http://lorempixel.com/900/200/);
-  background-size: cover;
-  z-index:-4;
-  margin-top:-55px;
-  margin-bottom:30px;
-  color:#fff
-}
-
-.project-container h1
-{
-  font-size:3em;
-  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:bolder;
-  color:#fff;
-  text-align:center;
-  padding-top:20px
-}
-
-.project-container p
-{
-  font-weight:200;
-  font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
-  color:#fff;
-  text-align:center;
-  left-padding:20%
-}
-
-.project-box
-{
-  background-color:#f9f9f9;
-  box-shadow:1px 1px 0 1px #e8e8e8;
-  min-height:200px
-}
-
-.project-box:hover
-{
-  background-color:#fff;
-  box-shadow:1px 1px 0 1px #e8e8e8;
-  min-height:200px
-}
-
-.project-title
-{
-  color:#000
-}
-
-.project-image
-{
-  position:relative;
-  margin:0
-}
-
-.project-image hr
-{
-  margin-top:5px;
-  margin-bottom:0;
-  display:none
-}
-
-.project-post
-
-  cursor:pointer
-}
-
-.project-post h4
-{
-  font-weight:200;
-  font-size:1em
-}
-
-#menu-toggle,.project-post div
-{
-  display:none
-}
-
-.meta
-{
-  text-shadow:1px 1px #fff;
-  color:#b6b6b6
-}
-
-img
-{
-  max-width:100%;
-}
-*/
 /*言语*/
 
 .label-danger /*引导标签*/
@@ -610,48 +523,7 @@ img
 {
   background-color:#F4A273
 }
-/*
-.misc
-{
-  border-left:solid 2px #bc0005
-}
 
-.misc-button
-{
-
-    background-color:#7dbcb2
-}
-
-.misc:hover
-{
-    border-left:solid 2px #f40006
-}
-
-.misc-button:hover
-{
-  background-color:#f40006
-}
-
-.podcasts
-{
-  border-left:solid 2px #387b94
-}
-
-.podcasts-button
-{
-  background-color:#387b94
-}
-
-.podcasts:hover
-{
-  border-left:solid 2px #2FD0EF
-}
-
-.podcasts-button:hover
-{
-  background-color:#2FD0EF
-}
-*/
 
 
 
