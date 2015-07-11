@@ -365,10 +365,13 @@ pre
 /*移动设备*/
 @media (max-width:767px) {
 blockquote { margin: 1em 0; }
+body{
+  font-size:15;
+}
 p {
     text-align: initial;
     text-justify: initial;
-    font-size: 14px;
+    font-size: 15px;
   }
 
 h1     { font-size: 1.6em; }
