@@ -1,18 +1,20 @@
 ---
 layout: post
-title: 【IOS】CS193p Lesson 1 Notes
+title: CS193p Lesson 1 Notes【IOS】
 category: blog
 ---
 #Stanford University CS193p
 ##1. Opening
-Why you are here?
-Learning how to build cool Apps! That's a exciting thing, isn't it ?
+Why you are here?   
+Learning how to build cool Apps! 
+That's a exciting thing, isn't it ?   
 Real-life Object-Oriented Programming 
 
 If you never heard before, this concept might be strange to you. Don't worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     
 ##2. What is IOS?
 >Fout layers:
-1. **Cocoa Touch* *(70%)
+
+>1. **Cocoa Touch**(70%)
 2. Media
 3. Core Services
 4. Core OS
@@ -28,11 +30,11 @@ MVC?? Later lesson will talk about.
 
 ##4. Let's build a demo —— **Calculator**
 事件编程 点击触发事件
-左中右
+
 StoryBoard 正方形 可视化 拖动控件
-Atuo Layout
-Documents:
-https://developer.apple.com/library/ios/navigation/
+
+More about Atuo Layout：
+[Offical Documents](https://developer.apple.com/library/ios/navigation/)
 
     
 
