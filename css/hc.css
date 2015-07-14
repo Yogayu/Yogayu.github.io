@@ -6,7 +6,7 @@
 
 body
 {
-  font-family: "Lucida Grande","微软雅黑","Arial","Helvetica","sans-serif";
+  font-family: "Lucida Grande","Helvetica Neue","微软雅黑","Arial","Helvetica","sans-serif";
   font-size: 16px;
   line-height: 24pt;
   color: #2c3e50;
@@ -17,6 +17,7 @@ body
   height: 100%;
 }
 /* 内文与段落*/
+/*  作者:树 */
 pre, ul, ol, dl, form, hr, table, blockquote {
   margin-bottom: 1.7em;
 }
@@ -102,15 +103,14 @@ pre code{
 /*右边墙*/
 #wrapper
 {
-  padding-left:210px;
+  padding-left:230px;
   transition:all .5s ease 0
 }
-/*Head隐藏*/
+/*导航隐藏*/
 .navbar 
 {
   display: none;
 }
-
 .navbar a 
 {
   text-decoration: none;
@@ -119,10 +119,23 @@ pre code{
 /*导航墙*/
 #sidebar-wrapper
 {
-  margin-left:-210px;
-  left:210px;
-  width:210px;
-  /*background:#f8f8f8;*/
+  margin-left:-230px;
+  left:230px;
+  width:230px;
+  border-top: solid #4192E3;
+  border-width: 4px;
+  /*更简洁的显示
+  background-color: #fff;
+  box-shadow:0 1px 4px #ccc;
+  */
+
+  /*有较强阴影的显示*/
+  background-color:#FAFAFA;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+  -o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+  
   position:fixed;
   height:100%;
   overflow-y:auto;
@@ -135,7 +148,7 @@ pre code{
 {
   position:absolute;
   top:0;
-  width:210px;
+  width:230px;
   list-style:none;
   margin:0;
   padding:30px 0 0
@@ -244,7 +257,7 @@ pre code{
   color:#4192E3;
   transition:all .3s ease 0
 }
-/*封面图*/
+/*封面图
 .showcase-wrapper
 {
   width:100%;
@@ -267,7 +280,7 @@ pre code{
   color:#fff;
   text-align:center;
   padding-top:20%
-}
+}*/
 /*文章列表*/
 .container-article
 {
@@ -275,34 +288,55 @@ pre code{
   padding-right:0;
   padding-top:52px
 }
-
+/*文章*/
 #article
 {
   margin-bottom:30px; /*顶部预留*/
-  background-color:#FAFAFA;
-  /*阴影*/
   padding:10px 50px;
+  /*更简洁的显示
+  background-color: #fff;
+  box-shadow:0 1px 4px #ccc;
+  */
+  /*有较强阴影的显示*/
+  background-color:#FAFAFA;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
   -o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset
 }
 
 .article-list
 {
   font-size:18px;
- /* list-style:none;*/
+  /*list-style:none;*/
   font-weight:lighter;
   line-height:200%;
-  padding-bottom:30px
+  padding-bottom:30px;
+  padding-left: 10px
+
 }
+
 .article-title
 {
   font-size:33px;
   font-weight:38;
   color:#000000;
-  padding-top:15px
+  padding-top:15px;
+  text-align: center
 }
+.article-date{
+  text-align: center;
+  text-shadow:1px 1px #fff;
+  color:#b6b6b6;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+.meta
+{
+  text-shadow:1px 1px #fff;
+  color:#b6b6b6
+}
+
 .article
 {
   padding-bottom:30px /*底部预留*/
@@ -312,9 +346,10 @@ pre
 {
   background:#f5f5f8
 }
+/*Disqus离文章底部距离*/
 #disqus_thread
 {
-  margin-top:50px
+  margin-top:10px
 }
 
 
@@ -379,6 +414,7 @@ pre
 
 /*移动设备*/
 @media (max-width:767px) {
+/*移动设备，使字体更小*/
 blockquote { margin: 1em 0; }
 body{
   font-size:15;
@@ -428,6 +464,7 @@ h5, h6 { font-size: 1em; }
 .inset {
   padding: 15px;
 }
+/*导航显示*/
 .navbar 
 {
   display: inherit;
@@ -438,29 +475,44 @@ h5, h6 { font-size: 1em; }
 }
 
 @media screen and (max-width: 500px) {
-  #welcome-greeting h2 {
+  /*#welcome-greeting h2 {
    font-size: 15px; 
    transition: all 0.2s ease 0s;
    font-weight: 200;
    line-height: 30px;
-
+  }*/
+  /*移动设备，使字体更小*/
+  blockquote { margin: 1em 0; }
+  body{
+    font-size:15;
   }
+  p {
+      text-align: initial;
+     text-justify: initial;
+      font-size: 15px;
+    }
+
+  h1     { font-size: 1.6em; }
+  h2     { font-size: 1.4em; }
+  h3     { font-size: 1.2em; }
+  h4     { font-size: 1em; }
+  h5, h6 { font-size: 1em; }
+  
   .container {
     width: 100%;
     margin: 0 0 0 0;
-    padding: 15px 15px 0 15px;
+    padding: 5px 5px 0px 5px;
 
   }
-
   #article {
       padding: 5px 10px 0 10px;
   }
 
-.showcase-wrapper {
+/*.showcase-wrapper {
   width: 100%;
   height: 50%;
   font-size: small;
-}
+}*/
 
 }
 
@@ -542,7 +594,3 @@ h5, h6 { font-size: 1em; }
 {
   background-color:#F4A273
 }
-
-
-
-

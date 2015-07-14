@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "去创造，去体验"
-date: 2015-03-09 13:09:20
+date: 2014-03-09 13:09:20
 category: Opinion
 description: 生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​
 ---
