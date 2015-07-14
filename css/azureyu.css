@@ -416,6 +416,7 @@ pre
 @media (max-width:767px) {
 /*移动设备，使字体更小*/
 blockquote { margin: 1em 0; }
+blockquote p{font-size: 15px;}
 body{
   font-size:15;
 }
@@ -482,7 +483,8 @@ h5, h6 { font-size: 1em; }
    line-height: 30px;
   }*/
   /*移动设备，使字体更小*/
-  blockquote { margin: 1em 0; }
+  blockquote { margin: 1em 0;}
+  blockquote p{font-size: 15px;}
   body{
     font-size:15;
   }
