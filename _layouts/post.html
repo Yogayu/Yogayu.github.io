@@ -1,19 +1,28 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    {% include pheader.html %}
+    <div class="article">
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {{ content }}
+            {% include pager.html %}
+            <hr>
+            {% include comment.html %}
+            </div>
+        </div>
+     </div>
+    </div>
+    <hr>
+    {% include footer.html %}
+  </body>
+    {% include js.html %}
+</html>
 
-<div id="article">
-  <div class="article-title">{{ page.title }}</div>
-  <p class="article-date">
-    <small>
-      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
-    </small>
-  </p>
-  <div class="article">
-    {{ content }}
-  </div>  
-<hr>
-{% include pager.html %}
-{% include comment.html %}
-</div>
-{% include footer.html %}

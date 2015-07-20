@@ -1,24 +1,102 @@
----
-title: Quotes
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
-    <div id="article">
-      <h1>言语</h1>
-      <p>三言两语系列   Sort but Powerful</p>
-<!--引导标签-->
-      <center>
-      <a href="#Wisdom"><span class="label label-danger Wisdom-button">智慧</span></a>
-      <a href="#Potery"><span class="label label-danger Potery-button">诗歌</span></a>
-      <a href="#Encourage"><span class="label label-danger Encourage-button">鼓励</span></a>
-      <!--a href="#misc"><span class="label label-danger misc-button">4</span></a>
-      <a href="#misc"><span class="label label-danger podcasts-button">5</span></a-->
-      </center>
-      <br>
-    </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quotes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="/index.html">Azure Yu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/index.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/quotes.html">Quotes</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>About Me</h1>
+                        <hr class="small">
+                        <span class="subheading">I am what I am</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="article">
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <!--引导标签-->
+           <li>
+            <ul></ul><a href="#Wisdom"><span class="label label-danger Wisdom-button">智慧</span></a>
+           <ul><a href="#Potery"><span class="label label-danger Potery-button">诗歌</span></a>
+            <ul></ul><a href="#Encourage"><span class="label label-danger Encourage-button">鼓励</span></a>
+            </li>
+        </div>
     
     <!--第一部分-->
-      <div id="article" class="Wisdom">
+      <div class="Wisdom">
       <a name="Wisdom">
         <h2>智慧</h2><hr>
           <p class="p2"> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p><hr>
@@ -44,7 +122,7 @@ title: Quotes
     </div>
 
     <!---->
-    <div id="article" class="Potery">
+    <div class="Potery">
           <a name="Potery">
       <h2>Poetry</h2><hr>
           <p class="p2">你脚踩的地狱只是天堂的倒影，我唇角的故事终将是时间的灰烬 </p><hr>
@@ -59,14 +137,69 @@ title: Quotes
     </div>
     
 <!---->    
-    <div id="article" class="Encourage">
+    <div class="Encourage">
           <a name="Encourage">
       <h2>Encourage</h2><hr>
           <p class="p2">One way to develop self-confidence is to do the thing you fear and get a record of successful experience behind you.</p><hr>
           <p class="p2">我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。——本杰明 · 巴顿</p><hr>
           <p class="p2">人性是充满惰性的，没有到生死关头，是不会使尽全力来付出，但有智慧的人，并不会把自己逼到谷底才努力，而是预见自己不努力的未来，将是沮丧、绝望，被众人唾弃，若等到丧失所有资源才觉悟，那时通常年岁已长，时机也已过了。</p><hr>
     </div>
-          {% include footer.html %}
+            </div>
+        </div>
+    </div>
+</div>
+    <hr>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <!--代码高亮-->
+    <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/8.4/styles/monokai_sublime.min.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+
+</html>

@@ -1,12 +1,27 @@
 ---
-title: Home
+title: Azure Yu
 ---
-  <div id="article">
-  <h3 >文章列表</h3>
-  <hr>
-  <ul class="article-list">
-    {% for post in site.posts %}
-    <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></span></li>
-    {% endfor %}
-  </ul>
-</div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{% for post in site.posts %}
+            <div class="post-preview">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <h2 class="post-title">
+                        {{ post.title }}
+                    </h2>
+                    <h3 class="post-subtitle">
+                        {{ post.description }}
+                    </h3>
+                </a>
+                <p class="post-meta">Posted in <a href="#"> {{ post.categories }}</a> on {{ post.date | date: "%b %-d, %Y" }}</p>
+            </div>
+            <hr>
+			{% endfor %}
+            <!-- Pager -->
+            <!--ul class="pager">
+                <li class="next">
+                    <a href="#">Older Posts &rarr;</a>
+                </li>
+            </ul-->
+        </div>
+    </div>

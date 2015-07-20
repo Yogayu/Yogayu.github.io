@@ -1,58 +1,35 @@
-<!--mobil phone collapse>
-<div class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="{{ site.baseurl }}/"><p class="navbar-brand">{{ site.name }}</p></a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-      <li><a href="{{ site.baseurl }}/blog.html">博客</a></li>
-      <li><a href="{{ site.baseurl }}/links.html">言语</a></li>
-      <li><a href="{{ site.baseurl }}/about.html">关于</a></li>
-      </ul>
-    </div>
-</div>
--->
-<!-- navbar -->
-<nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="{{ site.baseurl }}/"><h7 class="navbar-brand">{{ site.name }}</h7></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-      <li><a href="{{ site.baseurl }}/blog.html">博客</a></li>
-      <li><a href="{{ site.baseurl }}/links.html">言语</a></li>
-      <li><a href="{{ site.baseurl }}/about.html">关于</a></li>
-      </ul>
-    </div>
-</nav>
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ site.baseurl }}/index.html">Azure Yu</a>
+            </div>
 
-<!-- Sidebar -->
-<div id="sidebar-wrapper">
-  <ul class="sidebar-nav" style="height: 42px;">
-    <li class="sidebar-brand"><a href="{{ site.baseurl }}/"><h1 class="brand">{{ site.name }}</h1></a>
-
-    <h3>{{ site.description }}</h3></li>
-    <hr>
-    <li><a href="{{ site.baseurl }}/blog.html">博客</a></li>
-    <li><a href="{{ site.baseurl }}/links.html">言语</a></li>
-    <!--li><a href="{{ site.baseurl }}/projects.html">项目</a></li-->
-    <li><a href="{{ site.baseurl }}/about.html">关于</a></li>
-    <hr>
-    <div id="social-wrapper">
-      <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
-    </div>
-  </ul>
-</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="{{ site.baseurl }}/index.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/quotes.html">Quotes</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
