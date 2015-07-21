@@ -1,9 +1,10 @@
 ---
 layout: post
-title: CS193p Lesson 1 Notes【IOS】
-category: blog
+title: Stanford University CS193p Lesson1
+category: computer science
+description: Course overview, learning how to build iOS App.
 ---
-#Stanford University CS193p
+#Lesson1
 ##1. Opening
 Why you are here?   
 Learning how to build cool Apps! 
@@ -12,8 +13,8 @@ Real-life Object-Oriented Programming
 
 If you never heard before, this concept might be strange to you. Don't worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     
 ##2. What is IOS?
->Fout layers:
-
+> Fout layers:
+> 
 >1. **Cocoa Touch**(70%)
 2. Media
 3. Core Services
@@ -26,7 +27,7 @@ If you never heard before, this concept might be strange to you. Don't worry, ju
 4. Design Strategy: MVC
 
 Those are new concepts
-MVC?? Later lesson will talk about.
+MVC? Later lesson will talk about.
 
 ##4. Let's build a demo —— **Calculator**
 事件编程 点击触发事件

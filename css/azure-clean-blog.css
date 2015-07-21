@@ -299,6 +299,7 @@ h5, h6 { font-size: 1em; }
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+  font-size: 20px
 }
 .post-preview > .post-meta {
   color: #808080;
