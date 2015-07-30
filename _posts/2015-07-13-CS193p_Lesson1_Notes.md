@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stanford University CS193p Lesson1
-category: computer science
+category: Technology
 description: Course overview, learning how to build iOS App.
 ---
 #Lesson1
