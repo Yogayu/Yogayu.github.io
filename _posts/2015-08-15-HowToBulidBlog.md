@@ -215,7 +215,7 @@ ok，你可以写文章了，放入_post文件夹即可。
 >- 基础学习：[Codecademy](http://www.codecademy.com)
 - 框架: [Bootstrap](http://www.bootcss.com/)
 
-虽然下了dreamweaver, 没怎么用，不过官网上的[教程](https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html)不错。 推荐使用 [Sublime Text](http://www.sublimetext.com/), 多么好用的代码编辑器啊，还有一个不错的[教程](http://blog.jobbole.com/88648/)。再配上Jekyll的本地服务器，在Cheome上调试。那感觉~
+虽然下了dreamweaver, 没怎么用，不过官网上的[教程](https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html)不错。 推荐使用 [Sublime Text](http://www.sublimetext.com/), 多么好用的代码编辑器啊，还有一个不错的[教程](http://blog.jobbole.com/88648/)。再配上Jekyll的本地服务器，在Chrome上调试。那感觉~
 
 自己写是好，也要看看别人是如何做的，优秀的网站是如何设计的。文章可以注重注重排版，字体选择，屏幕适配调整等。不过说实在的，个人博客最重要的还是你的文章内容。
 
@@ -230,8 +230,8 @@ ok，你可以写文章了，放入_post文件夹即可。
 
 - 在你本地网站文件夹中添加一个文件 [CNAME](https://help.github.com/articles/adding-a-cname-file-to-your-repository/)，写入你的域名即可。
 
-- 考虑到我国网络特殊情况，进行域名解析，可以选择[dnspad](https://www.dnspod.cn/Login?default=email)
-添加两条A记录([教程](https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&tsid=42))，对，计算就是机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。
+- 考虑到我国网络特殊情况，进行域名解析，可以选择[dnspod](https://www.dnspod.cn/Login?default=email)
+添加两条A记录([教程](https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&tsid=42))，对，就是计算机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。
 
 ![]({{ site.url }}/assets/AA.png)
 
