@@ -10,27 +10,18 @@
 
 body {
   font-family: "Microsoft YaHei","Lucida Grande","Helvetica Neue","Arial","Helvetica","sans-serif";
-  font-size: 20px;
+  font-size: 18px;
   color: #404040;
-  background-color: #f8f8f8
-  /*#fbfbea*/
+  /*background-color: #f8f8f8*/
 }
 p {
   line-height: 1.5;
   margin: 30px 0;
 }
 p a {
-  text-decoration: underline;
+  color: #0085a1
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Microsoft YaHei","Lucida Grande","Helvetica Neue","Arial","Helvetica","sans-serif";
-  font-weight: 800;
-}
+
 a {
   color: #404040;
 }
@@ -51,6 +42,7 @@ hr.small {
 /* 块/段落引用 */
 blockquote {
     color: #444;
+    margin-top:20px; 
     border-left: 5px solid #D6DBDF;
     padding-left: 15px;
     background: rgba(112,138,153,.1);
@@ -109,6 +101,7 @@ pre code{
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 /*移动设备*/
 @media (max-width:767px) {
 /*移动设备，使字体更小*/
@@ -133,7 +126,7 @@ h4     { font-size: 1em; }
 h5, h6 { font-size: 1em; }
 
 }
-
+/* 设备适配 */
 @media only screen and (min-width: 768px) {
 
   .navbar-custom {
@@ -212,7 +205,7 @@ h5, h6 { font-size: 1em; }
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -228,7 +221,8 @@ h5, h6 { font-size: 1em; }
   }
 }
 .intro-header .site-heading,
-.intro-header .page-heading {
+.intro-header .page-heading, 
+.intro-header .post-heading {
   text-align: center;
 }
 .intro-header .site-heading h1,
@@ -241,14 +235,13 @@ h5, h6 { font-size: 1em; }
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 .intro-header .post-heading h1 {
@@ -260,7 +253,6 @@ h5, h6 { font-size: 1em; }
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
@@ -276,7 +268,7 @@ h5, h6 { font-size: 1em; }
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 35px;
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
@@ -297,9 +289,10 @@ h5, h6 { font-size: 1em; }
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
-  font-weight: 300;
+  line-height: 1.5;
   margin-bottom: 10px;
-  font-size: 20px
+  font-size: 17px;
+  color:#999
 }
 .post-preview > .post-meta {
   color: #808080;
@@ -319,7 +312,7 @@ h5, h6 { font-size: 1em; }
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .section-heading {
@@ -403,7 +396,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -426,7 +418,6 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
