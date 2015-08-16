@@ -152,7 +152,8 @@ GitHub Pages有两种。一种是为个人或者组织的博客。一种是为�
 ###2.1. 什么是Jekyll？ 
 
 >[Jekyll](http://jekyllrb.com/) is a simple, blog-aware, static site generator.
-[Jekyll](http://jekyllcn.com/) 是一个简单的博客形态的静态站点生产机器。
+
+>[Jekyll](http://jekyllcn.com/) 是一个简单的博客形态的静态站点生产机器。
 
 ![]({{ site.url }}/assets/Jekyll.png)
 
