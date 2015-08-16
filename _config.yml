@@ -3,7 +3,6 @@ author: Youxinyu
 baseurl:
 description: Love Life, Love Nature
 github: https://github.com/Yogayu
-twitter: http://www.twitter.com/
 email: yudelovesong@icould.com
 
 ##Make sure to edit the above fields, especially for disqus.
@@ -26,3 +25,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+analytics:
+    provider: custom
