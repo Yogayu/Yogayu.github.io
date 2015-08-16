@@ -115,29 +115,38 @@ GitHub Pages有两种。一种是为个人或者组织的博客。一种是为�
 环境搭建。
 
 - 安装Ruby，Mac一般默认安装了Ruby，这一步可以忽略。[官网安装](https://www.ruby-lang.org/zh_cn/downloads/)
-- 安装Bundler，在Terminal中输入： 
 
-      gem install bundler
+- 安装Bundler，在Terminal中输入： 
+   
+       gem install bundler
+
 - 安装Jekyll，同理输入：
 
        source 'https://rubygems.org'
        gem 'github-pages'
+     
 *当然，如果你在墙内，很容易出问题，无法安装，推荐修改镜像源（[淘宝镜像源](http://ruby.taobao.org/)）。
+
 - 安装Jekyll
 
        gem install jekyll
+       
 在你希望存放的目录下，输入：
 
-      jekyll new your-site-name
+    jekyll new your-site-name
+
 进入：
 
       cd your-site-name
+
 运行本地服务：
 
       jekyll s
+
 在浏览器中输入：
 
       http://localhost:4000
+      
 就可以在本地进行查看和调试你的网站了。
 
 ###2.1. 什么是Jekyll？ 
@@ -191,16 +200,18 @@ ok，你可以写文章了，放入_post文件夹即可。
 ###3.1. 如何选择和修改主题？
 - 一种方式是使用程序员们写好的，免费开源。
 
->推荐两个超级丰富的资源
-1. [Jekyll 主题](http://jekyllthemes.org/)
-2. [Jekyll 主题搜集](https://github.com/mattvh/jekyllthemes)
+推荐两个超级丰富的资源
+
+>1.  [Jekyll 主题](http://jekyllthemes.org/)
+
+>2. [Jekyll 主题搜集](https://github.com/mattvh/jekyllthemes)
 
 - 另一种是，你也可以自己写或修改，需要懂一些前端的知识。
 
 之前，我在[Codecademy](http://www.codecademy.com)上学了两、三天，进行入门。正好用自己的博客，来做练习。
 其实前端还蛮好玩的，特别满足强迫症的强迫意愿。
->推荐资源：
-- 基础学习：[Codecademy](http://www.codecademy.com)
+推荐资源：
+>- 基础学习：[Codecademy](http://www.codecademy.com)
 - 框架: [Bootstrap](http://www.bootcss.com/)
 
 虽然下了dreamweaver, 没怎么用，不过官网上的[教程](https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html)不错。 推荐使用 [Sublime Text](http://www.sublimetext.com/), 多么好用的代码编辑器啊，还有一个不错的[教程](http://blog.jobbole.com/88648/)。再配上Jekyll的本地服务器，在Cheome上调试。那感觉~
