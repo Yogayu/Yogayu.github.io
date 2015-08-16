@@ -25,5 +25,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-analytics:
-    provider: custom
