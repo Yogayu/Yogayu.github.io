@@ -116,20 +116,27 @@ GitHub Pages有两种。一种是为个人或者组织的博客。一种是为�
 
 - 安装Ruby，Mac一般默认安装了Ruby，这一步可以忽略。[官网安装](https://www.ruby-lang.org/zh_cn/downloads/)
 - 安装Bundler，在Terminal中输入： 
+
       gem install bundler
 - 安装Jekyll，同理输入：
+
        source 'https://rubygems.org'
        gem 'github-pages'
 *当然，如果你在墙内，很容易出问题，无法安装，推荐修改镜像源（[淘宝镜像源](http://ruby.taobao.org/)）。
 - 安装Jekyll
+
        gem install jekyll
 在你希望存放的目录下，输入：
+
       jekyll new your-site-name
 进入：
-      cd your-site-name
+
+      cd your-site-name
 运行本地服务：
+
       jekyll s
 在浏览器中输入：
+
       http://localhost:4000
 就可以在本地进行查看和调试你的网站了。
 
