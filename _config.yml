@@ -1,10 +1,12 @@
-name: Azure Yu
-author: Youxinyu
-baseurl:
-description: Love Life, Love Nature
-github: https://github.com/Yogayu
+# Site settings
+title: Azure Yu
+header-img: img/home-bg.jpg
 email: yudelovesong@icould.com
-
+description: "科技的人文关怀"
+baseurl: ""
+url: "http://azureyu.com"
+twitter_username: azureyu
+github_username: Yogayu
 ##Make sure to edit the above fields, especially for disqus.
 
 
@@ -25,3 +27,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+
+

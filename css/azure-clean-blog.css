@@ -12,16 +12,33 @@ body {
   font-family: "Hiragino Sans GB","Microsoft YaHei","Lucida Grande","Helvetica Neue","Arial","Helvetica","sans-serif";
   font-size: 18px;
   color: #404040;
-  /*background-color: #f8f8f8*/
 }
-p {
-  line-height: 1.5;
-  margin: 30px 0;
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
 }
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 98%;
+    line-height: 150%;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
 p a {
   color: #0085a1
 }
-
 a {
   color: #404040;
 }
@@ -39,7 +56,7 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-/* 块/段落引用 */
+/* 引用 */
 blockquote {
     color: #444;
     margin-top:20px; 
@@ -52,7 +69,7 @@ blockquote {
 blockquote:last-child {
     margin-bottom: 0;
 }
-/*代码*/
+
 pre{
   padding: 0;
   background: none;
@@ -61,6 +78,46 @@ pre{
 pre code{
   font-size: 14px;
 }
+/*文章导航*/
+.BlogAnchor {
+    background: rgba(112,138,153,.1);
+    padding: 10px;
+    line-height: 180%;
+    margin: 20px 0px 20px 0px;
+    
+    padding: 0;
+}
+.BlogAnchor p {
+    font-size: 28px;
+    color: #15a230;
+    margin:0;
+    
+}
+.BlogAnchor .AnchorContent {
+    padding: 5px 0px;
+}
+.BlogAnchor li{
+    text-indent: 20px;
+    font-size: 14px;
+    list-style: none;
+}
+#AnchorContentToggle {
+    font-size: 15px;
+    font-weight: normal;
+    color: #0085a1;
+    display: inline-block;
+    line-height: 20px;
+    font-style: normal;
+    padding: 1px 8px;
+    margin-right: 10px;
+}
+.BlogAnchor a:hover {
+    color: #0085a1;
+}
+.BlogAnchor a {
+    text-decoration: none;
+}
+
 /*评论距文章距离*/
 #disqus_thread
 {
@@ -76,11 +133,6 @@ pre code{
   vertical-align: middle;
   margin-bottom: 20px;
   margin-top: 20px;
-  -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
-  -o-box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
-  box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
-
 }
 /*导航自定义*/
 .navbar-custom {
@@ -89,7 +141,7 @@ pre code{
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -97,12 +149,11 @@ pre code{
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: 1px;
 }
 
-/*移动设备*/
 @media (max-width:767px) {
 /*移动设备，使字体更小*/
 blockquote { 
@@ -126,7 +177,7 @@ h4     { font-size: 1em; }
 h5, h6 { font-size: 1em; }
 
 }
-/* 设备适配 */
+
 @media only screen and (min-width: 768px) {
 
   .navbar-custom {
@@ -205,7 +256,7 @@ h5, h6 { font-size: 1em; }
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -223,6 +274,9 @@ h5, h6 { font-size: 1em; }
 .intro-header .site-heading,
 .intro-header .page-heading, 
 .intro-header .post-heading {
+  text-align: center;
+}
+p.meta{
   text-align: center;
 }
 .intro-header .site-heading h1,
