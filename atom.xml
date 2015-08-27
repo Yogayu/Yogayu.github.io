@@ -46,7 +46,7 @@
     <link href="http://azureyu.com/2015/08/15/HowToBulidBlog/"/>
     <id>http://azureyu.com/2015/08/15/HowToBulidBlog/</id>
     <published>2015-08-15T09:06:54.000Z</published>
-    <updated>2015-08-27T10:40:50.000Z</updated>
+    <updated>2015-08-27T13:41:47.000Z</updated>
     <content type="html"><![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
 <p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。</p>
 <p>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
@@ -59,21 +59,23 @@
 <h2 id="Step_1-_选地">Step 1. 选地</h2><p>互联网上有免费的地，也有收费的地。Github Pages就是一个免费好用的地。</p>
 <p>具体步骤：</p>
 <ul>
-<li>首先，注册 <a href="https://github.com/" target="_blank" rel="external">Github</a><br><img src="!--￼0--&gt;/assets/GitHub.jpg" alt="GitHub"></li>
-<li>然后，建立一个仓库<br><img src="!--￼1--&gt;/assets/NewRespsitory.png" alt="NewRespsitory"></li>
+<li><p>首先，注册 <a href="https://github.com/" target="_blank" rel="external">Github</a><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/GitHub.jpg" alt="GitHub"></p>
+</li>
+<li><p>然后，建立一个仓库<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/NewRespsitory.png" alt="NewRespsitory"></p>
+</li>
 </ul>
 <blockquote>
 <p>Repository name(仓库名)<strong>必须</strong>是 your_user_name.github.io</p>
 </blockquote>
 <p>比如，我的用户名是Yogayu，那么仓库名就取为 <strong><a href="https://github.com/Yogayu/Yogayu.github.io" target="_blank" rel="external">Yogayu.github.io</a></strong>。<strong>这一点很重要，不要弄错。</strong></p>
 <ul>
-<li>最后，按照提示步骤操作<br><img src="!--￼2--&gt;/assets/QuickStep.png" alt=""></li>
+<li>最后，按照提示步骤操作<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/QuickStep.png" alt=""></li>
 </ul>
 <p>一种简单的方式是，下载GitHub的<a href="https://desktop.github.com/" target="_blank" rel="external">桌面客户端</a>，安装完成后，粘贴<a href="http://github.com/your_user_name/your_user_name.github.io.git" target="_blank" rel="external">链接</a>克隆到本地。</p>
 <ul>
 <li>之后，新建一个index.html文件，push到对应的master<br>分支（推荐<a href="https://pages.github.com/" target="_blank" rel="external">官网教程</a>）。等一段时间之后（可以听首歌），网站生效，访问your_user_name.github.io，就能看见完整的网页了。</li>
 </ul>
-<p><img src="!--￼3--&gt;/assets/firstIndex.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/firstIndex.png" alt=""></p>
 <p>到此，我们的地就选好了，也就是在用GitHub的服务器。</p>
 <blockquote>
 <p>若这一过程中有问题，可以参照<a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">官网文档</a></p>
@@ -121,13 +123,13 @@ gem <span class="string">'github-pages'</span>
 </code></pre><p>就可以在本地进行查看和调试你的网站了。</p>
 <h3 id="什么是Jekyll？">什么是Jekyll？</h3><blockquote>
 <p><a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll</a> is a simple, blog-aware, static site generator.</p>
-<p><a href="http://jekyllcn.com/" target="_blank" rel="external">Jekyll</a> 是一个简单的博客形态的静态站点生产机器。</p>
+<p><a href="http://jekyllcn.com/" target="_blank" rel="external">Jekyll</a> 是一个简单的博客形态的静态站点生产机器</p>
 </blockquote>
-<p><img src="!--￼4--&gt;/assets/Jekyll.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Jekyll.png" alt=""></p>
 <p>解释一下，Jekyll可以将纯文本转换为静态博客网站。你整个网站的页面都是它生成的，从主页index到文章post。<br>比如，文章怎么写？标准网页格式是扩展标记语言<a href="http://baike.baidu.com/link?url=C0WcPEpZO4MrmTIu6x2G9hMKcEB2PJ3L2dLv4-XsSE0FOSgxhILqYR2Lpbu6WFW_" target="_blank" rel="external">HTML</a>。纯手写？未免太麻烦。大家，多偏爱<a href="http://sspai.com/25137" target="_blank" rel="external">Markdown</a>。所以，就用它写。不过，你需要有一个能把你用Markdown格式写的文章，转化为HTML网页的东西，这里使用的就是静态网页生成器。</p>
 <p>静态网页是相对于动态网页而言的，如果感兴趣可以自己学习。</p>
 <h3 id="Jekyll目录">Jekyll目录</h3><p>解释一下整个jekyll的目录(<a href="http://jekyllrb.com/docs/home/" target="_blank" rel="external">官方文档</a>):<br>为了之后不至于完全茫然，很值得先看一看，第一次看不懂没关系，用着用着就知道什么意思了。就像练习吉他和弦的转换，开始很难，可换着换着你就会了。</p>
-<p> <img src="!--￼5--&gt;/assets/struct.png" alt=""></p>
+<p> <img src="http://7xle3b.com1.z0.glb.clouddn.com/struct.png" alt=""></p>
 <p>这个很奇怪的结构是，文件目录树，_config.yml这样的代表一个文件，_drafts这样的代表一个文件夹，与它连接的文件，比如begin-with-the-crazy-ideas.textile，就在文件夹中。一开始，我没怎么看官方文档，嫌麻烦，不如直接开始干。结果是绕了不少弯路，修改主题的时候，找半天各个部分。</p>
 <p>先说需要了解的，其余以后依个人需求学习</p>
 <ul>
@@ -178,26 +180,26 @@ date: 2014-01-27 21:57:11
 <h3 id="如何使用独立域名？">如何使用独立域名？</h3><ul>
 <li>购买域名 著名的有 <a href="https://www.godaddy.com/?isc=bsfndom4&amp;ci=" target="_blank" rel="external">Godaddy</a>，支持支付宝。在网上可以搜到优惠码。</li>
 </ul>
-<p><img src="!--￼6--&gt;/assets/godaddy.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/godaddy.png" alt=""></p>
 <ul>
 <li><p>在你本地网站文件夹中添加一个文件 <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/" target="_blank" rel="external">CNAME</a>，写入你的域名即可。</p>
 </li>
 <li><p>考虑到我国网络特殊情况，进行域名解析，可以选择<a href="https://www.dnspod.cn/Login?default=email" target="_blank" rel="external">dnspod</a><br>添加两条A记录(<a href="https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&amp;tsid=42" target="_blank" rel="external">教程</a>)，对，就是计算机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。</p>
 </li>
 </ul>
-<p><img src="!--￼7--&gt;/assets/AA.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/AA.png" alt=""></p>
 <p><em>买域名这事，我自己还有点经历。一开始我买了个azureyu.cn的域名，cn是国内的，然后让提交身份证信息，输入各种资料。又要进行网站备份，一大推看不懂的备份名词，最后放弃了。买了个国外的域名azureyu.com，没有了以上复杂环节，马上就可以用了。</em></p>
 <h3 id="如何添加评论功能？">如何添加评论功能？</h3><p>这些平时习以为常的东西，到这都是纯手工制造。<br>我使用的是<a href="https://disqus.com/" target="_blank" rel="external">Disqus</a></p>
-<p><img src="!--￼8--&gt;/assets/Disqus.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Disqus.png" alt=""></p>
 <ul>
 <li>注册Disqus</li>
 <li>点击右侧选择在博客中添加，就会自动获得它为你生成的一段代码，复制它</li>
 </ul>
-<p><img src="!--￼9--&gt;/assets/comment.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/comment.png" alt=""></p>
 <ul>
 <li>新建一个名为Comments的html文件，复制进去这段代码，保存到文件夹_includes里去。然后在_layouts的post文件里加入：</li>
 </ul>
-<p><img src="!--￼10--&gt;/assets/addcmt.png" alt=""></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/addcmt.png" alt=""></p>
 <p>其实，就是在你的网页中加入一段代码，加载之后在网页中加入Disqus，就会自动获得它为你生成的一段代码。</p>
 <p>要还想添加一些feather就去折腾吧。比如分享、文章目录、代码高亮、标签云、搜索等等。我想到现在，学习这些内容，对你已经很简单了。 </p>
 <hr>
@@ -240,12 +242,55 @@ date: 2014-01-27 21:57:11
   </entry>
   
   <entry>
-    <title><![CDATA[WordCollage Lesson3~4]]></title>
+    <title><![CDATA[WordCollage]]></title>
     <link href="http://azureyu.com/2015/07/18/p1-2/"/>
     <id>http://azureyu.com/2015/07/18/p1-2/</id>
     <published>2015-07-18T11:00:00.000Z</published>
-    <updated>2015-08-27T09:57:21.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Lesson_3"><a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Lesson 3</a></h1><h2 id="Vocabulary">Vocabulary</h2><blockquote>
+    <updated>2015-08-27T13:54:39.000Z</updated>
+    <content type="html"><![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br><a id="more"></a><br>So I choose one of it to become today’s course.<br>First, I see the whole picture of this course and its course plan.<br>Then, I get similar with the Xcode. Learning its main board and keyboard Shortcuts. The <a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Course’s Materials</a> provide a clear picture:</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-33bc6ab89f3a257a.png" alt="XcodeShortcuts.png"></p>
+<p>How about others you have learned?<br>When I learn Java, there is no mention of AutoLayout. At first, we learn the java language and then learn its GUI. Using java code to design is much more difficult for the beginners. Actually many of my classmates are use the old way to design the UI. I wonder why not use WindowsBuilder which is a visible tool to design User Interface? On the other hand, when I use MFC to build a manage system, we also use the visible tool. I guess the desktop application and the mobile application is different in this way. How about the web design? It will change its layout and size too. Medium is the label for it.</p>
+<p>Why we use the AutoLayout ?</p>
+<ol>
+<li>For varies of devices</li>
+<li><a href="https://developer.apple.com/library/prerelease/ios/documentation/WindowsViews/Conceptual/AdoptingMultitaskingOniPad/index.html#//apple_ref/doc/uid/TP40015145-CH3-SW1" target="_blank" rel="external">Adopting Multitasking Enhancements on iPad</a></li>
+</ol>
+<hr>
+<h1 id="project_1_——_WordCollage">project  1 —— WordCollage</h1><p>完成本项目能够了解基本的Xcode(IDE)使用方式，以及自动布局(Atuo Layout)的使用，如何添加限制(Constraints)，改变控件颜色等。</p>
+<h1 id="Lesson_1~2">Lesson 1~2</h1><p>Finally:<br><img src="http://upload-images.jianshu.io/upload_images/48181-62802bfac58326f0.png" alt="FirstProject.png"></p>
+<h2 id="vocabulary:_(纯个人翻译)">vocabulary: (纯个人翻译)</h2><blockquote>
+<ol>
+<li>Interface Builder: 界面编辑器</li>
+<li>storyboard: 概要面板</li>
+<li>canvas: where you draw your UI</li>
+<li>user interface: 用户界面</li>
+<li>iOS Simulator：iOS 模拟器(模拟在设备上显示的效果)</li>
+<li>adaptive user interface: 可调节的用户界面</li>
+<li>Object Library: 对象库</li>
+<li>Label: 标签 (文字提示和显示)</li>
+<li>Attributes Inspector: 属性调节</li>
+<li>Document Outline: 文档大纲</li>
+<li>Assistant Editor: 辅助编辑器</li>
+<li>auto layout: 自动布局</li>
+<li>constraint: 限制、约束</li>
+<li>size class:大小类</li>
+<li>orientation:方向（旋转改变方向）</li>
+</ol>
+</blockquote>
+<p>Interface Builder provides us with a square canvas</p>
+<h2 id="Opening">Opening</h2><p>StoryBoard is square board, while the real devise isn’t.</p>
+<p>###1.3 How it works? How could it build once and can adapt to different circumstances?<br>The Keynote shows the main idea.Relative Positioning and Sizing.<strong>We use constraints to define how things should be positioned relatively.</strong> I think, in some way, it looks like Layout of CSS.</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-1f60c5c741b2f59d.png" alt="FstP1.png"><br>All the Materials is <code>Simple、Clear、Understandable</code>.<br>others:</p>
+<ul>
+<li>Blue: all right</li>
+<li>Orange: I need more constraints.</li>
+<li>Pin </li>
+<li>Align control</li>
+<li>using SortCuts to fix issue: option command =<br>rotate: command -&gt; </li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-f6f26b0150b63068.png" alt="FstP2.png"></p>
+<hr>
+<h1 id="Lesson_3"><a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Lesson 3</a></h1><h2 id="Vocabulary">Vocabulary</h2><blockquote>
 <ol>
 <li>IDE: 集成开发环境，在此指Xcode</li>
 <li>Xcode Documentation and API Reference：Xcode文档和API参考</li>
@@ -255,18 +300,15 @@ date: 2014-01-27 21:57:11
 <li>UIColor：</li>
 </ol>
 </blockquote>
-<h2 id="Opening">Opening</h2><blockquote>
+<h2 id="Opening-1">Opening</h2><blockquote>
 <p>How do you create a button that changes the background color?</p>
 </blockquote>
 <p>如何添加一个可以改变背景颜色的按钮？</p>
 <h2 id="Agenda">Agenda</h2><ol>
 <li>Add the Button and change its position and content.</li>
-<li>Add constraint to make it near the Bottom and horizontal center.<br>I make gif pictures: )<br><img src="http://upload-images.jianshu.io/upload_images/48181-745f1653ae84cf7e.gif?imageView2/2/w/1240" alt="BackgroundColor.gif"></li>
-</ol>
-<ol>
+<li>Add constraint to make it near the Bottom and horizontal center.<br>I make gif pictures: )<br><img src="http://upload-images.jianshu.io/upload_images/48181-745f1653ae84cf7e.gif?imageView2/2/w/1240" alt="BackgroundColor.gif"><br><img src="http://upload-images.jianshu.io/upload_images/48181-0b6cc5d6f29ab344.gif?imageView2/2/w/1240" alt="irbZsEtSwq.gif"></li>
 <li>Make Connection<br><img src="http://upload-images.jianshu.io/upload_images/48181-54a8f7824be90b84.gif?imageView2/2/w/1240" alt="P1L3.gif"></li>
-<li><p>Then Add this：</p>
-<pre><code><span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColor</span><span class="params">(sender: UIButton)</span></span> {
+<li>Then Add this：<pre><code><span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColor</span><span class="params">(sender: UIButton)</span></span> {
     view.backgroundColor = <span class="type">UIColor</span>.blackColor()
     }
 </code></pre></li>
@@ -278,8 +320,9 @@ date: 2014-01-27 21:57:11
 </blockquote>
 <p><img src="http://upload-images.jianshu.io/upload_images/48181-0a314243abb1738b.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240" alt="P1L3-1.png"><br><img src="http://upload-images.jianshu.io/upload_images/48181-a0bd44056099dc4b.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240" alt="P1L3-2.png"></p>
 <blockquote>
-<p>Write the best code: code that is robust, expressive, readable and maintainable over time. </p>
+<p><strong>Write the best code: code that is robust, expressive, readable and maintainable over time. </strong></p>
 </blockquote>
+<hr>
 <h1 id="Lesson_4">Lesson 4</h1><p>Add two more button</p>
 <pre><code> <span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColorToWhite</span><span class="params">(sender: UIButton)</span></span> {
     view.backgroundColor = <span class="type">UIColor</span>.whiteColor()
@@ -289,10 +332,10 @@ date: 2014-01-27 21:57:11
     view.backgroundColor = <span class="type">UIColor</span>.magentaColor()
 }
 </code></pre><p>Final:</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/48181-e3388839c2e33639.gif?imageView2/2/w/1240" alt="final.gif"></p>
+<h2 id=""><img src="http://upload-images.jianshu.io/upload_images/48181-e3388839c2e33639.gif?imageView2/2/w/1240" alt="final.gif"></h2><p>Hope it help you~!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[Project 1 study notes]]>
+    <![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br>]]>
     
     </summary>
     
@@ -303,12 +346,13 @@ date: 2014-01-27 21:57:11
   </entry>
   
   <entry>
-    <title><![CDATA[Qoutes]]></title>
+    <title><![CDATA[言语]]></title>
     <link href="http://azureyu.com/2015/05/18/quotes/"/>
     <id>http://azureyu.com/2015/05/18/quotes/</id>
     <published>2015-05-18T11:00:00.000Z</published>
-    <updated>2015-08-27T10:41:13.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="智慧">智慧</h2><hr>
+    <updated>2015-08-27T13:56:40.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>Sort but powerful</strong></p>
+<h2 id="智慧">智慧</h2><hr>
 <p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
 <hr>
 <p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
@@ -321,6 +365,7 @@ date: 2014-01-27 21:57:11
 <hr>
 <p>青青陵上柏，磊磊涧中石。 人生天地间，忽如远行客。——《列子》 </p>
 <hr>
+<a id="more"></a>
 <p>有时候我们必须放弃一些我们喜欢的东西／你喜欢的，别人也喜欢的东西——《春夏秋冬又一春》 </p>
 <hr>
 <p>人静而后安，安而能后定，定而能后慧，慧而能后悟，悟而能后得。——《大学》 </p>
@@ -371,7 +416,20 @@ date: 2014-01-27 21:57:11
 <hr>
 ]]></content>
     <summary type="html">
-    <![CDATA[Sort but powerful]]>
+    <![CDATA[<p><strong>Sort but powerful</strong></p>
+<h2 id="智慧">智慧</h2><hr>
+<p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
+<hr>
+<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
+<hr>
+<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
+<hr>
+<p>把自己的生活当作正文，把书籍当作注解。——爱默生</p>
+<hr>
+<p>为了追求更好，我们毁损了原已够好的。——莎士比亚 </p>
+<hr>
+<p>青青陵上柏，磊磊涧中石。 人生天地间，忽如远行客。——《列子》 </p>
+<hr>]]>
     
     </summary>
     
