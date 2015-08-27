@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-08-27T07:59:56.000Z</updated>
+  <updated>2015-08-27T09:12:11.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -15,31 +15,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[text]]></title>
-    <link href="http://azureyu.com/2015/08/27/test/"/>
-    <id>http://azureyu.com/2015/08/27/test/</id>
-    <published>2015-08-27T07:59:56.000Z</published>
-    <updated>2015-08-27T07:59:56.000Z</updated>
-    <content type="html"><![CDATA[<p>dsjadfkldsjf</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>dsjadfkldsjf</p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Stanford University CS193p Lesson1]]></title>
-    <link href="http://azureyu.com/2015/08/27/-2015-07-13-CS193p_Lesson1_Notes/"/>
-    <id>http://azureyu.com/2015/08/27/-2015-07-13-CS193p_Lesson1_Notes/</id>
-    <published>2015-08-27T06:46:41.000Z</published>
-    <updated>2015-07-30T06:47:45.000Z</updated>
-    <content type="html"><![CDATA[<p>#Lesson1</p>
-<p>##1. Opening<br>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
+    <link href="http://azureyu.com/2015/08/27/2015-07-13-CS193p_Lesson1_Notes/"/>
+    <id>http://azureyu.com/2015/08/27/2015-07-13-CS193p_Lesson1_Notes/</id>
+    <published>2015-08-27T09:12:11.000Z</published>
+    <updated>2015-08-27T09:12:11.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Lesson1">Lesson1</h1><h2 id="Opening">Opening</h2><p>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
 <p>If you never heard before, this concept might be strange to you. Don’t worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     </p>
-<p>##2. What is IOS?</p>
-<blockquote>
+<h2 id="What_is_IOS?">What is IOS?</h2><blockquote>
 <p>Fout layers:</p>
 <ol>
 <li><strong>Cocoa Touch</strong>(70%)</li>
@@ -48,8 +31,7 @@
 <li>Core OS</li>
 </ol>
 </blockquote>
-<p>##3. Platform Components</p>
-<blockquote>
+<h2 id="Platform_Components">Platform Components</h2><blockquote>
 <ol>
 <li>Tool: Xcode Instruments</li>
 <li>Languages: Objective-C、<strong>Swift</strong></li>
@@ -58,7 +40,7 @@
 </ol>
 </blockquote>
 <p>Those are new concepts<br>MVC? Later lesson will talk about.</p>
-<p>##4. Let’s build a demo —— <strong>Calculator</strong><br>事件编程 点击触发事件</p>
+<h2 id="Let’s_build_a_demo_——_Calculator">Let’s build a demo —— <strong>Calculator</strong></h2><p>事件编程 点击触发事件</p>
 <p>StoryBoard 正方形 可视化 拖动控件</p>
 <p>More about Atuo Layout：<br><a href="https://developer.apple.com/library/ios/navigation/" target="_blank" rel="external">Offical Documents</a></p>
 ]]></content>
@@ -72,11 +54,36 @@
   </entry>
   
   <entry>
+    <title><![CDATA[为什么选择Hexo]]></title>
+    <link href="http://azureyu.com/2015/08/27/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/"/>
+    <id>http://azureyu.com/2015/08/27/为什么选择Hexo/</id>
+    <published>2015-08-27T09:06:54.000Z</published>
+    <updated>2015-08-27T09:13:39.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>喜欢Hexo的主题，不少都适合中文</li>
+<li>配件简单，一键发布</li>
+</ul>
+<p>就这样，理由很简单。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>喜欢Hexo的主题，不少都适合中文</li>
+<li>配件简单，一键发布</li>
+</ul>
+<p>就这样，理由很简单。</p>
+]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://azureyu.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[授人以渔”的教你搭建个人独立博客]]></title>
-    <link href="http://azureyu.com/2015/08/27/2015-08-15-HowToBulidBlog/"/>
-    <id>http://azureyu.com/2015/08/27/2015-08-15-HowToBulidBlog/</id>
-    <published>2015-08-27T05:10:11.000Z</published>
-    <updated>2015-08-27T05:10:11.000Z</updated>
+    <link href="http://azureyu.com/2015/08/15/2015-08-15-HowToBulidBlog/"/>
+    <id>http://azureyu.com/2015/08/15/2015-08-15-HowToBulidBlog/</id>
+    <published>2015-08-15T09:06:54.000Z</published>
+    <updated>2015-08-27T09:12:43.000Z</updated>
     <content type="html"><![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
 <p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。<br><a id="more"></a><br>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
 <h2 id="引子">引子</h2><p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
