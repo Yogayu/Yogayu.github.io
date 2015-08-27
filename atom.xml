@@ -248,8 +248,8 @@ date: 2014-01-27 21:57:11
     <link href="http://azureyu.com/2015/07/18/p1-2/"/>
     <id>http://azureyu.com/2015/07/18/p1-2/</id>
     <published>2015-07-18T11:00:00.000Z</published>
-    <updated>2015-08-27T13:54:41.000Z</updated>
-    <content type="html"><![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br><a id="more"></a><br>So I choose one of it to become today’s course.<br>First, I see the whole picture of this course and its course plan.<br>Then, I get similar with the Xcode. Learning its main board and keyboard Shortcuts. The <a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Course’s Materials</a> provide a clear picture:</p>
+    <updated>2015-08-27T14:33:05.000Z</updated>
+    <content type="html"><![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br><a id="more"></a><br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br>So I choose one of it to become today’s course.<br>First, I see the whole picture of this course and its course plan.<br>Then, I get similar with the Xcode. Learning its main board and keyboard Shortcuts. The <a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Course’s Materials</a> provide a clear picture:</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/48181-33bc6ab89f3a257a.png" alt="XcodeShortcuts.png"></p>
 <p>How about others you have learned?<br>When I learn Java, there is no mention of AutoLayout. At first, we learn the java language and then learn its GUI. Using java code to design is much more difficult for the beginners. Actually many of my classmates are use the old way to design the UI. I wonder why not use WindowsBuilder which is a visible tool to design User Interface? On the other hand, when I use MFC to build a manage system, we also use the visible tool. I guess the desktop application and the mobile application is different in this way. How about the web design? It will change its layout and size too. Medium is the label for it.</p>
 <p>Why we use the AutoLayout ?</p>
@@ -337,7 +337,7 @@ date: 2014-01-27 21:57:11
 <h2 id=""><img src="http://upload-images.jianshu.io/upload_images/48181-e3388839c2e33639.gif?imageView2/2/w/1240" alt="final.gif"></h2><p>Hope it help you~!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br>]]>
+    <![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>]]>
     
     </summary>
     
