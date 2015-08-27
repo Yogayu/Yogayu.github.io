@@ -1,0 +1,31 @@
+# Site settings
+title: Azure Yu
+header-img: img/home-bg.jpg
+email: yudelovesong@icould.com
+description: "科技的人文关怀"
+baseurl: ""
+url: "http://azureyu.com"
+weiboerl: http://weibo.com/5639257977/profile?topnav=1&wvr=6
+github_username: Yogayu
+disqus_username: yogayu
+##Make sure to edit the above fields, especially for disqus.
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+
