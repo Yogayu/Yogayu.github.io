@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-08-27T09:12:11.000Z</updated>
+  <updated>2015-08-27T09:13:39.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -13,45 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[Stanford University CS193p Lesson1]]></title>
-    <link href="http://azureyu.com/2015/08/27/2015-07-13-CS193p_Lesson1_Notes/"/>
-    <id>http://azureyu.com/2015/08/27/2015-07-13-CS193p_Lesson1_Notes/</id>
-    <published>2015-08-27T09:12:11.000Z</published>
-    <updated>2015-08-27T09:12:11.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Lesson1">Lesson1</h1><h2 id="Opening">Opening</h2><p>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
-<p>If you never heard before, this concept might be strange to you. Don’t worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     </p>
-<h2 id="What_is_IOS?">What is IOS?</h2><blockquote>
-<p>Fout layers:</p>
-<ol>
-<li><strong>Cocoa Touch</strong>(70%)</li>
-<li>Media</li>
-<li>Core Services</li>
-<li>Core OS</li>
-</ol>
-</blockquote>
-<h2 id="Platform_Components">Platform Components</h2><blockquote>
-<ol>
-<li>Tool: Xcode Instruments</li>
-<li>Languages: Objective-C、<strong>Swift</strong></li>
-<li>Frameworks: Foundation</li>
-<li>Design Strategy: MVC</li>
-</ol>
-</blockquote>
-<p>Those are new concepts<br>MVC? Later lesson will talk about.</p>
-<h2 id="Let’s_build_a_demo_——_Calculator">Let’s build a demo —— <strong>Calculator</strong></h2><p>事件编程 点击触发事件</p>
-<p>StoryBoard 正方形 可视化 拖动控件</p>
-<p>More about Atuo Layout：<br><a href="https://developer.apple.com/library/ios/navigation/" target="_blank" rel="external">Offical Documents</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[Course overview, learning how to build iOS App.]]>
-    
-    </summary>
-    
-      <category term="Technology" scheme="http://azureyu.com/categories/Technology/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[为什么选择Hexo]]></title>
@@ -80,8 +41,8 @@
   
   <entry>
     <title><![CDATA[授人以渔”的教你搭建个人独立博客]]></title>
-    <link href="http://azureyu.com/2015/08/15/2015-08-15-HowToBulidBlog/"/>
-    <id>http://azureyu.com/2015/08/15/2015-08-15-HowToBulidBlog/</id>
+    <link href="http://azureyu.com/2015/08/15/HowToBulidBlog/"/>
+    <id>http://azureyu.com/2015/08/15/HowToBulidBlog/</id>
     <published>2015-08-15T09:06:54.000Z</published>
     <updated>2015-08-27T09:12:43.000Z</updated>
     <content type="html"><![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
@@ -266,6 +227,45 @@ date: 2014-01-27 21:57:11
 <p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。<br>]]>
     
     </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Stanford University CS193p Lesson1]]></title>
+    <link href="http://azureyu.com/2015/08/10/CS193p_Lesson1_Notes/"/>
+    <id>http://azureyu.com/2015/08/10/CS193p_Lesson1_Notes/</id>
+    <published>2015-08-10T09:06:54.000Z</published>
+    <updated>2015-08-27T09:14:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Lesson1">Lesson1</h1><h2 id="Opening">Opening</h2><p>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
+<p>If you never heard before, this concept might be strange to you. Don’t worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     </p>
+<h2 id="What_is_IOS?">What is IOS?</h2><blockquote>
+<p>Fout layers:</p>
+<ol>
+<li><strong>Cocoa Touch</strong>(70%)</li>
+<li>Media</li>
+<li>Core Services</li>
+<li>Core OS</li>
+</ol>
+</blockquote>
+<h2 id="Platform_Components">Platform Components</h2><blockquote>
+<ol>
+<li>Tool: Xcode Instruments</li>
+<li>Languages: Objective-C、<strong>Swift</strong></li>
+<li>Frameworks: Foundation</li>
+<li>Design Strategy: MVC</li>
+</ol>
+</blockquote>
+<p>Those are new concepts<br>MVC? Later lesson will talk about.</p>
+<h2 id="Let’s_build_a_demo_——_Calculator">Let’s build a demo —— <strong>Calculator</strong></h2><p>事件编程 点击触发事件</p>
+<p>StoryBoard 正方形 可视化 拖动控件</p>
+<p>More about Atuo Layout：<br><a href="https://developer.apple.com/library/ios/navigation/" target="_blank" rel="external">Offical Documents</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Course overview, learning how to build iOS App.]]>
+    
+    </summary>
+    
+      <category term="Technology" scheme="http://azureyu.com/categories/Technology/"/>
     
   </entry>
   
