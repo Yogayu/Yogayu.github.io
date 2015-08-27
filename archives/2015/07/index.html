@@ -2,8 +2,6 @@
 <html class="theme-next use-motion theme-next-mist">
 <head>
   
-    
-
 
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -30,7 +28,7 @@
 
 
 
-  <meta name="keywords" content="Hello" />
+  <meta name="keywords" content="Hexo,next" />
 
 
 
@@ -43,13 +41,12 @@
 
 <meta name="description" content="科技的人文关怀">
 <meta property="og:type" content="website">
-<meta property="og:title" content="All  tages">
-<meta property="og:url" content="http://azureyu.com/tages/index.html">
+<meta property="og:title" content="Azure Yu">
+<meta property="og:url" content="http://azureyu.com/archives/2015/07/index.html">
 <meta property="og:site_name" content="Azure Yu">
 <meta property="og:description" content="科技的人文关怀">
-<meta property="og:updated_time" content="2015-08-27T05:50:57.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="All  tages">
+<meta name="twitter:title" content="Azure Yu">
 <meta name="twitter:description" content="科技的人文关怀">
 
 
@@ -60,13 +57,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    All  tages | Azure Yu
-  
-</title>
+  <title> 归档 | Azure Yu </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -94,7 +85,7 @@
 
 
 
-  <div class="container one-column ">
+  <div class="container one-column  page-archive ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -136,6 +127,14 @@
           <a href="/archives" rel="section">
             <i class="menu-item-icon icon-next-archives"></i> <br />
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            <i class="menu-item-icon icon-next-categories"></i> <br />
+            分类
           </a>
         </li>
       
@@ -184,12 +183,59 @@
       <div class="main-inner">
         <div id="content" class="content"> 
 
-  <div id="posts" class="posts-expand">
-    
-    
+  <section id="posts" class="posts-collapse">
+    <span class="archive-move-on"></span>
+
+    <span class="archive-page-counter">
       
+      
+      
+        
+      
+      嗯..! 目前共计 6 篇日志。 继续努力。
+    </span>
+
     
-  </div>
+
+      
+      
+      
+
+      
+        
+        <div class="collection-title">
+          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+        </div>
+      
+      
+
+      
+
+  <article class="post post-type-normal"itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
+        
+            <a class="post-title-link" href="/2015/07/18/p1-2/" itemprop="url">
+              <span itemprop="name">WordCollage Lesson3~4</span>
+            </a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <time class="post-time" datetime="2015-07-18T11:00:00.000Z" itemprop="dateCreated" content="2015-07-18"> 07-18 </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+    
+
+  </section>
+
+  
 
  </div>
 
@@ -222,21 +268,21 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">1</span>
+            <a href="/categories">
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">分类</span>
-              
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -327,6 +373,12 @@
   
   
   
+    <script type="text/javascript">
+      postMotionOptions = {stagger: 100, drag: true};
+    </script>
+  
+
+  
     
     
 
@@ -334,9 +386,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'yogayu';
-      var disqus_identifier = 'tages/index.html';
-      var disqus_title = 'All  tages';
-      var disqus_url = 'http://azureyu.com/tages/index.html';
+      var disqus_identifier = 'archives/2015/07/index.html';
+      var disqus_title = '';
+      var disqus_url = '';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
@@ -373,6 +425,12 @@
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
+
 
   <script type="text/javascript">
     $(document).ready(function () {

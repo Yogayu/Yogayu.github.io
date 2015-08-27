@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-08-27T09:13:39.000Z</updated>
+  <updated>2015-08-27T10:00:50.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -15,11 +15,199 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[计算机网络总结]]></title>
+    <link href="http://azureyu.com/2015/08/27/internet/"/>
+    <id>http://azureyu.com/2015/08/27/internet/</id>
+    <published>2015-08-27T10:00:50.000Z</published>
+    <updated>2015-08-27T10:00:50.000Z</updated>
+    <content type="html"><![CDATA[<p>#1. 计算机网络分层协议<br>有哪些系统也是分层（layer）结构？<br>计算机存储结构，不过还是不同的，不会有功能调用。<br>课本举例，航空系统。</p>
+<p>##1.1 协议栈<br>各层的协议总和称为协议栈<br>&gt;</p>
+<ol>
+<li>应用层(Application-layer)<ul>
+<li>HTTP：Web文档</li>
+<li>SMTP：E-Mail</li>
+<li>FTP:文件</li>
+<li>DNS：域名系统</li>
+<li>分组名称：<code>Message</code>，主机程序与主机程序之间</li>
+</ul>
+</li>
+<li>运输层(Transportation-layer)<ul>
+<li>TCP</li>
+<li>UDP<ul>
+<li>分组名称：<code>Segment</code>，程序之间</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>网络层(Network-layer)<ul>
+<li>IP<br>主机之间</li>
+</ul>
+</li>
+<li>链路层(Link-layer)<ul>
+<li>DOCSIS</li>
+<li>分组名称：<code>frame</code>，路由器路由(名字好奇怪–)</li>
+</ul>
+</li>
+<li>物理层 <ul>
+<li>比特流:<code>bits</code></li>
+<li>结点(这是什么？)</li>
+</ul>
+</li>
+</ol>
+<p><em>tip:最初设计其实有七层，在应用层之后，运输层之前：表示层和回话层（是什么）,相应功能，如果需呀，就靠开发者自己了。</em></p>
+<p>concept:<br>封装:下一次把上一次的信息封装起来。包起来。<br>分组：首部字段和有效负载字段(playload layer)</p>
+<p>##1.2 下面是坏家伙如何攻击网络时间：</p>
+<blockquote>
+<ol>
+<li>放入有害程序</li>
+<li>DoS(Denial-of-Service)攻击<br> a. 弱点攻击<br> b. 带宽泛洪<br> c. 连接泛洪</li>
+<li>嗅探分组</li>
+</ol>
+</blockquote>
+<p>计算机网络是一个基于相互信任的系统。</p>
+<p>#2. 应用层<br>我们平时用网络做什么？web浏览网页，qq聊天，看视频，发邮件，发文件</p>
+<ol>
+<li>应用程序<ul>
+<li>社交软件</li>
+<li>文件传输</li>
+</ul>
+</li>
+<li>浏览器<br> 资讯、邮箱、搜索</li>
+<li>游戏<br> 实时在线游戏</li>
+</ol>
+<p>等等。  不过彼此功能有交叠。 网页也可以进行聊天看视频等应用程序所做的事。</p>
+<p>##2.1 应用程序体系结构：</p>
+<blockquote>
+<ul>
+<li>C/S   </li>
+<li>P2P</li>
+</ul>
+</blockquote>
+<p>##2.2 进程通信<br><em>而不是应用通信–&gt;<code>What is pocess?</code></em>   </p>
+<p>如何区分客户端和服务端：</p>
+<blockquote>
+<p>   Client: 发起通信的进程</p>
+<p>   Server: 等待联系的进程</p>
+</blockquote>
+<p>其实和生活中是一样的，一个餐厅提供服务，只有你去了，你发起想要在那吃饭的信息，它才开始为你提供服务。<br>可不可以一对多呢？进程一定要是一对一吗？作为服务器是不是很可能要<br>多对多，那么是怎么实现的呢？是有多个进程吗？</p>
+<blockquote>
+<p>每一个进程通过socket(套接字)向网络发送和接受message(报文)</p>
+</blockquote>
+<p>socket就像是，恩，怎么说呢，代理的商人吗？或者说是，邮局？你们彼此之间写信时，为你们传递信。因为有需求的人多嘛，所以就统一起来。好像不对也，书上说，进程是房子，套接字就是门，真心不理解为什么翻译成套接字，那么拗口难理解。自己说进程与网络之间的门多好。<br>网络那么的错综复杂，它怎么知道我这data是发给谁的呢？就算是发到了，又怎么知道是哪一个进程的呢？wow，好复杂的系统。</p>
+<p><code>API：Application Programing Interface</code> 啊，就是应用程序这座房子的，各种门各种窗外咯</p>
+<p>开发者能使用API，却几乎不能控制API。就是说，你直接用啊，我给你一支笔，你不需要知道笔怎么制作的，怎么能写出字，你直接用来写字就好了嘛。<br>开始说怎么确定地址了。恩,好好看看。</p>
+<p>##2.3. 进程寻址</p>
+<blockquote>
+<p>主机地址<br>主机内的进程标识</p>
+</blockquote>
+<p>你家是哪个小区?是小区的哪户？<br>这个可以，找门（Socket）嘛，就照门牌号来找。</p>
+<blockquote>
+<p>主机–&gt;IP 地址（32bit）<br>进程–&gt;port number( 端口号 )<br>web:80<br>SMTP：25<br><a href="www.iana.org">More</a></p>
+</blockquote>
+<p>##2.4 可提供程序使用的运输服务<br>来，我们来选交通方式。</p>
+<ul>
+<li><strong>可靠不可靠</strong>（能不能都到达）：能不能安全把信都送到，而不是半路掉了一些</li>
+<li><p><strong>吞吐量</strong>（一次能运输多少）：交付bit的输入，就是我一次能给你多少信咯，你要是一个人来，最多也就提两麻袋吧，要是卡车的话，啊，那就不一样了。</p>
+<p>  对吞吐量有要求的程序：<code>带宽敏感程序</code>，你要是不能每次拿一定的数量走的话，我就不能和你愉快玩耍了。说话的时候，你只能接受半句话，那要怎么理解呢？还不如直接不接收。    </p>
+<p>  有的应用程序说，好吧，我要求不高，你有多少我就传多少吧。这叫<code>弹性应用</code></p>
+</li>
+<li><p><strong>定时</strong>（要多少时间才能到）</p>
+<pre><code>交互式实时应用
+</code></pre></li>
+<li><strong>安全性 </strong><br>  加密-解密</li>
+</ul>
+<p>说了那么多结果只有两种运输协议，TCP/UDP，现实生活中就不一样了，有汽车、火车、高铁、地铁、飞机……</p>
+<p>###2.4.1 TCP Server<br>TCP: Transmission Contral Protocol</p>
+<ul>
+<li>面向连接的服务：就是指，在我们正式传输数据之前，我们先相互打个招呼，握握手，准备好接下来的交流。<code>全双工</code>:好难听的翻译对不对？其实就是双方可以同时传Message。</li>
+<li>可靠数据传输服务：无错、按序。是不是很可靠？<br>它还有拥塞控制机制，还有交警先生。</li>
+</ul>
+<p><em>补充：安全性从何而来？</em></p>
+<p>加强型TCP，没错就是Secoure Socket Layer（= =什么鬼），别急，简称你一定见过，<code>SSL</code>。它有，加密、数据完整性和<strong>端点识别</strong>（<em>这是什么？</em>）SSL在应用程序和TCP套接字之间，进行加密和解密。（SSL在喊<em>I’am a mistery box.</em>）</p>
+<p>###2.4.2 UDP Sever<br>UDP: User Data Protocal</p>
+<p>它很轻，对就是很不靠谱。不握手打招呼、不提供可靠数据传输、不保证顺序，当然更没有拥塞控制了。<br>如此不靠谱的运输协议，为什么还会存在这个世界上！！？？<br>当然还是有用的。像QQ，就是使用的UDP服务。<br>UDP没有拥塞控制，可以选定速率向网络层注入数据。</p>
+<p>##2.5 应用层协议<br>网络应用的一部分，但也是很重要的一部分。<br>定义主机应用程序之间如何传递Message。</p>
+<p>###2.5.1 网络应用:</p>
+<h4 id="1-_WWW:_World_Wide_Web">1. WWW: World Wide Web</h4><ul>
+<li>特点：按需操作，C/S 架构。    </li>
+<li>组成：Web页面由object组成，HTML文档是一个object，一张图片也是一个object。</li>
+<li>协议：HTTP(HyperText Transfer Protocol)，由TCP支撑。</li>
+<li>性质：它是无状态协议(stateless protocol)，即不保存关于用户的任何信息。那是如何记住我怎么实现？Cookie</li>
+<li>分类：<br>持续和非持续连接<br>持续：同一个TCP<br>非持续：每个单独有一个TCP<br>非持续连接每一个对象都有单独建立连接再传输</li>
+</ul>
+<p><strong>RTT</strong>：往返时间（Round-Trip Time）</p>
+<p>非连续开始连接，需要两个RTT。连续可以连接节省时间。<em>但是连续是串行的，非连续是并行的，服务器有能力的话，并行不是会更快吗？这值得思考。可实际却使用的是流水线的连续连接。</em></p>
+<h4 id="2-_文件传输，FTP：两个TCP_一个控制，一个传输">2. 文件传输，<strong>FTP</strong>：两个TCP    一个控制，一个传输</h4><h4 id="3-_邮件系统，其中包括用户代理、邮件代理和SMTP">3. 邮件系统，其中包括用户代理、邮件代理和<strong>SMTP</strong></h4><ul>
+<li>特点：推协议</li>
+<li><p>对比：HTTP是拉协议     </p>
+<p><em><code>注意：取邮件是拉，不能用SMTP，用POP3还有IMAP</code></em></p>
+<h4 id="4-_P2P">4. P2P</h4><p><strong>实现原理</strong>: 我为人人，人人为我。</p>
+</li>
+</ul>
+<p>#3. 运输层</p>
+<ul>
+<li>运输层：进程之间的通信</li>
+<li>网络层：主机间的通信</li>
+</ul>
+<p><strong>如何确定给哪个进程？</strong><br>套接字会分配端口号，如果是周知端口号，必须手动分配特定值，比如Web是80；如果不是，可以任其自动分配端口号。</p>
+<blockquote>
+<ul>
+<li>UDP套接字标识：&lt;目的IP，目的端口号&gt;                          无连接的多多<ul>
+<li>TCP套接字标识：&lt;源IP，源端口号，目的IP，目的端口号&gt;    面向连接的多多</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>选择：拥塞控制（传输数据限制）、时间开销</p>
+<p>其实也可以在应用程序中实现拥塞控制，同时使用UDP，这样就不会被限制。<br>还有现在也有研发出数据源自适应的拥塞控制，也就解决了UDP可能的问题。</p>
+<p>##3.1 多路分解、多路复用<br>主机和进程之间的segment分发和收集<br>虚拟电路的实现通过复用。复用的复就是多的意思，实现多条虚拟电路咯。</p>
+<blockquote>
+<ul>
+<li>FDM：frequency-Division Multiplexing) 频分复用。</li>
+<li>TDM：Time-Division Multiplexing 时分复用</li>
+</ul>
+</blockquote>
+<p>比较两者 </p>
+<p>##3.2可靠数据传输原理<br>什么是可靠数据传输？<br>在可靠信道中，传输的数据<strong>不会损坏</strong>、<strong>丢失</strong>，并且都是<strong>按序到达</strong>。</p>
+<p>运输层为应用层提供可靠信道，进行可靠数据传输（对应服务TCP）<br>而网络层为运输层提供的是不可靠信道（对应服务IP）</p>
+<h3 id="3-2-1可靠数据传输协议(reliable_transfer_protocol)">3.2.1可靠数据传输协议(reliable transfer protocol)</h3><p>我们在此只讨论单向数据传输。</p>
+<p>####1. rdt 1.0<br>双方之间，通过完全可靠的信道进行数据传输。所以没什么需要做的。发送方调用：发送、分组打包、分组发送函数；接收方调用，接收、接收分组、传递函数。基本上就是不需要做什么事情。(应用层对运输层使用TCP就是这样的)<br>FSM：finite-State Mashine</p>
+<p>####2. rdt 2.0<br>好，现在假设都能按序到达，但是数据可能受损。<br>自动重传请求协议(Automatic Repeat reQuest, <code>**ARQ**</code>): 接收方进行肯定确认或者否定确认。<br>&gt;</p>
+<ol>
+<li>差错检验</li>
+<li>接收方反馈</li>
+<li>重传 1 ACK(肯定确认) 0 NAK(否定确认)</li>
+</ol>
+<p>发送方停等协议（stop－and－wait）:在上一个分组被确认之前，不接收上层的send()<br>问题在于ACK或者NAK受损了怎么办？ 重新传。那么接收方怎么知道得到的分组是新的，还是重复的？分组编号。是不是在重传，一个bit就够了。pkt1 pkt2</p>
+<p>####3. rdt 2.1 NAK ACK</p>
+<p>####4. rdt 2.2 1,0<br>分组或者ACKNAK流失了怎么办？怎么知道。装个计时器。</p>
+<p>####5. rdt 3.0 timer 定时器</p>
+<p>###3.3 网络中的网络: ISP层层叠叠</p>
+<p>###<code>运输时间延误</code>：<br>&gt;</p>
+<ol>
+<li>结点处理时延(检查首部，决定去向，差错检验）</li>
+<li>排队时延：在缓冲中，等待传出的时间</li>
+<li>传输时延：将分组所以比特推向链路所需时间，L/R L是指分组长度，R是指传输速率(b/s) 此时分组长度不可忽略</li>
+<li>传播时延：从链路起点到路由器的时间，d/s s是物理媒介传播速度，d是距离， 此时分组长度相对于d很小，可以看作是一个点。</li>
+</ol>
+<p>La/R不可以大于1 </p>
+<p><code>吞吐量</code><br>是以<strong>接收方速率</strong>来定义的。瞬时吞吐量、平均吞吐量。<br>瓶颈链路 一根各个地方粗细不均的管子，速率就是管子最细的地方。然而中间其实很粗，所以限制的就是接入网，也就是你连入的第一个路由器接受速率。（一个服务器一个客户端）<br>多个服务器，多个客户端。进和出口比中间的管子大。限制就是中间了。<br>画图讲解。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[大体总结了这学期计算机网络的知识要点。]]>
+    
+    </summary>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[为什么选择Hexo]]></title>
     <link href="http://azureyu.com/2015/08/27/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/"/>
     <id>http://azureyu.com/2015/08/27/为什么选择Hexo/</id>
     <published>2015-08-27T09:06:54.000Z</published>
-    <updated>2015-08-27T09:13:39.000Z</updated>
+    <updated>2015-08-27T10:00:08.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>喜欢Hexo的主题，不少都适合中文</li>
 <li>配件简单，一键发布</li>
@@ -37,6 +225,8 @@
     
       <category term="hexo" scheme="http://azureyu.com/tags/hexo/"/>
     
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
   </entry>
   
   <entry>
@@ -44,7 +234,7 @@
     <link href="http://azureyu.com/2015/08/15/HowToBulidBlog/"/>
     <id>http://azureyu.com/2015/08/15/HowToBulidBlog/</id>
     <published>2015-08-15T09:06:54.000Z</published>
-    <updated>2015-08-27T09:12:43.000Z</updated>
+    <updated>2015-08-27T09:59:57.000Z</updated>
     <content type="html"><![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
 <p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。<br><a id="more"></a><br>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
 <h2 id="引子">引子</h2><p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
@@ -228,44 +418,180 @@ date: 2014-01-27 21:57:11
     
     </summary>
     
+      <category term="jekyll" scheme="http://azureyu.com/tags/jekyll/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
   </entry>
   
   <entry>
-    <title><![CDATA[Stanford University CS193p Lesson1]]></title>
-    <link href="http://azureyu.com/2015/08/10/CS193p_Lesson1_Notes/"/>
-    <id>http://azureyu.com/2015/08/10/CS193p_Lesson1_Notes/</id>
-    <published>2015-08-10T09:06:54.000Z</published>
-    <updated>2015-08-27T09:14:47.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Lesson1">Lesson1</h1><h2 id="Opening">Opening</h2><p>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
-<p>If you never heard before, this concept might be strange to you. Don’t worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     </p>
-<h2 id="What_is_IOS?">What is IOS?</h2><blockquote>
-<p>Fout layers:</p>
+    <title><![CDATA[WordCollage Lesson3~4]]></title>
+    <link href="http://azureyu.com/2015/07/18/p1-2/"/>
+    <id>http://azureyu.com/2015/07/18/p1-2/</id>
+    <published>2015-07-18T11:00:00.000Z</published>
+    <updated>2015-08-27T09:57:21.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Lesson_3"><a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Lesson 3</a></h1><h2 id="Vocabulary">Vocabulary</h2><blockquote>
 <ol>
-<li><strong>Cocoa Touch</strong>(70%)</li>
-<li>Media</li>
-<li>Core Services</li>
-<li>Core OS</li>
+<li>IDE: 集成开发环境，在此指Xcode</li>
+<li>Xcode Documentation and API Reference：Xcode文档和API参考</li>
+<li>connection well：</li>
+<li>Model-View-Controller：模型-视图-控制器，简称MVC，是一种设计模式</li>
+<li>@IBAction：</li>
+<li>UIColor：</li>
 </ol>
 </blockquote>
-<h2 id="Platform_Components">Platform Components</h2><blockquote>
-<ol>
-<li>Tool: Xcode Instruments</li>
-<li>Languages: Objective-C、<strong>Swift</strong></li>
-<li>Frameworks: Foundation</li>
-<li>Design Strategy: MVC</li>
-</ol>
+<h2 id="Opening">Opening</h2><blockquote>
+<p>How do you create a button that changes the background color?</p>
 </blockquote>
-<p>Those are new concepts<br>MVC? Later lesson will talk about.</p>
-<h2 id="Let’s_build_a_demo_——_Calculator">Let’s build a demo —— <strong>Calculator</strong></h2><p>事件编程 点击触发事件</p>
-<p>StoryBoard 正方形 可视化 拖动控件</p>
-<p>More about Atuo Layout：<br><a href="https://developer.apple.com/library/ios/navigation/" target="_blank" rel="external">Offical Documents</a></p>
+<p>如何添加一个可以改变背景颜色的按钮？</p>
+<h2 id="Agenda">Agenda</h2><ol>
+<li>Add the Button and change its position and content.</li>
+<li>Add constraint to make it near the Bottom and horizontal center.<br>I make gif pictures: )<br><img src="http://upload-images.jianshu.io/upload_images/48181-745f1653ae84cf7e.gif?imageView2/2/w/1240" alt="BackgroundColor.gif"></li>
+</ol>
+<ol>
+<li>Make Connection<br><img src="http://upload-images.jianshu.io/upload_images/48181-54a8f7824be90b84.gif?imageView2/2/w/1240" alt="P1L3.gif"></li>
+<li><p>Then Add this：</p>
+<pre><code><span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColor</span><span class="params">(sender: UIButton)</span></span> {
+    view.backgroundColor = <span class="type">UIColor</span>.blackColor()
+    }
+</code></pre></li>
+<li>Test</li>
+</ol>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-173e92d1e21058d8.gif?imageView2/2/w/1240" alt="2QKw2OAgSl.gif"></p>
+<h2 id="Keynote:">Keynote:</h2><blockquote>
+<p>Ingredients for iOS apps:</p>
+</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-0a314243abb1738b.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240" alt="P1L3-1.png"><br><img src="http://upload-images.jianshu.io/upload_images/48181-a0bd44056099dc4b.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240" alt="P1L3-2.png"></p>
+<blockquote>
+<p>Write the best code: code that is robust, expressive, readable and maintainable over time. </p>
+</blockquote>
+<h1 id="Lesson_4">Lesson 4</h1><p>Add two more button</p>
+<pre><code> <span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColorToWhite</span><span class="params">(sender: UIButton)</span></span> {
+    view.backgroundColor = <span class="type">UIColor</span>.whiteColor()
+}
+
+<span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">changeBackgroundColorToMagenta</span><span class="params">(sender: UIButton)</span></span> {
+    view.backgroundColor = <span class="type">UIColor</span>.magentaColor()
+}
+</code></pre><p>Final:</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-e3388839c2e33639.gif?imageView2/2/w/1240" alt="final.gif"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[Course overview, learning how to build iOS App.]]>
+    <![CDATA[Project 1 study notes]]>
     
     </summary>
     
-      <category term="Technology" scheme="http://azureyu.com/categories/Technology/"/>
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Qoutes]]></title>
+    <link href="http://azureyu.com/2015/05/18/quotes/"/>
+    <id>http://azureyu.com/2015/05/18/quotes/</id>
+    <published>2015-05-18T11:00:00.000Z</published>
+    <updated>2015-08-27T09:56:31.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="智慧">智慧</h2><hr>
+<p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
+<hr>
+<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
+<hr>
+<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
+<hr>
+<p>把自己的生活当作正文，把书籍当作注解。——爱默生</p>
+<hr>
+<p>为了追求更好，我们毁损了原已够好的。——莎士比亚 </p>
+<hr>
+<p>青青陵上柏，磊磊涧中石。 人生天地间，忽如远行客。——《列子》 </p>
+<hr>
+<p>有时候我们必须放弃一些我们喜欢的东西／你喜欢的，别人也喜欢的东西——《春夏秋冬又一春》 </p>
+<hr>
+<p>人静而后安，安而能后定，定而能后慧，慧而能后悟，悟而能后得。——《大学》 </p>
+<hr>
+<p>当我抱着她的时候，我想的是另一个她。这时我突然在想，那她抱著我的时候，是不是想的是另一个他。—— 朱德庸 </p>
+<hr>
+<p>孩子，我们并不只活在我们所属的时代里，我们身上也扛着历史。不要忘记你在这个房间内看到的每一样东西都曾经是崭新的。 ——乔斯坦·贾德《苏菲的世界》</p>
+<hr>
+<p>在一次长途旅行中，最好是有一位称心的旅伴，其次好是没有旅伴，最坏是有一个不称心的旅伴。</p>
+<hr>
+<p>你不忙，是因为你有足够的时间做你自己想做的事；你忙，是因为你有太多你不得不做的事。</p>
+<hr>
+<p>最深最平和的快乐，就是静观天地与人世，慢慢品味出它的美与和谐。这份快乐，乍一看也许平淡无奇，事实上它深远而悠长，在我，生命的享受就在其中了。——三毛</p>
+<hr>
+<p>我们真正的家不是房子、城市甚至国家，而是我们的身体。只要你还在这世上，它就是你的灵魂和精神唯一一刻都不离的栖息之所。它是这世上你能照料的有形之物中最最重要的。</p>
+<hr>
+<p>敢于提问，敢于质疑，独立思考的批评性思维，也是习惯于灌输＂唯一正确答案＂的教育体系所不鼓励的。思想的开放性和包容性，理性思辨的社会氛围，对创新而言，如空气般不可缺少。——杨澜</p>
+<hr>
+<p>就是这种天马行空的想象，让我们看到了令人时而嘘唏，时而雀跃，时而沉默，时而痛骂的精彩故事。凭什么猫有九命，人却生死一线？人命既是脆弱，那就靠体验多活几回吧。——马伯庸《写作就像跳脱衣舞》</p>
+<hr>
+<p>富勒认为，要改变一个人是很困难的，要改变一个人生存的环境也非常困难。但是，你可以发明出新的工具，并且是非常优秀的工具，久而久之，人们就会开始了解和使用这些工具，而从他们开始使用新工具的那一刻开始，他们的世界观也会由此而改变。——WholeEarthCatalog外傳</p>
+<hr>
+<p>我喜欢成熟而且有趣的人。他们理性，从容，可是永远保留着爆发的能量。他们保持着对世界的好奇心，永远在学习。他们不轻易动摇，但是永远准备着倾听不同的意见，理解不同的人生。他们对自己的选择负责，他们也许抱怨，但是抱怨之后一定有真正的行动。</p>
+<hr>
+<h2 id="诗歌">诗歌</h2><hr>
+<p>你脚踩的地狱只是天堂的倒影，我唇角的故事终将是时间的灰烬 </p>
+<hr>
+<p>情诗情节，也掉落在秋水秋波的秋晕里，一涡半转，跟着秋流去。—徐志摩</p>
+<hr>
+<p>行过许多地方我的桥，看过许多次数的云，喝过许多种类的酒，却只爱过一个正当最好年龄的人。 ——沈从文</p>
+<hr>
+<p>秋天的黄昏使林间落叶有了一种质地沉重的感觉，而隐约的晨霜则使玻璃窗有了新鲜的泪痕。———《逝川 》迟子键</p>
+<hr>
+<p>记得早先少年时/大家诚诚恳恳/说一句 是一句/清早上火车站/长街黑暗无行人/卖豆浆的小店冒着热气 /从前的日色变得慢/车，马，邮件都慢/一生只够爱一个人/从前的锁也好看/钥匙精美有样子/你锁了 人家就懂了——木心《从前慢》</p>
+<hr>
+<p>那时我们还年轻。穿过残垣断壁苍松古柏，我们来到山崖上。沐浴着夕阳，心静如水，我们向云雾飘荡的远方眺望。其实啥也看不到，生活的悲欢离合远在地平线以外，而眺望是一种青春的姿态。 ——北岛《青灯》</p>
+<hr>
+<p>你从远方来，我到远方去，遥远的路程经过这里。天空一无所有，为何给我安慰。——海子</p>
+<hr>
+<p>请原谅我不说一声再会，而在，最深最深的角落里，试着将你藏起，藏到任何人、任何岁月，也无法触及的距离 。—— 席慕蓉《诀别》</p>
+<hr>
+<h2 id="鼓舞">鼓舞</h2><hr>
+<p>One way to develop self-confidence is to do the thing you fear and get a record of successful experience behind you.</p>
+<hr>
+<p>我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。——本杰明 · 巴顿</p>
+<hr>
+<p>人性是充满惰性的，没有到生死关头，是不会使尽全力来付出，但有智慧的人，并不会把自己逼到谷底才努力，而是预见自己不努力的未来，将是沮丧、绝望，被众人唾弃，若等到丧失所有资源才觉悟，那时通常年岁已长，时机也已过了。</p>
+<hr>
+]]></content>
+    <summary type="html">
+    <![CDATA[sort but powerful]]>
+    
+    </summary>
+    
+      <category term="文" scheme="http://azureyu.com/categories/%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[去创造，去体验]]></title>
+    <link href="http://azureyu.com/2014/12/01/2014-12-21-CreateExperience/"/>
+    <id>http://azureyu.com/2014/12/01/2014-12-21-CreateExperience/</id>
+    <published>2014-12-01T05:09:20.000Z</published>
+    <updated>2015-08-27T09:59:14.000Z</updated>
+    <content type="html"><![CDATA[<p>很早很早之前就想到，人生，我的人生就那么几十年，过了就没有了，相比起整个人类之长河，相比起宇宙之浩瀚，相比起无穷之未知，我是何其渺小。而那些在历史长河中所沉淀的不朽，长久的随人类而存的痕迹，是我所想创造的。所以，我曾梦想，自己这一生走完之后，会给这个世界留下些经得起时间检验的不朽的事物，有所创造。</p>
+<p>​对，这是我<strong>最初的想法</strong>。</p>
+<p>后来呢​？我开始发现人类比我所想的还要渺小，而这个世界上也没有什么不朽，所有的这一切一切都终会逝去，没有人知道如何开始一般的没有人知道如何结束。我们在科幻片中想象着无穷无尽的可能，生化危机、星球转移。</p>
+<p>原以为写一本书是很有创造意义的事，后来到了图书馆那一层一层一本一本的书，种类繁多，喜欢的文学也不过是其中的一小类，旧书已经成千上亿，而新书依旧在以极快的速度出版，不断出版，像地球上每天被吹起的尘埃。​我们在表达，于纸于电子。今天的信息量已远远超过人类之前的总和。而这些信息量中所含有的思想却不见得成比例的增长。</p>
+<p><strong>书，于是乎不再是我所之唯求。</strong></p>
+<p> 然后，认为创业很酷，可以有激情的做自己喜欢做的事。最初看新东方的演讲，相信未来，心潮澎湃，心里觉着自己未来一片光明，好好学习，努力拼搏，未来就是我们的。看古典的做生活的高手，年轻时追求自己的梦想，不把目光留给自己的敌人，只留给自己的梦想，自己的目标。这些满满的正能量的视频文字，都让自己感到，未来前途一片光明，这个社会如此美好。现实，却给了你重重一击，失败的人远比成功的人多，而这个世界也不是以热情和意图来判断输赢的，它是以实际成果。 没有名次的战场，反而更容易引起循环无止境的竞争战斗，更好更好再更好。说幸福不在于外而在于内，而偏偏大多数人都生活在外。</p>
+<p>你要考虑以后的工作，你将来做什么？​这些真的含糊不得，未来的工作在你生命中占的比例是远比单纯的学生时代多。自己也是最近才真正的弄明白这一点。如果不是一生致力于学术，那么你很快就会发现，在学校所学的知识，只有极少一部分能直接运用于你的生活，使你生活得更好。你会用微积分算曲边梯形的面积，不代表你去菜市场买菜，知道哪家的便宜又新鲜；你会用化学方程式推出一种物质的合成方法，不代表你知道炒菜什么时候放油最好；你看得懂五言七言，不代表你知道见不同的人，该说哪些不同的话。思想品德书告诉你什么是对，什么是错，就算你看懂也好，没看到也好，不代表你能从心中分辨善恶是非，不代表你在道德两难的时候知道自己该怎么做；历史书上写的历史，不代表你知道了真实，什么是真实？什么是准确？你想过吗？</p>
+<p> <strong>会学习重要，会生活更重要。</strong></p>
+<p>科学之美，在于它有规律，你可以用逻辑感受到它的脉搏​。<br>科学是原本就存在，还是因为人类的发现而存在？发现、创造、使用，我们一代一代的进行下去。人之不同，在于人会思考，思考本身就是值得思考的。语言文字，是符号，符号亦是一种图形，而图形代表一种意象。谁知道究竟为何我们能将自己的思考用语言表达？而文字亦是有不同的。同时代、同文化，改变、发展、完善。</p>
+<p>我开始不再去想追求那大的永恒，太难。我开始想就过好我这一生吧。人生既是短暂，为何不多去体验。因为体验，我可以用仅有的一生活出诸多精彩。三毛说她不愿像姐姐那样循规蹈矩的过一生。她愿有质，活一世像三世。马伯庸说写作，就像造境，说人命既是脆弱，何不靠体验多活几回。王小波说，他活在世上，无非想要明白些道理，遇见些有趣的事。方励说，去做自己喜欢的事。他50多了，说自己这辈子很值，一辈子活出了几辈子。我为什么喜欢文字，因为我喜欢在这笔墨之间，去放开自己，去感受不同的体验。</p>
+<p>  这样一想就有了可行性。我可以去做不同的事情，而不会害怕，因为从未做过而没经验，因为新鲜，所带来的体验也是不同的。我想知道不同阶级不同文化不同背景的 人们，都有着怎样的生活，他们做些什么，他们想些什么，又与我有什么不同，又与我有什么相同​。美食入口，是一种体验，麻辣鲜香，蒸、炒、煮、炸，各有不 同；美景是一种体验，稀薄空旷，繁华茂密。情感是一种体验，快乐、悲伤、忐忑、纠结……</p>
+<p><strong> 用心生活，勇于探索，尽情体验丰富人生。</strong></p>
+<p> 而且，凡此体验，于众人​同，于个人异。于茫茫宇宙，于悠悠时间长河，我是渺小，但我独特。人之有趣，在于独特。形之独特，态之独特，思之独特。完完全全相 同的人生是没有的，而我们也不能将自己活成了别人，完完全全活成了别人的时候，请问这世间又真的有你来过吗？我们彼此的思想有同有异，同时相对一笑，异时 也不必非你对我错，你不必将自己与环境同化。你就是你，是颜色不一样的烟火。哪怕是天空海阔，渺小渺小，依旧记得，请做坚强的泡沫。</p>
+<p>在这一系列的思考后，我写下：</p>
+<p><strong>生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​]]>
+    
+    </summary>
+    
+      <category term="文" scheme="http://azureyu.com/categories/%E6%96%87/"/>
     
   </entry>
   
