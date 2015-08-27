@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-08-27T06:06:33.000Z</updated>
+  <updated>2015-07-30T06:47:45.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -15,24 +15,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://azureyu.com/2015/08/27/hello-world/"/>
-    <id>http://azureyu.com/2015/08/27/hello-world/</id>
-    <published>2015-08-27T06:06:33.000Z</published>
-    <updated>2015-08-27T06:06:33.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <title><![CDATA[Stanford University CS193p Lesson1]]></title>
+    <link href="http://azureyu.com/2015/08/27/-2015-07-13-CS193p_Lesson1_Notes/"/>
+    <id>http://azureyu.com/2015/08/27/-2015-07-13-CS193p_Lesson1_Notes/</id>
+    <published>2015-08-27T06:46:41.000Z</published>
+    <updated>2015-07-30T06:47:45.000Z</updated>
+    <content type="html"><![CDATA[<p>#Lesson1</p>
+<p>##1. Opening<br>Why you are here?<br>Learning how to build cool Apps!<br>That’s a exciting thing, isn’t it ?<br>Real-life Object-Oriented Programming </p>
+<p>If you never heard before, this concept might be strange to you. Don’t worry, just go on. This is a concept to see all the things in this world as an object. And each object have its attributions and behaviors. Attributes mean some variables consisted of datas and behaviors mean the actions/methods to do something.     </p>
+<p>##2. What is IOS?</p>
+<blockquote>
+<p>Fout layers:</p>
+<ol>
+<li><strong>Cocoa Touch</strong>(70%)</li>
+<li>Media</li>
+<li>Core Services</li>
+<li>Core OS</li>
+</ol>
+</blockquote>
+<p>##3. Platform Components</p>
+<blockquote>
+<ol>
+<li>Tool: Xcode Instruments</li>
+<li>Languages: Objective-C、<strong>Swift</strong></li>
+<li>Frameworks: Foundation</li>
+<li>Design Strategy: MVC</li>
+</ol>
+</blockquote>
+<p>Those are new concepts<br>MVC? Later lesson will talk about.</p>
+<p>##4. Let’s build a demo —— <strong>Calculator</strong><br>事件编程 点击触发事件</p>
+<p>StoryBoard 正方形 可视化 拖动控件</p>
+<p>More about Atuo Layout：<br><a href="https://developer.apple.com/library/ios/navigation/" target="_blank" rel="external">Offical Documents</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    <![CDATA[Course overview, learning how to build iOS App.]]>
+    
     </summary>
+    
+      <category term="Technology" scheme="http://azureyu.com/categories/Technology/"/>
     
   </entry>
   
