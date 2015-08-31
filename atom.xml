@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-08-27T14:05:01.000Z</updated>
+  <updated>2015-08-31T04:30:07.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -19,10 +19,10 @@
     <link href="http://azureyu.com/2015/08/27/WhyHexo/"/>
     <id>http://azureyu.com/2015/08/27/WhyHexo/</id>
     <published>2015-08-27T09:06:54.000Z</published>
-    <updated>2015-08-27T14:05:01.000Z</updated>
+    <updated>2015-08-31T04:30:07.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>喜欢Hexo的主题，不少都适合中文</li>
-<li>配件简单，一键发布</li>
+<li>配置简单，一键发布</li>
 </ul>
 <p>就这样，理由很简单。</p>
 <p>当然，要都自己动手，Jekyll还是更好的选择，Hexo进行了不少封装。</p>
@@ -30,7 +30,7 @@
     <summary type="html">
     <![CDATA[<ul>
 <li>喜欢Hexo的主题，不少都适合中文</li>
-<li>配件简单，一键发布</li>
+<li>配置简单，一键发布</li>
 </ul>
 <p>就这样，理由很简单。</p>
 <p>当然，要都自己动手，Jekyll还是更好的选择，Hexo进行了不少封装。</p>
@@ -248,8 +248,8 @@ date: 2014-01-27 21:57:11
     <link href="http://azureyu.com/2015/07/18/PT1/"/>
     <id>http://azureyu.com/2015/07/18/PT1/</id>
     <published>2015-07-18T11:00:00.000Z</published>
-    <updated>2015-08-27T14:33:05.000Z</updated>
-    <content type="html"><![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br><a id="more"></a><br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br>So I choose one of it to become today’s course.<br>First, I see the whole picture of this course and its course plan.<br>Then, I get similar with the Xcode. Learning its main board and keyboard Shortcuts. The <a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Course’s Materials</a> provide a clear picture:</p>
+    <updated>2015-08-31T04:30:43.000Z</updated>
+    <content type="html"><![CDATA[<p>Searching into iTunes Store, I find some wonderful courses about building apps with Swift.<br><a id="more"></a><br>Here is the topic:<br><img src="http://upload-images.jianshu.io/upload_images/48181-28bebe6d862f3b60.png" alt="course.png"><br>So I choose one of it to become today’s course.<br>First, I see the whole picture of this course and its course plan.<br>Then, I get similar with the Xcode. Learning its main board and keyboard Shortcuts. The <a href="http://swifteducation.github.io/teaching_app_development_with_swift/wordcollage.html" target="_blank" rel="external">Course’s Materials</a> provide a clear picture:</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/48181-33bc6ab89f3a257a.png" alt="XcodeShortcuts.png"></p>
 <p>How about others you have learned?<br>When I learn Java, there is no mention of AutoLayout. At first, we learn the java language and then learn its GUI. Using java code to design is much more difficult for the beginners. Actually many of my classmates are use the old way to design the UI. I wonder why not use WindowsBuilder which is a visible tool to design User Interface? On the other hand, when I use MFC to build a manage system, we also use the visible tool. I guess the desktop application and the mobile application is different in this way. How about the web design? It will change its layout and size too. Medium is the label for it.</p>
 <p>Why we use the AutoLayout ?</p>
@@ -337,7 +337,7 @@ date: 2014-01-27 21:57:11
 <h2 id=""><img src="http://upload-images.jianshu.io/upload_images/48181-e3388839c2e33639.gif?imageView2/2/w/1240" alt="final.gif"></h2><p>Hope it help you~!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>When looking iTunes Store, I find some wonderful courses about building apps with Swift.<br>]]>
+    <![CDATA[<p>Searching into iTunes Store, I find some wonderful courses about building apps with Swift.<br>]]>
     
     </summary>
     
