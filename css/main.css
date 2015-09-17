@@ -996,7 +996,7 @@ body {
 .site-description {
   margin-top: 5px;
   font-size: 14px;
-  color: #555;
+  color: #f5f5f5;
 }
 .site-state {
   overflow: hidden;
@@ -1061,7 +1061,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7ff7d;
+  background: #4af74e;
 }
 .sidebar-nav {
   margin: 0;
@@ -1083,11 +1083,11 @@ body {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #1abc9c;
+  border-bottom-color: #1abc9c;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #1abc9c;
 }
 .post-toc {
   overflow: hidden;
@@ -1121,10 +1121,10 @@ body {
   color: #ccc;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #1abc9c;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #1abc9c;
 }
 .post-toc-indicator {
   height: 20px;
@@ -1258,7 +1258,7 @@ body {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #1abc9c;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1862,7 +1862,7 @@ body {
   margin-top: 20px;
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #87daff;
+  background: #1abc9c;
 }
 .page-post-detail .comments {
   overflow: hidden;
@@ -1971,6 +1971,7 @@ ul li {
 .site-meta .site-title {
   font-size: 22px;
   font-weight: bolder;
+  color: #1abc9c;
 }
 @media (max-width: 767px) {
   .site-meta .site-title {
@@ -1995,7 +1996,7 @@ ul li {
   position: relative;
   display: block;
   height: 2px;
-  background: #222;
+  background: #1abc9c;
 }
 @media (max-width: 767px) {
   .logo-line-before i,
