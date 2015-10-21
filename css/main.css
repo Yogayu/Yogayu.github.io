@@ -1061,7 +1061,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c6f1f5;
+  background: #f97eff;
 }
 .sidebar-nav {
   margin: 0;
@@ -2156,7 +2156,7 @@ ul li {
   color: #666;
   background: none;
   border: none;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #ccc;
   transition-property: border;
 }
 .post-more-link a:hover {
