@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-10-20T15:55:02.000Z</updated>
+  <updated>2015-10-24T04:53:49.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -13,6 +13,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[使用CocoaPods]]></title>
+    <link href="http://azureyu.com/2015/10/24/%E4%BD%BF%E7%94%A8CocoaPods/"/>
+    <id>http://azureyu.com/2015/10/24/使用CocoaPods/</id>
+    <published>2015-10-24T04:50:54.000Z</published>
+    <updated>2015-10-24T04:53:49.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。<br> <a id="more"></a></p>
+<blockquote>
+<p>你需要：</p>
+<ul>
+<li>会使用终端，知道基本的命令含义，比如 cd</li>
+<li>了解有的服务器在墙在外，需要更换为国内镜像</li>
+</ul>
+</blockquote>
+<p>CocoaPods官网: <a href="https://cocoapods.org" target="_blank" rel="external">https://cocoapods.org</a></p>
+<h2 id="如何开始？">如何开始？</h2><h3 id="step_1_安装">step 1 安装</h3><p>以下命令有权限问题时，加上sudo，比如：</p>
+<pre><code>sudo gem <span class="keyword">install</span> cocopods
+</code></pre><ul>
+<li><p>如果你在墙外，进入终端：</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+<pre><code>gem sources --remove <span class="string">https:</span><span class="comment">//rubygems.org/</span>
+gem sources -a <span class="string">https:</span><span class="comment">//ruby.taobao.org/</span>
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+<pre><code>pod repo <span class="built_in">remove</span> master
+pod repo <span class="built_in">add</span> master http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/akuandev/Specs.git
+pod repo <span class="keyword">update</span>
+</code></pre></li>
+</ul>
+<h3 id="Step_2_配置">Step 2 配置</h3><ul>
+<li><p>初始化:</p>
+<p>  cd yourProjectFile<br>  pod init</p>
+</li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+<pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
+</code></pre><p>  保存文件。</p>
+</li>
+<li><p>安装：</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile    
+pod install
+</code></pre></li>
+</ul>
+<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yorProjectName.xcworkspace</p>
+<h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
+<pre><code><span class="title">pod</span> search
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。<br>]]>
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[专业学习规划图]]></title>
