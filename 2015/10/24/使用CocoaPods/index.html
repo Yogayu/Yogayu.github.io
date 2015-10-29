@@ -47,7 +47,7 @@
 <meta property="og:url" content="http://azureyu.com/2015/10/24/使用CocoaPods/index.html">
 <meta property="og:site_name" content="Lights of stars">
 <meta property="og:description" content="CocoaPods是什么?  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。">
-<meta property="og:updated_time" content="2015-10-24T04:54:11.000Z">
+<meta property="og:updated_time" content="2015-10-24T06:10:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用CocoaPods">
 <meta name="twitter:description" content="CocoaPods是什么?  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。">
@@ -63,7 +63,7 @@
   <title> 使用CocoaPods | Lights of stars </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans,zh-tw,en,default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en,zh-Hans,zh-tw,default">
 
   <!--[if lte IE 8]>
   <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
@@ -121,7 +121,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             <i class="menu-item-icon icon-next-home"></i> <br />
-            首页
+            Home
           </a>
         </li>
       
@@ -129,7 +129,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             <i class="menu-item-icon icon-next-archives"></i> <br />
-            归档
+            Archives
           </a>
         </li>
       
@@ -137,7 +137,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories" rel="section">
             <i class="menu-item-icon icon-next-categories"></i> <br />
-            分类
+            Categories
           </a>
         </li>
       
@@ -145,7 +145,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             <i class="menu-item-icon icon-next-about"></i> <br />
-            关于
+            About
           </a>
         </li>
       
@@ -211,7 +211,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          发表于
+          Posted on
           <time itemprop="dateCreated" datetime="2015-10-24T12:50:54+08:00" content="2015-10-24">
             2015-10-24
           </time>
@@ -219,7 +219,7 @@
 
         
           <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+            &nbsp; | &nbsp; In
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
                 <a href="/categories/理/" itemprop="url" rel="index">
@@ -285,8 +285,9 @@ pod repo <span class="keyword">update</span>
 </ul>
 <h3 id="Step_2_配置">Step 2 配置</h3><ul>
 <li><p>初始化:</p>
-<p>  cd yourProjectFile<br>  pod init</p>
-</li>
+<pre><code><span class="built_in">cd</span> yourProjectFile
+pod init
+</code></pre></li>
 <li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
 <pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
 </code></pre><p>  保存文件。</p>
@@ -296,7 +297,7 @@ pod repo <span class="keyword">update</span>
 pod install
 </code></pre></li>
 </ul>
-<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yorProjectName.xcworkspace</p>
+<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yourProjectName.xcworkspace</p>
 <h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
 <pre><code><span class="title">pod</span> search
 </code></pre></span>
@@ -369,10 +370,10 @@ pod install
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
+            Table Of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
+            Overview
           </li>
         </ul>
       
@@ -386,22 +387,22 @@ pod install
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">9</span>
-              <span class="site-state-item-name">日志</span>
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
               <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">分类</span>
+              <span class="site-state-item-name">categories</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             
               <span class="site-state-item-count">3</span>
-              <span class="site-state-item-name">标签</span>
+              <span class="site-state-item-name">tags</span>
               
           </div>
 
@@ -481,11 +482,11 @@ pod install
 
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
-  主题 -
+  Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Mist
   </a>
