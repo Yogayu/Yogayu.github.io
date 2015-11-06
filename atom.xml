@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-11-05T14:51:59.000Z</updated>
+  <updated>2015-10-29T05:14:20.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -13,27 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[How To Make Hard Choice (TED Talk)]]></title>
-    <link href="http://azureyu.com/2015/11/05/HowToMakeHardChoice/"/>
-    <id>http://azureyu.com/2015/11/05/HowToMakeHardChoice/</id>
-    <published>2015-11-05T14:08:54.000Z</published>
-    <updated>2015-11-05T14:51:59.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Ruth_Chang:_How_to_make_hard_choices">Ruth Chang: How to make hard choices</h1><p>Wonderful TED talk!<br>When you meet hard choice, regard it as the opportunity to know what who you are.<br><a id="more"></a></p>
-<h2 id="English:">English:</h2><iframe src="https://embed-ssl.ted.com/talks/lang/en/ruth_chang_how_to_make_hard_choices.html" width="640" height="360" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
-
-<h2 id="Simple-Chinese:">Simple-Chinese:</h2><iframe src="https://embed-ssl.ted.com/talks/lang/zh-cn/ruth_chang_how_to_make_hard_choices.html" width="640" height="360" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="Ruth_Chang:_How_to_make_hard_choices">Ruth Chang: How to make hard choices</h1><p>Wonderful TED talk!<br>When you meet hard choice, regard it as the opportunity to know what who you are.<br>]]>
-    
-    </summary>
-    
-      <category term="ted" scheme="http://azureyu.com/tags/ted/"/>
-    
-      <category term="idea" scheme="http://azureyu.com/categories/idea/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[使用CocoaPods]]></title>
