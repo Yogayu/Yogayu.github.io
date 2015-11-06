@@ -162,26 +162,36 @@
   
     <div class="site-search">
       
-  <form class="site-search-form" >
-  <input type="text" id="ts-search-input" class="menu-search-input">
-</form>
-<script>
-  var option = {
-    engineKey: '7b5522cddf86419ba968'
-  };
-  (function(w,d,t,u,n,s,e){
-    s = d.createElement(t);
-    s.src = u;
-    s.async = 1;
-    w[n] = function(r){
-      w[n].opts = r;
-    };
-    e = d.getElementsByTagName(t)[0];
-    e.parentNode.insertBefore(s, e);
-  })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-  _ts(option);
-</script>
+  
+  <form class="site-search-form">
+    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  </form>
 
+<!--script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', '7b5522cddf86419ba968','2.0.0');
+</script-->
+
+<!--script>
+var option = {
+  engineKey: '7b5522cddf86419ba968'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script-->
 
 
     </div>
@@ -239,6 +249,13 @@
         
 
         
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/08/27/WhyHexo/#comments" itemprop="discussionUrl">
+              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/08/27/WhyHexo/" itemprop="commentsCount"></span>
+            </a>
+          </span>
           
         
       </div>
@@ -304,6 +321,10 @@
         
           <div class="comments" id="comments">
             
+              <div id="disqus_thread">
+                <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              </div>
+            
           </div>
         
       </div>
@@ -341,21 +362,21 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">10</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">categories</span>
               
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">tags</span>
               </a>
           </div>
@@ -461,6 +482,27 @@
     
     
 
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yogayu';
+      var disqus_identifier = '2015/08/27/WhyHexo/';
+      var disqus_title = '为什么选择Hexo';
+      var disqus_url = 'http://azureyu.com/2015/08/27/WhyHexo/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
   
 
 
