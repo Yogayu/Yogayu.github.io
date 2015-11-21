@@ -442,6 +442,9 @@ td {
     margin: 0 -13%;
   }
 }
+.center-image {
+  margin: auto;
+}
 .blockquote-center,
 .page-home .post-type-quote blockquote,
 .page-post-detail .post-type-quote blockquote {
@@ -1058,7 +1061,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b67ed0;
+  background: #a7bdff;
 }
 .sidebar-nav {
   margin: 0;
