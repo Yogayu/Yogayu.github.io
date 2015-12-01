@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-11-21T06:25:12.000Z</updated>
+  <updated>2015-12-01T06:12:59.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -13,6 +13,87 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[十一月记]]></title>
+    <link href="http://azureyu.com/2015/11/29/%E8%A8%80-%E5%8D%81%E4%B8%80%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/11/29/言-十一月记/</id>
+    <published>2015-11-29T05:09:20.000Z</published>
+    <updated>2015-12-01T06:12:59.000Z</updated>
+    <content type="html"><![CDATA[<p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。<a id="more"></a>回来之后，在网上买了不少东西。</p>
+<h2 id="学校课程">学校课程</h2><p> 前半期结课，开始<code>复习</code>，每天复习一点。</p>
+<ul>
+<li>密码学</li>
+<li>需求分析</li>
+<li>操作系统</li>
+<li>面向对象与UML</li>
+</ul>
+<p>后半期课程开始，无数实验涌来。</p>
+<ul>
+<li>嵌入式</li>
+<li>大型机</li>
+<li>DirectX</li>
+</ul>
+<h2 id="Tech">Tech</h2><h3 id="iOS">iOS</h3><ul>
+<li>完成SRTP项目APP基本框架，就差3D图像。</li>
+<li>节拍器又完善了些，解决了NSTimer问题，换成了递归。修改了UI，适配了不同屏幕。</li>
+<li>参加黑客马拉松，学习了调用API，发送网络请求，还要进一步学习图像处理。 </li>
+</ul>
+<h3 id="Web">Web</h3><p>没有进展😓</p>
+<h2 id="Book&amp;Vedio">Book&amp;Vedio</h2><h3 id="读完的书：">读完的书：</h3><ul>
+<li>The google resume 详细介绍工作准备</li>
+<li>What I wish I knew When I was 20 自我了解</li>
+</ul>
+<h3 id="在读的书：">在读的书：</h3><ul>
+<li>红楼梦</li>
+<li>演讲的艺术</li>
+<li>约翰克里斯朵夫(第五部)</li>
+<li>How to speak, how to listen</li>
+</ul>
+<h3 id="重温的书:">重温的书:</h3><ul>
+<li>朱光潜的三本书</li>
+<li>教育的目的</li>
+<li>How to study</li>
+<li>How to read a book</li>
+</ul>
+<h3 id="TED:">TED:</h3><ul>
+<li>How to make hard choice</li>
+<li>Do we need university?</li>
+<li>What do you want to be when you grow up?</li>
+</ul>
+<h3 id="公开课">公开课</h3><ul>
+<li>哈佛幸福课（6集） 无字幕练听力，记笔记，制定计划实践</li>
+</ul>
+<h3 id="电影、电视剧">电影、电视剧</h3><ul>
+<li>绝望主妇第四季</li>
+</ul>
+<h2 id="吉他">吉他</h2><ul>
+<li>复习之前所有曲目</li>
+<li>学会<code>那些花儿</code>啦~</li>
+</ul>
+<h2 id="写作">写作</h2><p>极少 T。T</p>
+<h2 id="英语">英语</h2><p>这两天散步时在练习口语，路漫漫啊。</p>
+<h2 id="绘画，设计">绘画，设计</h2><ul>
+<li>没动笔画</li>
+<li>仔细看了Motion Design Section1~Section2</li>
+<li>Picture This，第一个原则总结</li>
+</ul>
+<h2 id="健康">健康</h2><ul>
+<li>健美基本学会啦，每隔一天都在练习</li>
+<li>跑步，最后一周开始，每周跑三次</li>
+<li>偶尔散步</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[开学计划]]></title>
@@ -27,6 +108,517 @@
     </summary>
     
       <category term="plan" scheme="http://azureyu.com/tags/plan/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[iOS Timeline 2]]></title>
+    <link href="http://azureyu.com/2015/11/20/iOS-Timeline-2/"/>
+    <id>http://azureyu.com/2015/11/20/iOS-Timeline-2/</id>
+    <published>2015-11-20T09:06:54.000Z</published>
+    <updated>2015-11-29T15:23:03.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
+<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
+<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br><a id="more"></a></p>
+<h2 id="11-06_1h">11-06 1h</h2><p>iOS-Design_with_animation</p>
+<h2 id="11-07">11-07</h2><p>完成节拍器，节拍流畅重复！！<br>思路：把主界面传来的参数传给speaker全局，再写播放函数，使用递归的方式进行调用，多加一个isFirst与power一起进行判断。</p>
+<h2 id="11-08">11-08</h2><p>完成虚拟家具，手势顺滑操作，合成图像，隐藏状态栏。</p>
+<ul>
+<li>手势：TouchView</li>
+<li>合成图像：思路，将两个UIImageView加在UICombineVIew上，然后将CombineView转化为image，再传给预览。</li>
+</ul>
+<pre><code>extension <span class="built_in">UIView</span> {
+
+func toImage() -&gt; <span class="built_in">UIImage</span> {
+    let imageSize = <span class="keyword">self</span><span class="variable">.frame</span><span class="variable">.size</span>
+    <span class="built_in">UIGraphicsBeginImageContextWithOptions</span>(imageSize, <span class="literal">false</span>, <span class="built_in">UIScreen</span><span class="variable">.mainScreen</span>()<span class="variable">.scale</span>)
+    <span class="built_in">UIGraphicsBeginImageContext</span>(imageSize);
+    <span class="keyword">self</span><span class="variable">.layer</span><span class="variable">.renderInContext</span>(<span class="built_in">UIGraphicsGetCurrentContext</span>()!)
+    let image = <span class="built_in">UIGraphicsGetImageFromCurrentImageContext</span>()
+    <span class="built_in">UIGraphicsEndImageContext</span>()
+    <span class="keyword">return</span> image
+     }
+}
+</code></pre><ul>
+<li><p>status bar<br>info中添加View controller-based status bar appearance，改为YES。再在viewController调用：</p>
+<pre><code><span class="keyword">override</span> <span class="func"><span class="keyword">func</span> <span class="title">prefersStatusBarHidden</span><span class="params">()</span></span> -&gt; <span class="type">Bool</span> {
+<span class="keyword">return</span> <span class="literal">true</span>
+}
+</code></pre></li>
+</ul>
+<p><a href="http://www.bubuko.com/infodetail-1136596.html" target="_blank" rel="external">适配iOS9</a><br><a href="http://blog.csdn.net/majiakun1/article/details/49072761" target="_blank" rel="external">全2</a></p>
+<h2 id="11-17">11-17</h2><p>都没有意识到停滞了那么久。出去玩了几天。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
+<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
+<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>]]>
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[IBM大型机2015个人赛]]></title>
+    <link href="http://azureyu.com/2015/11/15/IBM%E5%A4%A7%E5%9E%8B%E4%B8%BB%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8_2015%E5%85%A8%E5%9B%BD%E6%A0%A1%E5%9B%AD%E5%A4%A7%E8%B5%9B%E4%B8%AA%E4%BA%BA%E8%B5%9B/"/>
+    <id>http://azureyu.com/2015/11/15/IBM大型主机技术应用_2015全国校园大赛个人赛/</id>
+    <published>2015-11-15T15:09:20.000Z</published>
+    <updated>2015-12-01T05:01:44.000Z</updated>
+    <content type="html"><![CDATA[<p>读者对象：我自己</p>
+<ol>
+<li><p>先过脑子，再过机子<br>用小黑箱调试，没有办法设置断点，没有提示错误，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+</li>
+<li><p>常犯低级错误<br> 逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
+<a id="more"></a>
+<h2 id="IBM个人赛Part1、Part2小结">IBM个人赛Part1、Part2小结</h2></li>
+</ol>
+<p>企业级别应用</p>
+<ol>
+<li><p>zOS</p>
+<ul>
+<li>连接port</li>
+<li>登录logon</li>
+<li>登出logoff</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>linux 基本命令 修改权限<ul>
+<li>man，ls，cat打印到屏幕，less显示内容（大文件），mkdir，cd，cp，echo，chmod（修改权限 r,w,x ），which comandLine</li>
+<li>绝对地址与相对地址 ‘/z/bin’,’./(inside)’,’../(parent)’</li>
+</ul>
+</li>
+<li>主界面 ISPF<ul>
+<li>数据管理 命令=3.4</li>
+<li>数据类型 sequential data set,  file ;partitioned data set.  a folder or a directory, members : files.</li>
+<li>添加数据 =2 PDSNAME(Membername)</li>
+<li>文本编辑 i d r</li>
+<li>=6 Command Shell 执行命令 EXEC ‘ZOS.PUBLIC.REXX(COUNT)’ ‘your_name’</li>
+</ul>
+</li>
+<li>编码，ASCII，EBCDIC<ul>
+<li>hex on/off , hx</li>
+</ul>
+</li>
+<li>JCL 运行某程序<ul>
+<li>提交：tso submit jcl(sortjcl)</li>
+<li>查看状态：sub; =sd ; st</li>
+</ul>
+</li>
+<li>JSON,COBOL 面向企业</li>
+<li>z/OS unix：<ul>
+<li>进入：tso omvs</li>
+<li>拷贝文件：cp cp unameinfo “//‘CN00474.P2.OUTPUT(\$010)’”</li>
+</ul>
+</li>
+<li>Transaction Processing Facility (TPF) 文件<ul>
+<li>JSON</li>
+<li>MongoDB<ul>
+<li>db.getCollection(’PNR’).find({PnrByNumber: {number: 88440}})<br>db.getCollection(‘PNR’).find({PnrByName: {name: “JRTyler”}})<br>72 Quincy, Evanston, Illinois</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>blue mix 构建云应用</p>
+</li>
+<li><p>运行不同语言的程序，编译，连接，运行</p>
+<ul>
+<li>Source(POKER)-run by-&gt; JCL(POKERCMP)-output-&gt; LOAD(POKER)－run by－&gt;jcl(POKRUN16)-&gt;output result.</li>
+<li>tso submit jcl(POKERCMP)</li>
+<li>tso submit jcl(POKRUN16)</li>
+</ul>
+</li>
+<li><p>修改程序</p>
+<ul>
+<li>小步加进式的调试</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>读者对象：我自己</p>
+<ol>
+<li><p>先过脑子，再过机子<br>用小黑箱调试，没有办法设置断点，没有提示错误，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+</li>
+<li><p>常犯低级错误<br> 逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>]]>
+    
+    </summary>
+    
+      <category term="IBM" scheme="http://azureyu.com/tags/IBM/"/>
+    
+      <category term="理​" scheme="http://azureyu.com/categories/%E7%90%86%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[iOS TimeLine]]></title>
+    <link href="http://azureyu.com/2015/11/01/iOS-Timeline/"/>
+    <id>http://azureyu.com/2015/11/01/iOS-Timeline/</id>
+    <published>2015-11-01T09:06:54.000Z</published>
+    <updated>2015-12-01T05:27:34.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+<ol>
+<li>Prototypeing increase commuction.</li>
+<li>Using <a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a> </li>
+<li>Set the view background and set the LogIn dialog’s class to the spring class, then in the Inspetor we can use the animation.</li>
+</ol>
+<p>使用Spring开启动画之旅。原型示例，无需编码即可使用动画。<br>下载Spring，添加到工程中，选择组件，设置为Spring Class，定义动画。</p>
+<h2 id="09-07_Autolayout_2h">09-07 Autolayout 2h</h2><p>之前使用AutoLayout的问题，是因为没有限制元素的大小，只给出了元素的位置。<br>Mengto 的教材要点清晰，步骤解释详细。<br>事件编程，比喻: HTML-&gt;View，JS-&gt;ViewController，但是这里是一对一</p>
+<ol>
+<li>一般命名规则：<strong>function+type+action</strong></li>
+<li>Prototyping Animations With Swift</li>
+</ol>
+<p>添加动画：</p>
+<pre><code>dialogView.animation = <span class="string">"shake"</span>
+dialogView.animate<span class="params">()</span>
+
+ <span class="comment">// Optionals</span>
+
+var answer: String<span class="built_in">!</span>
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer
+
+<span class="keyword">if</span> <span class="built_in">let</span> sureAnswer = answer {
+    UILabel<span class="params">()</span>.<span class="built_in">text</span> = sureAnswer
+}
+
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer ?? <span class="string">""</span>
+</code></pre><h2 id="09-08_Building_the_UI">09-08 Building the UI</h2><ol>
+<li><p>颜色选择插件<a href="http://wafflesoftware.net/hexpicker/" target="_blank" rel="external">1</a>，<a href="https://bjango.com/mac/skalacolor/" target="_blank" rel="external">2</a></p>
+</li>
+<li><p>clip subview属性，表示对于控件，之外部分不会显示。有些像蒙版。</p>
+</li>
+<li><p>目标：将原型转化为真的组件。添加组件、进行布局、设置动画等。<br>view-&gt;viewcontroller class</p>
+</li>
+<li><p>大体过程：添加view，设置背景色或图片；添加button，设置button的图标或颜色，字体大小；添加各组件动态效果，设置为可设计的class，再更改属性。最后布局。添加限制：位置限制，大小限制。</p>
+<blockquote>
+<p>这是个体力活，有没有更好的布局方式?</p>
+</blockquote>
+</li>
+<li><p>问题: 转场动画总是不对，虚化也没用正常的实现！到底是哪里的问题！明明按照教程做的啊。</p>
+<p> 解决：结果还是因为自己和教程不一样，没有去掉view的颜色 -。-</p>
+</li>
+<li><p>两个class之间沟通，需要用到delegate。</p>
+<a id="more"></a>
+</li>
+</ol>
+<h2 id="09-09_TableView,_Segue_2-5h">09-09 TableView, Segue 2.5h</h2><p>添加tableview，添加nav，设置颜色，添加bar-item，设置segue，直接从controller那里拖去，设置segue的indentifier，这样可以通过编码进行调用、控制。<br><strong>别忘记加entry point</strong>。</p>
+<p>设置segue的显示方式</p>
+<ol>
+<li>添加tableviewcontroller，设置class，添加action，转向页面（performSegueWithIdentifier）。</li>
+<li>设置Cell，indentifier，Row height: custom。添加UIimageview，设置大小和位置。同理添加Lable等。去掉constrain to margin。添加其余组件。看来要提前设计好大小啊。</li>
+<li>将之前三个页面的unwind去掉，然后设置class，在代码中添加action。手动时，调用，self.dismissViewControllerAnimated 进行返回。也可以设置返回时的动画。</li>
+<li><p>问题，cell的高度没有改变。<br>解决办法：</p>
+<ol>
+<li>看官方文档<a href="https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UITableView_Class/index.html#//apple_ref/doc/uid/TP40006943" target="_blank" rel="external">UITableView Class Referance</a></li>
+<li><p>设置cell中row height高度为100，在viewdidload中添加代码:</p>
+<pre><code>tableView<span class="class">.estimatedRowHeight</span> = <span class="number">100</span>
+tableView<span class="class">.rowHeight</span> = UITableViewAutomaticDimension
+</code></pre></li>
+</ol>
+</li>
+</ol>
+<p>两个半小时有没有了 -。-</p>
+<h2 id="09-10_TableCell_1-5h">09-10 TableCell 1.5h</h2><ol>
+<li>添加cell的class，添加IBAction等，添加动画效果，在tableviewcontroller中添加数据，关联view。</li>
+<li>修改bar state(状态栏)</li>
+</ol>
+<p>一个半小时又木有了-。-</p>
+<h2 id="09-11_Creating_a_delegate">09-11 Creating a delegate</h2><p>delegate：在两个类之间进行通信。接口interface</p>
+<blockquote>
+<p>We need a Delegate for two Classes to communicate with each other.</p>
+</blockquote>
+<ol>
+<li>creat a protcol</li>
+<li>delare delgate</li>
+<li><p>add and impl… function </p>
+</li>
+<li><p>问题:</p>
+<ol>
+<li>cell.delegate = self </li>
+<li>sender是什么</li>
+</ol>
+</li>
+<li><p>高度解决办法，在storycell设置100，custom。在viewdidload中加入代码。<br> tableView.estimatedRowHeight = 100<br>  tableView.rowHeight = UITableViewAutomaticDimension</p>
+</li>
+</ol>
+<h2 id="09-11~09-12_Applying_Static_Data_from_API">09-11~09-12 Applying Static Data from API</h2><ol>
+<li>新建文件data存储数据，类型为字典</li>
+<li>JSON数据，转化之后写入Data中</li>
+<li>进行赋值，因为比较多，所以单独写为一个函数</li>
+</ol>
+<p>设计，原型，设计转为实物，转场，数据</p>
+<h2 id="09-13_Opening_Links_2h">09-13 Opening Links 2h</h2><ol>
+<li>昨天高度不对的问题，是因为没有设置好约束，<strong>想要实现自动行高，在顶和低都要有元素的约束</strong>。</li>
+<li>在learn iOS中open link，写一个函数，传入url: String 再在safari中打开，UIApplication.share…等</li>
+<li>同理，在点击tablecell时，通过segue把url传到webController那去。需要传入数据，获取indexPath.row，接受数据，url。同样转换之后打开。不过这次是通过，加入web的delegate，loadrequest。设置进度条，只给出了代码实现方式，没有给出解释。</li>
+<li>一些细节，转场，statusbar的设置。</li>
+</ol>
+<p>今天没有什么问题。</p>
+<h2 id="09-14_Login_keyboard_1h">09-14 Login keyboard 1h</h2><p>设置keyboard在输入时，自动向上跳一定距离。添加库TPKeboardAvoiding，添加scoller view，把要输入的部分都加入其中，设置类为TPK…S…。<br>设置动画，添加delgate，设置图片和动画。<br>没什么问题。</p>
+<h2 id="09-15_Data">09-15 Data</h2><p>终于涉及到专业知识了…<br>感觉这应用核心部分不多，但包装很好。</p>
+<ul>
+<li>CocoaPods，是什么？如何使用？</li>
+<li>Alamofire是什么？怎么用？</li>
+<li>API是什么？怎么用？</li>
+<li>这些技术的核心思想是什么？由什么而来？</li>
+</ul>
+<p>感觉应用层就是变化多端，没有低层来得那么实在。一个要创意（难捉摸）些，一个要…恩…聪明(枯燥)。</p>
+<p>这一节的知识，讲得太过笼统。没有解释。估计作者自己也不太能解释。是一门适合程序员入门设计的书，可真不像是一门设计人员入门编程的书。</p>
+<h2 id="9-16_Alamofire">9-16 Alamofire</h2><ol>
+<li>添加Alamofire的库，文档</li>
+<li>添加数据类型</li>
+<li>进行API的调用，将内容改为动态数据<ul>
+<li>Table…定义存储stories为JSON类型，添加载入数据方法 </li>
+<li>页面加载，获取data，下拉刷新，获取data</li>
+<li>cell放回内容时，将每个cell赋值</li>
+</ul>
+</li>
+<li>处理之前的数据类型</li>
+<li>添加下拉刷新</li>
+<li>添加页面刷新</li>
+</ol>
+<p>这下要自己折腾学新东西了。<br>这里使用的数据结构式JSON，采用的网络协议是Alamofire。</p>
+<h2 id="09-17_API">09-17 API</h2><ol>
+<li>API是什么？怎么用？<br>API: Application Programming Interface 应用程序接口</li>
+<li><p>什么是 JSON ？</p>
+<blockquote>
+<ul>
+<li>JSON 指的是 JavaScript 对象表示法（JavaScript Object Notation）<ul>
+<li>JSON 是轻量级的文本数据交换格式</li>
+<li>JSON 独立于语言 *</li>
+<li>JSON 具有自我描述性，更易理解</li>
+<li>JSON 使用 JavaScript 语法来描述数据对象，但是 JSON 仍然独立于语言和平台。JSON 解析器和 JSON 库支持许多不同的编程语言。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>JSON 语法规则</p>
+<blockquote>
+<p>JSON 语法是 JavaScript 对象表示法语法的子集。</p>
+<ul>
+<li>数据在名称/值对中</li>
+<li>数据由逗号分隔</li>
+<li>花括号保存对象</li>
+<li>方括号保存数组</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h1 id="探索阶段">探索阶段</h1><h2 id="09-20_复习">09-20 复习</h2><p>类型转换键盘dismiss firstRespond…</p>
+<ol>
+<li>点击go进行登录?如何获取键盘事件响应？添加UITextField的delegate，实现方法textFieldShouldReturn就可以了。</li>
+<li>各种UI的使用方法。</li>
+<li>两个alert，如何只响应其中一个的事件?</li>
+<li>如何获取另一个函数中的值？难道不是直接调用函数？</li>
+</ol>
+<p><strong>慢慢来。</strong></p>
+<h2 id="09-21看开发者博客">09-21看开发者博客</h2><p>想自己设计个记录的app，设计UI。<br>感觉最近很停滞，没什么进展。<br>学以致用,自己动手才发现其实不简单。</p>
+<h2 id="09-22_学开发究竟是在什么呢？">09-22 学开发究竟是在什么呢？</h2><p>How to do something?<br>用技术去实现功能。<br>如何使用别人造好的轮子呢？<br>明确一些设计的概念，比如协议、target之类的。<br>框架，就是给你材料，你去使用，去构建出自己的应用程序。<br>iOS 的API 分为四层。<br>UIKit，如何理解？类继承，家族。举例子，几何类。<br>需要用到数据的控件，实现delegate和dataSource。<br>表视图设计模式：分页，下拉刷新。<br>导航：平铺、标签、树形？</p>
+<blockquote>
+<p>默认情况下,模态视图是从屏幕下方滑出来的。当完成的时候需要关闭这个模态视图,如果不关闭,就不能 做别的事情,这就是“模态”的含义,它具有必须响应处理的意思。</p>
+</blockquote>
+<p>视图之间传输数据？委托？广播？MVC？</p>
+<h1 id="Project-based_study">Project-based study</h1><h2 id="09-23_UnitConverter">09-23 UnitConverter</h2><p>温度转化，学习MVC模式。</p>
+<h2 id="09-24_UnitConverter">09-24 UnitConverter</h2><p>完成了温度转化APP，对MVC的M有了更深的理解。</p>
+<h2 id="09-25_EasyBrowser">09-25 EasyBrowser</h2><h3 id="Web:">Web:</h3><pre><code><span class="keyword">if</span> <span class="built_in">let</span> url = NSURL<span class="params">(string: textField1.text)</span>{
+    webView1.loadRequest<span class="params">(NSURLRequest<span class="params">(URL:url)</span>)</span>
+}
+</code></pre><ol>
+<li>UIApplication.sharedApplication().openURL(NSURL(string: textField1.text)!)</li>
+<li>webView1.loadRequest(NSURLRequest(URL:NSURL(string: textField1.text)!))</li>
+</ol>
+<h3 id="UIApplication">UIApplication</h3><p>通过UIApplication调用iOS其他应用功能</p>
+<h3 id="Optional_Binding:">Optional Binding:</h3><blockquote>
+<p>You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. </p>
+</blockquote>
+<pre><code><span class="keyword">if</span> <span class="keyword">let</span> constantName = someOptional {
+    statements
+}
+</code></pre><p>看不同人写的代码，才知道什么是写得好的代码。<br>。<br>明确知道它有值的可选型，称为implicitly unwrapped optionals，绝对可拆可选型，在之后加上!，方便之后使用(因为可以不再进行是否有值的判断)。</p>
+<pre><code><span class="keyword">let</span> possibleString: <span class="built_in">String</span>? = <span class="string">"An optional string."</span>
+<span class="keyword">let</span> forcedString: <span class="built_in">String</span> = possibleString! <span class="comment">// requires an exclamation mark</span>
+
+<span class="keyword">let</span> assumedString: <span class="built_in">String</span>! = <span class="string">"An implicitly unwrapped optional string."</span>
+<span class="keyword">let</span> implicitString: <span class="built_in">String</span> = assumedString <span class="comment">// no need for an exclamation mark</span>
+</code></pre><p>不太理解为什么要这样做，直接定义为对应的类型不就好了吗？</p>
+<h2 id="09-26_Found">09-26 Found</h2><ol>
+<li><p>调用系统地图App</p>
+<p> NSURL(string: “<a href="http://maps.apple.com/?q=Yosemite" target="_blank" rel="external">http://maps.apple.com/?q=Yosemite</a>“)<br> q代表query，<a href="https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html#//apple_ref/doc/uid/TP40007899-CH5-SW1" target="_blank" rel="external">详细用法</a></p>
+</li>
+<li><p>在App中<a href="https://developer.apple.com/maps/" target="_blank" rel="external">使用Map</a></p>
+</li>
+<li><a href="https://developer.apple.com/library/ios/documentation/MapKit/Reference/MKMapView_Class/index.html#//apple_ref/occ/instp/MKMapView/delegate" target="_blank" rel="external">MapView使用</a></li>
+<li><p>添加方法：</p>
+<blockquote>
+<p>You can add a map view to your app programmatically or using Interface Builder:</p>
+<ol>
+<li>To add a map using Interface Builder, drag a Map view object to the appropriate view or window.</li>
+<li>To add a map programmatically, create an instance of the MKMapView class, initialize it using the initWithFrame: method, and then add it as a subview to your window or view hierarchy.</li>
+</ol>
+</blockquote>
+</li>
+<li><p>在地图上显示用户位置，使用用户位置之前，必须要取得用户授权。coreLocation。<br> 属性可以通过IB配置，或者代码配置。</p>
+<blockquote>
+<p>Improve the codebase by incorporating a CLLocationManagerDelegate, and use appropriate delegate methods to control the app behavior to squelch the console warning.</p>
+</blockquote>
+<ol>
+<li>问题，delegate用哪一个函数，怎么改？</li>
+</ol>
+</li>
+</ol>
+<h2 id="09-27_中秋，_生日聚会">09-27 中秋， 生日聚会</h2><h2 id="09-28_Found_MKMapViewDelegate">09-28 Found MKMapViewDelegate</h2><ol>
+<li>打开之后，显示到到用户位置，调用对应API。</li>
+<li><p>如何改变Zoom level? 使用mapview delegate viewcontroller，viewcontroller添加protocal MKMapViewDelegate，实现 didUpdateUserLocation方法，在其中setRegion。</p>
+<blockquote>
+<p>PS: 好棒的PPT</p>
+</blockquote>
+</li>
+<li><p>What is delegate? </p>
+<blockquote>
+<p>Delegating to other objects to handle specific behaveor.</p>
+</blockquote>
+<p> Think about the really world delegate. Then, move to the delegate pattern. use the protocal to imply some functions.</p>
+</li>
+<li>Why we use delegate?</li>
+<li>What is protocal? <blockquote>
+<p>Interfaces that define expected behavior.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="09-29_MKAnnotation">09-29 MKAnnotation</h2><ol>
+<li>如何在地图上进行标注?<br> 查看API，MKAnnotation，提供接口，进行实现。<br> 熟悉之后速度就快了。查看官方API。</li>
+<li>如何移动pin呢？</li>
+<li><p>添加之后的问题:</p>
+<p> 2015-09-29 18:19:48.308 Found[1622:431363]<br> More than 127 names on road (320ÂõΩÈÅì).<br> Data is probably bad. Please open a radar</p>
+</li>
+</ol>
+<h1 id="节拍器APP">节拍器APP</h1><h2 id="10-08">10-08</h2><p>完成节拍器的设计和切图，制作出了基本原型。</p>
+<h2 id="10~20">10~20</h2><p>之前完成了编码，但是存在界面卡顿问题，使得用户体验不流畅。<br>所以开始学习Core Graphic直接在系统中进行绘图，那么久不会存在这样的问题。</p>
+<ol>
+<li>Core Graphic<ul>
+<li>Line </li>
+<li>Arc</li>
+</ul>
+</li>
+</ol>
+<h2 id="10-21">10-21</h2><p>学了教程2的一半，就开始直接用了。修改metre和pushBtn，不再是图片显示，改为用 Core Graphic直接画。<br>还是觉得个人开发进度好慢，而且很多地方不懂啊。</p>
+<h2 id="10-29">10-29</h2><p>十月份匆匆忙忙的就过去了，这个月有些停滞。为什么呢？视乎方向不太明确。还是自己太心急，就开始做自己的APP了？一边学新知识，一边实践把。<br>决定开始刷<a href="http://www.raywenderlich.com/category/ios" target="_blank" rel="external">Raywenderlish</a>的教程。</p>
+<h2 id="10-30">10-30</h2><p>CGD</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+<ol>
+<li>Prototypeing increase commuction.</li>
+<li>Using <a href="https://github.com/MengTo/Spring">Spring</a> </li>
+<li>Set the view background and set the LogIn dialog’s class to the spring class, then in the Inspetor we can use the animation.</li>
+</ol>
+<p>使用Spring开启动画之旅。原型示例，无需编码即可使用动画。<br>下载Spring，添加到工程中，选择组件，设置为Spring Class，定义动画。</p>
+<h2 id="09-07_Autolayout_2h">09-07 Autolayout 2h</h2><p>之前使用AutoLayout的问题，是因为没有限制元素的大小，只给出了元素的位置。<br>Mengto 的教材要点清晰，步骤解释详细。<br>事件编程，比喻: HTML-&gt;View，JS-&gt;ViewController，但是这里是一对一</p>
+<ol>
+<li>一般命名规则：<strong>function+type+action</strong></li>
+<li>Prototyping Animations With Swift</li>
+</ol>
+<p>添加动画：</p>
+<pre><code>dialogView.animation = <span class="string">"shake"</span>
+dialogView.animate<span class="params">()</span>
+
+ <span class="comment">// Optionals</span>
+
+var answer: String<span class="built_in">!</span>
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer
+
+<span class="keyword">if</span> <span class="built_in">let</span> sureAnswer = answer {
+    UILabel<span class="params">()</span>.<span class="built_in">text</span> = sureAnswer
+}
+
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer ?? <span class="string">""</span>
+</code></pre><h2 id="09-08_Building_the_UI">09-08 Building the UI</h2><ol>
+<li><p>颜色选择插件<a href="http://wafflesoftware.net/hexpicker/">1</a>，<a href="https://bjango.com/mac/skalacolor/">2</a></p>
+</li>
+<li><p>clip subview属性，表示对于控件，之外部分不会显示。有些像蒙版。</p>
+</li>
+<li><p>目标：将原型转化为真的组件。添加组件、进行布局、设置动画等。<br>view-&gt;viewcontroller class</p>
+</li>
+<li><p>大体过程：添加view，设置背景色或图片；添加button，设置button的图标或颜色，字体大小；添加各组件动态效果，设置为可设计的class，再更改属性。最后布局。添加限制：位置限制，大小限制。</p>
+<blockquote>
+<p>这是个体力活，有没有更好的布局方式?</p>
+</blockquote>
+</li>
+<li><p>问题: 转场动画总是不对，虚化也没用正常的实现！到底是哪里的问题！明明按照教程做的啊。</p>
+<p> 解决：结果还是因为自己和教程不一样，没有去掉view的颜色 -。-</p>
+</li>
+<li><p>两个class之间沟通，需要用到delegate。</p>]]>
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[十月记]]></title>
+    <link href="http://azureyu.com/2015/11/01/%E8%A8%80-%E5%8D%81%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/11/01/言-十月记/</id>
+    <published>2015-11-01T05:09:20.000Z</published>
+    <updated>2015-12-01T06:12:42.000Z</updated>
+    <content type="html"><![CDATA[<p>早晨，温在被窝里，躺着看书。<br><a id="more"></a><br>第一周，国庆<br>呆在学校一段时间，回家一段时间。想想一学期也难得出去逛逛。我看见，我感受，我记录。重庆，新与旧的交织。国际与本地的交织。贫穷与富裕的交织。嘉陵江的广阔，大桥，轻轨，来来往往密集如麻的人群。面无表情的工作者，日复一日重复着生活。繁华靓丽的柜台，嚷嚷闹闹的集市。并存在这座城市。<br>更多的繁复镜像，并存在这个世界。<br>看完电影一部，书一本。</p>
+<p>第二周，开始制作自己的节拍器APP，各种坑也随之而来<br>意识到写作，不应该是任务，而是内心想要表达的自然结果。<br>室友生日，一起吃牛排，吹蜡烛。</p>
+<p>第三周，继续开发自己的APP;整理，回顾所有写作内容<br>同时，整理并阅读了之前的笔记，对一些重要的内容进行了电子扫描存档。大部分时间都在探索iOS开发。UML课程设计答辩准备。</p>
+<p>第四周，看电视剧琅琊榜<br>UML答辩。开始练习口语。看电视剧琅琊榜，几乎业余所有时间都在看。白天看，晚上看，在寝室看，在教室看，在食堂看。</p>
+<h2 id="学校课程">学校课程</h2><p>半期将至，考试来袭。Web结课，UML结课，需求分析和密码学也将要结课。<br>这学期最重要的课程，操作系统。自己还是只上课在听。需要再多花些时间。</p>
+<h2 id="Book&amp;Video">Book&amp;Video</h2><h3 id="看完的书：">看完的书：</h3><ul>
+<li>呼兰河传</li>
+<li>无声告白</li>
+<li>岛上书店</li>
+<li>教育的目的</li>
+<li>让天赋自由(The element)</li>
+</ul>
+<h3 id="在看的书：">在看的书：</h3><ul>
+<li>红楼梦</li>
+<li>演讲的艺术</li>
+<li>成为作家</li>
+<li>野火集</li>
+<li>人月神话</li>
+</ul>
+<h3 id="大概浏览的书：">大概浏览的书：</h3><ul>
+<li>认知设计</li>
+<li>设计的设计</li>
+<li>代码大全</li>
+<li>What I wish I knew When I was 20</li>
+</ul>
+<h3 id="电影、电视剧：">电影、电视剧：</h3><ul>
+<li>野兽家园</li>
+<li>起风了</li>
+<li>琅琊榜</li>
+</ul>
+<h3 id="TED">TED</h3><ul>
+<li>情绪救急</li>
+</ul>
+<h2 id="Tech">Tech</h2><h3 id="Web">Web</h3><p>继续学习JS，昨天(31)花了一天时间，学习JS、JQ的基本使用。</p>
+<h3 id="iOS">iOS</h3><p>完成了节拍器的设计、开发。难点在于UI实现(CALayer)，动态UI变化。<br>存在着细节问题(NSTimer)，是现在的自己无法解决的。<br>买了几本新书。关于动画设计和Swift语言的。<br>看了技术概览。</p>
+<h2 id="吉他">吉他</h2><p>开始扫弦练习，曲目<code>童年</code>。<br>难点，大横按，已经攻破。现在难点，大横按的和弦转换。<br>练习基本工，复习之前内容。</p>
+<h2 id="写作">写作</h2><p>明显比上个月少。大部分时间在反思以前的写作(有写下来)。有一两篇触发性文章。</p>
+<h2 id="英语">英语</h2><p>元音音标。发现发错元音的单词，很多，很常见。</p>
+<h2 id="设计">设计</h2><p>绘画就这样搁置了，之前学到的也没有应用T。T<br>大致浏览了Motion design。</p>
+<h2 id="运动">运动</h2><p>最近睡眠质量不高，白天起得晚。<br>没跑步，有散步。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>早晨，温在被窝里，躺着看书。<br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
     
       <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
     
@@ -115,412 +707,69 @@ pod install
   </entry>
   
   <entry>
-    <title><![CDATA[为什么选择Hexo]]></title>
-    <link href="http://azureyu.com/2015/08/27/WhyHexo/"/>
-    <id>http://azureyu.com/2015/08/27/WhyHexo/</id>
-    <published>2015-08-27T09:06:54.000Z</published>
-    <updated>2015-08-31T04:30:07.000Z</updated>
+    <title><![CDATA[九月记]]></title>
+    <link href="http://azureyu.com/2015/10/01/%E8%A8%80-%E4%B9%9D%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/10/01/言-九月记/</id>
+    <published>2015-10-01T05:09:20.000Z</published>
+    <updated>2015-12-01T06:13:31.000Z</updated>
+    <content type="html"><![CDATA[<p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br><a id="more"></a><br>开学不久。每天清闲。课，想听就听，不想听的，就自己做事。老师在讲台上讲他的课，我在课桌下看我的书。</p>
+<p>每天，都会做自己的事。抱着吉他，咚咚咚咚咚的练习音阶，练习和弦。<br>手指在指板上跳舞，美妙的音乐在伴奏。一个人，一把吉他，一个小时两个小时的过去，毫不枯燥，甚而难以放下。原来，练习也会成瘾。</p>
+<p>打开Xcode，比着教程，看着文档，动脑思考，动手实践。一个个的Demo App也就跑了起来。入神之后，也就忘了时间。我，电脑，再无他物。</p>
+<p>画着画。一天一课，简单、神奇。简单是，只需20分钟，不用复杂逻辑思考，都凭感觉。神奇是，加点点细节，一切看起来就不一样，更真。</p>
+<p>想做什么就去做什么吧，这真是最好的建议之一。<br>你没做，只想的事啊，多半不是真的想。</p>
+<hr>
+<p>饭饱后，闲逛校园。走不了几步就能到后山。山分两面可以上，每面山脚，都有斜坡草地，零星的长着大树。</p>
+<p>山边有湖，湖名缙云。湖中天鹅，有黑有白；成群金鱼，大如(用什么形容词?)<br>湖边杨柳，微风细舞。木质长凳，闲适观景。</p>
+<p>往山顶方向走，接着是莲花田三块。背景是起伏连绵的山，不高，但紧实。最顶上是亭。</p>
+<p>喂鱼的人拿着面包<br>情侣吃着蛋糕<br>年纪大的人快步锻炼<br>骑自行车的外来者<br>小孩子和他的家人<br>背着单反，专程拍照的人<br>听着歌哼着小曲的人<br>自言自语的保安</p>
+<p>好多好多……</p>
+<p>那么安然自在的日子。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[开学前两周小记]]></title>
+    <link href="http://azureyu.com/2015/09/20/%E8%A8%80-1~2%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+    <id>http://azureyu.com/2015/09/20/言-1~2周总结/</id>
+    <published>2015-09-20T15:09:20.000Z</published>
+    <updated>2015-12-01T06:14:36.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>喜欢Hexo的主题，不少都适合中文</li>
-<li>配置简单，一键发布</li>
+<li>读者对象：我自己</li>
+<li>主要内容：杂七杂八<a id="more"></a>
+<h2 id="学校课程">学校课程</h2>还是应该记笔记，把每天该记的记住，该理解的理解，多复习，多动手。<br>密码学、操作系统、UML，按照老师的思路在学。<br>Web、需求分析，没听课，按照自己的思路在学。<br>健美操第一节课老师没来。<br>美学与文化，这位台湾老师，艺术气质浓烈，处于无法理解状态。</li>
 </ul>
-<p>就这样，理由很简单。</p>
-<p>当然，要都自己动手，Jekyll还是更好的选择，Hexo进行了不少封装。</p>
+<h2 id="音乐">音乐</h2><h3 id="吉他">吉他</h3><p><code>隐形的翅膀</code>，基本会了，最后几个和弦还需加强。<br><code>丁香花</code>的节奏，很简单，但是换弦还要练习。明显的是，唱不行。<br><code>别找我麻烦</code>，和弦还需要练习。</p>
+<h3 id="作曲">作曲</h3><p><code>伯克利的老师</code>讲得很棒。自己做了写涂鸦笔记。从小故事到盒子，六个好朋友，歌曲的组成。很愉快的课程。</p>
+<p>同时也在运用其中理论，边听歌边分析歌词。</p>
+<h2 id="iOS开发">iOS开发</h2><p><code>DesignCode</code>教程, DNApp基本学习完成了，最后的技术部分，还需要加深理解，网络库和JSONSwift，调用API等等。这才是技术部分吧，作者讲得不清楚。</p>
+<p>现在在来看这本书，基本还是讲设计和原型实现的。<br>学了基础的布局设置，页面转换和动画效果（用的Spring），tableView的基础，页面转换（segue）时的数据传输。还是会遇见一些大大小小的问题，需要自己去解决。</p>
+<p>感觉技术部分，要使用到数据结构的知识。<br>还有swift语言使用不够熟悉。</p>
+<p>深刻体会，<strong>英语很重要</strong>。</p>
+<h2 id="Web开发">Web开发</h2><p>web上课基本没听。自己在看书，复习了html标签，学了CSS的选择器，字体设置等。下周开始看布局。</p>
+<h2 id="运动">运动</h2><p>基本没有强运动，每天吃完晚饭，会出去做半个多小时。看来需要改为跑一跑。</p>
+<h2 id="阅读">阅读</h2><p>技术类的书，在读<code>人月神话</code>，很喜欢作者的风格。还有<code>Java数据结构</code>，复习了When to use what 的第一部分。Web方面有<code>CSS设计指南</code>。</p>
+<p>人文类的书，<code>三毛全集</code>，也就不提了，一直都在反复读着。<code>约翰·克里斯朵夫</code>也还在读，第五章音乐部分，有些难理解，需要补充背景知识。因为，还是会感到差距的巨大，还有孤独寂寞感，有好有坏。读着彭明辉的两本书，一本<code>生命是长期积累的过程</code>，另一本<code>活出生命最好的可能</code>。自我成长，人文素养。</p>
+<h2 id="写作">写作</h2><p>最近每天写15分钟，大约600字。<br>是不是太少了？</p>
+<h2 id="绘画">绘画</h2><p>圆形，长方形。<br>重叠、阴影和大小。方向辅助线。到现在都还没有去买橡皮擦。</p>
+<h2 id="英语">英语</h2><p><code>Word Power Made Easy</code>，通过学习idea学习词汇。用英语学英语。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<ul>
-<li>喜欢Hexo的主题，不少都适合中文</li>
-<li>配置简单，一键发布</li>
-</ul>
-<p>就这样，理由很简单。</p>
-<p>当然，要都自己动手，Jekyll还是更好的选择，Hexo进行了不少封装。</p>
-]]>
-    </summary>
-    
-      <category term="Hexo" scheme="http://azureyu.com/tags/Hexo/"/>
-    
-      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[“授人以渔”的教你搭建个人独立博客]]></title>
-    <link href="http://azureyu.com/2015/08/15/HowToBulidBlog/"/>
-    <id>http://azureyu.com/2015/08/15/HowToBulidBlog/</id>
-    <published>2015-08-15T09:06:54.000Z</published>
-    <updated>2015-11-21T06:06:49.000Z</updated>
-    <content type="html"><![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
-<p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。</p>
-<p>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
-<h2 id="引子">引子</h2><p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
-<p>Tumblr和Lofter都是自己比较喜欢的，房子建得美丽又实用。在同一个平台下，就感觉你们在同一个社区。当然不是这个社区居住的人们，也是可以进来逛一逛的。简书，也是如此。顺便提一句，选择简书，是喜欢它的写作体验。</p>
-<p>不过，有时候，你想从头到尾自己建房子，就是搭建个自己的独立博客。如果你不知道如何选择，可以读一读《<a href="http://www.slant.co/topics/329/~what-is-the-best-solution-for-a-personal-blog" target="_blank" rel="external">What are the best solutions for a personal blog?</a>》（需翻墙），文章分析了不同博客平台的优缺点和针对人群。当然，我的选择是 Jekyll+Github Pages。</p>
-<p>开辟土地、搭建、装修、到注册门牌号等，都是需要动手的。土地就是你的服务器，房子是你的网站，装修是网站主题，布局和色彩等等，当然门牌号就是你的域名了。别忘了你还要写文章，这才是关键，你房间里放的不是家具，而是你的思考成果。</p>
-<p>话不多说了，我们开始建房子的美妙旅途吧 ；）<br><a id="more"></a></p>
-<h2 id="Step_1-_选地">Step 1. 选地</h2><p>互联网上有免费的地，也有收费的地。Github Pages就是一个免费好用的地。</p>
-<p>具体步骤：</p>
-<ul>
-<li><p>首先，注册 <a href="https://github.com/" target="_blank" rel="external">Github</a><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/GitHub.jpg" alt="GitHub"></p>
-</li>
-<li><p>然后，建立一个仓库<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/NewRespsitory.png" alt="NewRespsitory"></p>
-</li>
-</ul>
-<blockquote>
-<p>Repository name(仓库名)<strong>必须</strong>是 your_user_name.github.io</p>
-</blockquote>
-<p>比如，我的用户名是Yogayu，那么仓库名就取为 <strong><a href="https://github.com/Yogayu/Yogayu.github.io" target="_blank" rel="external">Yogayu.github.io</a></strong>。<strong>这一点很重要，不要弄错。</strong></p>
-<ul>
-<li>最后，按照提示步骤操作<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/QuickStep.png" alt=""></li>
-</ul>
-<p>一种简单的方式是，下载GitHub的<a href="https://desktop.github.com/" target="_blank" rel="external">桌面客户端</a>，安装完成后，粘贴<a href="http://github.com/your_user_name/your_user_name.github.io.git" target="_blank" rel="external">链接</a>克隆到本地。</p>
-<ul>
-<li>之后，新建一个index.html文件，push到对应的master<br>分支（推荐<a href="https://pages.github.com/" target="_blank" rel="external">官网教程</a>）。等一段时间之后（可以听首歌），网站生效，访问your_user_name.github.io，就能看见完整的网页了。</li>
-</ul>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/firstIndex.png" alt=""></p>
-<p>到此，我们的地就选好了，也就是在用GitHub的服务器。</p>
-<blockquote>
-<p>若这一过程中有问题，可以参照<a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">官网文档</a></p>
-</blockquote>
-<h3 id="什么是_GitHub？">什么是 GitHub？</h3><p>在说GitHub之前，必须要提到Git。Git是分布式版本控制系统。GitHub可以托管各种Git版本库，并提供一个web界面。</p>
-<p>Github 就像是程序员们的Facebook，程序员们，写代码，做项目，在此和全世界的人们分享。<br>会使用GitHub的资源，比会搭建个人博客的价值大得多。</p>
-<h3 id="那么GitHub_Pages是什么呢？">那么GitHub Pages是什么呢？</h3><blockquote>
-<p>Website for you and your project.</p>
-</blockquote>
-<p>GitHub Pages有两种。一种是为个人或者组织的博客。一种是为项目的博客。前者一个账号只能建一个，后者，可以建很多个。</p>
-<p>这样的博客，免费、独立、安全。</p>
-<h3 id="Git和Github如何使用？">Git和Github如何使用？</h3><p>可选择终端或图形化界面操作。怎么顺手怎么来吧。</p>
-<ul>
-<li><a href="http://www.bootcss.com/p/git-guide/" target="_blank" rel="external">Git简易指南</a></li>
-<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程-廖雪峰</a></li>
-<li><a href="http://www.zhihu.com/topic/19566035/top-answers" target="_blank" rel="external">如何使用GitHub -知乎</a></li>
-<li><a href="http://www.linuxidc.com/Linux/2014-09/106230p2.htm" target="_blank" rel="external">GitHub 使用教程图文详解</a></li>
-</ul>
-<h2 id="Step_2-_搭建">Step 2. 搭建</h2><p>环境搭建。</p>
-<ul>
-<li><p>安装Ruby，Mac一般默认安装了Ruby，这一步可以忽略。<a href="https://www.ruby-lang.org/zh_cn/downloads/" target="_blank" rel="external">官网安装</a></p>
-</li>
-<li><p>安装Bundler，在Terminal中输入： </p>
-<pre><code>gem <span class="keyword">install</span> bundler
-</code></pre></li>
-<li><p>安装Jekyll，同理输入：</p>
-<pre><code><span class="built_in">source</span> <span class="string">'https://rubygems.org'</span>
-gem <span class="string">'github-pages'</span>
-</code></pre></li>
-</ul>
-<p>*当然，如果你在墙内，很容易出问题，无法安装，推荐修改镜像源（<a href="http://ruby.taobao.org/" target="_blank" rel="external">淘宝镜像源</a>）。</p>
-<ul>
-<li><p>安装Jekyll</p>
-<pre><code>gem <span class="keyword">install</span> jekyll
-</code></pre></li>
-</ul>
-<p>在你希望存放的目录下，输入：</p>
-<pre><code>jekyll <span class="keyword">new</span> your-site-name
-</code></pre><p>进入：</p>
-<pre><code>cd your-site-<span class="property">name</span>
-</code></pre><p>运行本地服务：</p>
-<pre><code><span class="title">jekyll</span> s
-</code></pre><p>在浏览器中输入：</p>
-<pre><code><span class="string">http:</span><span class="comment">//localhost:4000</span>
-</code></pre><p>就可以在本地进行查看和调试你的网站了。</p>
-<h3 id="什么是Jekyll？">什么是Jekyll？</h3><blockquote>
-<p><a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll</a> is a simple, blog-aware, static site generator.</p>
-<p><a href="http://jekyllcn.com/" target="_blank" rel="external">Jekyll</a> 是一个简单的博客形态的静态站点生产机器</p>
-</blockquote>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Jekyll.png" alt=""></p>
-<p>解释一下，Jekyll可以将纯文本转换为静态博客网站。你整个网站的页面都是它生成的，从主页index到文章post。<br>比如，文章怎么写？标准网页格式是扩展标记语言<a href="http://baike.baidu.com/link?url=C0WcPEpZO4MrmTIu6x2G9hMKcEB2PJ3L2dLv4-XsSE0FOSgxhILqYR2Lpbu6WFW_" target="_blank" rel="external">HTML</a>。纯手写？未免太麻烦。大家，多偏爱<a href="http://sspai.com/25137" target="_blank" rel="external">Markdown</a>。所以，就用它写。不过，你需要有一个能把你用Markdown格式写的文章，转化为HTML网页的东西，这里使用的就是静态网页生成器。</p>
-<p>静态网页是相对于动态网页而言的，如果感兴趣可以自己学习。</p>
-<h3 id="Jekyll目录">Jekyll目录</h3><p>解释一下整个jekyll的目录(<a href="http://jekyllrb.com/docs/home/" target="_blank" rel="external">官方文档</a>):<br>为了之后不至于完全茫然，很值得先看一看，第一次看不懂没关系，用着用着就知道什么意思了。就像练习吉他和弦的转换，开始很难，可换着换着你就会了。</p>
-<p> <img src="http://7xle3b.com1.z0.glb.clouddn.com/struct.png" alt=""></p>
-<p>这个很奇怪的结构是，文件目录树，_config.yml这样的代表一个文件，_drafts这样的代表一个文件夹，与它连接的文件，比如begin-with-the-crazy-ideas.textile，就在文件夹中。一开始，我没怎么看官方文档，嫌麻烦，不如直接开始干。结果是绕了不少弯路，修改主题的时候，找半天各个部分。</p>
-<p>先说需要了解的，其余以后依个人需求学习</p>
-<ul>
-<li>_config.yml 是配置文件，你可以在里面配置你博客会用到的常量，比如博客名，邮件</li>
-<li>_includes：就是你文章各个部分的html文件，可以在布局中包含这些文件</li>
-<li>_layouts：存放模板。就是你网页的布局，主页布局，文章布局。当然不是指CSS那样的布局，是指，你包含哪些基本的内容到页面上。包含的内容就是includes里面的文件。</li>
-<li>_posts: 存放博客文章</li>
-<li>index：博客主页</li>
-<li>CNAME文件：域名地址</li>
-<li>CSS：存放博客所用CSS</li>
-<li>JS: 存放博客所用JavaScript </li>
-</ul>
-<p>可以设置每个html文件的title(标题)和layout(布局)。比如index的layout一般是default。你也可以添加其他的页面，加上不同的layout。</p>
-<p>当你想定制博客的时候，以上目录就很有用了。</p>
-<h3 id="如何发表文章？">如何发表文章？</h3><p>文章的写法，在Markdown开头加上一段：</p>
-<pre><code><span class="bullet">---
-</span>layout: posttitle: "Welcome to Jekyll!"
-date: 2014-01-27 21:57:11
-<span class="header">categories: Blog
----</span>
-</code></pre><p>文件命名格式: 时间加标题<br>比如：2015-08-15-HowTOBuildBlog.md</p>
-<p>ok，你可以写文章了，放入_post文件夹即可。</p>
-<h2 id="Step_3-_装修">Step 3. 装修</h2><h3 id="如何选择和修改主题？">如何选择和修改主题？</h3><ul>
-<li>一种方式是使用程序员们写好的，免费开源。</li>
-</ul>
-<p>推荐两个超级丰富的资源</p>
-<blockquote>
-<ol>
-<li><p><a href="http://jekyllthemes.org/" target="_blank" rel="external">Jekyll 主题</a></p>
-</li>
-<li><p><a href="https://github.com/mattvh/jekyllthemes" target="_blank" rel="external">Jekyll 主题搜集</a></p>
-</li>
-</ol>
-</blockquote>
-<ul>
-<li>另一种是，你也可以自己写或修改，需要懂一些前端的知识。</li>
-</ul>
-<p>之前，我在<a href="http://www.codecademy.com" target="_blank" rel="external">Codecademy</a>上学了两、三天，进行入门。正好用自己的博客，来做练习。<br>其实前端还蛮好玩的，特别满足强迫症的强迫意愿。<br>推荐资源：</p>
-<blockquote>
-<ul>
-<li>基础学习：<a href="http://www.codecademy.com" target="_blank" rel="external">Codecademy</a></li>
-<li>框架: <a href="http://www.bootcss.com/" target="_blank" rel="external">Bootstrap</a></li>
-</ul>
-</blockquote>
-<p>虽然下了dreamweaver, 没怎么用，不过官网上的<a href="https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html" target="_blank" rel="external">教程</a>不错。 推荐使用 <a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text</a>, 多么好用的代码编辑器啊，还有一个不错的<a href="http://blog.jobbole.com/88648/" target="_blank" rel="external">教程</a>。再配上Jekyll的本地服务器，在Chrome上调试。那感觉~</p>
-<p>自己写是好，也要看看别人是如何做的，优秀的网站是如何设计的。文章可以注重注重排版，字体选择，屏幕适配调整等。不过说实在的，个人博客最重要的还是你的文章内容。</p>
-<h2 id="Step_4-_定制">Step 4. 定制</h2><p>如果你已经做到了这一步，那么恭喜你，你的个人博客已经搭建完成。不过要享受折腾的快乐，或想要更好的独特性，就继续进行吧。</p>
-<h3 id="如何使用独立域名？">如何使用独立域名？</h3><ul>
-<li>购买域名 著名的有 <a href="https://www.godaddy.com/?isc=bsfndom4&amp;ci=" target="_blank" rel="external">Godaddy</a>，支持支付宝。在网上可以搜到优惠码。</li>
-</ul>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/godaddy.png" alt=""></p>
-<ul>
-<li><p>在你本地网站文件夹中添加一个文件 <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/" target="_blank" rel="external">CNAME</a>，写入你的域名即可。</p>
-</li>
-<li><p>考虑到我国网络特殊情况，进行域名解析，可以选择<a href="https://www.dnspod.cn/Login?default=email" target="_blank" rel="external">dnspod</a><br>添加两条A记录(<a href="https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&amp;tsid=42" target="_blank" rel="external">教程</a>)，对，就是计算机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。</p>
-</li>
-</ul>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/AA.png" alt=""></p>
-<p><em>买域名这事，我自己还有点经历。一开始我买了个azureyu.cn的域名，cn是国内的，然后让提交身份证信息，输入各种资料。又要进行网站备份，一大推看不懂的备份名词，最后放弃了。买了个国外的域名azureyu.com，没有了以上复杂环节，马上就可以用了。</em></p>
-<h3 id="如何添加评论功能？">如何添加评论功能？</h3><p>这些平时习以为常的东西，到这都是纯手工制造。<br>我使用的是<a href="https://disqus.com/" target="_blank" rel="external">Disqus</a></p>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Disqus.png" alt=""></p>
-<ul>
-<li>注册Disqus</li>
-<li>点击右侧选择在博客中添加，就会自动获得它为你生成的一段代码，复制它</li>
-</ul>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/comment.png" alt=""></p>
-<ul>
-<li>新建一个名为Comments的html文件，复制进去这段代码，保存到文件夹_includes里去。然后在_layouts的post文件里加入：</li>
-</ul>
-<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/addcmt.png" alt=""></p>
-<p>其实，就是在你的网页中加入一段代码，加载之后在网页中加入Disqus，就会自动获得它为你生成的一段代码。</p>
-<p>要还想添加一些feather就去折腾吧。比如分享、文章目录、代码高亮、标签云、搜索等等。我想到现在，学习这些内容，对你已经很简单了。 </p>
-<hr>
-<h2 id="最后">最后</h2><p>个人建议：</p>
-<ul>
-<li>多看官方文档，系统清晰很多</li>
-<li>利用好而不是滥用搜索引擎</li>
-<li>遇见问题，先看看他人如何解决</li>
-</ul>
-<p>用一句作为结束：</p>
-<blockquote>
-<p>不要忘记初衷，在折腾之后，表达写作，才是最重要的事情。</p>
-</blockquote>
-<hr>
-<p>参考：</p>
-<blockquote>
-<ol>
-<li><a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html</a></li>
-<li><a href="http://beiyuu.com/github-pages/" target="_blank" rel="external">http://beiyuu.com/github-pages/</a></li>
-<li><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">http://daringfireball.net/projects/markdown/</a></li>
-<li><a href="http://stevelosh.com/" target="_blank" rel="external">http://stevelosh.com/</a></li>
-<li><a href="http://jekyllbootstrap.com/" target="_blank" rel="external">http://jekyllbootstrap.com/</a></li>
-<li><a href="http://gaohaoyang.github.io" target="_blank" rel="external">http://gaohaoyang.github.io</a></li>
-<li><a href="http://segmentfault.com/a/1190000000406013" target="_blank" rel="external">http://segmentfault.com/a/1190000000406013</a></li>
-<li><a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank" rel="external">http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html</a></li>
-</ol>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
-<p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。</p>
-<p>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
-<h2 id="引子">引子</h2><p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
-<p>Tumblr和Lofter都是自己比较喜欢的，房子建得美丽又实用。在同一个平台下，就感觉你们在同一个社区。当然不是这个社区居住的人们，也是可以进来逛一逛的。简书，也是如此。顺便提一句，选择简书，是喜欢它的写作体验。</p>
-<p>不过，有时候，你想从头到尾自己建房子，就是搭建个自己的独立博客。如果你不知道如何选择，可以读一读《<a href="http://www.slant.co/topics/329/~what-is-the-best-solution-for-a-personal-blog">What are the best solutions for a personal blog?</a>》（需翻墙），文章分析了不同博客平台的优缺点和针对人群。当然，我的选择是 Jekyll+Github Pages。</p>
-<p>开辟土地、搭建、装修、到注册门牌号等，都是需要动手的。土地就是你的服务器，房子是你的网站，装修是网站主题，布局和色彩等等，当然门牌号就是你的域名了。别忘了你还要写文章，这才是关键，你房间里放的不是家具，而是你的思考成果。</p>
-<p>话不多说了，我们开始建房子的美妙旅途吧 ；）<br>]]>
+<li>读者对象：我自己</li>
+<li>主要内容：杂七杂八]]>
     
     </summary>
     
-      <category term="Jekyll" scheme="http://azureyu.com/tags/Jekyll/"/>
-    
-      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[尝得出味，指不出形状]]></title>
-    <link href="http://azureyu.com/2015/07/25/%E5%B0%9D%E5%BE%97%E5%87%BA%E5%91%B3%EF%BC%8C%E6%8C%87%E4%B8%8D%E5%87%BA%E5%BD%A2%E7%8A%B6/"/>
-    <id>http://azureyu.com/2015/07/25/尝得出味，指不出形状/</id>
-    <published>2015-07-25T05:09:20.000Z</published>
-    <updated>2015-11-21T06:22:59.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/taste.jpeg" style="margin:auto"><br>谈谈这学期的英文文学课。<br>英语提高课，选了两门，一门是英语文学，一门是职场英语。两门课的思想相差很大，老师的教学方式也不同。</p>
-<p>英语文学，第一节课。就被老师美丽优雅的文艺气质所吸引。不是矫揉造作的谈文学，而是富有理性和浪漫的谈文学。她说，自己为什么选择文学。学习理科知识，更多的是在讲逻辑，谈理论。而只有文学是关于情感的(emotion)。</p>
-<p>上课时突然问到我，仓促的回答说，是希望学习更好的表达。等下课之后，回过神来，才想起，是因为文学中的种种体验，才喜欢的吧。</p>
-<p>当你说话时，她会认真的倾听，并作出总结，再提出她得看法或问题。</p>
-<p>教学是在引导，而不是强推。<br>读作品，更多的是带着我们去感受和理解。在恰当好处之时问出一连串的问题来。为什么主人公会这样做？他的理由是什么？换一种方式行不行？为什么要描写这一段？这句话中蕴含着怎样的信息？作者自身的经历是什么？这之间有什么关系？……这些问题，让你思考。</p>
-<p>当我们提出自己的观点时，又说，不要总说我认为，你认为又怎么样呢？要说你为什么这样认为，给出文本的具体例子来，给出你的思考线路。</p>
-<p>课堂上做presentation时，她会坐到教室最后一排，拿着笔带着纸。没有任何的批评，不会说你是对是错，会告诉你怎么做才更好。比如，要有眼神的交流，环视大家。又会传一些实用的tips。比如，害怕看眼睛时，可以看眉心。</p>
-<p>讲她喜爱的作家时，会带上几本自己读的原版书，一本一本的讲简介和自己的感悟，课间时又让我们自己翻一翻。书页间，会有铅笔浅浅的勾勾画画，偶尔批注着感叹号或画着笑脸的表情。能感受到，读时享受的心情。</p>
-<p>不经想起朱光潜先生的一句话：</p>
-<p><blockquote class="blockquote-center"><br>文艺作者不能没有学识，但他的学识须如盐溶解在水里，尝得出味，指不出形状。<br></blockquote><br>身边有良师，“耳濡目染，不学以能。”</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/taste.jpeg" style="margin:auto"><br>谈谈这学期的英文文学课。<br>英语提高课，选了两门，一门是英语文学，一门是职场英语。两门课的思想相差很大]]>
-    </summary>
-    
-      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[言语]]></title>
-    <link href="http://azureyu.com/2015/05/18/%E8%A8%80%E8%AF%AD/"/>
-    <id>http://azureyu.com/2015/05/18/言语/</id>
-    <published>2015-05-18T05:09:20.000Z</published>
-    <updated>2015-10-21T16:12:04.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>Sort but powerful</strong></p>
-<h2 id="智慧">智慧</h2><hr>
-<p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
-<hr>
-<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
-<hr>
-<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
-<hr>
-<p>把自己的生活当作正文，把书籍当作注解。——爱默生<br><a id="more"></a></p>
-<hr>
-<p>为了追求更好，我们毁损了原已够好的。——莎士比亚 </p>
-<hr>
-<p>青青陵上柏，磊磊涧中石。 人生天地间，忽如远行客。——《列子》 </p>
-<hr>
-<p>有时候我们必须放弃一些我们喜欢的东西／你喜欢的，别人也喜欢的东西——《春夏秋冬又一春》 </p>
-<hr>
-<p>人静而后安，安而能后定，定而能后慧，慧而能后悟，悟而能后得。——《大学》 </p>
-<hr>
-<p>当我抱着她的时候，我想的是另一个她。这时我突然在想，那她抱著我的时候，是不是想的是另一个他。—— 朱德庸 </p>
-<hr>
-<p>孩子，我们并不只活在我们所属的时代里，我们身上也扛着历史。不要忘记你在这个房间内看到的每一样东西都曾经是崭新的。 ——乔斯坦·贾德《苏菲的世界》</p>
-<hr>
-<p>在一次长途旅行中，最好是有一位称心的旅伴，其次好是没有旅伴，最坏是有一个不称心的旅伴。</p>
-<hr>
-<p>你不忙，是因为你有足够的时间做你自己想做的事；你忙，是因为你有太多你不得不做的事。</p>
-<hr>
-<p>最深最平和的快乐，就是静观天地与人世，慢慢品味出它的美与和谐。这份快乐，乍一看也许平淡无奇，事实上它深远而悠长，在我，生命的享受就在其中了。——三毛</p>
-<hr>
-<p>我们真正的家不是房子、城市甚至国家，而是我们的身体。只要你还在这世上，它就是你的灵魂和精神唯一一刻都不离的栖息之所。它是这世上你能照料的有形之物中最最重要的。</p>
-<hr>
-<p>敢于提问，敢于质疑，独立思考的批评性思维，也是习惯于灌输＂唯一正确答案＂的教育体系所不鼓励的。思想的开放性和包容性，理性思辨的社会氛围，对创新而言，如空气般不可缺少。——杨澜</p>
-<hr>
-<p>就是这种天马行空的想象，让我们看到了令人时而嘘唏，时而雀跃，时而沉默，时而痛骂的精彩故事。凭什么猫有九命，人却生死一线？人命既是脆弱，那就靠体验多活几回吧。——马伯庸《写作就像跳脱衣舞》</p>
-<hr>
-<p>生活充实的含义，应是阅历得广，明白得多，有发现的能力，有推断的方法，性情丰厚，兴趣饶富，内外合一，即知即行，等等。——叶圣陶《如何写作》</p>
-<hr>
-<p>富勒认为，要改变一个人是很困难的，要改变一个人生存的环境也非常困难。但是，你可以发明出新的工具，并且是非常优秀的工具，久而久之，人们就会开始了解和使用这些工具，而从他们开始使用新工具的那一刻开始，他们的世界观也会由此而改变。——WholeEarthCatalog外傳</p>
-<hr>
-<p>我喜欢成熟而且有趣的人。他们理性，从容，可是永远保留着爆发的能量。他们保持着对世界的好奇心，永远在学习。他们不轻易动摇，但是永远准备着倾听不同的意见，理解不同的人生。他们对自己的选择负责，他们也许抱怨，但是抱怨之后一定有真正的行动。</p>
-<hr>
-<p>真正的自我成长就是认认真真、朴朴实实的做自己。理想其实很单纯，人生的意义也很单纯：尽力开发自己内在的各种潜在可能性（尽己），诚诚恳恳用心对待身边的人（尽心），掌握机会去追求各种最极致的感动和各种情感经验（尽兴），让自己善用每一分钟每一秒来提升生命的价值。——《活出生命最好的可能》彭明辉</p>
-<hr>
-<h2 id="诗歌">诗歌</h2><hr>
-<p>你脚踩的地狱只是天堂的倒影，我唇角的故事终将是时间的灰烬 </p>
-<hr>
-<p>情诗情节，也掉落在秋水秋波的秋晕里，一涡半转，跟着秋流去。—徐志摩</p>
-<hr>
-<p>行过许多地方我的桥，看过许多次数的云，喝过许多种类的酒，却只爱过一个正当最好年龄的人。 ——沈从文</p>
-<hr>
-<p>秋天的黄昏使林间落叶有了一种质地沉重的感觉，而隐约的晨霜则使玻璃窗有了新鲜的泪痕。———《逝川 》迟子键</p>
-<hr>
-<p>记得早先少年时/大家诚诚恳恳/说一句 是一句/清早上火车站/长街黑暗无行人/卖豆浆的小店冒着热气 /从前的日色变得慢/车，马，邮件都慢/一生只够爱一个人/从前的锁也好看/钥匙精美有样子/你锁了 人家就懂了——木心《从前慢》</p>
-<hr>
-<p>那时我们还年轻。穿过残垣断壁苍松古柏，我们来到山崖上。沐浴着夕阳，心静如水，我们向云雾飘荡的远方眺望。其实啥也看不到，生活的悲欢离合远在地平线以外，而眺望是一种青春的姿态。 ——北岛《青灯》</p>
-<hr>
-<p>你从远方来，我到远方去，遥远的路程经过这里。天空一无所有，为何给我安慰。——海子</p>
-<hr>
-<p>请原谅我不说一声再会，而在，最深最深的角落里，试着将你藏起，藏到任何人、任何岁月，也无法触及的距离 。—— 席慕蓉《诀别》</p>
-<hr>
-<h2 id="鼓舞">鼓舞</h2><hr>
-<p>One way to develop self-confidence is to do the thing you fear and get a record of successful experience behind you.</p>
-<hr>
-<p>我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。——本杰明 · 巴顿</p>
-<hr>
-<p>人性是充满惰性的，没有到生死关头，是不会使尽全力来付出，但有智慧的人，并不会把自己逼到谷底才努力，而是预见自己不努力的未来，将是沮丧、绝望，被众人唾弃，若等到丧失所有资源才觉悟，那时通常年岁已长，时机也已过了。</p>
-<hr>
-<p>真正的光明绝不是永没有黑暗的时间，只是永不被黑暗所掩蔽罢了。真正的英雄绝不是永没有卑下的情操，只是用不被卑下的情操所屈服罢了。<br>所以你要战胜外来的敌人之前，先得战胜你内在的敌人。不必害怕沉沦堕落，只消你能不断的自拔与更新。——傅雷《约翰・克里斯多夫》序</p>
-<hr>
-<p>不断更新……</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>Sort but powerful</strong></p>
-<h2 id="智慧">智慧</h2><hr>
-<p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
-<hr>
-<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
-<hr>
-<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
-<hr>
-<p>把自己的生活当作正文，把书籍当作注解。——爱默生<br>]]>
-    
-    </summary>
-    
-      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[去创造，去体验]]></title>
-    <link href="http://azureyu.com/2014/12/01/CreateExperience/"/>
-    <id>http://azureyu.com/2014/12/01/CreateExperience/</id>
-    <published>2014-12-01T05:09:20.000Z</published>
-    <updated>2015-11-05T14:51:46.000Z</updated>
-    <content type="html"><![CDATA[<p>很早很早之前就想到，人生，我的人生就那么几十年，过了就没有了，相比起整个人类之长河，相比起宇宙之浩瀚，相比起无穷之未知，我是何其渺小。而那些在历史长河中所沉淀的不朽，长久的随人类而存的痕迹，是我所想创造的。所以，我曾梦想，自己这一生走完之后，会给这个世界留下些经得起时间检验的不朽的事物，有所创造。</p>
-<p>​对，这是我<strong>最初的想法</strong>。<br><a id="more"></a><br>后来呢​？我开始发现人类比我所想的还要渺小，而这个世界上也没有什么不朽，所有的这一切一切都终会逝去，没有人知道如何开始一般的没有人知道如何结束。我们在科幻片中想象着无穷无尽的可能，生化危机、星球转移。</p>
-<p>原以为写一本书是很有创造意义的事，后来到了图书馆那一层一层一本一本的书，种类繁多，喜欢的文学也不过是其中的一小类，旧书已经成千上亿，而新书依旧在以极快的速度出版，不断出版，像地球上每天被吹起的尘埃。​我们在表达，于纸于电子。今天的信息量已远远超过人类之前的总和。而这些信息量中所含有的思想却不见得成比例的增长。</p>
-<p><strong>书，于是乎不再是我所之唯求。</strong><br>&lt;!–more-&gt;<br> 然后，认为创业很酷，可以有激情的做自己喜欢做的事。最初看新东方的演讲，相信未来，心潮澎湃，心里觉着自己未来一片光明，好好学习，努力拼搏，未来就是我们的。看古典的做生活的高手，年轻时追求自己的梦想，不把目光留给自己的敌人，只留给自己的梦想，自己的目标。这些满满的正能量的视频文字，都让自己感到，未来前途一片光明，这个社会如此美好。现实，却给了你重重一击，失败的人远比成功的人多，而这个世界也不是以热情和意图来判断输赢的，它是以实际成果。 没有名次的战场，反而更容易引起循环无止境的竞争战斗，更好更好再更好。说幸福不在于外而在于内，而偏偏大多数人都生活在外。</p>
-<p>你要考虑以后的工作，你将来做什么？​这些真的含糊不得，未来的工作在你生命中占的比例是远比单纯的学生时代多。自己也是最近才真正的弄明白这一点。如果不是一生致力于学术，那么你很快就会发现，在学校所学的知识，只有极少一部分能直接运用于你的生活，使你生活得更好。你会用微积分算曲边梯形的面积，不代表你去菜市场买菜，知道哪家的便宜又新鲜；你会用化学方程式推出一种物质的合成方法，不代表你知道炒菜什么时候放油最好；你看得懂五言七言，不代表你知道见不同的人，该说哪些不同的话。思想品德书告诉你什么是对，什么是错，就算你看懂也好，没看到也好，不代表你能从心中分辨善恶是非，不代表你在道德两难的时候知道自己该怎么做；历史书上写的历史，不代表你知道了真实，什么是真实？什么是准确？你想过吗？</p>
-<p> <strong>会学习重要，会生活更重要。</strong></p>
-<p>科学之美，在于它有规律，你可以用逻辑感受到它的脉搏​。<br>科学是原本就存在，还是因为人类的发现而存在？发现、创造、使用，我们一代一代的进行下去。人之不同，在于人会思考，思考本身就是值得思考的。语言文字，是符号，符号亦是一种图形，而图形代表一种意象。谁知道究竟为何我们能将自己的思考用语言表达？而文字亦是有不同的。同时代、同文化，改变、发展、完善。</p>
-<p>我开始不再去想追求那大的永恒，太难。我开始想就过好我这一生吧。人生既是短暂，为何不多去体验。因为体验，我可以用仅有的一生活出诸多精彩。三毛说她不愿像姐姐那样循规蹈矩的过一生。她愿有质，活一世像三世。马伯庸说写作，就像造境，说人命既是脆弱，何不靠体验多活几回。王小波说，他活在世上，无非想要明白些道理，遇见些有趣的事。方励说，去做自己喜欢的事。他50多了，说自己这辈子很值，一辈子活出了几辈子。我为什么喜欢文字，因为我喜欢在这笔墨之间，去放开自己，去感受不同的体验。</p>
-<p>  这样一想就有了可行性。我可以去做不同的事情，而不会害怕，因为从未做过而没经验，因为新鲜，所带来的体验也是不同的。我想知道不同阶级不同文化不同背景的 人们，都有着怎样的生活，他们做些什么，他们想些什么，又与我有什么不同，又与我有什么相同​。美食入口，是一种体验，麻辣鲜香，蒸、炒、煮、炸，各有不 同；美景是一种体验，稀薄空旷，繁华茂密。情感是一种体验，快乐、悲伤、忐忑、纠结……</p>
-<p><strong> 用心生活，勇于探索，尽情体验丰富人生。</strong></p>
-<p> 而且，凡此体验，于众人​同，于个人异。于茫茫宇宙，于悠悠时间长河，我是渺小，但我独特。人之有趣，在于独特。形之独特，态之独特，思之独特。完完全全相 同的人生是没有的，而我们也不能将自己活成了别人，完完全全活成了别人的时候，请问这世间又真的有你来过吗？我们彼此的思想有同有异，同时相对一笑，异时 也不必非你对我错，你不必将自己与环境同化。你就是你，是颜色不一样的烟火。哪怕是天空海阔，渺小渺小，依旧记得，请做坚强的泡沫。</p>
-<p>在这一系列的思考后，我写下：</p>
-<p><strong>生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​</strong></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>很早很早之前就想到，人生，我的人生就那么几十年，过了就没有了，相比起整个人类之长河，相比起宇宙之浩瀚，相比起无穷之未知，我是何其渺小。而那些在历史长河中所沉淀的不朽，长久的随人类而存的痕迹，是我所想创造的。所以，我曾梦想，自己这一生走完之后，会给这个世界留下些经得起时间检验的不朽的事物，有所创造。</p>
-<p>​对，这是我<strong>最初的想法</strong>。<br>]]>
-    
-    </summary>
-    
-      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[写不写博客]]></title>
-    <link href="http://azureyu.com/2014/05/09/%E8%A8%80-%E5%86%99%E4%B8%8D%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://azureyu.com/2014/05/09/言-写不写博客/</id>
-    <published>2014-05-09T15:09:20.000Z</published>
-    <updated>2015-11-21T05:41:48.000Z</updated>
-    <content type="html"><![CDATA[<p>  我喜欢文字的世界，它是思想的载体，是记录、交流、表达的一种方式。 理性思考与感性感悟共同的丰富着我的内心世界。所以我用简单的文字，记录自己的思考、感悟以及整理知识。但这与写不写博客无关，自己的写可以是随意的，因为大多都是写给自己看。博客与自己的记录不同的是，它是一种分享。很自然的，我想到了相关的问题。为什么写？写什么？为什么不写？你的顾虑是什么？</p>
-<h2 id="为什么写？写什么？">为什么写？写什么？</h2><p>  每一个阶段中，经历一些事、遇见一些人、看过一些书，都在体验着，思考着。写下来，一是，为了让自己思考更清晰。我在想什么？我能清楚的表达我所想吗？很多时候，自己会有想一些问题，但我真的知道我在想什么吗，却是很不一定的。思想的迅速，如果我没有表达，可能过一段时间就已经忘了。二是，希望有更深的沟通交流。现在的生活中，大多都是碎片化的沟通，三言两语的话，从了解到理解需要很长很长的过程。信息世界使沟通便捷，越是容易得到的东西，越是难引起人们的珍视。我希望通过这个平台，有更深的沟通和交流，而不是停于生活表面的接触。</p>
-<p>  人都是有七情六欲的动物，我是凡人，喜怒哀乐都有。在用心的生活中，总是有着丰富的情感。没有一尘不变的人生状态。我们接受阳光，也要接受黑暗。接受快乐，也要接受悲伤。接受积极，也要接受颓靡。”一颗一颗的感情，一字一字的包含“这是我刚在lofter写下的一句话。我相信，文字是有温度的生命，它在我们给它赋予意义之后就活了起来。所以，我希望用文字记录生活。<br>  学习的过程，有一个阶段叫做总结。我理解的这个总结，不是单纯的照着书本再写一遍，而是自己消化理解之后，用自己的方式输出的一个过程。这样的一种再输出的过程，一方面，是看我自己理解到什么程度，另一方面，是看自己的理解和他人的理解有什么异同。还有就是，定期的分享一些自己认为的好资源。</p>
-<blockquote>
-<p>分享即使一种获得。</p>
-</blockquote>
-<p>  希望我的分享，对你有所帮助后者启迪。希望我的生活态度，对你有积极的影响。希望我的经历，给你不同的体验感受。希望你能主动的找到你想要的。</p>
-<h2 id="为什么不写？你的顾虑是什么？">为什么不写？你的顾虑是什么？</h2><p>  我一直觉得，表达自我，需要勇气。单方面的表达自我更需要勇气。有些话，适合说出来；有些话，适合沉默。有些话，适合说清楚；有些话，适合说含糊。</p>
-<p>  当下的我是这样想的，所以我这样写。两个关键词，第一，是“当下”。思想的产生是在当下的阶段，它有时效性，也许未来的我自己再看时，也会有所质疑或者觉得不妥的，就像你喜欢一个人时，写下的文字，等到不喜欢了，也许也羞涩得不想去看。思想是可塑的，它不断的在更改着。时光流逝，人不断的在成长，但我不能因此否认曾经的自己。在那一个”当下“的她，的的确确是这样想的。第二，是”我“。我深知自己的渺小和矛盾。我哪怕尽全力，也只能表达出我对世界的认知，对自我的认知。我不是真理，不会总是对的。但也许世界本就没有标准答案，世界的进步也还是在怀疑中产生古代认为天圆地方，今人看来是错误的，在那个时代，它既是真理，我们不能以一种跳跃的眼光去看待，说不定，现在我们认为的真理，又会在未来的某一阶段被推翻、重新定义。历史如此，更何况，是一个人呢？</p>
-<p>  网络的复杂群体。我不知道谁会读到这些东西，所以写的风格更多的是根据自己当时的情绪，而不是针对于特定的人（当然也有例外）。不同的人，会有不同的理解，我无法消除这种差异。有人喜欢就会有人不喜欢，这才平衡吧。<br> 这是信息泛滥的时代，“微”字打头的时代。碎片化的方式越来越受到人们的喜爱，生活的急促，内心的不安稳，没有深入的思考、停留在表面的现象，思维的简短性等等，实在是不敢说还有多少人能看得进长篇，能试着去体验不同的生活和理解包容不同的思想。</p>
-<p>  没关系，就像那句父亲给孩子的话：</p>
-<blockquote>
-<p>我希望他对这个世界感兴趣，而不是努力的想让世界对他感兴趣。</p>
-</blockquote>
-<p>  恩，我喜欢这句话。</p>
-<p>  那就开始吧。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>  我喜欢文字的世界，它是思想的载体，是记录、交流、表达的一种方式。 理性思考与感性感悟共同的丰富着我的内心世界。所以我用简单的文字，记录自己的思考、感悟以及整理知识。但这与写不写博客无关，自己的写可以是随意的，因为大多都是写给自己看。博客与自己的记录不同的是，它是一种分享]]>
-    </summary>
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
     
       <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
     

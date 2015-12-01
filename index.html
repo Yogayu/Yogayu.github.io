@@ -206,6 +206,87 @@ _ts(option);
           
           
             
+              <a class="post-title-link" href="/2015/11/29/言-十一月记/" itemprop="url">
+                十一月记
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-11-29T13:09:20+08:00" content="2015-11-29">
+            2015-11-29
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/文​/" itemprop="url" rel="index">
+                  <span itemprop="name">文​</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/11/29/言-十一月记/#more" rel="contents">
+              More &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
               <a class="post-title-link" href="/2015/11/21/Plan/" itemprop="url">
                 开学计划
               </a>
@@ -240,13 +321,6 @@ _ts(option);
         
 
         
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/11/21/Plan/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/11/21/Plan/" itemprop="commentsCount"></span>
-            </a>
-          </span>
           
         
       </div>
@@ -290,8 +364,8 @@ _ts(option);
           
           
             
-              <a class="post-title-link" href="/2015/10/24/使用CocoaPods/" itemprop="url">
-                使用CocoaPods
+              <a class="post-title-link" href="/2015/11/20/iOS-Timeline-2/" itemprop="url">
+                iOS Timeline 2
               </a>
             
           
@@ -301,8 +375,8 @@ _ts(option);
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2015-10-24T12:50:54+08:00" content="2015-10-24">
-            2015-10-24
+          <time itemprop="dateCreated" datetime="2015-11-20T17:06:54+08:00" content="2015-11-20">
+            2015-11-20
           </time>
         </span>
 
@@ -325,13 +399,6 @@ _ts(option);
 
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/10/24/使用CocoaPods/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/10/24/使用CocoaPods/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
         
       </div>
     </header>
@@ -343,138 +410,15 @@ _ts(option);
 
       
         
-          <span itemprop="articleBody"><h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
-<blockquote>
-<p>你需要：</p>
-<ul>
-<li>会使用终端，知道基本的命令含义，比如 cd</li>
-<li>了解有的服务器在墙在外，需要更换为国内镜像</li>
-</ul>
-</blockquote>
-<p>CocoaPods官网: <a href="https://cocoapods.org" target="_blank" rel="external">https://cocoapods.org</a></p>
-<h2 id="如何开始？">如何开始？</h2><h3 id="step_1_安装">step 1 安装</h3><p>以下命令有权限问题时，加上sudo，比如：</p>
-<pre><code>sudo gem <span class="keyword">install</span> cocopods
-</code></pre><ul>
-<li><p>如果你在墙外，进入终端：</p>
-<pre><code>gem <span class="keyword">install</span> cocoapods
-gem setup
-</code></pre></li>
-<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
-<pre><code>gem sources --remove <span class="string">https:</span><span class="comment">//rubygems.org/</span>
-gem sources -a <span class="string">https:</span><span class="comment">//ruby.taobao.org/</span>
-gem sources -l
-</code></pre></li>
-<li><p>再输入:</p>
-<pre><code>gem <span class="keyword">install</span> cocoapods
-</code></pre></li>
-<li><p>同样，在墙内时，</p>
-<pre><code>pod repo <span class="built_in">remove</span> master
-pod repo <span class="built_in">add</span> master http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/akuandev/Specs.git
-pod repo <span class="keyword">update</span>
-</code></pre></li>
-</ul>
-<h3 id="Step_2_配置">Step 2 配置</h3><ul>
-<li><p>初始化:</p>
-<pre><code><span class="built_in">cd</span> yourProjectFile
-pod init
-</code></pre></li>
-<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
-<pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
-</code></pre><p>  保存文件。</p>
-</li>
-<li><p>安装：</p>
-<pre><code><span class="built_in">cd</span> yourProjectFile    
-pod install
-</code></pre></li>
-</ul>
-<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yourProjectName.xcworkspace</p>
-<h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
-<pre><code><span class="title">pod</span> search
-</code></pre></span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/10/20/专业学习规划图/" itemprop="url">
-                专业学习规划图
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-10-20T17:06:54+08:00" content="2015-10-20">
-            2015-10-20
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/理/" itemprop="url" rel="index">
-                  <span itemprop="name">理</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/10/20/专业学习规划图/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/10/20/专业学习规划图/" itemprop="commentsCount"></span>
+          <h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
+<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
+<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/11/20/iOS-Timeline-2/#more" rel="contents">
+              More &raquo;
             </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxypng.png" alt="图"><br><!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe--><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png" alt="Apple"></p>
-</span>
+          </div>
         
       
     </div>
@@ -497,7 +441,7 @@ pod install
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
   </nav>
 
  </div>
@@ -531,21 +475,21 @@ pod install
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">19</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">categories</span>
               
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">tags</span>
               </a>
           </div>
@@ -644,25 +588,6 @@ pod install
     
     
 
-  
-
-    <script type="text/javascript">
-      var disqus_shortname = 'yogayu';
-      var disqus_identifier = 'index.html';
-      var disqus_title = '';
-      var disqus_url = '';
-
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-    </script>
   
 
 

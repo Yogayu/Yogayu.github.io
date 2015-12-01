@@ -206,8 +206,8 @@ _ts(option);
           
           
             
-              <a class="post-title-link" href="/2015/05/18/言语/" itemprop="url">
-                言语
+              <a class="post-title-link" href="/2015/10/24/使用CocoaPods/" itemprop="url">
+                使用CocoaPods
               </a>
             
           
@@ -217,8 +217,8 @@ _ts(option);
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2015-05-18T13:09:20+08:00" content="2015-05-18">
-            2015-05-18
+          <time itemprop="dateCreated" datetime="2015-10-24T12:50:54+08:00" content="2015-10-24">
+            2015-10-24
           </time>
         </span>
 
@@ -227,8 +227,8 @@ _ts(option);
             &nbsp; | &nbsp; In
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
+                <a href="/categories/理/" itemprop="url" rel="index">
+                  <span itemprop="name">理</span>
                 </a>
               </span>
 
@@ -241,13 +241,6 @@ _ts(option);
 
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/05/18/言语/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/05/18/言语/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
         
       </div>
     </header>
@@ -259,20 +252,54 @@ _ts(option);
 
       
         
-          <p><strong>Sort but powerful</strong></p>
-<h2 id="智慧">智慧</h2><hr>
-<p> 记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
-<hr>
-<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
-<hr>
-<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
-<hr>
-<p>把自己的生活当作正文，把书籍当作注解。——爱默生<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/05/18/言语/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
+          <span itemprop="articleBody"><h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
+<blockquote>
+<p>你需要：</p>
+<ul>
+<li>会使用终端，知道基本的命令含义，比如 cd</li>
+<li>了解有的服务器在墙在外，需要更换为国内镜像</li>
+</ul>
+</blockquote>
+<p>CocoaPods官网: <a href="https://cocoapods.org" target="_blank" rel="external">https://cocoapods.org</a></p>
+<h2 id="如何开始？">如何开始？</h2><h3 id="step_1_安装">step 1 安装</h3><p>以下命令有权限问题时，加上sudo，比如：</p>
+<pre><code>sudo gem <span class="keyword">install</span> cocopods
+</code></pre><ul>
+<li><p>如果你在墙外，进入终端：</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+<pre><code>gem sources --remove <span class="string">https:</span><span class="comment">//rubygems.org/</span>
+gem sources -a <span class="string">https:</span><span class="comment">//ruby.taobao.org/</span>
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+<pre><code>pod repo <span class="built_in">remove</span> master
+pod repo <span class="built_in">add</span> master http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/akuandev/Specs.git
+pod repo <span class="keyword">update</span>
+</code></pre></li>
+</ul>
+<h3 id="Step_2_配置">Step 2 配置</h3><ul>
+<li><p>初始化:</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile
+pod init
+</code></pre></li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+<pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
+</code></pre><p>  保存文件。</p>
+</li>
+<li><p>安装：</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile    
+pod install
+</code></pre></li>
+</ul>
+<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yourProjectName.xcworkspace</p>
+<h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
+<pre><code><span class="title">pod</span> search
+</code></pre></span>
         
       
     </div>
@@ -302,8 +329,8 @@ _ts(option);
           
           
             
-              <a class="post-title-link" href="/2014/12/01/CreateExperience/" itemprop="url">
-                去创造，去体验
+              <a class="post-title-link" href="/2015/10/20/专业学习规划图/" itemprop="url">
+                专业学习规划图
               </a>
             
           
@@ -313,8 +340,8 @@ _ts(option);
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2014-12-01T13:09:20+08:00" content="2014-12-01">
-            2014-12-01
+          <time itemprop="dateCreated" datetime="2015-10-20T17:06:54+08:00" content="2015-10-20">
+            2015-10-20
           </time>
         </span>
 
@@ -323,8 +350,8 @@ _ts(option);
             &nbsp; | &nbsp; In
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
+                <a href="/categories/理/" itemprop="url" rel="index">
+                  <span itemprop="name">理</span>
                 </a>
               </span>
 
@@ -337,13 +364,6 @@ _ts(option);
 
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2014/12/01/CreateExperience/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2014/12/01/CreateExperience/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
         
       </div>
     </header>
@@ -355,112 +375,89 @@ _ts(option);
 
       
         
-          <p>很早很早之前就想到，人生，我的人生就那么几十年，过了就没有了，相比起整个人类之长河，相比起宇宙之浩瀚，相比起无穷之未知，我是何其渺小。而那些在历史长河中所沉淀的不朽，长久的随人类而存的痕迹，是我所想创造的。所以，我曾梦想，自己这一生走完之后，会给这个世界留下些经得起时间检验的不朽的事物，有所创造。</p>
-<p>​对，这是我<strong>最初的想法</strong>。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2014/12/01/CreateExperience/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2014/05/09/言-写不写博客/" itemprop="url">
-                写不写博客
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2014-05-09T23:09:20+08:00" content="2014-05-09">
-            2014-05-09
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2014/05/09/言-写不写博客/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2014/05/09/言-写不写博客/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p>  我喜欢文字的世界，它是思想的载体，是记录、交流、表达的一种方式。 理性思考与感性感悟共同的丰富着我的内心世界。所以我用简单的文字，记录自己的思考、感悟以及整理知识。但这与写不写博客无关，自己的写可以是随意的，因为大多都是写给自己看。博客与自己的记录不同的是，它是一种分享。很自然的，我想到了相关的问题。为什么写？写什么？为什么不写？你的顾虑是什么？</p>
-<h2 id="为什么写？写什么？">为什么写？写什么？</h2><p>  每一个阶段中，经历一些事、遇见一些人、看过一些书，都在体验着，思考着。写下来，一是，为了让自己思考更清晰。我在想什么？我能清楚的表达我所想吗？很多时候，自己会有想一些问题，但我真的知道我在想什么吗，却是很不一定的。思想的迅速，如果我没有表达，可能过一段时间就已经忘了。二是，希望有更深的沟通交流。现在的生活中，大多都是碎片化的沟通，三言两语的话，从了解到理解需要很长很长的过程。信息世界使沟通便捷，越是容易得到的东西，越是难引起人们的珍视。我希望通过这个平台，有更深的沟通和交流，而不是停于生活表面的接触。</p>
-<p>  人都是有七情六欲的动物，我是凡人，喜怒哀乐都有。在用心的生活中，总是有着丰富的情感。没有一尘不变的人生状态。我们接受阳光，也要接受黑暗。接受快乐，也要接受悲伤。接受积极，也要接受颓靡。”一颗一颗的感情，一字一字的包含“这是我刚在lofter写下的一句话。我相信，文字是有温度的生命，它在我们给它赋予意义之后就活了起来。所以，我希望用文字记录生活。<br>  学习的过程，有一个阶段叫做总结。我理解的这个总结，不是单纯的照着书本再写一遍，而是自己消化理解之后，用自己的方式输出的一个过程。这样的一种再输出的过程，一方面，是看我自己理解到什么程度，另一方面，是看自己的理解和他人的理解有什么异同。还有就是，定期的分享一些自己认为的好资源。</p>
-<blockquote>
-<p>分享即使一种获得。</p>
-</blockquote>
-<p>  希望我的分享，对你有所帮助后者启迪。希望我的生活态度，对你有积极的影响。希望我的经历，给你不同的体验感受。希望你能主动的找到你想要的。</p>
-<h2 id="为什么不写？你的顾虑是什么？">为什么不写？你的顾虑是什么？</h2><p>  我一直觉得，表达自我，需要勇气。单方面的表达自我更需要勇气。有些话，适合说出来；有些话，适合沉默。有些话，适合说清楚；有些话，适合说含糊。</p>
-<p>  当下的我是这样想的，所以我这样写。两个关键词，第一，是“当下”。思想的产生是在当下的阶段，它有时效性，也许未来的我自己再看时，也会有所质疑或者觉得不妥的，就像你喜欢一个人时，写下的文字，等到不喜欢了，也许也羞涩得不想去看。思想是可塑的，它不断的在更改着。时光流逝，人不断的在成长，但我不能因此否认曾经的自己。在那一个”当下“的她，的的确确是这样想的。第二，是”我“。我深知自己的渺小和矛盾。我哪怕尽全力，也只能表达出我对世界的认知，对自我的认知。我不是真理，不会总是对的。但也许世界本就没有标准答案，世界的进步也还是在怀疑中产生古代认为天圆地方，今人看来是错误的，在那个时代，它既是真理，我们不能以一种跳跃的眼光去看待，说不定，现在我们认为的真理，又会在未来的某一阶段被推翻、重新定义。历史如此，更何况，是一个人呢？</p>
-<p>  网络的复杂群体。我不知道谁会读到这些东西，所以写的风格更多的是根据自己当时的情绪，而不是针对于特定的人（当然也有例外）。不同的人，会有不同的理解，我无法消除这种差异。有人喜欢就会有人不喜欢，这才平衡吧。<br> 这是信息泛滥的时代，“微”字打头的时代。碎片化的方式越来越受到人们的喜爱，生活的急促，内心的不安稳，没有深入的思考、停留在表面的现象，思维的简短性等等，实在是不敢说还有多少人能看得进长篇，能试着去体验不同的生活和理解包容不同的思想。</p>
-<p>  没关系，就像那句父亲给孩子的话：</p>
-<blockquote>
-<p>我希望他对这个世界感兴趣，而不是努力的想让世界对他感兴趣。</p>
-</blockquote>
-<p>  恩，我喜欢这句话。</p>
-<p>  那就开始吧。</p>
+          <span itemprop="articleBody"><p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxypng.png" alt="图"><br><!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe--><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png" alt="Apple"></p>
 </span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/2015/10/01/言-九月记/" itemprop="url">
+                九月记
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-10-01T13:09:20+08:00" content="2015-10-01">
+            2015-10-01
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/文​/" itemprop="url" rel="index">
+                  <span itemprop="name">文​</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/10/01/言-九月记/#more" rel="contents">
+              More &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -483,7 +480,7 @@ _ts(option);
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/">&laquo;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    <a class="extend prev" rel="prev" href="/page/2/">&laquo;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/4/">&raquo;</a>
   </nav>
 
  </div>
@@ -517,21 +514,21 @@ _ts(option);
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">19</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">categories</span>
               
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">tags</span>
               </a>
           </div>
@@ -630,25 +627,6 @@ _ts(option);
     
     
 
-  
-
-    <script type="text/javascript">
-      var disqus_shortname = 'yogayu';
-      var disqus_identifier = 'page/3/index.html';
-      var disqus_title = '';
-      var disqus_url = '';
-
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-    </script>
   
 
 
