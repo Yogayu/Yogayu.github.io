@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://azureyu.com/"/>
-  <updated>2015-12-01T06:12:59.000Z</updated>
+  <updated>2015-12-01T06:13:00.000Z</updated>
   <id>http://azureyu.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://azureyu.com/2015/11/29/%E8%A8%80-%E5%8D%81%E4%B8%80%E6%9C%88%E8%AE%B0/"/>
     <id>http://azureyu.com/2015/11/29/言-十一月记/</id>
     <published>2015-11-29T05:09:20.000Z</published>
-    <updated>2015-12-01T06:12:59.000Z</updated>
+    <updated>2015-12-01T06:13:00.000Z</updated>
     <content type="html"><![CDATA[<p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。<a id="more"></a>回来之后，在网上买了不少东西。</p>
 <h2 id="学校课程">学校课程</h2><p> 前半期结课，开始<code>复习</code>，每天复习一点。</p>
 <ul>
@@ -118,8 +118,9 @@
     <link href="http://azureyu.com/2015/11/20/iOS-Timeline-2/"/>
     <id>http://azureyu.com/2015/11/20/iOS-Timeline-2/</id>
     <published>2015-11-20T09:06:54.000Z</published>
-    <updated>2015-11-29T15:23:03.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+    <updated>2015-12-01T06:22:52.000Z</updated>
+    <content type="html"><![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
 <h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
 <h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
 <h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br><a id="more"></a></p>
@@ -153,7 +154,8 @@ func toImage() -&gt; <span class="built_in">UIImage</span> {
 <h2 id="11-17">11-17</h2><p>都没有意识到停滞了那么久。出去玩了几天。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+    <![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
 <h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
 <h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
 <h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>]]>
@@ -263,8 +265,9 @@ func toImage() -&gt; <span class="built_in">UIImage</span> {
     <link href="http://azureyu.com/2015/11/01/iOS-Timeline/"/>
     <id>http://azureyu.com/2015/11/01/iOS-Timeline/</id>
     <published>2015-11-01T09:06:54.000Z</published>
-    <updated>2015-12-01T05:27:34.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+    <updated>2015-12-01T06:22:23.000Z</updated>
+    <content type="html"><![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
 <ol>
 <li>Prototypeing increase commuction.</li>
 <li>Using <a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a> </li>
@@ -515,7 +518,8 @@ tableView<span class="class">.rowHeight</span> = UITableViewAutomaticDimension
 <h2 id="10-30">10-30</h2><p>CGD</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+    <![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
 <ol>
 <li>Prototypeing increase commuction.</li>
 <li>Using <a href="https://github.com/MengTo/Spring">Spring</a> </li>
