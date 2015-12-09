@@ -1,47 +1,3 @@
-<<<<<<< HEAD
----
-layout: page
-description: ""
----
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-=======
 <!doctype html>
 <html class="theme-next use-motion theme-next-mist">
 <head>
@@ -74,7 +30,7 @@ description: ""
 
 
 
-  <meta name="keywords" content="Azure,Yu" />
+  <meta name="keywords" content="life," />
 
 
 
@@ -85,15 +41,16 @@ description: ""
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="love life, love nature">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Azure Yu">
-<meta property="og:url" content="http://azureyu.com/index.html">
+<meta name="description" content="九月，雨天阴天，就这么舒舒服服的过去了。喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="九月记">
+<meta property="og:url" content="http://azureyu.com/2015/10/01/言-九月记/index.html">
 <meta property="og:site_name" content="Azure Yu">
-<meta property="og:description" content="love life, love nature">
+<meta property="og:description" content="九月，雨天阴天，就这么舒舒服服的过去了。喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。">
+<meta property="og:updated_time" content="2015-12-01T06:13:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Azure Yu">
-<meta name="twitter:description" content="love life, love nature">
+<meta name="twitter:title" content="九月记">
+<meta name="twitter:description" content="九月，雨天阴天，就这么舒舒服服的过去了。喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -103,7 +60,7 @@ description: ""
   };
 </script>
 
-  <title> Azure Yu </title>
+  <title> 九月记 | Azure Yu </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en,zh-Hans,zh-tw,default">
@@ -131,9 +88,7 @@ description: ""
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -237,9 +192,9 @@ _ts(option);
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -250,9 +205,7 @@ _ts(option);
           
           
             
-              <a class="post-title-link" href="/2015/11/29/言-十一月记/" itemprop="url">
-                十一月记
-              </a>
+              九月记
             
           
         </h1>
@@ -261,8 +214,8 @@ _ts(option);
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2015-11-29T13:09:20+08:00" content="2015-11-29">
-            2015-11-29
+          <time itemprop="dateCreated" datetime="2015-10-01T13:09:20+08:00" content="2015-10-01">
+            2015-10-01
           </time>
         </span>
 
@@ -295,204 +248,67 @@ _ts(option);
       
 
       
-        
-          <p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/29/言-十一月记/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/21/Plan/" itemprop="url">
-                开学计划
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-21T13:36:07+08:00" content="2015-11-21">
-            2015-11-21
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><div style="text-align:center">两年前写的开学计划，还要加油。</div><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/开学计划_—_Evernote_Basic.jpg" style="margin:auto"></p>
+        <span itemprop="articleBody"><p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br><a id="more"></a><br>开学不久。每天清闲。课，想听就听，不想听的，就自己做事。老师在讲台上讲他的课，我在课桌下看我的书。</p>
+<p>每天，都会做自己的事。抱着吉他，咚咚咚咚咚的练习音阶，练习和弦。<br>手指在指板上跳舞，美妙的音乐在伴奏。一个人，一把吉他，一个小时两个小时的过去，毫不枯燥，甚而难以放下。原来，练习也会成瘾。</p>
+<p>打开Xcode，比着教程，看着文档，动脑思考，动手实践。一个个的Demo App也就跑了起来。入神之后，也就忘了时间。我，电脑，再无他物。</p>
+<p>画着画。一天一课，简单、神奇。简单是，只需20分钟，不用复杂逻辑思考，都凭感觉。神奇是，加点点细节，一切看起来就不一样，更真。</p>
+<p>想做什么就去做什么吧，这真是最好的建议之一。<br>你没做，只想的事啊，多半不是真的想。</p>
+<hr>
+<p>饭饱后，闲逛校园。走不了几步就能到后山。山分两面可以上，每面山脚，都有斜坡草地，零星的长着大树。</p>
+<p>山边有湖，湖名缙云。湖中天鹅，有黑有白；成群金鱼，大如(用什么形容词?)<br>湖边杨柳，微风细舞。木质长凳，闲适观景。</p>
+<p>往山顶方向走，接着是莲花田三块。背景是起伏连绵的山，不高，但紧实。最顶上是亭。</p>
+<p>喂鱼的人拿着面包<br>情侣吃着蛋糕<br>年纪大的人快步锻炼<br>骑自行车的外来者<br>小孩子和他的家人<br>背着单反，专程拍照的人<br>听着歌哼着小曲的人<br>自言自语的保安</p>
+<p>好多好多……</p>
+<p>那么安然自在的日子。</p>
 </span>
-        
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
+        <div class="post-tags">
           
+            <a href="/tags/life/" rel="tag">#life</a>
           
-            
-              <a class="post-title-link" href="/2015/11/20/iOS-Timeline-2/" itemprop="url">
-                iOS Timeline 2
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-20T17:06:54+08:00" content="2015-11-20">
-            2015-11-20
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/理/" itemprop="url" rel="index">
-                  <span itemprop="name">理</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
+        </div>
       
 
       
-        
-          <p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
-<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
-<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
-<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
-<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/20/iOS-Timeline-2/#more" rel="contents">
-              More &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/10/20/专业学习规划图/" rel="prev">专业学习规划图</a>
+            
           </div>
-        
-      
-    </div>
 
-    <footer class="post-footer">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/20/言-1~2周总结/" rel="next">开学前两周小记</a>
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
-  </nav>
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
  </div>
 
         
 
+        
+          <div class="comments" id="comments">
+            
+          </div>
         
       </div>
 
@@ -509,6 +325,15 @@ _ts(option);
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Catalog
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
       
 
       <section class="site-overview">
@@ -584,6 +409,17 @@ _ts(option);
       </section>
 
       
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <p class="post-toc-empty">This post does not have a Table Of Contents</p>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
+      
 
     </div>
   </aside>
@@ -657,6 +493,165 @@ _ts(option);
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
 
   <script type="text/javascript">
     $(document).ready(function () {
@@ -686,4 +681,3 @@ _ts(option);
   </script>
 </body>
 </html>
->>>>>>> origin/master

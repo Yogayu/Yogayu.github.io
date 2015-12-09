@@ -1,51 +1,9 @@
-<<<<<<< HEAD
----
-layout: page
-description: ""
----
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-=======
 <!doctype html>
 <html class="theme-next use-motion theme-next-mist">
 <head>
   
+    
+
 
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -87,12 +45,13 @@ description: ""
 
 <meta name="description" content="love life, love nature">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Azure Yu">
-<meta property="og:url" content="http://azureyu.com/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://azureyu.com/tags/index.html">
 <meta property="og:site_name" content="Azure Yu">
 <meta property="og:description" content="love life, love nature">
+<meta property="og:updated_time" content="2015-10-20T15:06:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Azure Yu">
+<meta name="twitter:title" content="tags">
 <meta name="twitter:description" content="love life, love nature">
 
 
@@ -103,7 +62,13 @@ description: ""
   };
 </script>
 
-  <title> Azure Yu </title>
+  <title>
+  
+
+  
+    Tag | Azure Yu
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en,zh-Hans,zh-tw,default">
@@ -131,9 +96,7 @@ description: ""
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -237,257 +200,20 @@ _ts(option);
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/29/言-十一月记/" itemprop="url">
-                十一月记
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-29T13:09:20+08:00" content="2015-11-29">
-            2015-11-29
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
+    
+      <div class="tag-cloud">
+        <div class="tag-cloud-title">
+            7 tags in total
+        </div>
+        <div class="tag-cloud-tags">
+          <a href="/tags/Hexo/" style="font-size: 12px; color: #ccc">Hexo</a> <a href="/tags/IBM/" style="font-size: 12px; color: #ccc">IBM</a> <a href="/tags/Jekyll/" style="font-size: 12px; color: #ccc">Jekyll</a> <a href="/tags/iOS/" style="font-size: 24px; color: #4f4f4f">iOS</a> <a href="/tags/life/" style="font-size: 30px; color: #111">life</a> <a href="/tags/plan/" style="font-size: 18px; color: #8e8e8e">plan</a>
+        </div>
       </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/29/言-十一月记/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
     
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/21/Plan/" itemprop="url">
-                开学计划
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-21T13:36:07+08:00" content="2015-11-21">
-            2015-11-21
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><div style="text-align:center">两年前写的开学计划，还要加油。</div><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/开学计划_—_Evernote_Basic.jpg" style="margin:auto"></p>
-</span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/20/iOS-Timeline-2/" itemprop="url">
-                iOS Timeline 2
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-20T17:06:54+08:00" content="2015-11-20">
-            2015-11-20
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/理/" itemprop="url" rel="index">
-                  <span itemprop="name">理</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
-<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
-<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
-<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
-<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/20/iOS-Timeline-2/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
-  </nav>
+  </div>
 
  </div>
 
@@ -686,4 +412,3 @@ _ts(option);
   </script>
 </body>
 </html>
->>>>>>> origin/master

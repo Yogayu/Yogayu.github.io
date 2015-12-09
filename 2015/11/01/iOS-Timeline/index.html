@@ -1,0 +1,936 @@
+<!doctype html>
+<html class="theme-next use-motion theme-next-mist">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+
+  <!--link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
+
+
+    <meta name="description" content="love life, love nature" />
+
+
+
+  <meta name="keywords" content="iOS," />
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Azure Yu" type="application/atom+xml" />
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+
+
+<meta name="description" content="主要内容:iOS学习时间线主要读者:我自己(所以您可以不点开)
+Design + Code09-06 PrototypePoint:
+
+Prototypeing increase commuction.
+Using Spring 
+Set the view background and set the LogIn dialog’s class to the spring class, then i">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS TimeLine">
+<meta property="og:url" content="http://azureyu.com/2015/11/01/iOS-Timeline/index.html">
+<meta property="og:site_name" content="Azure Yu">
+<meta property="og:description" content="主要内容:iOS学习时间线主要读者:我自己(所以您可以不点开)
+Design + Code09-06 PrototypePoint:
+
+Prototypeing increase commuction.
+Using Spring 
+Set the view background and set the LogIn dialog’s class to the spring class, then i">
+<meta property="og:updated_time" content="2015-12-01T06:22:23.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="iOS TimeLine">
+<meta name="twitter:description" content="主要内容:iOS学习时间线主要读者:我自己(所以您可以不点开)
+Design + Code09-06 PrototypePoint:
+
+Prototypeing increase commuction.
+Using Spring 
+Set the view background and set the LogIn dialog’s class to the spring class, then i">
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: 'post'
+  };
+</script>
+
+  <title> iOS TimeLine | Azure Yu </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en,zh-Hans,zh-tw,default">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?7e918b457095c138d6ce710350596dfc";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand" rel="start">
+      <span class="logo">
+        <i class="icon-next-logo"></i>
+      </span>
+      <span class="site-title">Azure Yu</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon icon-next-home"></i> <br />
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            <i class="menu-item-icon icon-next-archives"></i> <br />
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            <i class="menu-item-icon icon-next-tags"></i> <br />
+            Tags
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <form class="site-search-form">
+    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  </form>
+
+<!--script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', '7b5522cddf86419ba968','2.0.0');
+</script-->
+
+<!--script>
+var option = {
+  engineKey: '7b5522cddf86419ba968'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script-->
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content"> 
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              iOS TimeLine
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-11-01T17:06:54+08:00" content="2015-11-01">
+            2015-11-01
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/理/" itemprop="url" rel="index">
+                  <span itemprop="name">理</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+<ol>
+<li>Prototypeing increase commuction.</li>
+<li>Using <a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a> </li>
+<li>Set the view background and set the LogIn dialog’s class to the spring class, then in the Inspetor we can use the animation.</li>
+</ol>
+<p>使用Spring开启动画之旅。原型示例，无需编码即可使用动画。<br>下载Spring，添加到工程中，选择组件，设置为Spring Class，定义动画。</p>
+<h2 id="09-07_Autolayout_2h">09-07 Autolayout 2h</h2><p>之前使用AutoLayout的问题，是因为没有限制元素的大小，只给出了元素的位置。<br>Mengto 的教材要点清晰，步骤解释详细。<br>事件编程，比喻: HTML-&gt;View，JS-&gt;ViewController，但是这里是一对一</p>
+<ol>
+<li>一般命名规则：<strong>function+type+action</strong></li>
+<li>Prototyping Animations With Swift</li>
+</ol>
+<p>添加动画：</p>
+<pre><code>dialogView.animation = <span class="string">"shake"</span>
+dialogView.animate<span class="params">()</span>
+
+ <span class="comment">// Optionals</span>
+
+var answer: String<span class="built_in">!</span>
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer
+
+<span class="keyword">if</span> <span class="built_in">let</span> sureAnswer = answer {
+    UILabel<span class="params">()</span>.<span class="built_in">text</span> = sureAnswer
+}
+
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer ?? <span class="string">""</span>
+</code></pre><h2 id="09-08_Building_the_UI">09-08 Building the UI</h2><ol>
+<li><p>颜色选择插件<a href="http://wafflesoftware.net/hexpicker/" target="_blank" rel="external">1</a>，<a href="https://bjango.com/mac/skalacolor/" target="_blank" rel="external">2</a></p>
+</li>
+<li><p>clip subview属性，表示对于控件，之外部分不会显示。有些像蒙版。</p>
+</li>
+<li><p>目标：将原型转化为真的组件。添加组件、进行布局、设置动画等。<br>view-&gt;viewcontroller class</p>
+</li>
+<li><p>大体过程：添加view，设置背景色或图片；添加button，设置button的图标或颜色，字体大小；添加各组件动态效果，设置为可设计的class，再更改属性。最后布局。添加限制：位置限制，大小限制。</p>
+<blockquote>
+<p>这是个体力活，有没有更好的布局方式?</p>
+</blockquote>
+</li>
+<li><p>问题: 转场动画总是不对，虚化也没用正常的实现！到底是哪里的问题！明明按照教程做的啊。</p>
+<p> 解决：结果还是因为自己和教程不一样，没有去掉view的颜色 -。-</p>
+</li>
+<li><p>两个class之间沟通，需要用到delegate。</p>
+<a id="more"></a>
+</li>
+</ol>
+<h2 id="09-09_TableView,_Segue_2-5h">09-09 TableView, Segue 2.5h</h2><p>添加tableview，添加nav，设置颜色，添加bar-item，设置segue，直接从controller那里拖去，设置segue的indentifier，这样可以通过编码进行调用、控制。<br><strong>别忘记加entry point</strong>。</p>
+<p>设置segue的显示方式</p>
+<ol>
+<li>添加tableviewcontroller，设置class，添加action，转向页面（performSegueWithIdentifier）。</li>
+<li>设置Cell，indentifier，Row height: custom。添加UIimageview，设置大小和位置。同理添加Lable等。去掉constrain to margin。添加其余组件。看来要提前设计好大小啊。</li>
+<li>将之前三个页面的unwind去掉，然后设置class，在代码中添加action。手动时，调用，self.dismissViewControllerAnimated 进行返回。也可以设置返回时的动画。</li>
+<li><p>问题，cell的高度没有改变。<br>解决办法：</p>
+<ol>
+<li>看官方文档<a href="https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UITableView_Class/index.html#//apple_ref/doc/uid/TP40006943" target="_blank" rel="external">UITableView Class Referance</a></li>
+<li><p>设置cell中row height高度为100，在viewdidload中添加代码:</p>
+<pre><code>tableView<span class="class">.estimatedRowHeight</span> = <span class="number">100</span>
+tableView<span class="class">.rowHeight</span> = UITableViewAutomaticDimension
+</code></pre></li>
+</ol>
+</li>
+</ol>
+<p>两个半小时有没有了 -。-</p>
+<h2 id="09-10_TableCell_1-5h">09-10 TableCell 1.5h</h2><ol>
+<li>添加cell的class，添加IBAction等，添加动画效果，在tableviewcontroller中添加数据，关联view。</li>
+<li>修改bar state(状态栏)</li>
+</ol>
+<p>一个半小时又木有了-。-</p>
+<h2 id="09-11_Creating_a_delegate">09-11 Creating a delegate</h2><p>delegate：在两个类之间进行通信。接口interface</p>
+<blockquote>
+<p>We need a Delegate for two Classes to communicate with each other.</p>
+</blockquote>
+<ol>
+<li>creat a protcol</li>
+<li>delare delgate</li>
+<li><p>add and impl… function </p>
+</li>
+<li><p>问题:</p>
+<ol>
+<li>cell.delegate = self </li>
+<li>sender是什么</li>
+</ol>
+</li>
+<li><p>高度解决办法，在storycell设置100，custom。在viewdidload中加入代码。<br> tableView.estimatedRowHeight = 100<br>  tableView.rowHeight = UITableViewAutomaticDimension</p>
+</li>
+</ol>
+<h2 id="09-11~09-12_Applying_Static_Data_from_API">09-11~09-12 Applying Static Data from API</h2><ol>
+<li>新建文件data存储数据，类型为字典</li>
+<li>JSON数据，转化之后写入Data中</li>
+<li>进行赋值，因为比较多，所以单独写为一个函数</li>
+</ol>
+<p>设计，原型，设计转为实物，转场，数据</p>
+<h2 id="09-13_Opening_Links_2h">09-13 Opening Links 2h</h2><ol>
+<li>昨天高度不对的问题，是因为没有设置好约束，<strong>想要实现自动行高，在顶和低都要有元素的约束</strong>。</li>
+<li>在learn iOS中open link，写一个函数，传入url: String 再在safari中打开，UIApplication.share…等</li>
+<li>同理，在点击tablecell时，通过segue把url传到webController那去。需要传入数据，获取indexPath.row，接受数据，url。同样转换之后打开。不过这次是通过，加入web的delegate，loadrequest。设置进度条，只给出了代码实现方式，没有给出解释。</li>
+<li>一些细节，转场，statusbar的设置。</li>
+</ol>
+<p>今天没有什么问题。</p>
+<h2 id="09-14_Login_keyboard_1h">09-14 Login keyboard 1h</h2><p>设置keyboard在输入时，自动向上跳一定距离。添加库TPKeboardAvoiding，添加scoller view，把要输入的部分都加入其中，设置类为TPK…S…。<br>设置动画，添加delgate，设置图片和动画。<br>没什么问题。</p>
+<h2 id="09-15_Data">09-15 Data</h2><p>终于涉及到专业知识了…<br>感觉这应用核心部分不多，但包装很好。</p>
+<ul>
+<li>CocoaPods，是什么？如何使用？</li>
+<li>Alamofire是什么？怎么用？</li>
+<li>API是什么？怎么用？</li>
+<li>这些技术的核心思想是什么？由什么而来？</li>
+</ul>
+<p>感觉应用层就是变化多端，没有低层来得那么实在。一个要创意（难捉摸）些，一个要…恩…聪明(枯燥)。</p>
+<p>这一节的知识，讲得太过笼统。没有解释。估计作者自己也不太能解释。是一门适合程序员入门设计的书，可真不像是一门设计人员入门编程的书。</p>
+<h2 id="9-16_Alamofire">9-16 Alamofire</h2><ol>
+<li>添加Alamofire的库，文档</li>
+<li>添加数据类型</li>
+<li>进行API的调用，将内容改为动态数据<ul>
+<li>Table…定义存储stories为JSON类型，添加载入数据方法 </li>
+<li>页面加载，获取data，下拉刷新，获取data</li>
+<li>cell放回内容时，将每个cell赋值</li>
+</ul>
+</li>
+<li>处理之前的数据类型</li>
+<li>添加下拉刷新</li>
+<li>添加页面刷新</li>
+</ol>
+<p>这下要自己折腾学新东西了。<br>这里使用的数据结构式JSON，采用的网络协议是Alamofire。</p>
+<h2 id="09-17_API">09-17 API</h2><ol>
+<li>API是什么？怎么用？<br>API: Application Programming Interface 应用程序接口</li>
+<li><p>什么是 JSON ？</p>
+<blockquote>
+<ul>
+<li>JSON 指的是 JavaScript 对象表示法（JavaScript Object Notation）<ul>
+<li>JSON 是轻量级的文本数据交换格式</li>
+<li>JSON 独立于语言 *</li>
+<li>JSON 具有自我描述性，更易理解</li>
+<li>JSON 使用 JavaScript 语法来描述数据对象，但是 JSON 仍然独立于语言和平台。JSON 解析器和 JSON 库支持许多不同的编程语言。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>JSON 语法规则</p>
+<blockquote>
+<p>JSON 语法是 JavaScript 对象表示法语法的子集。</p>
+<ul>
+<li>数据在名称/值对中</li>
+<li>数据由逗号分隔</li>
+<li>花括号保存对象</li>
+<li>方括号保存数组</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h1 id="探索阶段">探索阶段</h1><h2 id="09-20_复习">09-20 复习</h2><p>类型转换键盘dismiss firstRespond…</p>
+<ol>
+<li>点击go进行登录?如何获取键盘事件响应？添加UITextField的delegate，实现方法textFieldShouldReturn就可以了。</li>
+<li>各种UI的使用方法。</li>
+<li>两个alert，如何只响应其中一个的事件?</li>
+<li>如何获取另一个函数中的值？难道不是直接调用函数？</li>
+</ol>
+<p><strong>慢慢来。</strong></p>
+<h2 id="09-21看开发者博客">09-21看开发者博客</h2><p>想自己设计个记录的app，设计UI。<br>感觉最近很停滞，没什么进展。<br>学以致用,自己动手才发现其实不简单。</p>
+<h2 id="09-22_学开发究竟是在什么呢？">09-22 学开发究竟是在什么呢？</h2><p>How to do something?<br>用技术去实现功能。<br>如何使用别人造好的轮子呢？<br>明确一些设计的概念，比如协议、target之类的。<br>框架，就是给你材料，你去使用，去构建出自己的应用程序。<br>iOS 的API 分为四层。<br>UIKit，如何理解？类继承，家族。举例子，几何类。<br>需要用到数据的控件，实现delegate和dataSource。<br>表视图设计模式：分页，下拉刷新。<br>导航：平铺、标签、树形？</p>
+<blockquote>
+<p>默认情况下,模态视图是从屏幕下方滑出来的。当完成的时候需要关闭这个模态视图,如果不关闭,就不能 做别的事情,这就是“模态”的含义,它具有必须响应处理的意思。</p>
+</blockquote>
+<p>视图之间传输数据？委托？广播？MVC？</p>
+<h1 id="Project-based_study">Project-based study</h1><h2 id="09-23_UnitConverter">09-23 UnitConverter</h2><p>温度转化，学习MVC模式。</p>
+<h2 id="09-24_UnitConverter">09-24 UnitConverter</h2><p>完成了温度转化APP，对MVC的M有了更深的理解。</p>
+<h2 id="09-25_EasyBrowser">09-25 EasyBrowser</h2><h3 id="Web:">Web:</h3><pre><code><span class="keyword">if</span> <span class="built_in">let</span> url = NSURL<span class="params">(string: textField1.text)</span>{
+    webView1.loadRequest<span class="params">(NSURLRequest<span class="params">(URL:url)</span>)</span>
+}
+</code></pre><ol>
+<li>UIApplication.sharedApplication().openURL(NSURL(string: textField1.text)!)</li>
+<li>webView1.loadRequest(NSURLRequest(URL:NSURL(string: textField1.text)!))</li>
+</ol>
+<h3 id="UIApplication">UIApplication</h3><p>通过UIApplication调用iOS其他应用功能</p>
+<h3 id="Optional_Binding:">Optional Binding:</h3><blockquote>
+<p>You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. </p>
+</blockquote>
+<pre><code><span class="keyword">if</span> <span class="keyword">let</span> constantName = someOptional {
+    statements
+}
+</code></pre><p>看不同人写的代码，才知道什么是写得好的代码。<br>。<br>明确知道它有值的可选型，称为implicitly unwrapped optionals，绝对可拆可选型，在之后加上!，方便之后使用(因为可以不再进行是否有值的判断)。</p>
+<pre><code><span class="keyword">let</span> possibleString: <span class="built_in">String</span>? = <span class="string">"An optional string."</span>
+<span class="keyword">let</span> forcedString: <span class="built_in">String</span> = possibleString! <span class="comment">// requires an exclamation mark</span>
+
+<span class="keyword">let</span> assumedString: <span class="built_in">String</span>! = <span class="string">"An implicitly unwrapped optional string."</span>
+<span class="keyword">let</span> implicitString: <span class="built_in">String</span> = assumedString <span class="comment">// no need for an exclamation mark</span>
+</code></pre><p>不太理解为什么要这样做，直接定义为对应的类型不就好了吗？</p>
+<h2 id="09-26_Found">09-26 Found</h2><ol>
+<li><p>调用系统地图App</p>
+<p> NSURL(string: “<a href="http://maps.apple.com/?q=Yosemite" target="_blank" rel="external">http://maps.apple.com/?q=Yosemite</a>“)<br> q代表query，<a href="https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html#//apple_ref/doc/uid/TP40007899-CH5-SW1" target="_blank" rel="external">详细用法</a></p>
+</li>
+<li><p>在App中<a href="https://developer.apple.com/maps/" target="_blank" rel="external">使用Map</a></p>
+</li>
+<li><a href="https://developer.apple.com/library/ios/documentation/MapKit/Reference/MKMapView_Class/index.html#//apple_ref/occ/instp/MKMapView/delegate" target="_blank" rel="external">MapView使用</a></li>
+<li><p>添加方法：</p>
+<blockquote>
+<p>You can add a map view to your app programmatically or using Interface Builder:</p>
+<ol>
+<li>To add a map using Interface Builder, drag a Map view object to the appropriate view or window.</li>
+<li>To add a map programmatically, create an instance of the MKMapView class, initialize it using the initWithFrame: method, and then add it as a subview to your window or view hierarchy.</li>
+</ol>
+</blockquote>
+</li>
+<li><p>在地图上显示用户位置，使用用户位置之前，必须要取得用户授权。coreLocation。<br> 属性可以通过IB配置，或者代码配置。</p>
+<blockquote>
+<p>Improve the codebase by incorporating a CLLocationManagerDelegate, and use appropriate delegate methods to control the app behavior to squelch the console warning.</p>
+</blockquote>
+<ol>
+<li>问题，delegate用哪一个函数，怎么改？</li>
+</ol>
+</li>
+</ol>
+<h2 id="09-27_中秋，_生日聚会">09-27 中秋， 生日聚会</h2><h2 id="09-28_Found_MKMapViewDelegate">09-28 Found MKMapViewDelegate</h2><ol>
+<li>打开之后，显示到到用户位置，调用对应API。</li>
+<li><p>如何改变Zoom level? 使用mapview delegate viewcontroller，viewcontroller添加protocal MKMapViewDelegate，实现 didUpdateUserLocation方法，在其中setRegion。</p>
+<blockquote>
+<p>PS: 好棒的PPT</p>
+</blockquote>
+</li>
+<li><p>What is delegate? </p>
+<blockquote>
+<p>Delegating to other objects to handle specific behaveor.</p>
+</blockquote>
+<p> Think about the really world delegate. Then, move to the delegate pattern. use the protocal to imply some functions.</p>
+</li>
+<li>Why we use delegate?</li>
+<li>What is protocal? <blockquote>
+<p>Interfaces that define expected behavior.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="09-29_MKAnnotation">09-29 MKAnnotation</h2><ol>
+<li>如何在地图上进行标注?<br> 查看API，MKAnnotation，提供接口，进行实现。<br> 熟悉之后速度就快了。查看官方API。</li>
+<li>如何移动pin呢？</li>
+<li><p>添加之后的问题:</p>
+<p> 2015-09-29 18:19:48.308 Found[1622:431363]<br> More than 127 names on road (320ÂõΩÈÅì).<br> Data is probably bad. Please open a radar</p>
+</li>
+</ol>
+<h1 id="节拍器APP">节拍器APP</h1><h2 id="10-08">10-08</h2><p>完成节拍器的设计和切图，制作出了基本原型。</p>
+<h2 id="10~20">10~20</h2><p>之前完成了编码，但是存在界面卡顿问题，使得用户体验不流畅。<br>所以开始学习Core Graphic直接在系统中进行绘图，那么久不会存在这样的问题。</p>
+<ol>
+<li>Core Graphic<ul>
+<li>Line </li>
+<li>Arc</li>
+</ul>
+</li>
+</ol>
+<h2 id="10-21">10-21</h2><p>学了教程2的一半，就开始直接用了。修改metre和pushBtn，不再是图片显示，改为用 Core Graphic直接画。<br>还是觉得个人开发进度好慢，而且很多地方不懂啊。</p>
+<h2 id="10-29">10-29</h2><p>十月份匆匆忙忙的就过去了，这个月有些停滞。为什么呢？视乎方向不太明确。还是自己太心急，就开始做自己的APP了？一边学新知识，一边实践把。<br>决定开始刷<a href="http://www.raywenderlich.com/category/ios" target="_blank" rel="external">Raywenderlish</a>的教程。</p>
+<h2 id="10-30">10-30</h2><p>CGD</p>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/11/15/IBM大型主机技术应用_2015全国校园大赛个人赛/" rel="prev">IBM大型机2015个人赛</a>
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/11/01/言-十月记/" rel="next">十月记</a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+ </div>
+
+        
+
+        
+          <div class="comments" id="comments">
+            
+          </div>
+        
+      </div>
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Catalog
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="/images/avatar.jpg" alt="Azure" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Azure</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">love life, love nature</p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">19</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">categories</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">7</span>
+              <span class="site-state-item-name">tags</span>
+              </a>
+          </div>
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="menu-item-icon icon-next-feed"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yogayu" target="_blank">Github</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/5639257977/profile?topnav=1&wvr=6" target="_blank">Weibo</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.jianshu.com/users/313e5a37caee/latest_articles" target="_blank">Jianshu</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Design_+_Code"><span class="nav-number">1.</span> <span class="nav-text">Design + Code</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#09-06_Prototype"><span class="nav-number">1.1.</span> <span class="nav-text">09-06 Prototype</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-07_Autolayout_2h"><span class="nav-number">1.2.</span> <span class="nav-text">09-07 Autolayout 2h</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-08_Building_the_UI"><span class="nav-number">1.3.</span> <span class="nav-text">09-08 Building the UI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-09_TableView,_Segue_2-5h"><span class="nav-number">1.4.</span> <span class="nav-text">09-09 TableView, Segue 2.5h</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-10_TableCell_1-5h"><span class="nav-number">1.5.</span> <span class="nav-text">09-10 TableCell 1.5h</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-11_Creating_a_delegate"><span class="nav-number">1.6.</span> <span class="nav-text">09-11 Creating a delegate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-11~09-12_Applying_Static_Data_from_API"><span class="nav-number">1.7.</span> <span class="nav-text">09-11~09-12 Applying Static Data from API</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-13_Opening_Links_2h"><span class="nav-number">1.8.</span> <span class="nav-text">09-13 Opening Links 2h</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-14_Login_keyboard_1h"><span class="nav-number">1.9.</span> <span class="nav-text">09-14 Login keyboard 1h</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-15_Data"><span class="nav-number">1.10.</span> <span class="nav-text">09-15 Data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-16_Alamofire"><span class="nav-number">1.11.</span> <span class="nav-text">9-16 Alamofire</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-17_API"><span class="nav-number">1.12.</span> <span class="nav-text">09-17 API</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#探索阶段"><span class="nav-number">2.</span> <span class="nav-text">探索阶段</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#09-20_复习"><span class="nav-number">2.1.</span> <span class="nav-text">09-20 复习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-21看开发者博客"><span class="nav-number">2.2.</span> <span class="nav-text">09-21看开发者博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-22_学开发究竟是在什么呢？"><span class="nav-number">2.3.</span> <span class="nav-text">09-22 学开发究竟是在什么呢？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Project-based_study"><span class="nav-number">3.</span> <span class="nav-text">Project-based study</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#09-23_UnitConverter"><span class="nav-number">3.1.</span> <span class="nav-text">09-23 UnitConverter</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-24_UnitConverter"><span class="nav-number">3.2.</span> <span class="nav-text">09-24 UnitConverter</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-25_EasyBrowser"><span class="nav-number">3.3.</span> <span class="nav-text">09-25 EasyBrowser</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Web:"><span class="nav-number">3.3.1.</span> <span class="nav-text">Web:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#UIApplication"><span class="nav-number">3.3.2.</span> <span class="nav-text">UIApplication</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Optional_Binding:"><span class="nav-number">3.3.3.</span> <span class="nav-text">Optional Binding:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-26_Found"><span class="nav-number">3.4.</span> <span class="nav-text">09-26 Found</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-27_中秋，_生日聚会"><span class="nav-number">3.5.</span> <span class="nav-text">09-27 中秋， 生日聚会</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-28_Found_MKMapViewDelegate"><span class="nav-number">3.6.</span> <span class="nav-text">09-28 Found MKMapViewDelegate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#09-29_MKAnnotation"><span class="nav-number">3.7.</span> <span class="nav-text">09-29 MKAnnotation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#节拍器APP"><span class="nav-number">4.</span> <span class="nav-text">节拍器APP</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#10-08"><span class="nav-number">4.1.</span> <span class="nav-text">10-08</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10~20"><span class="nav-number">4.2.</span> <span class="nav-text">10~20</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-21"><span class="nav-number">4.3.</span> <span class="nav-text">10-21</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-29"><span class="nav-number">4.4.</span> <span class="nav-text">10-29</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-30"><span class="nav-number">4.5.</span> <span class="nav-text">10-30</span></a></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner"> <div class="copyright" >
+  
+  &copy; &nbsp;  2014 - 
+  <span itemprop="copyrightYear">2015</span>
+  <span class="with-love">
+    <i class="icon-next-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Contact:</a></span>
+  <span>
+  <a href="mailto:yudelovesong@icloud.com"><span class="glyphicon glyphicon-envelope"></span>yudelovesong@icloud.com</a>
+  </span>
+
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+ </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+    
+    
+
+  
+
+
+  
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+
+
+
+
+  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+      if (isMobile()) {
+        FastClick.attach(document.body);
+      }
+    });
+  </script>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+</body>
+</html>

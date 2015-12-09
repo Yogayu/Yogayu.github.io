@@ -1,47 +1,3 @@
-<<<<<<< HEAD
----
-layout: page
-description: ""
----
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-=======
 <!doctype html>
 <html class="theme-next use-motion theme-next-mist">
 <head>
@@ -88,7 +44,7 @@ description: ""
 <meta name="description" content="love life, love nature">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Azure Yu">
-<meta property="og:url" content="http://azureyu.com/index.html">
+<meta property="og:url" content="http://azureyu.com/page/3/index.html">
 <meta property="og:site_name" content="Azure Yu">
 <meta property="og:description" content="love life, love nature">
 <meta name="twitter:card" content="summary">
@@ -250,8 +206,8 @@ _ts(option);
           
           
             
-              <a class="post-title-link" href="/2015/11/29/言-十一月记/" itemprop="url">
-                十一月记
+              <a class="post-title-link" href="/2015/10/24/使用CocoaPods/" itemprop="url">
+                使用CocoaPods
               </a>
             
           
@@ -261,166 +217,8 @@ _ts(option);
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2015-11-29T13:09:20+08:00" content="2015-11-29">
-            2015-11-29
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/29/言-十一月记/#more" rel="contents">
-              More &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/21/Plan/" itemprop="url">
-                开学计划
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-21T13:36:07+08:00" content="2015-11-21">
-            2015-11-21
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/文​/" itemprop="url" rel="index">
-                  <span itemprop="name">文​</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><div style="text-align:center">两年前写的开学计划，还要加油。</div><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/开学计划_—_Evernote_Basic.jpg" style="margin:auto"></p>
-</span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/20/iOS-Timeline-2/" itemprop="url">
-                iOS Timeline 2
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2015-11-20T17:06:54+08:00" content="2015-11-20">
-            2015-11-20
+          <time itemprop="dateCreated" datetime="2015-10-24T12:50:54+08:00" content="2015-10-24">
+            2015-10-24
           </time>
         </span>
 
@@ -454,13 +252,209 @@ _ts(option);
 
       
         
-          <p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
-<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
-<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
-<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
-<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>
+          <span itemprop="articleBody"><h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
+<blockquote>
+<p>你需要：</p>
+<ul>
+<li>会使用终端，知道基本的命令含义，比如 cd</li>
+<li>了解有的服务器在墙在外，需要更换为国内镜像</li>
+</ul>
+</blockquote>
+<p>CocoaPods官网: <a href="https://cocoapods.org" target="_blank" rel="external">https://cocoapods.org</a></p>
+<h2 id="如何开始？">如何开始？</h2><h3 id="step_1_安装">step 1 安装</h3><p>以下命令有权限问题时，加上sudo，比如：</p>
+<pre><code>sudo gem <span class="keyword">install</span> cocopods
+</code></pre><ul>
+<li><p>如果你在墙外，进入终端：</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+<pre><code>gem sources --remove <span class="string">https:</span><span class="comment">//rubygems.org/</span>
+gem sources -a <span class="string">https:</span><span class="comment">//ruby.taobao.org/</span>
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+<pre><code>pod repo <span class="built_in">remove</span> master
+pod repo <span class="built_in">add</span> master http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/akuandev/Specs.git
+pod repo <span class="keyword">update</span>
+</code></pre></li>
+</ul>
+<h3 id="Step_2_配置">Step 2 配置</h3><ul>
+<li><p>初始化:</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile
+pod init
+</code></pre></li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+<pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
+</code></pre><p>  保存文件。</p>
+</li>
+<li><p>安装：</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile    
+pod install
+</code></pre></li>
+</ul>
+<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yourProjectName.xcworkspace</p>
+<h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
+<pre><code><span class="title">pod</span> search
+</code></pre></span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/2015/10/20/专业学习规划图/" itemprop="url">
+                专业学习规划图
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-10-20T17:06:54+08:00" content="2015-10-20">
+            2015-10-20
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/理/" itemprop="url" rel="index">
+                  <span itemprop="name">理</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxypng.png" alt="图"><br><!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe--><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png" alt="Apple"></p>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/2015/10/01/言-九月记/" itemprop="url">
+                九月记
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-10-01T13:09:20+08:00" content="2015-10-01">
+            2015-10-01
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/文​/" itemprop="url" rel="index">
+                  <span itemprop="name">文​</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/20/iOS-Timeline-2/#more" rel="contents">
+            <a class="btn" href="/2015/10/01/言-九月记/#more" rel="contents">
               More &raquo;
             </a>
           </div>
@@ -486,7 +480,7 @@ _ts(option);
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
+    <a class="extend prev" rel="prev" href="/page/2/">&laquo;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/4/">&raquo;</a>
   </nav>
 
  </div>
@@ -686,4 +680,3 @@ _ts(option);
   </script>
 </body>
 </html>
->>>>>>> origin/master

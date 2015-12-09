@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Azure Yu]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://azureyu.com/"/>
+  <updated>2015-12-01T06:13:00.000Z</updated>
+  <id>http://azureyu.com/</id>
+  
+  <author>
+    <name><![CDATA[Azure]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[十一月记]]></title>
+    <link href="http://azureyu.com/2015/11/29/%E8%A8%80-%E5%8D%81%E4%B8%80%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/11/29/言-十一月记/</id>
+    <published>2015-11-29T05:09:20.000Z</published>
+    <updated>2015-12-01T06:13:00.000Z</updated>
+    <content type="html"><![CDATA[<p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。<a id="more"></a>回来之后，在网上买了不少东西。</p>
+<h2 id="学校课程">学校课程</h2><p> 前半期结课，开始<code>复习</code>，每天复习一点。</p>
+<ul>
+<li>密码学</li>
+<li>需求分析</li>
+<li>操作系统</li>
+<li>面向对象与UML</li>
+</ul>
+<p>后半期课程开始，无数实验涌来。</p>
+<ul>
+<li>嵌入式</li>
+<li>大型机</li>
+<li>DirectX</li>
+</ul>
+<h2 id="Tech">Tech</h2><h3 id="iOS">iOS</h3><ul>
+<li>完成SRTP项目APP基本框架，就差3D图像。</li>
+<li>节拍器又完善了些，解决了NSTimer问题，换成了递归。修改了UI，适配了不同屏幕。</li>
+<li>参加黑客马拉松，学习了调用API，发送网络请求，还要进一步学习图像处理。 </li>
+</ul>
+<h3 id="Web">Web</h3><p>没有进展😓</p>
+<h2 id="Book&amp;Vedio">Book&amp;Vedio</h2><h3 id="读完的书：">读完的书：</h3><ul>
+<li>The google resume 详细介绍工作准备</li>
+<li>What I wish I knew When I was 20 自我了解</li>
+</ul>
+<h3 id="在读的书：">在读的书：</h3><ul>
+<li>红楼梦</li>
+<li>演讲的艺术</li>
+<li>约翰克里斯朵夫(第五部)</li>
+<li>How to speak, how to listen</li>
+</ul>
+<h3 id="重温的书:">重温的书:</h3><ul>
+<li>朱光潜的三本书</li>
+<li>教育的目的</li>
+<li>How to study</li>
+<li>How to read a book</li>
+</ul>
+<h3 id="TED:">TED:</h3><ul>
+<li>How to make hard choice</li>
+<li>Do we need university?</li>
+<li>What do you want to be when you grow up?</li>
+</ul>
+<h3 id="公开课">公开课</h3><ul>
+<li>哈佛幸福课（6集） 无字幕练听力，记笔记，制定计划实践</li>
+</ul>
+<h3 id="电影、电视剧">电影、电视剧</h3><ul>
+<li>绝望主妇第四季</li>
+</ul>
+<h2 id="吉他">吉他</h2><ul>
+<li>复习之前所有曲目</li>
+<li>学会<code>那些花儿</code>啦~</li>
+</ul>
+<h2 id="写作">写作</h2><p>极少 T。T</p>
+<h2 id="英语">英语</h2><p>这两天散步时在练习口语，路漫漫啊。</p>
+<h2 id="绘画，设计">绘画，设计</h2><ul>
+<li>没动笔画</li>
+<li>仔细看了Motion Design Section1~Section2</li>
+<li>Picture This，第一个原则总结</li>
+</ul>
+<h2 id="健康">健康</h2><ul>
+<li>健美基本学会啦，每隔一天都在练习</li>
+<li>跑步，最后一周开始，每周跑三次</li>
+<li>偶尔散步</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>风平浪静，一切依旧。去<strong>九寨沟</strong>玩了一趟，漫长的路途，值得一看的好水好山。]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[开学计划]]></title>
+    <link href="http://azureyu.com/2015/11/21/Plan/"/>
+    <id>http://azureyu.com/2015/11/21/Plan/</id>
+    <published>2015-11-21T05:36:07.000Z</published>
+    <updated>2015-11-21T06:25:12.000Z</updated>
+    <content type="html"><![CDATA[<p><div style="text-align:center">两年前写的开学计划，还要加油。</div><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/开学计划_—_Evernote_Basic.jpg" style="margin:auto"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><div style="text-align:center">两年前写的开学计划，还要加油。</div><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/开学计划_—_Evernote_Basic.jpg" style=]]>
+    </summary>
+    
+      <category term="plan" scheme="http://azureyu.com/tags/plan/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[iOS Timeline 2]]></title>
+    <link href="http://azureyu.com/2015/11/20/iOS-Timeline-2/"/>
+    <id>http://azureyu.com/2015/11/20/iOS-Timeline-2/</id>
+    <published>2015-11-20T09:06:54.000Z</published>
+    <updated>2015-12-01T06:22:52.000Z</updated>
+    <content type="html"><![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
+<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
+<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br><a id="more"></a></p>
+<h2 id="11-06_1h">11-06 1h</h2><p>iOS-Design_with_animation</p>
+<h2 id="11-07">11-07</h2><p>完成节拍器，节拍流畅重复！！<br>思路：把主界面传来的参数传给speaker全局，再写播放函数，使用递归的方式进行调用，多加一个isFirst与power一起进行判断。</p>
+<h2 id="11-08">11-08</h2><p>完成虚拟家具，手势顺滑操作，合成图像，隐藏状态栏。</p>
+<ul>
+<li>手势：TouchView</li>
+<li>合成图像：思路，将两个UIImageView加在UICombineVIew上，然后将CombineView转化为image，再传给预览。</li>
+</ul>
+<pre><code>extension <span class="built_in">UIView</span> {
+
+func toImage() -&gt; <span class="built_in">UIImage</span> {
+    let imageSize = <span class="keyword">self</span><span class="variable">.frame</span><span class="variable">.size</span>
+    <span class="built_in">UIGraphicsBeginImageContextWithOptions</span>(imageSize, <span class="literal">false</span>, <span class="built_in">UIScreen</span><span class="variable">.mainScreen</span>()<span class="variable">.scale</span>)
+    <span class="built_in">UIGraphicsBeginImageContext</span>(imageSize);
+    <span class="keyword">self</span><span class="variable">.layer</span><span class="variable">.renderInContext</span>(<span class="built_in">UIGraphicsGetCurrentContext</span>()!)
+    let image = <span class="built_in">UIGraphicsGetImageFromCurrentImageContext</span>()
+    <span class="built_in">UIGraphicsEndImageContext</span>()
+    <span class="keyword">return</span> image
+     }
+}
+</code></pre><ul>
+<li><p>status bar<br>info中添加View controller-based status bar appearance，改为YES。再在viewController调用：</p>
+<pre><code><span class="keyword">override</span> <span class="func"><span class="keyword">func</span> <span class="title">prefersStatusBarHidden</span><span class="params">()</span></span> -&gt; <span class="type">Bool</span> {
+<span class="keyword">return</span> <span class="literal">true</span>
+}
+</code></pre></li>
+</ul>
+<p><a href="http://www.bubuko.com/infodetail-1136596.html" target="_blank" rel="external">适配iOS9</a><br><a href="http://blog.csdn.net/majiakun1/article/details/49072761" target="_blank" rel="external">全2</a></p>
+<h2 id="11-17">11-17</h2><p>都没有意识到停滞了那么久。出去玩了几天。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h2 id="11-01">11-01</h2><p>开启新篇章。今天学习如何制作全屏相机。</p>
+<h2 id="11-02_2h">11-02 2h</h2><p>NoiseMaker Lesson5-7<br>一步一步的进行代码优化。<br>什么是真正的能力？能用框架，看别人写的代码。<br>那么，它是如何知道的呢？<br>有哪些好的实践？</p>
+<h2 id="11-03_2h">11-03 2h</h2><p>写LiveHouse的代码<br>学习使用相机，添加手势操作图像</p>
+<h2 id="11-05_3h">11-05 3h</h2><p>寻找思路旋转3D图形和合成图形.<br>Layer<br>]]>
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[IBM大型机2015个人赛]]></title>
+    <link href="http://azureyu.com/2015/11/15/IBM%E5%A4%A7%E5%9E%8B%E4%B8%BB%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8_2015%E5%85%A8%E5%9B%BD%E6%A0%A1%E5%9B%AD%E5%A4%A7%E8%B5%9B%E4%B8%AA%E4%BA%BA%E8%B5%9B/"/>
+    <id>http://azureyu.com/2015/11/15/IBM大型主机技术应用_2015全国校园大赛个人赛/</id>
+    <published>2015-11-15T15:09:20.000Z</published>
+    <updated>2015-12-01T05:01:44.000Z</updated>
+    <content type="html"><![CDATA[<p>读者对象：我自己</p>
+<ol>
+<li><p>先过脑子，再过机子<br>用小黑箱调试，没有办法设置断点，没有提示错误，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+</li>
+<li><p>常犯低级错误<br> 逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
+<a id="more"></a>
+<h2 id="IBM个人赛Part1、Part2小结">IBM个人赛Part1、Part2小结</h2></li>
+</ol>
+<p>企业级别应用</p>
+<ol>
+<li><p>zOS</p>
+<ul>
+<li>连接port</li>
+<li>登录logon</li>
+<li>登出logoff</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>linux 基本命令 修改权限<ul>
+<li>man，ls，cat打印到屏幕，less显示内容（大文件），mkdir，cd，cp，echo，chmod（修改权限 r,w,x ），which comandLine</li>
+<li>绝对地址与相对地址 ‘/z/bin’,’./(inside)’,’../(parent)’</li>
+</ul>
+</li>
+<li>主界面 ISPF<ul>
+<li>数据管理 命令=3.4</li>
+<li>数据类型 sequential data set,  file ;partitioned data set.  a folder or a directory, members : files.</li>
+<li>添加数据 =2 PDSNAME(Membername)</li>
+<li>文本编辑 i d r</li>
+<li>=6 Command Shell 执行命令 EXEC ‘ZOS.PUBLIC.REXX(COUNT)’ ‘your_name’</li>
+</ul>
+</li>
+<li>编码，ASCII，EBCDIC<ul>
+<li>hex on/off , hx</li>
+</ul>
+</li>
+<li>JCL 运行某程序<ul>
+<li>提交：tso submit jcl(sortjcl)</li>
+<li>查看状态：sub; =sd ; st</li>
+</ul>
+</li>
+<li>JSON,COBOL 面向企业</li>
+<li>z/OS unix：<ul>
+<li>进入：tso omvs</li>
+<li>拷贝文件：cp cp unameinfo “//‘CN00474.P2.OUTPUT(\$010)’”</li>
+</ul>
+</li>
+<li>Transaction Processing Facility (TPF) 文件<ul>
+<li>JSON</li>
+<li>MongoDB<ul>
+<li>db.getCollection(’PNR’).find({PnrByNumber: {number: 88440}})<br>db.getCollection(‘PNR’).find({PnrByName: {name: “JRTyler”}})<br>72 Quincy, Evanston, Illinois</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>blue mix 构建云应用</p>
+</li>
+<li><p>运行不同语言的程序，编译，连接，运行</p>
+<ul>
+<li>Source(POKER)-run by-&gt; JCL(POKERCMP)-output-&gt; LOAD(POKER)－run by－&gt;jcl(POKRUN16)-&gt;output result.</li>
+<li>tso submit jcl(POKERCMP)</li>
+<li>tso submit jcl(POKRUN16)</li>
+</ul>
+</li>
+<li><p>修改程序</p>
+<ul>
+<li>小步加进式的调试</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>读者对象：我自己</p>
+<ol>
+<li><p>先过脑子，再过机子<br>用小黑箱调试，没有办法设置断点，没有提示错误，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+</li>
+<li><p>常犯低级错误<br> 逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>]]>
+    
+    </summary>
+    
+      <category term="IBM" scheme="http://azureyu.com/tags/IBM/"/>
+    
+      <category term="理​" scheme="http://azureyu.com/categories/%E7%90%86%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[iOS TimeLine]]></title>
+    <link href="http://azureyu.com/2015/11/01/iOS-Timeline/"/>
+    <id>http://azureyu.com/2015/11/01/iOS-Timeline/</id>
+    <published>2015-11-01T09:06:54.000Z</published>
+    <updated>2015-12-01T06:22:23.000Z</updated>
+    <content type="html"><![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+<ol>
+<li>Prototypeing increase commuction.</li>
+<li>Using <a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a> </li>
+<li>Set the view background and set the LogIn dialog’s class to the spring class, then in the Inspetor we can use the animation.</li>
+</ol>
+<p>使用Spring开启动画之旅。原型示例，无需编码即可使用动画。<br>下载Spring，添加到工程中，选择组件，设置为Spring Class，定义动画。</p>
+<h2 id="09-07_Autolayout_2h">09-07 Autolayout 2h</h2><p>之前使用AutoLayout的问题，是因为没有限制元素的大小，只给出了元素的位置。<br>Mengto 的教材要点清晰，步骤解释详细。<br>事件编程，比喻: HTML-&gt;View，JS-&gt;ViewController，但是这里是一对一</p>
+<ol>
+<li>一般命名规则：<strong>function+type+action</strong></li>
+<li>Prototyping Animations With Swift</li>
+</ol>
+<p>添加动画：</p>
+<pre><code>dialogView.animation = <span class="string">"shake"</span>
+dialogView.animate<span class="params">()</span>
+
+ <span class="comment">// Optionals</span>
+
+var answer: String<span class="built_in">!</span>
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer
+
+<span class="keyword">if</span> <span class="built_in">let</span> sureAnswer = answer {
+    UILabel<span class="params">()</span>.<span class="built_in">text</span> = sureAnswer
+}
+
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer ?? <span class="string">""</span>
+</code></pre><h2 id="09-08_Building_the_UI">09-08 Building the UI</h2><ol>
+<li><p>颜色选择插件<a href="http://wafflesoftware.net/hexpicker/" target="_blank" rel="external">1</a>，<a href="https://bjango.com/mac/skalacolor/" target="_blank" rel="external">2</a></p>
+</li>
+<li><p>clip subview属性，表示对于控件，之外部分不会显示。有些像蒙版。</p>
+</li>
+<li><p>目标：将原型转化为真的组件。添加组件、进行布局、设置动画等。<br>view-&gt;viewcontroller class</p>
+</li>
+<li><p>大体过程：添加view，设置背景色或图片；添加button，设置button的图标或颜色，字体大小；添加各组件动态效果，设置为可设计的class，再更改属性。最后布局。添加限制：位置限制，大小限制。</p>
+<blockquote>
+<p>这是个体力活，有没有更好的布局方式?</p>
+</blockquote>
+</li>
+<li><p>问题: 转场动画总是不对，虚化也没用正常的实现！到底是哪里的问题！明明按照教程做的啊。</p>
+<p> 解决：结果还是因为自己和教程不一样，没有去掉view的颜色 -。-</p>
+</li>
+<li><p>两个class之间沟通，需要用到delegate。</p>
+<a id="more"></a>
+</li>
+</ol>
+<h2 id="09-09_TableView,_Segue_2-5h">09-09 TableView, Segue 2.5h</h2><p>添加tableview，添加nav，设置颜色，添加bar-item，设置segue，直接从controller那里拖去，设置segue的indentifier，这样可以通过编码进行调用、控制。<br><strong>别忘记加entry point</strong>。</p>
+<p>设置segue的显示方式</p>
+<ol>
+<li>添加tableviewcontroller，设置class，添加action，转向页面（performSegueWithIdentifier）。</li>
+<li>设置Cell，indentifier，Row height: custom。添加UIimageview，设置大小和位置。同理添加Lable等。去掉constrain to margin。添加其余组件。看来要提前设计好大小啊。</li>
+<li>将之前三个页面的unwind去掉，然后设置class，在代码中添加action。手动时，调用，self.dismissViewControllerAnimated 进行返回。也可以设置返回时的动画。</li>
+<li><p>问题，cell的高度没有改变。<br>解决办法：</p>
+<ol>
+<li>看官方文档<a href="https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UITableView_Class/index.html#//apple_ref/doc/uid/TP40006943" target="_blank" rel="external">UITableView Class Referance</a></li>
+<li><p>设置cell中row height高度为100，在viewdidload中添加代码:</p>
+<pre><code>tableView<span class="class">.estimatedRowHeight</span> = <span class="number">100</span>
+tableView<span class="class">.rowHeight</span> = UITableViewAutomaticDimension
+</code></pre></li>
+</ol>
+</li>
+</ol>
+<p>两个半小时有没有了 -。-</p>
+<h2 id="09-10_TableCell_1-5h">09-10 TableCell 1.5h</h2><ol>
+<li>添加cell的class，添加IBAction等，添加动画效果，在tableviewcontroller中添加数据，关联view。</li>
+<li>修改bar state(状态栏)</li>
+</ol>
+<p>一个半小时又木有了-。-</p>
+<h2 id="09-11_Creating_a_delegate">09-11 Creating a delegate</h2><p>delegate：在两个类之间进行通信。接口interface</p>
+<blockquote>
+<p>We need a Delegate for two Classes to communicate with each other.</p>
+</blockquote>
+<ol>
+<li>creat a protcol</li>
+<li>delare delgate</li>
+<li><p>add and impl… function </p>
+</li>
+<li><p>问题:</p>
+<ol>
+<li>cell.delegate = self </li>
+<li>sender是什么</li>
+</ol>
+</li>
+<li><p>高度解决办法，在storycell设置100，custom。在viewdidload中加入代码。<br> tableView.estimatedRowHeight = 100<br>  tableView.rowHeight = UITableViewAutomaticDimension</p>
+</li>
+</ol>
+<h2 id="09-11~09-12_Applying_Static_Data_from_API">09-11~09-12 Applying Static Data from API</h2><ol>
+<li>新建文件data存储数据，类型为字典</li>
+<li>JSON数据，转化之后写入Data中</li>
+<li>进行赋值，因为比较多，所以单独写为一个函数</li>
+</ol>
+<p>设计，原型，设计转为实物，转场，数据</p>
+<h2 id="09-13_Opening_Links_2h">09-13 Opening Links 2h</h2><ol>
+<li>昨天高度不对的问题，是因为没有设置好约束，<strong>想要实现自动行高，在顶和低都要有元素的约束</strong>。</li>
+<li>在learn iOS中open link，写一个函数，传入url: String 再在safari中打开，UIApplication.share…等</li>
+<li>同理，在点击tablecell时，通过segue把url传到webController那去。需要传入数据，获取indexPath.row，接受数据，url。同样转换之后打开。不过这次是通过，加入web的delegate，loadrequest。设置进度条，只给出了代码实现方式，没有给出解释。</li>
+<li>一些细节，转场，statusbar的设置。</li>
+</ol>
+<p>今天没有什么问题。</p>
+<h2 id="09-14_Login_keyboard_1h">09-14 Login keyboard 1h</h2><p>设置keyboard在输入时，自动向上跳一定距离。添加库TPKeboardAvoiding，添加scoller view，把要输入的部分都加入其中，设置类为TPK…S…。<br>设置动画，添加delgate，设置图片和动画。<br>没什么问题。</p>
+<h2 id="09-15_Data">09-15 Data</h2><p>终于涉及到专业知识了…<br>感觉这应用核心部分不多，但包装很好。</p>
+<ul>
+<li>CocoaPods，是什么？如何使用？</li>
+<li>Alamofire是什么？怎么用？</li>
+<li>API是什么？怎么用？</li>
+<li>这些技术的核心思想是什么？由什么而来？</li>
+</ul>
+<p>感觉应用层就是变化多端，没有低层来得那么实在。一个要创意（难捉摸）些，一个要…恩…聪明(枯燥)。</p>
+<p>这一节的知识，讲得太过笼统。没有解释。估计作者自己也不太能解释。是一门适合程序员入门设计的书，可真不像是一门设计人员入门编程的书。</p>
+<h2 id="9-16_Alamofire">9-16 Alamofire</h2><ol>
+<li>添加Alamofire的库，文档</li>
+<li>添加数据类型</li>
+<li>进行API的调用，将内容改为动态数据<ul>
+<li>Table…定义存储stories为JSON类型，添加载入数据方法 </li>
+<li>页面加载，获取data，下拉刷新，获取data</li>
+<li>cell放回内容时，将每个cell赋值</li>
+</ul>
+</li>
+<li>处理之前的数据类型</li>
+<li>添加下拉刷新</li>
+<li>添加页面刷新</li>
+</ol>
+<p>这下要自己折腾学新东西了。<br>这里使用的数据结构式JSON，采用的网络协议是Alamofire。</p>
+<h2 id="09-17_API">09-17 API</h2><ol>
+<li>API是什么？怎么用？<br>API: Application Programming Interface 应用程序接口</li>
+<li><p>什么是 JSON ？</p>
+<blockquote>
+<ul>
+<li>JSON 指的是 JavaScript 对象表示法（JavaScript Object Notation）<ul>
+<li>JSON 是轻量级的文本数据交换格式</li>
+<li>JSON 独立于语言 *</li>
+<li>JSON 具有自我描述性，更易理解</li>
+<li>JSON 使用 JavaScript 语法来描述数据对象，但是 JSON 仍然独立于语言和平台。JSON 解析器和 JSON 库支持许多不同的编程语言。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>JSON 语法规则</p>
+<blockquote>
+<p>JSON 语法是 JavaScript 对象表示法语法的子集。</p>
+<ul>
+<li>数据在名称/值对中</li>
+<li>数据由逗号分隔</li>
+<li>花括号保存对象</li>
+<li>方括号保存数组</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h1 id="探索阶段">探索阶段</h1><h2 id="09-20_复习">09-20 复习</h2><p>类型转换键盘dismiss firstRespond…</p>
+<ol>
+<li>点击go进行登录?如何获取键盘事件响应？添加UITextField的delegate，实现方法textFieldShouldReturn就可以了。</li>
+<li>各种UI的使用方法。</li>
+<li>两个alert，如何只响应其中一个的事件?</li>
+<li>如何获取另一个函数中的值？难道不是直接调用函数？</li>
+</ol>
+<p><strong>慢慢来。</strong></p>
+<h2 id="09-21看开发者博客">09-21看开发者博客</h2><p>想自己设计个记录的app，设计UI。<br>感觉最近很停滞，没什么进展。<br>学以致用,自己动手才发现其实不简单。</p>
+<h2 id="09-22_学开发究竟是在什么呢？">09-22 学开发究竟是在什么呢？</h2><p>How to do something?<br>用技术去实现功能。<br>如何使用别人造好的轮子呢？<br>明确一些设计的概念，比如协议、target之类的。<br>框架，就是给你材料，你去使用，去构建出自己的应用程序。<br>iOS 的API 分为四层。<br>UIKit，如何理解？类继承，家族。举例子，几何类。<br>需要用到数据的控件，实现delegate和dataSource。<br>表视图设计模式：分页，下拉刷新。<br>导航：平铺、标签、树形？</p>
+<blockquote>
+<p>默认情况下,模态视图是从屏幕下方滑出来的。当完成的时候需要关闭这个模态视图,如果不关闭,就不能 做别的事情,这就是“模态”的含义,它具有必须响应处理的意思。</p>
+</blockquote>
+<p>视图之间传输数据？委托？广播？MVC？</p>
+<h1 id="Project-based_study">Project-based study</h1><h2 id="09-23_UnitConverter">09-23 UnitConverter</h2><p>温度转化，学习MVC模式。</p>
+<h2 id="09-24_UnitConverter">09-24 UnitConverter</h2><p>完成了温度转化APP，对MVC的M有了更深的理解。</p>
+<h2 id="09-25_EasyBrowser">09-25 EasyBrowser</h2><h3 id="Web:">Web:</h3><pre><code><span class="keyword">if</span> <span class="built_in">let</span> url = NSURL<span class="params">(string: textField1.text)</span>{
+    webView1.loadRequest<span class="params">(NSURLRequest<span class="params">(URL:url)</span>)</span>
+}
+</code></pre><ol>
+<li>UIApplication.sharedApplication().openURL(NSURL(string: textField1.text)!)</li>
+<li>webView1.loadRequest(NSURLRequest(URL:NSURL(string: textField1.text)!))</li>
+</ol>
+<h3 id="UIApplication">UIApplication</h3><p>通过UIApplication调用iOS其他应用功能</p>
+<h3 id="Optional_Binding:">Optional Binding:</h3><blockquote>
+<p>You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. </p>
+</blockquote>
+<pre><code><span class="keyword">if</span> <span class="keyword">let</span> constantName = someOptional {
+    statements
+}
+</code></pre><p>看不同人写的代码，才知道什么是写得好的代码。<br>。<br>明确知道它有值的可选型，称为implicitly unwrapped optionals，绝对可拆可选型，在之后加上!，方便之后使用(因为可以不再进行是否有值的判断)。</p>
+<pre><code><span class="keyword">let</span> possibleString: <span class="built_in">String</span>? = <span class="string">"An optional string."</span>
+<span class="keyword">let</span> forcedString: <span class="built_in">String</span> = possibleString! <span class="comment">// requires an exclamation mark</span>
+
+<span class="keyword">let</span> assumedString: <span class="built_in">String</span>! = <span class="string">"An implicitly unwrapped optional string."</span>
+<span class="keyword">let</span> implicitString: <span class="built_in">String</span> = assumedString <span class="comment">// no need for an exclamation mark</span>
+</code></pre><p>不太理解为什么要这样做，直接定义为对应的类型不就好了吗？</p>
+<h2 id="09-26_Found">09-26 Found</h2><ol>
+<li><p>调用系统地图App</p>
+<p> NSURL(string: “<a href="http://maps.apple.com/?q=Yosemite" target="_blank" rel="external">http://maps.apple.com/?q=Yosemite</a>“)<br> q代表query，<a href="https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html#//apple_ref/doc/uid/TP40007899-CH5-SW1" target="_blank" rel="external">详细用法</a></p>
+</li>
+<li><p>在App中<a href="https://developer.apple.com/maps/" target="_blank" rel="external">使用Map</a></p>
+</li>
+<li><a href="https://developer.apple.com/library/ios/documentation/MapKit/Reference/MKMapView_Class/index.html#//apple_ref/occ/instp/MKMapView/delegate" target="_blank" rel="external">MapView使用</a></li>
+<li><p>添加方法：</p>
+<blockquote>
+<p>You can add a map view to your app programmatically or using Interface Builder:</p>
+<ol>
+<li>To add a map using Interface Builder, drag a Map view object to the appropriate view or window.</li>
+<li>To add a map programmatically, create an instance of the MKMapView class, initialize it using the initWithFrame: method, and then add it as a subview to your window or view hierarchy.</li>
+</ol>
+</blockquote>
+</li>
+<li><p>在地图上显示用户位置，使用用户位置之前，必须要取得用户授权。coreLocation。<br> 属性可以通过IB配置，或者代码配置。</p>
+<blockquote>
+<p>Improve the codebase by incorporating a CLLocationManagerDelegate, and use appropriate delegate methods to control the app behavior to squelch the console warning.</p>
+</blockquote>
+<ol>
+<li>问题，delegate用哪一个函数，怎么改？</li>
+</ol>
+</li>
+</ol>
+<h2 id="09-27_中秋，_生日聚会">09-27 中秋， 生日聚会</h2><h2 id="09-28_Found_MKMapViewDelegate">09-28 Found MKMapViewDelegate</h2><ol>
+<li>打开之后，显示到到用户位置，调用对应API。</li>
+<li><p>如何改变Zoom level? 使用mapview delegate viewcontroller，viewcontroller添加protocal MKMapViewDelegate，实现 didUpdateUserLocation方法，在其中setRegion。</p>
+<blockquote>
+<p>PS: 好棒的PPT</p>
+</blockquote>
+</li>
+<li><p>What is delegate? </p>
+<blockquote>
+<p>Delegating to other objects to handle specific behaveor.</p>
+</blockquote>
+<p> Think about the really world delegate. Then, move to the delegate pattern. use the protocal to imply some functions.</p>
+</li>
+<li>Why we use delegate?</li>
+<li>What is protocal? <blockquote>
+<p>Interfaces that define expected behavior.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="09-29_MKAnnotation">09-29 MKAnnotation</h2><ol>
+<li>如何在地图上进行标注?<br> 查看API，MKAnnotation，提供接口，进行实现。<br> 熟悉之后速度就快了。查看官方API。</li>
+<li>如何移动pin呢？</li>
+<li><p>添加之后的问题:</p>
+<p> 2015-09-29 18:19:48.308 Found[1622:431363]<br> More than 127 names on road (320ÂõΩÈÅì).<br> Data is probably bad. Please open a radar</p>
+</li>
+</ol>
+<h1 id="节拍器APP">节拍器APP</h1><h2 id="10-08">10-08</h2><p>完成节拍器的设计和切图，制作出了基本原型。</p>
+<h2 id="10~20">10~20</h2><p>之前完成了编码，但是存在界面卡顿问题，使得用户体验不流畅。<br>所以开始学习Core Graphic直接在系统中进行绘图，那么久不会存在这样的问题。</p>
+<ol>
+<li>Core Graphic<ul>
+<li>Line </li>
+<li>Arc</li>
+</ul>
+</li>
+</ol>
+<h2 id="10-21">10-21</h2><p>学了教程2的一半，就开始直接用了。修改metre和pushBtn，不再是图片显示，改为用 Core Graphic直接画。<br>还是觉得个人开发进度好慢，而且很多地方不懂啊。</p>
+<h2 id="10-29">10-29</h2><p>十月份匆匆忙忙的就过去了，这个月有些停滞。为什么呢？视乎方向不太明确。还是自己太心急，就开始做自己的APP了？一边学新知识，一边实践把。<br>决定开始刷<a href="http://www.raywenderlich.com/category/ios" target="_blank" rel="external">Raywenderlish</a>的教程。</p>
+<h2 id="10-30">10-30</h2><p>CGD</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要内容:iOS学习时间线<br>主要读者:我自己(所以您可以不点开)</p>
+<h1 id="Design_+_Code">Design + Code</h1><h2 id="09-06_Prototype">09-06 Prototype</h2><p>Point:</p>
+<ol>
+<li>Prototypeing increase commuction.</li>
+<li>Using <a href="https://github.com/MengTo/Spring">Spring</a> </li>
+<li>Set the view background and set the LogIn dialog’s class to the spring class, then in the Inspetor we can use the animation.</li>
+</ol>
+<p>使用Spring开启动画之旅。原型示例，无需编码即可使用动画。<br>下载Spring，添加到工程中，选择组件，设置为Spring Class，定义动画。</p>
+<h2 id="09-07_Autolayout_2h">09-07 Autolayout 2h</h2><p>之前使用AutoLayout的问题，是因为没有限制元素的大小，只给出了元素的位置。<br>Mengto 的教材要点清晰，步骤解释详细。<br>事件编程，比喻: HTML-&gt;View，JS-&gt;ViewController，但是这里是一对一</p>
+<ol>
+<li>一般命名规则：<strong>function+type+action</strong></li>
+<li>Prototyping Animations With Swift</li>
+</ol>
+<p>添加动画：</p>
+<pre><code>dialogView.animation = <span class="string">"shake"</span>
+dialogView.animate<span class="params">()</span>
+
+ <span class="comment">// Optionals</span>
+
+var answer: String<span class="built_in">!</span>
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer
+
+<span class="keyword">if</span> <span class="built_in">let</span> sureAnswer = answer {
+    UILabel<span class="params">()</span>.<span class="built_in">text</span> = sureAnswer
+}
+
+UILabel<span class="params">()</span>.<span class="built_in">text</span> = answer ?? <span class="string">""</span>
+</code></pre><h2 id="09-08_Building_the_UI">09-08 Building the UI</h2><ol>
+<li><p>颜色选择插件<a href="http://wafflesoftware.net/hexpicker/">1</a>，<a href="https://bjango.com/mac/skalacolor/">2</a></p>
+</li>
+<li><p>clip subview属性，表示对于控件，之外部分不会显示。有些像蒙版。</p>
+</li>
+<li><p>目标：将原型转化为真的组件。添加组件、进行布局、设置动画等。<br>view-&gt;viewcontroller class</p>
+</li>
+<li><p>大体过程：添加view，设置背景色或图片；添加button，设置button的图标或颜色，字体大小；添加各组件动态效果，设置为可设计的class，再更改属性。最后布局。添加限制：位置限制，大小限制。</p>
+<blockquote>
+<p>这是个体力活，有没有更好的布局方式?</p>
+</blockquote>
+</li>
+<li><p>问题: 转场动画总是不对，虚化也没用正常的实现！到底是哪里的问题！明明按照教程做的啊。</p>
+<p> 解决：结果还是因为自己和教程不一样，没有去掉view的颜色 -。-</p>
+</li>
+<li><p>两个class之间沟通，需要用到delegate。</p>]]>
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[十月记]]></title>
+    <link href="http://azureyu.com/2015/11/01/%E8%A8%80-%E5%8D%81%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/11/01/言-十月记/</id>
+    <published>2015-11-01T05:09:20.000Z</published>
+    <updated>2015-12-01T06:12:42.000Z</updated>
+    <content type="html"><![CDATA[<p>早晨，温在被窝里，躺着看书。<br><a id="more"></a><br>第一周，国庆<br>呆在学校一段时间，回家一段时间。想想一学期也难得出去逛逛。我看见，我感受，我记录。重庆，新与旧的交织。国际与本地的交织。贫穷与富裕的交织。嘉陵江的广阔，大桥，轻轨，来来往往密集如麻的人群。面无表情的工作者，日复一日重复着生活。繁华靓丽的柜台，嚷嚷闹闹的集市。并存在这座城市。<br>更多的繁复镜像，并存在这个世界。<br>看完电影一部，书一本。</p>
+<p>第二周，开始制作自己的节拍器APP，各种坑也随之而来<br>意识到写作，不应该是任务，而是内心想要表达的自然结果。<br>室友生日，一起吃牛排，吹蜡烛。</p>
+<p>第三周，继续开发自己的APP;整理，回顾所有写作内容<br>同时，整理并阅读了之前的笔记，对一些重要的内容进行了电子扫描存档。大部分时间都在探索iOS开发。UML课程设计答辩准备。</p>
+<p>第四周，看电视剧琅琊榜<br>UML答辩。开始练习口语。看电视剧琅琊榜，几乎业余所有时间都在看。白天看，晚上看，在寝室看，在教室看，在食堂看。</p>
+<h2 id="学校课程">学校课程</h2><p>半期将至，考试来袭。Web结课，UML结课，需求分析和密码学也将要结课。<br>这学期最重要的课程，操作系统。自己还是只上课在听。需要再多花些时间。</p>
+<h2 id="Book&amp;Video">Book&amp;Video</h2><h3 id="看完的书：">看完的书：</h3><ul>
+<li>呼兰河传</li>
+<li>无声告白</li>
+<li>岛上书店</li>
+<li>教育的目的</li>
+<li>让天赋自由(The element)</li>
+</ul>
+<h3 id="在看的书：">在看的书：</h3><ul>
+<li>红楼梦</li>
+<li>演讲的艺术</li>
+<li>成为作家</li>
+<li>野火集</li>
+<li>人月神话</li>
+</ul>
+<h3 id="大概浏览的书：">大概浏览的书：</h3><ul>
+<li>认知设计</li>
+<li>设计的设计</li>
+<li>代码大全</li>
+<li>What I wish I knew When I was 20</li>
+</ul>
+<h3 id="电影、电视剧：">电影、电视剧：</h3><ul>
+<li>野兽家园</li>
+<li>起风了</li>
+<li>琅琊榜</li>
+</ul>
+<h3 id="TED">TED</h3><ul>
+<li>情绪救急</li>
+</ul>
+<h2 id="Tech">Tech</h2><h3 id="Web">Web</h3><p>继续学习JS，昨天(31)花了一天时间，学习JS、JQ的基本使用。</p>
+<h3 id="iOS">iOS</h3><p>完成了节拍器的设计、开发。难点在于UI实现(CALayer)，动态UI变化。<br>存在着细节问题(NSTimer)，是现在的自己无法解决的。<br>买了几本新书。关于动画设计和Swift语言的。<br>看了技术概览。</p>
+<h2 id="吉他">吉他</h2><p>开始扫弦练习，曲目<code>童年</code>。<br>难点，大横按，已经攻破。现在难点，大横按的和弦转换。<br>练习基本工，复习之前内容。</p>
+<h2 id="写作">写作</h2><p>明显比上个月少。大部分时间在反思以前的写作(有写下来)。有一两篇触发性文章。</p>
+<h2 id="英语">英语</h2><p>元音音标。发现发错元音的单词，很多，很常见。</p>
+<h2 id="设计">设计</h2><p>绘画就这样搁置了，之前学到的也没有应用T。T<br>大致浏览了Motion design。</p>
+<h2 id="运动">运动</h2><p>最近睡眠质量不高，白天起得晚。<br>没跑步，有散步。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>早晨，温在被窝里，躺着看书。<br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用CocoaPods]]></title>
+    <link href="http://azureyu.com/2015/10/24/%E4%BD%BF%E7%94%A8CocoaPods/"/>
+    <id>http://azureyu.com/2015/10/24/使用CocoaPods/</id>
+    <published>2015-10-24T04:50:54.000Z</published>
+    <updated>2015-11-21T06:03:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
+<blockquote>
+<p>你需要：</p>
+<ul>
+<li>会使用终端，知道基本的命令含义，比如 cd</li>
+<li>了解有的服务器在墙在外，需要更换为国内镜像</li>
+</ul>
+</blockquote>
+<p>CocoaPods官网: <a href="https://cocoapods.org" target="_blank" rel="external">https://cocoapods.org</a></p>
+<h2 id="如何开始？">如何开始？</h2><h3 id="step_1_安装">step 1 安装</h3><p>以下命令有权限问题时，加上sudo，比如：</p>
+<pre><code>sudo gem <span class="keyword">install</span> cocopods
+</code></pre><ul>
+<li><p>如果你在墙外，进入终端：</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+<pre><code>gem sources --remove <span class="string">https:</span><span class="comment">//rubygems.org/</span>
+gem sources -a <span class="string">https:</span><span class="comment">//ruby.taobao.org/</span>
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+<pre><code>gem <span class="keyword">install</span> cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+<pre><code>pod repo <span class="built_in">remove</span> master
+pod repo <span class="built_in">add</span> master http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/akuandev/Specs.git
+pod repo <span class="keyword">update</span>
+</code></pre></li>
+</ul>
+<h3 id="Step_2_配置">Step 2 配置</h3><ul>
+<li><p>初始化:</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile
+pod init
+</code></pre></li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+<pre><code>pod ‘第三方库名称’, ‘<span class="function">~&gt;</span> 版本’
+</code></pre><p>  保存文件。</p>
+</li>
+<li><p>安装：</p>
+<pre><code><span class="built_in">cd</span> yourProjectFile    
+pod install
+</code></pre></li>
+</ul>
+<h3 id="Step_3-_使用">Step 3. 使用</h3><p>打开项目：yourProjectName.xcworkspace</p>
+<h3 id="Step_4_查找">Step 4 查找</h3><p>查找你需要的：</p>
+<pre><code><span class="title">pod</span> search
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="CocoaPods是什么?">CocoaPods是什么?</h2><p>  当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Co]]>
+    </summary>
+    
+      <category term="iOS" scheme="http://azureyu.com/tags/iOS/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[专业学习规划图]]></title>
+    <link href="http://azureyu.com/2015/10/20/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92%E5%9B%BE/"/>
+    <id>http://azureyu.com/2015/10/20/专业学习规划图/</id>
+    <published>2015-10-20T09:06:54.000Z</published>
+    <updated>2015-11-21T06:26:43.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxypng.png" alt="图"><br><!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe--><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png" alt="Apple"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxypng.png" alt="图"><br><!--iframe id="embed_dom" name="embed_dom" frameborder="0" style=]]>
+    </summary>
+    
+      <category term="plan" scheme="http://azureyu.com/tags/plan/"/>
+    
+      <category term="理" scheme="http://azureyu.com/categories/%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[九月记]]></title>
+    <link href="http://azureyu.com/2015/10/01/%E8%A8%80-%E4%B9%9D%E6%9C%88%E8%AE%B0/"/>
+    <id>http://azureyu.com/2015/10/01/言-九月记/</id>
+    <published>2015-10-01T05:09:20.000Z</published>
+    <updated>2015-12-01T06:13:31.000Z</updated>
+    <content type="html"><![CDATA[<p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br><a id="more"></a><br>开学不久。每天清闲。课，想听就听，不想听的，就自己做事。老师在讲台上讲他的课，我在课桌下看我的书。</p>
+<p>每天，都会做自己的事。抱着吉他，咚咚咚咚咚的练习音阶，练习和弦。<br>手指在指板上跳舞，美妙的音乐在伴奏。一个人，一把吉他，一个小时两个小时的过去，毫不枯燥，甚而难以放下。原来，练习也会成瘾。</p>
+<p>打开Xcode，比着教程，看着文档，动脑思考，动手实践。一个个的Demo App也就跑了起来。入神之后，也就忘了时间。我，电脑，再无他物。</p>
+<p>画着画。一天一课，简单、神奇。简单是，只需20分钟，不用复杂逻辑思考，都凭感觉。神奇是，加点点细节，一切看起来就不一样，更真。</p>
+<p>想做什么就去做什么吧，这真是最好的建议之一。<br>你没做，只想的事啊，多半不是真的想。</p>
+<hr>
+<p>饭饱后，闲逛校园。走不了几步就能到后山。山分两面可以上，每面山脚，都有斜坡草地，零星的长着大树。</p>
+<p>山边有湖，湖名缙云。湖中天鹅，有黑有白；成群金鱼，大如(用什么形容词?)<br>湖边杨柳，微风细舞。木质长凳，闲适观景。</p>
+<p>往山顶方向走，接着是莲花田三块。背景是起伏连绵的山，不高，但紧实。最顶上是亭。</p>
+<p>喂鱼的人拿着面包<br>情侣吃着蛋糕<br>年纪大的人快步锻炼<br>骑自行车的外来者<br>小孩子和他的家人<br>背着单反，专程拍照的人<br>听着歌哼着小曲的人<br>自言自语的保安</p>
+<p>好多好多……</p>
+<p>那么安然自在的日子。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>九月，雨天阴天，就这么舒舒服服的过去了。<br>喜欢这天，穿着两件衣裳刚好，不薄不厚。闻着空气中湿湿的味道。风那么轻盈。夏天的风太热乎，冬天的风太凌冽。这九月的秋天，一切刚好。<br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[开学前两周小记]]></title>
+    <link href="http://azureyu.com/2015/09/20/%E8%A8%80-1~2%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+    <id>http://azureyu.com/2015/09/20/言-1~2周总结/</id>
+    <published>2015-09-20T15:09:20.000Z</published>
+    <updated>2015-12-01T06:14:36.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>读者对象：我自己</li>
+<li>主要内容：杂七杂八<a id="more"></a>
+<h2 id="学校课程">学校课程</h2>还是应该记笔记，把每天该记的记住，该理解的理解，多复习，多动手。<br>密码学、操作系统、UML，按照老师的思路在学。<br>Web、需求分析，没听课，按照自己的思路在学。<br>健美操第一节课老师没来。<br>美学与文化，这位台湾老师，艺术气质浓烈，处于无法理解状态。</li>
+</ul>
+<h2 id="音乐">音乐</h2><h3 id="吉他">吉他</h3><p><code>隐形的翅膀</code>，基本会了，最后几个和弦还需加强。<br><code>丁香花</code>的节奏，很简单，但是换弦还要练习。明显的是，唱不行。<br><code>别找我麻烦</code>，和弦还需要练习。</p>
+<h3 id="作曲">作曲</h3><p><code>伯克利的老师</code>讲得很棒。自己做了写涂鸦笔记。从小故事到盒子，六个好朋友，歌曲的组成。很愉快的课程。</p>
+<p>同时也在运用其中理论，边听歌边分析歌词。</p>
+<h2 id="iOS开发">iOS开发</h2><p><code>DesignCode</code>教程, DNApp基本学习完成了，最后的技术部分，还需要加深理解，网络库和JSONSwift，调用API等等。这才是技术部分吧，作者讲得不清楚。</p>
+<p>现在在来看这本书，基本还是讲设计和原型实现的。<br>学了基础的布局设置，页面转换和动画效果（用的Spring），tableView的基础，页面转换（segue）时的数据传输。还是会遇见一些大大小小的问题，需要自己去解决。</p>
+<p>感觉技术部分，要使用到数据结构的知识。<br>还有swift语言使用不够熟悉。</p>
+<p>深刻体会，<strong>英语很重要</strong>。</p>
+<h2 id="Web开发">Web开发</h2><p>web上课基本没听。自己在看书，复习了html标签，学了CSS的选择器，字体设置等。下周开始看布局。</p>
+<h2 id="运动">运动</h2><p>基本没有强运动，每天吃完晚饭，会出去做半个多小时。看来需要改为跑一跑。</p>
+<h2 id="阅读">阅读</h2><p>技术类的书，在读<code>人月神话</code>，很喜欢作者的风格。还有<code>Java数据结构</code>，复习了When to use what 的第一部分。Web方面有<code>CSS设计指南</code>。</p>
+<p>人文类的书，<code>三毛全集</code>，也就不提了，一直都在反复读着。<code>约翰·克里斯朵夫</code>也还在读，第五章音乐部分，有些难理解，需要补充背景知识。因为，还是会感到差距的巨大，还有孤独寂寞感，有好有坏。读着彭明辉的两本书，一本<code>生命是长期积累的过程</code>，另一本<code>活出生命最好的可能</code>。自我成长，人文素养。</p>
+<h2 id="写作">写作</h2><p>最近每天写15分钟，大约600字。<br>是不是太少了？</p>
+<h2 id="绘画">绘画</h2><p>圆形，长方形。<br>重叠、阴影和大小。方向辅助线。到现在都还没有去买橡皮擦。</p>
+<h2 id="英语">英语</h2><p><code>Word Power Made Easy</code>，通过学习idea学习词汇。用英语学英语。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>读者对象：我自己</li>
+<li>主要内容：杂七杂八]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://azureyu.com/tags/life/"/>
+    
+      <category term="文​" scheme="http://azureyu.com/categories/%E6%96%87%E2%80%8B/"/>
+    
+  </entry>
+  
+</feed>

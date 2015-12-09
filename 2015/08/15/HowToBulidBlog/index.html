@@ -1,0 +1,864 @@
+<!doctype html>
+<html class="theme-next use-motion theme-next-mist">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+
+  <!--link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
+
+
+    <meta name="description" content="love life, love nature" />
+
+
+
+  <meta name="keywords" content="Jekyll," />
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Azure Yu" type="application/atom+xml" />
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+
+
+<meta name="description" content="“授人以渔”的教你搭建个人独立博客——使用jekyll在GitHub Pages上搭建个人博客
+网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“授人以渔”的教你搭建个人独立博客">
+<meta property="og:url" content="http://azureyu.com/2015/08/15/HowToBulidBlog/index.html">
+<meta property="og:site_name" content="Azure Yu">
+<meta property="og:description" content="“授人以渔”的教你搭建个人独立博客——使用jekyll在GitHub Pages上搭建个人博客
+网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/GitHub.jpg">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/NewRespsitory.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/QuickStep.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/firstIndex.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/Jekyll.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/struct.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/godaddy.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/AA.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/Disqus.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/comment.png">
+<meta property="og:image" content="http://7xle3b.com1.z0.glb.clouddn.com/addcmt.png">
+<meta property="og:updated_time" content="2015-11-21T06:06:49.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="“授人以渔”的教你搭建个人独立博客">
+<meta name="twitter:description" content="“授人以渔”的教你搭建个人独立博客——使用jekyll在GitHub Pages上搭建个人博客
+网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是">
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: 'post'
+  };
+</script>
+
+  <title> “授人以渔”的教你搭建个人独立博客 | Azure Yu </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en,zh-Hans,zh-tw,default">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?7e918b457095c138d6ce710350596dfc";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand" rel="start">
+      <span class="logo">
+        <i class="icon-next-logo"></i>
+      </span>
+      <span class="site-title">Azure Yu</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon icon-next-home"></i> <br />
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            <i class="menu-item-icon icon-next-archives"></i> <br />
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            <i class="menu-item-icon icon-next-tags"></i> <br />
+            Tags
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <form class="site-search-form">
+    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  </form>
+
+<!--script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', '7b5522cddf86419ba968','2.0.0');
+</script-->
+
+<!--script>
+var option = {
+  engineKey: '7b5522cddf86419ba968'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script-->
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content"> 
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              “授人以渔”的教你搭建个人独立博客
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-08-15T17:06:54+08:00" content="2015-08-15">
+            2015-08-15
+          </time>
+        </span>
+
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/理/" itemprop="url" rel="index">
+                  <span itemprop="name">理</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p>“授人以渔”的教你搭建个人独立博客<br>——使用jekyll在GitHub Pages上搭建个人博客</p>
+<p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。</p>
+<p>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
+<h2 id="引子">引子</h2><p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
+<p>Tumblr和Lofter都是自己比较喜欢的，房子建得美丽又实用。在同一个平台下，就感觉你们在同一个社区。当然不是这个社区居住的人们，也是可以进来逛一逛的。简书，也是如此。顺便提一句，选择简书，是喜欢它的写作体验。</p>
+<p>不过，有时候，你想从头到尾自己建房子，就是搭建个自己的独立博客。如果你不知道如何选择，可以读一读《<a href="http://www.slant.co/topics/329/~what-is-the-best-solution-for-a-personal-blog" target="_blank" rel="external">What are the best solutions for a personal blog?</a>》（需翻墙），文章分析了不同博客平台的优缺点和针对人群。当然，我的选择是 Jekyll+Github Pages。</p>
+<p>开辟土地、搭建、装修、到注册门牌号等，都是需要动手的。土地就是你的服务器，房子是你的网站，装修是网站主题，布局和色彩等等，当然门牌号就是你的域名了。别忘了你还要写文章，这才是关键，你房间里放的不是家具，而是你的思考成果。</p>
+<p>话不多说了，我们开始建房子的美妙旅途吧 ；）<br><a id="more"></a></p>
+<h2 id="Step_1-_选地">Step 1. 选地</h2><p>互联网上有免费的地，也有收费的地。Github Pages就是一个免费好用的地。</p>
+<p>具体步骤：</p>
+<ul>
+<li><p>首先，注册 <a href="https://github.com/" target="_blank" rel="external">Github</a><br><img src="http://7xle3b.com1.z0.glb.clouddn.com/GitHub.jpg" alt="GitHub"></p>
+</li>
+<li><p>然后，建立一个仓库<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/NewRespsitory.png" alt="NewRespsitory"></p>
+</li>
+</ul>
+<blockquote>
+<p>Repository name(仓库名)<strong>必须</strong>是 your_user_name.github.io</p>
+</blockquote>
+<p>比如，我的用户名是Yogayu，那么仓库名就取为 <strong><a href="https://github.com/Yogayu/Yogayu.github.io" target="_blank" rel="external">Yogayu.github.io</a></strong>。<strong>这一点很重要，不要弄错。</strong></p>
+<ul>
+<li>最后，按照提示步骤操作<br><img src="http://7xle3b.com1.z0.glb.clouddn.com/QuickStep.png" alt=""></li>
+</ul>
+<p>一种简单的方式是，下载GitHub的<a href="https://desktop.github.com/" target="_blank" rel="external">桌面客户端</a>，安装完成后，粘贴<a href="http://github.com/your_user_name/your_user_name.github.io.git" target="_blank" rel="external">链接</a>克隆到本地。</p>
+<ul>
+<li>之后，新建一个index.html文件，push到对应的master<br>分支（推荐<a href="https://pages.github.com/" target="_blank" rel="external">官网教程</a>）。等一段时间之后（可以听首歌），网站生效，访问your_user_name.github.io，就能看见完整的网页了。</li>
+</ul>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/firstIndex.png" alt=""></p>
+<p>到此，我们的地就选好了，也就是在用GitHub的服务器。</p>
+<blockquote>
+<p>若这一过程中有问题，可以参照<a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">官网文档</a></p>
+</blockquote>
+<h3 id="什么是_GitHub？">什么是 GitHub？</h3><p>在说GitHub之前，必须要提到Git。Git是分布式版本控制系统。GitHub可以托管各种Git版本库，并提供一个web界面。</p>
+<p>Github 就像是程序员们的Facebook，程序员们，写代码，做项目，在此和全世界的人们分享。<br>会使用GitHub的资源，比会搭建个人博客的价值大得多。</p>
+<h3 id="那么GitHub_Pages是什么呢？">那么GitHub Pages是什么呢？</h3><blockquote>
+<p>Website for you and your project.</p>
+</blockquote>
+<p>GitHub Pages有两种。一种是为个人或者组织的博客。一种是为项目的博客。前者一个账号只能建一个，后者，可以建很多个。</p>
+<p>这样的博客，免费、独立、安全。</p>
+<h3 id="Git和Github如何使用？">Git和Github如何使用？</h3><p>可选择终端或图形化界面操作。怎么顺手怎么来吧。</p>
+<ul>
+<li><a href="http://www.bootcss.com/p/git-guide/" target="_blank" rel="external">Git简易指南</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程-廖雪峰</a></li>
+<li><a href="http://www.zhihu.com/topic/19566035/top-answers" target="_blank" rel="external">如何使用GitHub -知乎</a></li>
+<li><a href="http://www.linuxidc.com/Linux/2014-09/106230p2.htm" target="_blank" rel="external">GitHub 使用教程图文详解</a></li>
+</ul>
+<h2 id="Step_2-_搭建">Step 2. 搭建</h2><p>环境搭建。</p>
+<ul>
+<li><p>安装Ruby，Mac一般默认安装了Ruby，这一步可以忽略。<a href="https://www.ruby-lang.org/zh_cn/downloads/" target="_blank" rel="external">官网安装</a></p>
+</li>
+<li><p>安装Bundler，在Terminal中输入： </p>
+<pre><code>gem <span class="keyword">install</span> bundler
+</code></pre></li>
+<li><p>安装Jekyll，同理输入：</p>
+<pre><code><span class="built_in">source</span> <span class="string">'https://rubygems.org'</span>
+gem <span class="string">'github-pages'</span>
+</code></pre></li>
+</ul>
+<p>*当然，如果你在墙内，很容易出问题，无法安装，推荐修改镜像源（<a href="http://ruby.taobao.org/" target="_blank" rel="external">淘宝镜像源</a>）。</p>
+<ul>
+<li><p>安装Jekyll</p>
+<pre><code>gem <span class="keyword">install</span> jekyll
+</code></pre></li>
+</ul>
+<p>在你希望存放的目录下，输入：</p>
+<pre><code>jekyll <span class="keyword">new</span> your-site-name
+</code></pre><p>进入：</p>
+<pre><code>cd your-site-<span class="property">name</span>
+</code></pre><p>运行本地服务：</p>
+<pre><code><span class="title">jekyll</span> s
+</code></pre><p>在浏览器中输入：</p>
+<pre><code><span class="string">http:</span><span class="comment">//localhost:4000</span>
+</code></pre><p>就可以在本地进行查看和调试你的网站了。</p>
+<h3 id="什么是Jekyll？">什么是Jekyll？</h3><blockquote>
+<p><a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll</a> is a simple, blog-aware, static site generator.</p>
+<p><a href="http://jekyllcn.com/" target="_blank" rel="external">Jekyll</a> 是一个简单的博客形态的静态站点生产机器</p>
+</blockquote>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Jekyll.png" alt=""></p>
+<p>解释一下，Jekyll可以将纯文本转换为静态博客网站。你整个网站的页面都是它生成的，从主页index到文章post。<br>比如，文章怎么写？标准网页格式是扩展标记语言<a href="http://baike.baidu.com/link?url=C0WcPEpZO4MrmTIu6x2G9hMKcEB2PJ3L2dLv4-XsSE0FOSgxhILqYR2Lpbu6WFW_" target="_blank" rel="external">HTML</a>。纯手写？未免太麻烦。大家，多偏爱<a href="http://sspai.com/25137" target="_blank" rel="external">Markdown</a>。所以，就用它写。不过，你需要有一个能把你用Markdown格式写的文章，转化为HTML网页的东西，这里使用的就是静态网页生成器。</p>
+<p>静态网页是相对于动态网页而言的，如果感兴趣可以自己学习。</p>
+<h3 id="Jekyll目录">Jekyll目录</h3><p>解释一下整个jekyll的目录(<a href="http://jekyllrb.com/docs/home/" target="_blank" rel="external">官方文档</a>):<br>为了之后不至于完全茫然，很值得先看一看，第一次看不懂没关系，用着用着就知道什么意思了。就像练习吉他和弦的转换，开始很难，可换着换着你就会了。</p>
+<p> <img src="http://7xle3b.com1.z0.glb.clouddn.com/struct.png" alt=""></p>
+<p>这个很奇怪的结构是，文件目录树，_config.yml这样的代表一个文件，_drafts这样的代表一个文件夹，与它连接的文件，比如begin-with-the-crazy-ideas.textile，就在文件夹中。一开始，我没怎么看官方文档，嫌麻烦，不如直接开始干。结果是绕了不少弯路，修改主题的时候，找半天各个部分。</p>
+<p>先说需要了解的，其余以后依个人需求学习</p>
+<ul>
+<li>_config.yml 是配置文件，你可以在里面配置你博客会用到的常量，比如博客名，邮件</li>
+<li>_includes：就是你文章各个部分的html文件，可以在布局中包含这些文件</li>
+<li>_layouts：存放模板。就是你网页的布局，主页布局，文章布局。当然不是指CSS那样的布局，是指，你包含哪些基本的内容到页面上。包含的内容就是includes里面的文件。</li>
+<li>_posts: 存放博客文章</li>
+<li>index：博客主页</li>
+<li>CNAME文件：域名地址</li>
+<li>CSS：存放博客所用CSS</li>
+<li>JS: 存放博客所用JavaScript </li>
+</ul>
+<p>可以设置每个html文件的title(标题)和layout(布局)。比如index的layout一般是default。你也可以添加其他的页面，加上不同的layout。</p>
+<p>当你想定制博客的时候，以上目录就很有用了。</p>
+<h3 id="如何发表文章？">如何发表文章？</h3><p>文章的写法，在Markdown开头加上一段：</p>
+<pre><code><span class="bullet">---
+</span>layout: posttitle: "Welcome to Jekyll!"
+date: 2014-01-27 21:57:11
+<span class="header">categories: Blog
+---</span>
+</code></pre><p>文件命名格式: 时间加标题<br>比如：2015-08-15-HowTOBuildBlog.md</p>
+<p>ok，你可以写文章了，放入_post文件夹即可。</p>
+<h2 id="Step_3-_装修">Step 3. 装修</h2><h3 id="如何选择和修改主题？">如何选择和修改主题？</h3><ul>
+<li>一种方式是使用程序员们写好的，免费开源。</li>
+</ul>
+<p>推荐两个超级丰富的资源</p>
+<blockquote>
+<ol>
+<li><p><a href="http://jekyllthemes.org/" target="_blank" rel="external">Jekyll 主题</a></p>
+</li>
+<li><p><a href="https://github.com/mattvh/jekyllthemes" target="_blank" rel="external">Jekyll 主题搜集</a></p>
+</li>
+</ol>
+</blockquote>
+<ul>
+<li>另一种是，你也可以自己写或修改，需要懂一些前端的知识。</li>
+</ul>
+<p>之前，我在<a href="http://www.codecademy.com" target="_blank" rel="external">Codecademy</a>上学了两、三天，进行入门。正好用自己的博客，来做练习。<br>其实前端还蛮好玩的，特别满足强迫症的强迫意愿。<br>推荐资源：</p>
+<blockquote>
+<ul>
+<li>基础学习：<a href="http://www.codecademy.com" target="_blank" rel="external">Codecademy</a></li>
+<li>框架: <a href="http://www.bootcss.com/" target="_blank" rel="external">Bootstrap</a></li>
+</ul>
+</blockquote>
+<p>虽然下了dreamweaver, 没怎么用，不过官网上的<a href="https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html" target="_blank" rel="external">教程</a>不错。 推荐使用 <a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text</a>, 多么好用的代码编辑器啊，还有一个不错的<a href="http://blog.jobbole.com/88648/" target="_blank" rel="external">教程</a>。再配上Jekyll的本地服务器，在Chrome上调试。那感觉~</p>
+<p>自己写是好，也要看看别人是如何做的，优秀的网站是如何设计的。文章可以注重注重排版，字体选择，屏幕适配调整等。不过说实在的，个人博客最重要的还是你的文章内容。</p>
+<h2 id="Step_4-_定制">Step 4. 定制</h2><p>如果你已经做到了这一步，那么恭喜你，你的个人博客已经搭建完成。不过要享受折腾的快乐，或想要更好的独特性，就继续进行吧。</p>
+<h3 id="如何使用独立域名？">如何使用独立域名？</h3><ul>
+<li>购买域名 著名的有 <a href="https://www.godaddy.com/?isc=bsfndom4&amp;ci=" target="_blank" rel="external">Godaddy</a>，支持支付宝。在网上可以搜到优惠码。</li>
+</ul>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/godaddy.png" alt=""></p>
+<ul>
+<li><p>在你本地网站文件夹中添加一个文件 <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/" target="_blank" rel="external">CNAME</a>，写入你的域名即可。</p>
+</li>
+<li><p>考虑到我国网络特殊情况，进行域名解析，可以选择<a href="https://www.dnspod.cn/Login?default=email" target="_blank" rel="external">dnspod</a><br>添加两条A记录(<a href="https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&amp;tsid=42" target="_blank" rel="external">教程</a>)，对，就是计算机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。</p>
+</li>
+</ul>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/AA.png" alt=""></p>
+<p><em>买域名这事，我自己还有点经历。一开始我买了个azureyu.cn的域名，cn是国内的，然后让提交身份证信息，输入各种资料。又要进行网站备份，一大推看不懂的备份名词，最后放弃了。买了个国外的域名azureyu.com，没有了以上复杂环节，马上就可以用了。</em></p>
+<h3 id="如何添加评论功能？">如何添加评论功能？</h3><p>这些平时习以为常的东西，到这都是纯手工制造。<br>我使用的是<a href="https://disqus.com/" target="_blank" rel="external">Disqus</a></p>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Disqus.png" alt=""></p>
+<ul>
+<li>注册Disqus</li>
+<li>点击右侧选择在博客中添加，就会自动获得它为你生成的一段代码，复制它</li>
+</ul>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/comment.png" alt=""></p>
+<ul>
+<li>新建一个名为Comments的html文件，复制进去这段代码，保存到文件夹_includes里去。然后在_layouts的post文件里加入：</li>
+</ul>
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/addcmt.png" alt=""></p>
+<p>其实，就是在你的网页中加入一段代码，加载之后在网页中加入Disqus，就会自动获得它为你生成的一段代码。</p>
+<p>要还想添加一些feather就去折腾吧。比如分享、文章目录、代码高亮、标签云、搜索等等。我想到现在，学习这些内容，对你已经很简单了。 </p>
+<hr>
+<h2 id="最后">最后</h2><p>个人建议：</p>
+<ul>
+<li>多看官方文档，系统清晰很多</li>
+<li>利用好而不是滥用搜索引擎</li>
+<li>遇见问题，先看看他人如何解决</li>
+</ul>
+<p>用一句作为结束：</p>
+<blockquote>
+<p>不要忘记初衷，在折腾之后，表达写作，才是最重要的事情。</p>
+</blockquote>
+<hr>
+<p>参考：</p>
+<blockquote>
+<ol>
+<li><a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html</a></li>
+<li><a href="http://beiyuu.com/github-pages/" target="_blank" rel="external">http://beiyuu.com/github-pages/</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">http://daringfireball.net/projects/markdown/</a></li>
+<li><a href="http://stevelosh.com/" target="_blank" rel="external">http://stevelosh.com/</a></li>
+<li><a href="http://jekyllbootstrap.com/" target="_blank" rel="external">http://jekyllbootstrap.com/</a></li>
+<li><a href="http://gaohaoyang.github.io" target="_blank" rel="external">http://gaohaoyang.github.io</a></li>
+<li><a href="http://segmentfault.com/a/1190000000406013" target="_blank" rel="external">http://segmentfault.com/a/1190000000406013</a></li>
+<li><a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank" rel="external">http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html</a></li>
+</ol>
+</blockquote>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Jekyll/" rel="tag">#Jekyll</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/08/27/WhyHexo/" rel="prev">为什么选择Hexo</a>
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/07/25/尝得出味，指不出形状/" rel="next">尝得出味，指不出形状</a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+ </div>
+
+        
+
+        
+          <div class="comments" id="comments">
+            
+          </div>
+        
+      </div>
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Catalog
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="/images/avatar.jpg" alt="Azure" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Azure</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">love life, love nature</p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">19</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">categories</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">7</span>
+              <span class="site-state-item-name">tags</span>
+              </a>
+          </div>
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="menu-item-icon icon-next-feed"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yogayu" target="_blank">Github</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/5639257977/profile?topnav=1&wvr=6" target="_blank">Weibo</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.jianshu.com/users/313e5a37caee/latest_articles" target="_blank">Jianshu</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引子"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step_1-_选地"><span class="nav-number">2.</span> <span class="nav-text">Step 1. 选地</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是_GitHub？"><span class="nav-number">2.1.</span> <span class="nav-text">什么是 GitHub？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#那么GitHub_Pages是什么呢？"><span class="nav-number">2.2.</span> <span class="nav-text">那么GitHub Pages是什么呢？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git和Github如何使用？"><span class="nav-number">2.3.</span> <span class="nav-text">Git和Github如何使用？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step_2-_搭建"><span class="nav-number">3.</span> <span class="nav-text">Step 2. 搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是Jekyll？"><span class="nav-number">3.1.</span> <span class="nav-text">什么是Jekyll？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Jekyll目录"><span class="nav-number">3.2.</span> <span class="nav-text">Jekyll目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何发表文章？"><span class="nav-number">3.3.</span> <span class="nav-text">如何发表文章？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step_3-_装修"><span class="nav-number">4.</span> <span class="nav-text">Step 3. 装修</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如何选择和修改主题？"><span class="nav-number">4.1.</span> <span class="nav-text">如何选择和修改主题？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step_4-_定制"><span class="nav-number">5.</span> <span class="nav-text">Step 4. 定制</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如何使用独立域名？"><span class="nav-number">5.1.</span> <span class="nav-text">如何使用独立域名？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何添加评论功能？"><span class="nav-number">5.2.</span> <span class="nav-text">如何添加评论功能？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后"><span class="nav-number">6.</span> <span class="nav-text">最后</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner"> <div class="copyright" >
+  
+  &copy; &nbsp;  2014 - 
+  <span itemprop="copyrightYear">2015</span>
+  <span class="with-love">
+    <i class="icon-next-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Contact:</a></span>
+  <span>
+  <a href="mailto:yudelovesong@icloud.com"><span class="glyphicon glyphicon-envelope"></span>yudelovesong@icloud.com</a>
+  </span>
+
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+ </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+    
+    
+
+  
+
+
+  
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+
+
+
+
+  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+      if (isMobile()) {
+        FastClick.attach(document.body);
+      }
+    });
+  </script>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+</body>
+</html>
