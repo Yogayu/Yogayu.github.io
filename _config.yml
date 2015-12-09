@@ -1,31 +1,83 @@
 # Site settings
-title: Azure Yu
+title: AzureYu
+SEOTitle: AzureYu | 游薪渝的博客
 header-img: img/home-bg.jpg
-email: yudelovesong@icould.com
-description: "科技的人文关怀"
-baseurl: ""
-url: "http://azureyu.com"
-weiboerl: http://weibo.com/5639257977/profile?topnav=1&wvr=6
-github_username: Yogayu
-disqus_username: yogayu
-##Make sure to edit the above fields, especially for disqus.
+email: yudelovesong@icloud.com
+description: "去创造，去体验"
+keyword: "iOS,developer,software,azureyu,游薪渝"
+url: "http://azureyu.com"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+gems: [jekyll-paginate]
+gem : 'pygments.rb'
+
+# SNS settings
+RSS: true
+weibo_username:     u/5639257977
+zhihu_username:     youxinyu
+github_username:    Yogayu
+#twitter_username:  
+#facebook_username:  
+
+
+
+# Build settings
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+permalink: pretty
+paginate: 7
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: yogayu
+
+# Duoshuo settings
+#duoshuo_username: yogayu
+# Share component is depend on Comment so we can NOT use share only.
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 7e918b457095c138d6ce710350596dfc
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: azureyu
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "去创造，去体验"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 3              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    }
+]
 
