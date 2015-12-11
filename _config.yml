@@ -62,7 +62,7 @@ ba_track_id: 7e918b457095c138d6ce710350596dfc
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "去创造，去体验"
+sidebar-about-description: "思量阅读，用心码字，业余弹琴"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
