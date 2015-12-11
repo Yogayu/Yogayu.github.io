@@ -3,6 +3,7 @@ layout:     post
 title:      "使用CocoaPods"
 date:       2015-10-24 12:50:54
 author:     "Youxinyu"
+categories:    tech
 tags:
     - iOS
 ---

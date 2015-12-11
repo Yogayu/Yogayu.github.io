@@ -5,9 +5,9 @@ subtitle:   "使用jekyll在GitHub Pages上搭建个人博客"
 date:       2015-08-15
 author:     "Youxin yu"
 header-img: "img/post-bg-js-version.jpg"
+categories: tech
 tags:
     - Jekyll
-    - Github
     - Blog
 ---
 “授人以渔”的教你搭建个人独立博客

@@ -3,8 +3,8 @@ layout:     post
 title:      "九月记"
 date:       2015-10-01 13:09:20
 author:     "Youxinyu"
+categories:    hum
 tags:
-    - 言
     - 随笔
 ---
 九月，雨天阴天，就这么舒舒服服的过去了。

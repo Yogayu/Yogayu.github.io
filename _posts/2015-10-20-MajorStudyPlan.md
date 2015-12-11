@@ -4,7 +4,7 @@ title:      "专业学习规划图"
 subtitle:   "MindMap"
 date:       2015-10-20 17:06:54
 author:     "Youxinyu"
-header-img: ""
+categories:    tech
 tags:
     - software
     - plan
