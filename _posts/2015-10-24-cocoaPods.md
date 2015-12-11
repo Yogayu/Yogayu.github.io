@@ -4,6 +4,7 @@ title:      "使用CocoaPods"
 date:       2015-10-24 12:50:54
 author:     "Youxinyu"
 categories:    tech
+header-img: "img/home-bg-1.jpg"
 tags:
     - iOS
 ---

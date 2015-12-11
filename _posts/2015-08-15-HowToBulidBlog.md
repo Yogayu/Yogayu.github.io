@@ -4,7 +4,7 @@ title:      "“授人以渔”的教你搭建个人独立博客"
 subtitle:   "使用jekyll在GitHub Pages上搭建个人博客"
 date:       2015-08-15
 author:     "Youxin yu"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/home-bg-1.jpg"
 categories: tech
 tags:
     - Jekyll
