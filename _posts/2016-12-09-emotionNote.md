@@ -31,18 +31,20 @@ tags:
 平时课业也多，最近一边上下半学期的课，一边还要准备上半学期课的期末考。另外自己平时的兴趣也会花去不少时间，练练吉他，跑跑步，看看电视剧。只有在仅剩的不多时间里，进行开发。
 
 ## 实现- How?
+<img src = "http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion3.jpg">
 12月初开始着手开发情绪笔记。每天大概花去两个小时，周末两天就全天在开发。
 
 技术学习，官网文档是必读的，我也结合这一些书在看，比如iOS Programming cook book。人人称赞的Raywenderlich也是寻找解决方案的好地方。对于自己以前没有接触过的技术，Raywenderlich有一步一步详尽的介绍，是很好的初学实例。Cook book 适合进一步的了解，而StarkOverFlow，适合寻找你无法调试成功的原因。
 
 基本技术:
 
-1. UITablView,UIAlerController的使用
+1. UITablView,UIAlertController的使用
 2. 手势的使用
 3. 导航颜色修改
 4. 相机调用，相册获取
 5. 如何将图片转换为二进制，进行上传？
-6. 如何通过Anilfire进行网络通信，调用API?
+6. 如何存储笔记内容?
+6. 如何通过Animolfire进行网络通信，调用API?
 7. 如何将获取的JSON数据用SwiftJSON进行转换?
 
 最后，用Sketch进行APP启动页和Icon的设计。
@@ -50,7 +52,7 @@ tags:
 赶在6号完成了介绍视频的制作，使用QuickTimePlayer进行录制，iMovie进行剪辑制作。
 
 7号用Keyonte完成了演示制作，并对之前的代码进行了优化。
-<img src = "http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion3.jpg">
+
 <img src="http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion4.jpg">
 ## 感受
 第一次黑客马拉松，感觉就是在冲刺跑。
