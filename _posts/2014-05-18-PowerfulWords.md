@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "言语"
-subtitle:   "生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生"
+subtitle:   "Sort but Powerful"
 date:       2015-05-18 13:09:20
 author:     "Youxinyu"
 header-img: "img/home-bg-2.jpg"
