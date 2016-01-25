@@ -4,7 +4,7 @@ title:      "去创造，去体验"
 subtitle:   "生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生"
 date:       2014-12-01 13:09:20
 author:     "Youxinyu"
-header-img: "img/life-bg-0.jpg"
+header-img: "img/bird-sparrow.jpg"
 categories:   hum
 tags:
     - 随笔
