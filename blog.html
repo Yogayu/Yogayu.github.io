@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Life"
+title: "Blog"
 description: "万物静观皆自得"
-header-img: "img/life-bg-0.jpg"
+header-img: "img/bg-road.png"
 ---
 
-{% for post in site.categories.hum %}
+
+{% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
