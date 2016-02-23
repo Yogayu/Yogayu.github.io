@@ -54,6 +54,7 @@ tags:
 7号用Keyonte完成了演示制作，并对之前的代码进行了优化。
 
 <img src="http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion4.jpg">
+
 ## 感受
 第一次黑客马拉松，感觉就是在冲刺跑。
 
@@ -61,3 +62,5 @@ tags:
 
 >后记:
 因为没有用到Docker，不太对符合要求，就当是一次快速练习了。
+
+>[源码地址](https://github.com/Yogayu/EmotionNote)
