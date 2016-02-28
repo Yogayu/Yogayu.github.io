@@ -7,7 +7,6 @@ author:     "Youxin yu"
 header-img: "img/home-bg-1.jpg"
 categories: tech
 tags:
-    - 2015
     - 阅读
 ---
 

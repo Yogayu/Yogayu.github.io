@@ -7,8 +7,7 @@ author:     "Youxinyu"
 header-img: "img/home-bg-2.jpg"
 categories:    tech
 tags:
-    - software
-    - plan
+    - Plan
 ---
 <iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:860px; height:640px;" src="https://www.processon.com/embed/56c2f2f6e4b0e5041c2c5b1b"></iframe>
 
