@@ -36,7 +36,7 @@ tags:
 
 技术学习，官网文档是必读的，我也结合这一些书在看，比如iOS Programming cook book。人人称赞的Raywenderlich也是寻找解决方案的好地方。对于自己以前没有接触过的技术，Raywenderlich有一步一步详尽的介绍，是很好的初学实例。Cook book 适合进一步的了解，而StarkOverFlow，适合寻找你无法调试成功的原因。
 
-基本技术:
+### 基本技术:
 
 1. UITablView,UIAlertController的使用
 2. 手势的使用
