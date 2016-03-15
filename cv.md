@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      "简历"
+title:      "Resume"
 date:	2016-02-15 15:30:54
 author:     "Youxinyu"
 categories:    hum
