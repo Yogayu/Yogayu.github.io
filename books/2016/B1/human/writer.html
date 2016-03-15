@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="思量阅读，用心码字，业余弹琴">
+    <meta name="keyword"  content="iOS,developer,software,azureyu,游薪渝">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>成为作家——创意写作 - AzureYu | 游薪渝的博客</title>
+
+    <link rel="canonical" href="http://azureyu.com/hum/2016/02/24/book8/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">AzureYu</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li>
+                        <a href="/">BLOG</a>
+                    </li> -->
+                    
+                    <li>
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/cv/">Resume</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/books/">Books</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg-2.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/home-bg-2.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#Books" title="Books">Books</a>
+                        
+                    </div>
+                    <h1>成为作家——创意写作</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by Youxinyu on February 24, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="section">成为作家——创意写作</h1>
+
+<p>一本书作者<br />
+有的作家，通过自己的经历写了一本书，有运用语言文字的能力，但不再有新的经验，能给他原料，继续写作。<br />
+间歇性作家<br />
+等待灵感，害怕不优秀。<br />
+不均衡<br />
+技巧不成熟和态度不够</p>
+
+<h1 id="section-1">作家的气质</h1>
+<p>不是怪诞、荒谬才是艺术家。艺术家的气质是，永远保持如孩童般的天性和敏感。</p>
+
+<p>把自己看做两个人，而不是一个人。<br />
+无意识与有意识。有意识的你去面对生活，无意识的你去创造。</p>
+
+<blockquote>
+  <p>这个劝告就是：瞄准你的目标前进，否则你就会惊醒你的猎物。</p>
+</blockquote>
+
+<blockquote>
+  <p>如果你过早宣告你对写作的热爱，在你发表一篇又一篇作品之前，你所得到的可能只是对你努力的嘲讽。</p>
+</blockquote>
+
+<blockquote>
+  <p>语言是你的媒介，有效地利用语言是你的职业。</p>
+</blockquote>
+
+<p>过早谈论自己的作品，会使得不再想写下去。所以，睿智的保持沉默吧。</p>
+
+<blockquote>
+  <p>你必须要学习成为你自己最好的朋友和最严厉的批评家——轮流担当成熟和溺爱、苛刻和服从的不同角色。</p>
+</blockquote>
+
+<blockquote>
+  <p>结交和认识这样的人：出于某种难以名状的原因，他们会让你充满力量，会带给你新的思想，或者更不可言喻的是，会带给你充满自信的感觉，让你迫不及待地想要写作。</p>
+</blockquote>
+
+<blockquote>
+  <p>认真地想一想：哪些作者是你的良师？哪些是你的毒药？</p>
+</blockquote>
+
+<p>三毛</p>
+
+<p>#双重人格不冲突</p>
+
+<blockquote>
+  <p>你现在靠近一扇门。当你看到这一章结束的时候，把书放在一边，站起来，穿过那扇门。从你站在门槛的那一刻起，把你自己当作观察对象。你站在那里看起来是什么样？你走路的姿势如何？如果你对自己一无所知，那么此时此地，对你的性格、背景和意图你能了解多少？如果房间里有人，你必须过去打招呼，你如何问候他们？你对待他们的态度有何改变？如果你更喜欢其中一个人，或者更了解其中一个人，你会表露出来吗？</p>
+</blockquote>
+
+<p>还真的不知道怎么回答，只缘生在此山中。</p>
+
+<blockquote>
+  <p>运用写小说的眼睛观察自己，看看你如何走进走出房间，走到街上，走进商店，在天黑时又回到家中，这一天你的表现如何。</p>
+</blockquote>
+
+<blockquote>
+  <p>任何建议都要在你愿意的情况下采纳和实施。</p>
+</blockquote>
+
+<p>节省精力？少做不重要的事情吗？<br />
+改变习惯，运用想象力<br />
+圆的小实验<br />
+&gt; 至少这应该说明了，在你的日常生活中要想做出改变，不需要调动你的每一根神经和肌肉。</p>
+
+<blockquote>
+  <p>今后过一段时间你就要给自己列出一个详细的清单，看看哪些事对你来说是容易做到的，哪些事你难以做到或做得不够完善。然后你再考虑采取何种措施纠正这些认定的过失。到那时你就能够按照使自己受益的方式做事，而不须垂头丧气或冒险蛮干了。</p>
+</blockquote>
+
+<h1 id="section-2">约束你的无意识</h1>
+<blockquote>
+  <p>这些天真的、令人满足的梦想正是小说创作的素材，是小说的第一物质基础。 <br />
+所以，如果你打算充分利用丰富的无意识，当无意识异常活跃的时候你必须学会轻松而流畅地写作。<br />
+要做到这一点最好的方法是：比你习惯的起床时间早起半小时或一个小时。尽可能地早起——不要说话，不要读报纸，不要抓起你前一天晚上放在身旁的书来读——立即开始写作。想到什么写什么：昨夜的梦，如果你还能记得的话；前天的活动；真实的或虚构的谈话；对意识的检查。</p>
+</blockquote>
+
+<p>就像我自己在写freewriting(还有以前的日记)一样的状态，想到什么写什么，也有尝试写梦境，总觉没有足够的能力刻画。情景，感觉。情节其实不复杂。</p>
+
+<blockquote>
+  <p>再过一段时间，在你停止早上的写作之前，想办法多写一倍。</p>
+</blockquote>
+
+<blockquote>
+  <p>教会自己在一个特定时间段内写作。</p>
+</blockquote>
+
+<blockquote>
+  <p>自己决定你要用来写作的这段时间，因为你打算用这段时间来写作。</p>
+</blockquote>
+
+<blockquote>
+  <p>你的承诺事关荣誉，必须严格认真地履行。</p>
+</blockquote>
+
+<blockquote>
+  <p>你要日复一日地这么做，但是每次你都要挑选一个不同的时间。</p>
+</blockquote>
+
+<blockquote>
+  <p>无意识不喜欢这些规矩，直到这些规矩被完全打破；对于例行公事它非常懒惰且积习难改，总是想找最容易的办法来满足自己。它喜欢随兴所至，顺其自然。</p>
+</blockquote>
+
+<blockquote>
+  <p>如果你坚持不懈地、坚定不移地拒绝误导，你必然有所收获。无意识会突然屈服，开始让你优雅而流畅地写作。</p>
+</blockquote>
+
+<blockquote>
+  <p>这两个奇怪而专横的练习——早晨写作和预先安排时间进行写作——应该一直保持下去，直到你能够随心所欲地写出流畅的文字。</p>
+</blockquote>
+
+<p>##要么成功，要么放弃<br />
+&gt; 我要发出你在本书中能找到的、最严肃的警告：如果你总是做不了这个练习，就放弃写作吧。(不要不要啊)</p>
+
+<p>#以批评的眼光阅读你的作品<br />
+就像自己重读日记或随笔</p>
+
+<blockquote>
+  <p>避开模仿诱惑的最好办法是尽早发现自己的品味和优点</p>
+</blockquote>
+
+<p>可是我不阅读吗？</p>
+
+<blockquote>
+  <p>这些习作中不断反复出现的想法和经常使用的叙事形式会给你提供线索。它们会显示出你独具的天赋表现在哪里，你是否会最终决定专攻那个方向。没有理由相信，你只会写一种类型的作品，而不会在各个方面获得全面的成功；但是这种检验会显示出你最丰富的源泉、最容易写出来的风格是什么。</p>
+</blockquote>
+
+<p>批评自己的作品<br />
+&gt; 你要用日常的眼光、平时的想法来审视这些日积月累的素材和笔记。</p>
+
+<p>建议要具体</p>
+
+<blockquote>
+  <p>但是只有在你自己已经尽了全力修改之后，才把作品拿到外面听从别人的意见。</p>
+</blockquote>
+
+<p>修改<br />
+&gt; 当你找到了对策之后，要虚心阅读，下决心发现那些真正能够唤起你希望拥有的作家的优点。</p>
+
+<p>找出优秀作品的条件<br />
+规范日常行为<br />
+&gt; 每两三个月或至少一年两次，罗列一个完整的实际的日常行为清单，这将有助于你保持最佳状态，创作出最丰富的作品。</p>
+
+<p>克制自己<br />
+&gt; 生气、嫉妒和沮丧是你灵感之源的毒药，你把这些处于萌芽状态的迹象消灭得越早，你的写作就会越好。</p>
+
+<blockquote>
+  <p>当你觉得会从一种行为习惯中受益的时候，给它约定时间，坚决执行，接受你提出的建议；然后再不加思考、顺其自然地生活，一直到下一次需要彻底检查的时候。</p>
+</blockquote>
+
+<h1 id="section-3">像作家一样阅读</h1>
+
+<p>如何帮助你更好的写作？</p>
+
+<blockquote>
+  <p>事实上，当你学会了批评式的阅读，你会发现其乐趣要比只是欣赏式的阅读更加浓厚；当你执迷于要剖析一本书为什么让人读来觉得呆板、生硬的原因时，即使一本坏书你也会变得能够容忍。</p>
+</blockquote>
+
+<p>读两遍<br />
+&gt; 对于需要研究的故事、文章或小说，都要很快地不加评论地读上一遍，就像当你对一本书没有要求而只是欣赏它的时候一样。<br />
+&gt; <br />
+当你读完之后，把它暂时放在一边，然后拿起一支铅笔和记事本，准备详细地再读第二遍。</p>
+
+<ol>
+  <li>
+    <p>对刚读过的书写一个简短的大纲，做一个总结评价。<br />
+问一系列的问题。<br />
+&gt;如果是一本好书，你列出的问题应该很长而且有探索性，你的回答一定要尽可能具体。如果不是特别好，先找出它的弱点，然后再放在一边，也就足够了。</p>
+  </li>
+  <li>
+    <p>阅读，回答，标记<br />
+&gt; 然后，从第一个词开始，慢慢地、透彻地阅读第二遍。如果那些答案渐渐清晰了，要随时记下你的答案。如果你发现某些段落写得特别好，尤其是如果作者能够娴熟地运用你难以处理的素材，就把那些地方标出来。以后经过更进一步的分析，你就可以再回过头来，用它们作为参照加以学习。</p>
+  </li>
+</ol>
+
+<p>节奏 风格用词<br />
+# 模仿<br />
+&gt; 当你在别人的写作中发现对你自己的作品有用的素材时，才是模仿对你唯一有用的方式。</p>
+
+<blockquote>
+  <p>要逐字逐句分开细读。如果可能，在你自己的作品中找一篇同样的作品作为对比。</p>
+</blockquote>
+
+<p>如何安排字数？<br />
+&gt; 对抗单调<br />
+也许你还会觉得自己的写作很单调，动词紧挨着名词，副词紧挨着动词，整页整篇都是僵化雷同的句子。你正在研读的作者的作品中，句型结构变化无穷，节奏韵律丰富多彩，读来让人愉快，你对此印象深刻。<br />
+为了惟妙惟肖地模仿，真正的学习方法如下所示：作者的第一个句子有十二个字，你也写一个十二个字的句子。他的开头是两个词，第三个词是一个两个字的名词，第四个是一个四个字的形容词，第五个是一个三个字的形容词，如此等等。你也写一个句子，每个词的字数和这个作者在这一句话中用的每个词的字数都完全对应，名词对名词，形容词对形容词，动词对动词，要保证这些词和例句中的词的重读音节都完全相同。<br />
+挑选一位作家，他的风格要对你自己有帮助。这样无论从句子构成、文风节奏等方面，你都能从中受益良多。你不能指望、也不需要经常这么做，但是偶尔为之得到的帮助是显著的。你会更加了解你阅读中音调和节奏的变化，而且能够从阅读中学习。一旦通过努力学会了分析一个句子的不同组成部分，并且能够自己写出一个类似的句子，你就会发现，你自己头脑中的某一部分从此觉醒了，对以前你不易察觉的微妙之处变得敏感了。</p>
+
+<blockquote>
+  <p>不管读什么，都要悉心留意那些恰如其分的用词。</p>
+</blockquote>
+
+<h1 id="section-4">学会重新看世界</h1>
+<blockquote>
+  <p>真正的天才始终都能保持盎然的兴趣和生动的记忆，就像一个敏感的孩子看到不断扩展的新世界一样。</p>
+</blockquote>
+
+<blockquote>
+  <p>每天抽出半个小时，让你自己返回到五岁孩子时的状态，睁大眼睛，充满兴趣地打量这个世界。</p>
+</blockquote>
+
+<p>描述你所看见的。细节。 转化为文字。<br />
+想象。</p>
+
+<blockquote>
+  <p>你的用词一定要出新意，并不只是因为好词难求；坚持不懈地推敲、寻找恰如其分的词，这样在迫切需要之时才会得到表达清晰、用词确切的回报。</p>
+</blockquote>
+
+<blockquote>
+  <p>真正的天才拥有永不枯竭的源泉，这就是一个原因。他生活中发生的每一件事都能为他所用。</p>
+</blockquote>
+
+<blockquote>
+  <p>那就是，我们每个人能够作的贡献只有一个：能够为人类普遍的经验之池注入我们从各自角度看世界所得到的点滴体会。从某种意义上说，每个人都是独一无二的。</p>
+</blockquote>
+
+<p>诚实的展现你现在的状态。像我自己也觉得多变，不要等待，等了之前的也就被覆盖了。</p>
+
+<blockquote>
+  <p>通过一遍又一遍重温这些语录，你可能会最终相信：赋予你的写作以最终价值的是你的洞察力和真知灼见；只要你写作时头脑清晰、思想诚实，就不会落入俗套。</p>
+</blockquote>
+
+<blockquote>
+  <p>简单地说就是：“你能够写出任何生动、形象、足以引发你感慨万端之事。”如果一件事对你的吸引力达到了这种程度，说明它对你是有意义的；如果你能够发现其中的意义究竟是什么，你就有了创作故事的基础。</p>
+</blockquote>
+
+<blockquote>
+  <p>当你吸引了读者的注意力，你就是在说服你的读者，要他用你的眼睛看世界，要他同意你的看法，同意这是个激动人心的情景，同意这个情景本质上是悲剧，或者另一个故事具有深刻的幽默感。</p>
+</blockquote>
+
+<blockquote>
+  <p>你必须清楚地知道：你打算用在写作中的、生活中的大部分主要问题是什么，次要问题又是什么。</p>
+</blockquote>
+
+<blockquote>
+  <p>最好的书来自最坚强的信念——看任何书架，都能证明此言不虚。</p>
+</blockquote>
+
+<p>我们生活在满是文字的世界里。(文字不放假)</p>
+
+<blockquote>
+  <p>结论应该简单明了。如果你想激励你自己写作，那就通过无字的方式自娱自乐吧。不去看戏，不去听交响乐，也不去博物馆，而是长时间独自漫步，或者在大巴上层独自呆坐。如果你有意识地拒绝说话或看书，你会发现这对你大有裨益。</p>
+</blockquote>
+
+<blockquote>
+  <p>正是这些无字的休闲状态，让他们的思想集中于作品的构思。<br />
+重要的是发现你自己的风格、自己的节奏，这样你天性中的每一个元素都能对你成为一名作家有所贡献。<br />
+从凌乱的素材中提炼你的思想，认真地对待值得你严肃思考的问题。</p>
+</blockquote>
+
+<p>-<br />
+&gt; 尽量轻松而快速地工作，开始和结束一个句子都要清晰有力。要减少重读的次数——只时不时地读一两个句子，以确保你在正确的轨道上</p>
+
+<blockquote>
+  <p>在你开始写作之前，把故事的第一句话和最后一句话敲定，你会发现这非常有好处。这样你就可以用第一句作为跳板，延伸你的故事；用最后一句作为木筏，引领你向前游的方向。</p>
+</blockquote>
+
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/hum/2016/02/24/book6/" data-toggle="tooltip" data-placement="top" title="Show and tell">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/hum/2016/02/24/%E8%A7%A3%E5%BF%A7/" data-toggle="tooltip" data-placement="top" title="解忧杂货铺">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#随笔" title="随笔" rel="2">
+                                    随笔
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#Books" title="Books" rel="5">
+                                    Books
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#Plan" title="Plan" rel="5">
+                                    Plan
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#iOS" title="iOS" rel="2">
+                                    iOS
+                                </a>
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "yogayu";
+    var disqus_identifier = "/hum/2016/02/24/book8";
+    var disqus_url = "http://azureyu.com/hum/2016/02/24/book8/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/youxinyu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/u/5639257977">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/Yogayu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; AzureYu 2016
+                    
+                      Theme by <a href="www.huangxuan.me">Hux</a>
+                    <br>
+                    <a href="#">Back to Top</a>                   
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+        hljs.initHighlightingOnLoad();
+    })
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

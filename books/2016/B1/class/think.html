@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="思量阅读，用心码字，业余弹琴">
+    <meta name="keyword"  content="iOS,developer,software,azureyu,游薪渝">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>思考整理术 - AzureYu | 游薪渝的博客</title>
+
+    <link rel="canonical" href="http://azureyu.com/hum/2016/02/24/book5/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">AzureYu</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li>
+                        <a href="/">BLOG</a>
+                    </li> -->
+                    
+                    <li>
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/cv/">Resume</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/books/">Books</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg-2.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/home-bg-2.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#Plan" title="Plan">Plan</a>
+                        
+                    </div>
+                    <h1>思考整理术</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by Youxinyu on February 24, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p>阅读作品时要一直读下去，然后在让人心生敬佩之处、感觉异样之处深入思考，这样你想要的东西才会一一浮出水面。你也可以把这些段落记下来，反复阅读、反复思考。因为只有它们才是作品的重点。另外，如果又像谜团一样难懂的部分，也要多加关注，它们都是你论文中需要的素材。</p>
+
+<p>上面说到的这些具体经验如果忽视不见，就永远无法将它们应用到其他地方。只有认真地加以整理、总结，使之公式化，它们才能变成生活中的智慧，指导我们今后的行动。而谚语正是帮助我们整理这种经验的最好方式。<br />
+(把经验写成言语，不正是我自己之前总结日记所做的事情吗？)</p>
+
+<p>为什么“睡了一觉”后好点子就会冒出来呢？我也不太明白，只是暗自猜测出了一个解释:从提出问题到答案出现总是要花费时间的，而在这一期间，我们总是不停地想，结果反倒会不好。不如先把问题原样不动的放一段时间，让我们的思绪沉淀一下，说不定结果自然就出来了。而晚上睡觉的时间，就是最佳的沉淀时间。(chunk, need time)</p>
+
+<p>另外，如果一时没有自己的想法，也可以把自己觉得有意义的知识和别人的想发用心的搜集起来。不过，不要把它们写到笔记本上之后就束之高阁，那样就算你记得再多，充其量也不过是一个抄写员而已。此时需要的是”知识的编辑力“，换句话说，就是在脑中制作“鸡尾酒”的能力。其实我们自己到底有多少独创的想法并不是太大的问题，关键是我们怎么组织已有的知识，按什么顺序排列它们。</p>
+
+<p>第一次创作是一种create，而将它加工、使之升华产生新价值就是，meta-create。而思考也存在创作和后设创作两个阶段。而前文提到的“鸡尾酒式论文”必须要通过后设创作思考才能产生，在这一点上，它们的意义更《源氏物语》和《十日谈》这样的故事没有什么区别。</p>
+
+<p>明明是互不相干的词语和词语，相互结合后却可以成就一系列连贯的意义。为什么会这样呢？</p>
+
+<p>搜集资料之前我们得先问问自己：我要调查什么？我为什么要调查？</p>
+
+<p>要解决问题，不妨先去寻找一个“意外发现”。所谓的比喻，就是暂且把需要说明的对象放在一边，然后去寻找与其完全不同，但内在有相似性的事物，最终通过比喻使他们之间的类比关系成立。</p>
+
+<p>自然和人工信息</p>
+
+<p>描述、抽象<br />
+    第一类信息易于理解，用第一信息去解释高层信息，用简单的实事去解释难懂的道理（稀释）<br />
+    但我们需要高度的抽象上去，也就是整理。（浓缩）<br />
+    （辩论赛的论点是高度抽象的，需要不断的用底层信息去解释，才能有说服力。<br />
+    新闻是第一信息，评论是第二信息。<br />
+    小说的要传达的盐是高层信息，盐水是第一信息。<br />
+    数学也是高度抽象的高层信息，所以需要稀释理解。)</p>
+
+<p>现代日本人并不缺乏好的想法和具体的知识，但却罕见有谁将其进行整理、统合以及抽象化，更没有人将其提升和“超化”。在思考的整理方面，我们必须考虑的不是平面的、量上的问题，而应该是立体的、质上的统合。<br />
+    边看边做记号。遇到和自己想打一致的内容就画绿线，不一致的画红线，对自己来说是新知识的就画黄线。<br />
+    收集所有资料，一口气读完<br />
+    首先，我们收集与题目相关的参考书。在收集齐所有能找的书目后，把它们堆到桌子上，然后一本一本地读下去，期间不要做任何其他事，一直到读完为止。中间最多做一点备忘，但是不是在做笔记，也不做卡片。第一本书是最重要也是最需要花费时间的，所以最好从正统的、权威的书籍开始读起。如果读到第三本，仍出现与前面两本中重复的内容，那么这些内容一般就是常识或定论；如果出现了跟前面相悖的思路或知识，那么它们肯定就是众说纷纭的内容。当我们围绕同一问题阅读大量资料时，越是到后面越会发现有许多东西不必详读也能明白了。<br />
+    趁记忆的热度还没消退，尽快整理<br />
+    读完全部资料之后，一定要尽早写总结文章。因为一旦记忆的余温散去，遗忘的速度就会加快。那些真正重要的部分也许忘不了，但细微之处未必能一直保持那么清晰的印象了。<br />
+    灵感笔记本（序号）-》值得思考的灵感-》超笔记本（题目，编号，时间）<br />
+    转换笔记本-转换环境<br />
+    （可以用印象笔记，原笔记本做成超链接）<br />
+    突然叫大家遗忘，做起来有些困难。但是，我们必须意识到这个问题，并慢慢学会遗忘。<br />
+    有进就必须有出，只有进而没有出的脑子会爆炸的。（<br />
+    喝闷酒：暂时遗忘，转换环境和思维，课程交叉安排，运动）<br />
+    重要的事，不用记下来。会被遗忘的通常都是一些没有价值的事情。<br />
+    未经时间考验的东西没有价。<br />
+    大量收集资料，然后又选择地迅速遗忘——这就是在头脑中创造经典的方法。所谓思考的整理，其实就是学会如何巧妙地、有技巧地遗忘。<br />
+    把自己的文章读一遍，不要默读，要出声地读。这样如果有条理不清的地方，我们读起来也会觉得不通畅，马上就能发现。（叶圣陶也这样说）<br />
+    读一读 不要轻易说出自己的想法（免得遭到扼杀）<br />
+    创造自己的谚语。（高度整理）<br />
+    思考的进阶<br />
+    思考是真实生活的投影<br />
+    思考不能与真实生活脱节  知与行 第一现实 第二现实的转换<br />
+    思考要带点汗味  真正的创造性思考必须扎根于现实，这一点现代人务必铭记于心。<br />
+    一个人创造性思考能力的大小，必将决定其在社会上价值的发哦地。<br />
+    生活本身就是最具有创造性的事。</p>
+
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/hum/2016/02/24/book4/" data-toggle="tooltip" data-placement="top" title="The google resume">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/hum/2016/02/24/book6/" data-toggle="tooltip" data-placement="top" title="Show and tell">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#随笔" title="随笔" rel="2">
+                                    随笔
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#Books" title="Books" rel="3">
+                                    Books
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#Plan" title="Plan" rel="5">
+                                    Plan
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#iOS" title="iOS" rel="2">
+                                    iOS
+                                </a>
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "yogayu";
+    var disqus_identifier = "/hum/2016/02/24/book5";
+    var disqus_url = "http://azureyu.com/hum/2016/02/24/book5/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/youxinyu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/u/5639257977">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/Yogayu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; AzureYu 2016
+                    
+                      Theme by <a href="www.huangxuan.me">Hux</a>
+                    <br>
+                    <a href="#">Back to Top</a>                   
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+        hljs.initHighlightingOnLoad();
+    })
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
