@@ -1,11 +1,11 @@
----
+<!-----
 layout:     page
 title:      "Resume"
 date:	2016-02-15 15:30:54
 author:     "Youxinyu"
 categories:    hum
 header-img: "img/home-bg-2.jpg"
----
+----->
 
 ---
 
@@ -14,7 +14,7 @@ header-img: "img/home-bg-2.jpg"
 | Phone |18002334858  | 
 | E-mail | <1015701481@qq.com>  | 
 |Blog|[azureyu.com](http://azureyu.com) |
-|Github|[yogayu](http://yogayu.com)|
+|Github|[yogayu](http://github.com/yogayu)|
 
 ### 教育
 
