@@ -7,7 +7,7 @@ author:     "Youxinyu"
 header-img: "img/home-bg-2.jpg"
 categories: hum
 tags:
-    - 言
+    - 随笔
 ---
 
 **Sort but powerful**
@@ -149,5 +149,3 @@ One way to develop self-confidence is to do the thing you fear and get a record 
 真正的光明绝不是永没有黑暗的时间，只是永不被黑暗所掩蔽罢了。真正的英雄绝不是永没有卑下的情操，只是用不被卑下的情操所屈服罢了。
 所以你要战胜外来的敌人之前，先得战胜你内在的敌人。不必害怕沉沦堕落，只消你能不断的自拔与更新。——傅雷《约翰・克里斯多夫》序
 ---
-
-不断更新......
