@@ -21,14 +21,14 @@ header-img: "img/home-bg-2.jpg"
 - *2013-2017* 学士 重庆大学 软件工程 GPA: 3.2/4.0 
 
 ### 项目
-
+- *2016-03* GuitarFere 
+独立开发，[AppStore地址](https://appsto.re/cn/jnCgbb.i)
 - *2016-01* 重庆经纬通有限公司 实习	
-重庆跨境电商系统，使用ThinkPHP框架，负责分销商模块（占整个系统35%）的后台开发，协助前端开发。
-- *2015-10*	[EmotionNote](https://github.com/Yogayu/EmotionNote) 开源项目
-已加入awesome-swift
+重庆跨境电商系统，使用ThinkPHP框架，负责分销商模块（占整个系统35%）的后台开发，协助前端开发
+- *2015-10*	[EmotionNote](https://github.com/Yogayu/EmotionNote) 
+开源项目，已加入awesome-swift
 - *2015-06* 重庆大学科研训练计划项目	
 增强现实家居设计APP，负责使用Swift开发iOS客户端。
-
 
 ### 技术
 - 平台：Windows/Mac OS
