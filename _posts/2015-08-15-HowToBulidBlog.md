@@ -6,6 +6,7 @@ date:       2015-08-15
 author:     "Youxin yu"
 header-img: "img/home-bg-1.jpg"
 categories: tech
+catalog:    true
 tags:
     - Jekyll
     - Blog

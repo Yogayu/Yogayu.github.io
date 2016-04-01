@@ -162,11 +162,11 @@ h4 {
   font-size: 21px;
 }
 a {
-  color: #398BA5;
+  color: #404040;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #0085a1;
 }
 a img:hover,
 a img:focus {
@@ -195,7 +195,6 @@ br + small.img-hint {
 img.shadow {
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-
 @media screen and (max-width: 768px) {
   select {
     -webkit-appearance: none;

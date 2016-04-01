@@ -4,7 +4,7 @@ title:      "使用CocoaPods"
 date:       2015-10-24 12:50:54
 author:     "Youxinyu"
 categories:    tech
-
+catalog:    true
 header-img: "img/home-bg-2.jpg"
 tags:
     - iOS
@@ -67,3 +67,4 @@ CocoaPods官网: https://cocoapods.org
 查找你需要的：
 		
 		pod search
+

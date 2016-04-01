@@ -6,6 +6,7 @@ date:       2015-05-18 13:09:20
 author:     "Youxinyu"
 header-img: "img/home-bg-2.jpg"
 categories: hum
+catalog:    true
 tags:
     - 随笔
 ---

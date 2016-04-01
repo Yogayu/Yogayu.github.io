@@ -6,6 +6,7 @@ author:     "Youxinyu"
 categories:    tech
 header-mask: 0.1
 header-img: "img/home-bg-2.jpg"
+catalog:    true
 tags:
     - iOS
 ---
