@@ -20,6 +20,7 @@ header-img: "img/bird-sparrow.jpg"
      <p><strong><a href="{{ site.baseurl }}">在线简历 Online CV</a></strong></p>
     </blockquote> -->
     <h2>最近在做的事</h2>
+    <hr>
     <ol>
         <li><a href="{{ site.baseurl }}/tech/2015/10/21/MajorStudyPlan/">学习计算机基础课程</a></li>
         <li><a href="{{ site.baseurl}}/books">阅读各类主题的书籍</a></li>
@@ -51,7 +52,7 @@ header-img: "img/bird-sparrow.jpg"
 
     <h2>Recent Posts</h2>
 </div>
-
+<hr>
 {% for post in paginator.posts limit: 5 %}
 <div>
     <a href="{{ post.url | prepend: site.baseurl }}">

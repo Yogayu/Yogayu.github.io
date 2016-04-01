@@ -4,14 +4,14 @@ title:      "黑客马拉松——Emotion Note开发小记"
 date:       2015-12-09 12:50:54
 author:     "Youxinyu"
 categories:    tech
-
+header-mask: 0.1
 header-img: "img/home-bg-2.jpg"
 tags:
     - iOS
 ---
 
 
-<img src = "http://7xle3b.com1.z0.glb.clouddn.com/Simulator%20Screen%20Shot%202015年12月6日%20下午8.10.08.png">
+<!--<img src = "http://7xle3b.com1.z0.glb.clouddn.com/Simulator%20Screen%20Shot%202015年12月6日%20下午8.10.08.png">-->
 
 
 11月下旬，偶然看见有人在年级群中发，黑客马拉松的消息。点开看之后，发现是微软、灵雀云和开源社举办的。其中一个要求是使用微软牛津计划API，之前就对其中的情绪API感兴趣，正好这一次可以试着应用应用。
@@ -64,3 +64,4 @@ tags:
 因为没有用到Docker，不太对符合要求，就当是一次快速练习了。
 
 >[源码地址](https://github.com/Yogayu/EmotionNote)
+
