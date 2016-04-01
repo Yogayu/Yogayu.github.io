@@ -13,7 +13,8 @@ tags:
 我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。
 
 
-![iTunes.png](http://upload-images.jianshu.io/upload_images/48181-ab47cf08c72cec12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![myapp](img/myapp.png)
+
 
 *PS:欢迎大家捧场~[APP地址](https://appsto.re/cn/jnCgbb.i)*。*当然，这不是我写的第一个App，你可以在[我的github](https://github.com/yogayu)上看更多的项目,比如开源的[EmotionNote](https://github.com/Yogayu/EmotionNote)。*
 
@@ -56,26 +57,29 @@ tags:
 了解自己的基本情况之后，就可以设计自己的学习路线了。一开始不会有完整的路线，需要根据自己的情况不断的调整。不妨读一读其他人入门的文章，吸取经验。
 	
 	#### 记录学习的过程
-![200h.jpg](http://upload-images.jianshu.io/upload_images/48181-8c56ff84dd5c3014.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![time](img/time.jpg)
+
 你怎么知道自己学得如何？传统教育，会有传统考试作为检验。我的做法是，记录过程，设置检验点，寻找概念的共通性，举一反三，问问题以及写作总结。
 	
 - ### 开始吧
 
 一开始熟悉编程语言，然后了解开发工具XCode，理解大概的项目框架，APP生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的APP类型，再针对性的学习。
+![Swift_-_Overview_-_Apple_Develope](img/Swift_-_Overview_-_Apple_Developer.png)
 
-![Swift_-_Overview_-_Apple_Developer.png](http://upload-images.jianshu.io/upload_images/48181-f64df0fd942915f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 语言
 
 如果把写APP比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。
 
 
-![Xcode.png](http://upload-images.jianshu.io/upload_images/48181-6174dbdfec968043.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Xcode](img/Xcode.png)
+
 
 #### 了解你的工具——Xcode 
 工欲善其事必先利其器，快速的熟悉Xcode界面，各面板功能，常用的快捷键等等，会提高不少效率。
 
-![Xcode_Keyboard_Shortcuts_pdf（1_页）.png](http://upload-images.jianshu.io/upload_images/48181-2e1f49b13abd0de4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Xcode_Keyboard_Shortcuts_pdf（1_页）](img/Xcode_Keyboard_Shortcuts_pdf%EF%BC%881_%E9%A1%B5%EF%BC%89.png)
+
 
 #### 基于项目的学习
 除了斯坦福大学的iOS开发入门之外，我个人很喜欢的一套教程是[Teaching App Development with Swift](http://swifteducation.github.io)。它主要的观念就是基于项目的学习，每课时都有不同的项目，一个项目多个课时，清晰的步骤一步步搭建起完整功能。由实践引出知识点，最后给出延生思考和资料。
@@ -84,7 +88,8 @@ tags:
 
 -  ##### 学习框架
 
-![http://www.zg3ddyw.com/hy/gjdt/4160.html](http://upload-images.jianshu.io/upload_images/48181-6ab30cd4f4b55307.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1T0195N7-5](img/1T0195N7-5.jpg)
+
 框架是什么？
 很多系统的功能，都是不需要你实现的。想象你自己在拼一辆四驱车，马达啊，轮子啊，车身啊，一开始，这些你都不需要自己造。你需要知道的只是，每一部分的功能是什么，怎么把他们拼装在一起，哪一部分拼在哪里。同样的，框架就像是各种各样的零件，比如UIKit，可以改造车身外观，多媒体需要用AV Foundation。
 
@@ -109,8 +114,8 @@ Apple很重视用户体验，学习基本的界面设计也是很必要的。之
 
 --- 
 
+![iTunesEdu](img/iTunesEdu.png)
 
-![iTunesEdu.png](http://upload-images.jianshu.io/upload_images/48181-ed8d454ba576e686.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 资源：
 
