@@ -12,8 +12,7 @@ tags:
 
 我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。
 
-
-![myapp](img/myapp.png)
+![myapp](/img/myapp.png)
 
 
 *PS:欢迎大家捧场~[APP地址](https://appsto.re/cn/jnCgbb.i)*。*当然，这不是我写的第一个App，你可以在[我的github](https://github.com/yogayu)上看更多的项目,比如开源的[EmotionNote](https://github.com/Yogayu/EmotionNote)。*
@@ -31,10 +30,10 @@ tags:
   - 语言
   - 了解你的工具——Xcode
   -  基于项目的学习
-   - 从简单App开始, 分析其生命周期
-    - 学习框架
-    - 理解概念
-    - 动手，不断犯错，不断改进
+    	- 从简单App开始, 分析其生命周期
+    	- 学习框架
+    	- 理解概念
+    	- 动手，不断犯错，不断改进
   - 界面
   - 网络
 - 资源：
@@ -57,14 +56,14 @@ tags:
 了解自己的基本情况之后，就可以设计自己的学习路线了。一开始不会有完整的路线，需要根据自己的情况不断的调整。不妨读一读其他人入门的文章，吸取经验。
 	
 	#### 记录学习的过程
-![time](img/time.jpg)
+![time](/img/time.jpg)
 
 你怎么知道自己学得如何？传统教育，会有传统考试作为检验。我的做法是，记录过程，设置检验点，寻找概念的共通性，举一反三，问问题以及写作总结。
 	
 - ### 开始吧
 
 一开始熟悉编程语言，然后了解开发工具XCode，理解大概的项目框架，APP生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的APP类型，再针对性的学习。
-![Swift_-_Overview_-_Apple_Develope](img/Swift_-_Overview_-_Apple_Developer.png)
+![Swift_-_Overview_-_Apple_Develope](/img/Swift_-_Overview_-_Apple_Developer.png)
 
 
 #### 语言
@@ -72,13 +71,13 @@ tags:
 如果把写APP比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。
 
 
-![Xcode](img/Xcode.png)
+![Xcode](/img/Xcode.png)
 
 
 #### 了解你的工具——Xcode 
 工欲善其事必先利其器，快速的熟悉Xcode界面，各面板功能，常用的快捷键等等，会提高不少效率。
 
-![Xcode_Keyboard_Shortcuts_pdf（1_页）](img/Xcode_Keyboard_Shortcuts_pdf%EF%BC%881_%E9%A1%B5%EF%BC%89.png)
+![Xcode_Keyboard_Shortcuts_pdf（1_页）](/img/Xcode_Keyboard_Shortcuts_pdf%EF%BC%881_%E9%A1%B5%EF%BC%89.png)
 
 
 #### 基于项目的学习
@@ -88,7 +87,7 @@ tags:
 
 -  ##### 学习框架
 
-![1T0195N7-5](img/1T0195N7-5.jpg)
+![1T0195N7-5](/img/1T0195N7-5.jpg)
 
 框架是什么？
 很多系统的功能，都是不需要你实现的。想象你自己在拼一辆四驱车，马达啊，轮子啊，车身啊，一开始，这些你都不需要自己造。你需要知道的只是，每一部分的功能是什么，怎么把他们拼装在一起，哪一部分拼在哪里。同样的，框架就像是各种各样的零件，比如UIKit，可以改造车身外观，多媒体需要用AV Foundation。
@@ -114,12 +113,13 @@ Apple很重视用户体验，学习基本的界面设计也是很必要的。之
 
 --- 
 
-![iTunesEdu](img/iTunesEdu.png)
+![iTunesEdu](/img/iTunesEdu.png)
 
 
 ## 资源：
 
 >网站:
+
 - http://www.developer.apple.com/
 	官方资料。文档阅读，一开始可能不知道如何下手。有一篇[博文](http://ourcoders.com/thread/show/117/)写得十分详细。当然，[iOS 8 Programming Fundation with Swift](http://www.oreilly.com/pub/au/249)书中第八章也是有介绍的。
 - http://github.com
@@ -138,6 +138,7 @@ Apple很重视用户体验，学习基本的界面设计也是很必要的。之
 了解设计流程，基本界面交互、动画等。当时完整的跟着做了一遍，收获良多。
 
 >书:
+
 - The swift programming language
 - [iOS 8 Programming Fundation with Swift (Matt Neuburg)](http://shop.oreilly.com/product/0636920044345.do?sortby=publicationDate)
 - [Programming iOS 9 (Matt Neuburg)](http://shop.oreilly.com/product/0636920044352.do?sortby=publicationDate)
@@ -146,6 +147,7 @@ Apple很重视用户体验，学习基本的界面设计也是很必要的。之
 Yair D'areglia的博客也值得一读：http://www.thinkandbuild.it
 
 > Post：
+
 - [Things I wish I had known before starting iOS development](https://medium.com/ios-os-x-development/things-i-wish-i-had-known-before-starting-ios-development-part-1-421a05e8447e#.91ras6ora)
 - [iOS开发如何入门？——知乎](https://www.zhihu.com/question/20264108/answer/30263999)
 - [自学iOS开发的经验](http://limboy.me/ios/2014/12/31/learning-ios.html)
