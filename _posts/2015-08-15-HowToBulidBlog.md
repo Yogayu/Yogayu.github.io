@@ -11,6 +11,7 @@ tags:
     - Jekyll
     - Blog
 ---
+
 “授人以渔”的教你搭建个人独立博客
 ——使用jekyll在GitHub Pages上搭建个人博客
 
@@ -264,4 +265,6 @@ ok，你可以写文章了，放入_post文件夹即可。
 6. http://gaohaoyang.github.io
 7. http://segmentfault.com/a/1190000000406013
 8. http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
+
+
 
