@@ -14,9 +14,6 @@ tags:
 <!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe-->
 ![Apple](http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png)
 
->参考：
-1. [程序员必读书单](http://lucida.me/blog/developer-reading-list/) 
-
 
 为什么会有那么多的编程语言呢？为什么说设计一门语言比改造一门语言成本低？
 也需要学习了编译器之后才会了解吧。
@@ -40,6 +37,11 @@ tags:
 - 信息安全
 - 软件工程-需求、设计、开发、测试，管理
     
+    
 
 建议学好一门语言，然后去应用，做一些小的作品。在其中自然而然毁碰到很多瓶颈，你就学想要学的更多。
+
+
+>参考：
+1. [程序员必读书单](http://lucida.me/blog/developer-reading-list/) 
 

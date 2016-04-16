@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "iOS Programming Reading Notes"
-date:       2016-03-15 20:40:54
+date:       2016-04-15 20:40:54
 author:     "Youxinyu"
 categories:    tech
 header-mask: 0.1
@@ -12,10 +12,11 @@ tags:
     - Tech
 ---
 
-# iOS 8 Programming Fundamental with Swift
+iOS 8 Programming Fundamental with Swift
 
 # Part 2 IDE
-# Chapter 6. Anatomy of an Xcode Project
+
+## Chapter 6. Anatomy of an Xcode Project
 
 ## 从项目到可运行的App
 App文件其实就是一个特殊的叫作*package*的文件夹。
@@ -74,12 +75,12 @@ PkgInfo: 历史遗留物。
 UIApplicationMain主要做的事：
 
 1. 创建你app的第一个实例——共享应用实例(the shared application instance)。之后，你可以很容易的通过调用UIApplication.sharedApplication()得到该实例。UIApplicationMain调用的第三个参数，指定了应该实例化哪一个共享应用实例。默认是nil，如果你想使用一个自己写的子类，就可以改为NSStringFromClass(MyUIApplicationSubclass)（MyUIApplicationSubclass是你自己的子类名）。
-- 创建你的第二个实例—— 应用实例的代理(delegate)。同理，它对应第四个参数。
-- 如果Info.list指定了一个主故事板文件(main storyboard file)，UIApplicationMain就会加载并查找它的初始视图控制器(initial view controller)。UIApplicationMain会实例化该视图控制器。
-- 如果有一个主故事板文件，UIApplicationMain就会开始创建窗口(`Window`)。它是你app的第四个实例，是UIWindows的实例。赋给应用代理的window属性，初始化视图控制器赋给窗口实例（window instance）的rootViewController属性。
-- UIApplicationMain转向app delegate instance并开始调用其中的代码。终于，你可以在其中写自己的代码了。但是，最好只做一些**不费时**的初始化工作，因为这个时候应用的界面还没有显示。
-- 如果有一个主故事板，UIApplicationMain现在回让它显示出来了。它通过调用UIWindow实例中的`makeKeyandVisible`方法来实现。
-- 现在窗口马上就会显示了。
+2. 创建你的第二个实例—— 应用实例的代理(delegate)。同理，它对应第四个参数。
+3. 如果Info.list指定了一个主故事板文件(main storyboard file)，UIApplicationMain就会加载并查找它的初始视图控制器(initial view controller)。UIApplicationMain会实例化该视图控制器。
+4. 如果有一个主故事板文件，UIApplicationMain就会开始创建窗口(`Window`)。它是你app的第四个实例，是UIWindows的实例。赋给应用代理的window属性，初始化视图控制器赋给窗口实例（window instance）的rootViewController属性。
+5. UIApplicationMain转向app delegate instance并开始调用其中的代码。终于，你可以在其中写自己的代码了。但是，最好只做一些**不费时**的初始化工作，因为这个时候应用的界面还没有显示。
+6. 如果有一个主故事板，UIApplicationMain现在回让它显示出来了。它通过调用UIWindow实例中的`makeKeyandVisible`方法来实现。
+7. 现在窗口马上就会显示了。
 
 
 如果没有指定一个主故事板，你也可以自己写：

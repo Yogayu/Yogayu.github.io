@@ -2,9 +2,10 @@
 layout:     post
 title:      "我的iOS开发入门自学路径"
 date:       2016-03-22 12:50:54
+author:     "Youxinyu"
 categories:    tech
-header-img: "img/home-bg-o.jpg"
-header-mask: 0.3
+header-img: "img/iTunesEdu.png"
+header-mask: 0.4
 catalog:    true
 tags:
     - iOS
