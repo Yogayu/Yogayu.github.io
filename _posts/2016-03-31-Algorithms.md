@@ -2,7 +2,7 @@
 layout:     post
 title:      "Algorithm 4th"
 subtitle:   "算法"
-date:		2016-03-31 13:09:20
+date:		2016-03-25 13:09:20
 author:     "Youxinyu"
 header-img: "img/home-bg-2.jpg"
 categories: tech
@@ -12,9 +12,9 @@ tags:
     - Tech
 ---
 
-课程地址:https://class.coursera.org/algs4partI-010/lecture/4 
-网站：http://algs4.cs.princeton.edu/home/ 
-2016-03-25 
+- 课程地址:https://class.coursera.org/algs4partI-010/lecture/4 
+- 网站：http://algs4.cs.princeton.edu/home/ 
+
 
 # Why study algorithms? 
 - Their impact is board and far-reaching.
