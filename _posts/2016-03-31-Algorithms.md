@@ -10,6 +10,7 @@ header-mask: 0.2
 catalog:    true
 tags:
     - Tech
+    - Books
 ---
 
 - 课程地址:https://class.coursera.org/algs4partI-010/lecture/4 

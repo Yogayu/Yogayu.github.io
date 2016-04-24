@@ -4,7 +4,7 @@ title:      "言语"
 subtitle:   "Sort but Powerful"
 date:       2015-05-18 13:09:20
 author:     "Youxinyu"
-header-img: "img/home-bg-2.jpg"
+header-img: "img/life-bg.jpg"
 categories: hum
 catalog:    true
 tags:
@@ -15,6 +15,7 @@ tags:
 
 
 ## 智慧
+
 
 * * *
 
