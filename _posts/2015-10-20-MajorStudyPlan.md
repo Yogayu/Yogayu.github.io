@@ -45,3 +45,8 @@ tags:
 >参考：
 1. [程序员必读书单](http://lucida.me/blog/developer-reading-list/) 
 
+
+为什么会有软件工程？
+普遍的说法是因为软件危机的产生。
+
+
