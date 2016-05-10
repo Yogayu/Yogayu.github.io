@@ -1,0 +1,578 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  我的iOS开发入门自学路径 - Azure Yu
+  
+  </title>
+  
+  
+  <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:azureyu.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        <li id="menu_item_index"><a href="index.html">HOME</a></li>
+        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
+
+</nav>
+
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; Azure Yu</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+
+    <li><label>Categories</label></li>
+
+        
+            <li><a href="Books.html">Books</a></li>
+        
+            <li><a href="Hum.html">Hum</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
+        
+            <li><a href="iOS.html">iOS</a></li>
+        
+            <li><a href="Life.html">Life</a></li>
+         
+
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+
+        <section id="main-content" role="main" class="scroll-container">
+        
+       
+
+ <script type="text/javascript">
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
+</script>
+<div class="row">
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>我的iOS开发入门自学路径</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2016/3/22</span>
+
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          
+              <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+           
+         
+          <span class="comments">
+            
+              <a href="azureyu.com/2016-03-24-iOSLearning.html#disqus_thread">comments</a>
+            
+
+            
+              &nbsp;<a  class="ds-thread-count" data-thread-key="2016-03-24-iOSLearning.html" data-count-type="comments" href="2016-03-24-iOSLearning.html#ds-thread"></a>
+            
+          </span>
+
+        </div>
+      </div><!-- article -->
+
+      <div class="article-content">
+      <p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
+
+<p><img src="media/14628621715071/myapp.png" alt="myapp"/></p>
+
+<p><em>PS:欢迎大家捧场~<a href="https://appsto.re/cn/jnCgbb.i">APP地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
+
+<hr/>
+
+<p>如果，有朋友说他的清单上，也有独立完成一个App这一项，这篇文章，就是我希望对他说的话了。</p>
+
+<ul>
+<li>
+<a href="#toc_0">正文：</a>
+<ul>
+<li>
+<a href="#toc_1">确认个人目标</a>
+<ul>
+<li>
+<a href="#toc_2">分析个人情况</a>
+</li>
+<li>
+<a href="#toc_3">设计自己的路线</a>
+</li>
+<li>
+<a href="#toc_4">记录学习的过程</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_5">开始吧</a>
+<ul>
+<li>
+<a href="#toc_6">语言</a>
+</li>
+<li>
+<a href="#toc_7">了解你的工具——Xcode</a>
+</li>
+<li>
+<a href="#toc_8">基于项目的学习</a>
+<ul>
+<li>
+<a href="#toc_9">从简单App开始, 分析其生命周期</a>
+</li>
+<li>
+<a href="#toc_10">学习框架</a>
+</li>
+<li>
+<a href="#toc_11">理解概念</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">界面</a>
+</li>
+<li>
+<a href="#toc_13">网络</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_14">资源：</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<hr/>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">正文：</h2>
+
+<h3 id="toc_1">确认个人目标</h3>
+
+<h4 id="toc_2">分析个人情况</h4>
+
+<p>在听取建议之前，想一想自己的情况会更有效。比如，你有面向对象的编程经验吗？如果有，那么语言学习就不需花太多时间。英语如何？基本的英文文档能读懂吗？适合你自己的学习方式是什么？<br/>
+对我而言，软件工程在读，基础课程都学过，入门较快。学校更多是在教理论，我更偏向在实践中学习(Learning by doing)。</p>
+
+<h4 id="toc_3">设计自己的路线</h4>
+
+<p>了解自己的基本情况之后，就可以设计自己的学习路线了。一开始不会有完整的路线，需要根据自己的情况不断的调整。不妨读一读其他人入门的文章，吸取经验。</p>
+
+<h4 id="toc_4">记录学习的过程</h4>
+
+<p><img src="/img/time.jpg" alt="time"/></p>
+
+<p>你怎么知道自己学得如何？传统教育，会有传统考试作为检验。我的做法是，记录过程，设置检验点，寻找概念的共通性，举一反三，问问题以及写作总结。</p>
+
+<h3 id="toc_5">开始吧</h3>
+
+<p>一开始熟悉编程语言，然后了解开发工具XCode，理解大概的项目框架，APP生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的APP类型，再针对性的学习。</p>
+
+<p><img src="media/14628621715071/Swift_-_Overview_-_Apple_Developer.png" alt="Swift_-_Overview_-_Apple_Develope"/></p>
+
+<h4 id="toc_6">语言</h4>
+
+<p>如果把写APP比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。</p>
+
+<p><img src="media/14628621715071/Xcode.png" alt="Xcode"/></p>
+
+<h4 id="toc_7">了解你的工具——Xcode</h4>
+
+<p>工欲善其事必先利其器，快速的熟悉Xcode界面，各面板功能，常用的快捷键等等，会提高不少效率。</p>
+
+<p><img src="media/14628621715071/Xcode_Keyboard_Shortcuts.png" alt="Xcode_Keyboard_Shortcuts"/></p>
+
+<h4 id="toc_8">基于项目的学习</h4>
+
+<p>除了斯坦福大学的iOS开发入门之外，我个人很喜欢的一套教程是<a href="http://swifteducation.github.io">Teaching App Development with Swift</a>。它主要的观念就是基于项目的学习，每课时都有不同的项目，一个项目多个课时，清晰的步骤一步步搭建起完整功能。由实践引出知识点，最后给出延生思考和资料。</p>
+
+<h5 id="toc_9">从简单App开始, 分析其<a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1">生命周期</a></h5>
+
+<h5 id="toc_10">学习框架</h5>
+
+<p><img src="media/14628621715071/1T0195N7-5.jpg" alt="1T0195N7-5"/></p>
+
+<p>框架是什么？<br/>
+很多系统的功能，都是不需要你实现的。想象你自己在拼一辆四驱车，马达啊，轮子啊，车身啊，一开始，这些你都不需要自己造。你需要知道的只是，每一部分的功能是什么，怎么把他们拼装在一起，哪一部分拼在哪里。同样的，框架就像是各种各样的零件，比如UIKit，可以改造车身外观，多媒体需要用AV Foundation。</p>
+
+<p>总之，要弄清两个问题:<br/>
+1. 什么时候用什么？(When to use what?)<br/>
+2. 怎么用？(How?)</p>
+
+<h5 id="toc_11">理解概念</h5>
+
+<p>一边练习一边思考思考，各概念之间的联系与区别，多问几个为什么。比如：delegate、protocol、tagart-action、closure 。</p>
+
+<p>其中Protocol，我是读了<a href="http://shop.oreilly.com/product/0636920044345.do?sortby=publicationDate">iOS 8 Programming Fundation with Swift (Matt Neuburg)</a>中的介绍，才彻底理解。<br/>
+- ##### 动手，不断犯错，不断改进<br/><br/>
+做完整的项目，而不只是一个功能点的练习。完整的项目，需要综合的考虑。界面的设计，类的设计，对象之间的交互等等。 一开始不知道如何实现时，不妨先看看其他人的实现。你可以查找书籍，在Github上阅读相关功能的源码，上StackOverFlow提问等等。</p>
+
+<h4 id="toc_12">界面</h4>
+
+<p>Apple很重视用户体验，学习基本的界面设计也是很必要的。之前完整的看了<a href="https://designcode.io">DesignCode</a>的教程，了解了基本的设计以及Sketch的使用。iOS Human Interface Guide也是开发之前的必读书。<br/>
+界面布局的时候，不得不提一句AutoLayout，一开始使用很可能会出现各种问题，不过领路要领之后，你会发现它的强大之处。</p>
+
+<h4 id="toc_13">网络</h4>
+
+<ul>
+<li>JSON</li>
+</ul>
+
+<hr/>
+
+<p><img src="media/14628621715071/iTunesEdu.png" alt="iTunesEdu"/></p>
+
+<h2 id="toc_14">资源：</h2>
+
+<blockquote>
+<h3 id="toc_15">网站:</h3>
+</blockquote>
+
+<ul>
+<li><a href="http://www.developer.apple.com/">http://www.developer.apple.com/</a>
+官方资料。文档阅读，一开始可能不知道如何下手。有一篇<a href="http://ourcoders.com/thread/show/117/">博文</a>写得十分详细。当然，<a href="http://www.oreilly.com/pub/au/249">iOS 8 Programming Fundation with Swift</a>书中第八章也是有介绍的。</li>
+<li><a href="http://github.com">http://github.com</a>
+程序员界Facebook。
+
+<ul>
+<li><a href="https://github.com/ipader/SwiftGuide">https://github.com/ipader/SwiftGuide</a></li>
+<li><a href="https://github.com/matteocrippa/awesome-swift">https://github.com/matteocrippa/awesome-swift</a> </li>
+</ul></li>
+<li><a href="http://www.stackoverflow.com/">http://www.stackoverflow.com/</a>
+技术问题版知乎。</li>
+<li><a href="http://www.raywenderlich.com/">http://www.raywenderlich.com/</a>
+声名在外的系列教程。</li>
+<li><a href="http://nshipster.com/">http://nshipster.com/</a>
+你不知道Mattt Thompson？快去看看吧。</li>
+<li><a href="https://www.objc.io/">https://www.objc.io/</a>
+基础到进阶推荐。</li>
+<li><a href="https://designcode.io/">https://designcode.io/</a>
+了解设计流程，基本界面交互、动画等。当时完整的跟着做了一遍，收获良多。</li>
+</ul>
+
+<blockquote>
+<p>书:</p>
+</blockquote>
+
+<ul>
+<li>The swift programming language</li>
+<li><a href="http://shop.oreilly.com/product/0636920044345.do?sortby=publicationDate">iOS 8 Programming Fundation with Swift (Matt Neuburg)</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920044352.do?sortby=publicationDate">Programming iOS 9 (Matt Neuburg)</a>
+个人强烈推荐的两本书，一直不断的在看，讲解细致，覆盖全面。</li>
+<li>Learning iOS UI Development (Yari D&#39;areglia)
+Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.it">http://www.thinkandbuild.it</a></li>
+</ul>
+
+<blockquote>
+<p>Post：</p>
+</blockquote>
+
+<ul>
+<li><a href="https://medium.com/ios-os-x-development/things-i-wish-i-had-known-before-starting-ios-development-part-1-421a05e8447e#.91ras6ora">Things I wish I had known before starting iOS development</a></li>
+<li><a href="https://www.zhihu.com/question/20264108/answer/30263999">iOS开发如何入门？——知乎</a></li>
+<li><a href="http://limboy.me/ios/2014/12/31/learning-ios.html">自学iOS开发的经验</a></li>
+</ul>
+
+<hr/>
+
+<p>我只列出了常用的资源，资料不在于多，而在于合理的利用。一个想法的开始很简单，按下收藏也很简单。不简单的是，开始去做，开始去实现。相信，如果你也愿意付出200小时，你也能完整的将自己的想法实现为应用。</p>
+
+      </div>
+
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+          <a href="2016-04-15-iOSProgramming.html" 
+          title="Previous Post: iOS Programming Reading Notes">&laquo; iOS Programming Reading Notes</a>
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="2016-03-15-iOSUI.html" 
+          title="Next Post: Learning iOS UI Development Reading Notes">Learning iOS UI Development Reading Notes &raquo;</a>
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
+
+          
+            <div id="disqus_thread"></div>
+          
+
+          
+              <div class="ds-thread" data-thread-key="2016-03-24-iOSLearning.html" data-url="azureyu.com/2016-03-24-iOSLearning.html" data-title="我的iOS开发入门自学路径"></div>
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
+
+
+
+
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <div class="site-a-logo"><img src="img/avatar.jpg" /></div>
+            
+                <h1>Azure Yu</h1>
+                <div class="site-des">游薪渝的个人博客</div>
+                <div class="social">
+
+
+
+
+
+
+
+<a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>
+<a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
+<a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
+
+  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="Books.html"><strong>Books</strong></a>
+        
+            <a href="Hum.html"><strong>Hum</strong></a>
+        
+            <a href="Tech.html"><strong>Tech</strong></a>
+        
+            <a href="iOS.html"><strong>iOS</strong></a>
+        
+            <a href="Life.html"><strong>Life</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="2016-05-01-April.html">四月记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-04-24-HowToStudy.html">教育使人获得精神力量——《如何学习》阅读笔记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-04-15-iOSProgramming.html">iOS Programming Reading Notes</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-03-24-iOSLearning.html">我的iOS开发入门自学路径</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-03-15-iOSUI.html">Learning iOS UI Development Reading Notes</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
+  <div class="row">
+   <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'yogayu'; 
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+var disqus_shortname = 'yogayu'; 
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+  
+
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:'yogayu'};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+    
+
+    <script src="asset/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
+     
+    </script>
+
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+    // dynamic User by Hux
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+  </body>
+</html>

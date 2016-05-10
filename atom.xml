@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Azure Yu]]></title>
+  <link href="azureyu.com/atom.xml" rel="self"/>
+  <link href="azureyu.com/"/>
+  <updated>2016-05-10T18:11:36+08:00</updated>
+  <id>azureyu.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[四月记]]></title>
+    <link href="azureyu.com/2016-05-01-April.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-05-01-April.html</id>
+    <content type="html"><![CDATA[
+<p>四月天气也是奇怪，前一天人们还穿着短袖，后一天就披上棉袄。<br/>
+开始和队友一起做项目，每天都往返于学院楼和寝室。最近去学院楼的时间，都比去上课的时间要多了。</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">阅读</h2>
+
+<ul>
+<li>人生的智慧 叔本华</li>
+<li>The English Patience</li>
+<li>iOS Programming</li>
+<li>摄影的艺术</li>
+<li>The Student Writer</li>
+<li>少有人走的路</li>
+<li>How to study 读书笔记</li>
+</ul>
+
+<h3 id="toc_1">人生的智慧，叔本华</h3>
+
+<p>看了推荐的文章，决定读一读。叔本华出生于一个显赫家庭，父亲是成功的商人，母亲是作家。十几岁时就随家人游历世界。从小性格孤僻，同时表现出极高的思想力。二十几岁时，出版自己的哲学著作，奠定了一派的哲学基础。之后时间里，不断的在修修补补。他几乎是一夜成名。年轻时，没有得到赏识，甚至可以说是遭到同行的“封杀”。直到暮年，出版了《人生的智慧》之后，才得到其应有的名誉。</p>
+
+<p>人生的智慧，写作从世人的角度出发，谈论决定人一生幸福的要素。</p>
+
+<p>叔本华认为，决定我们人生是否幸福，主要从三个方面。第一，人的自身；第二，身外之物；第三，他人对我们的看法。他认为最重要的是第一点即我们自身。而相对而言，第二第三点都影响不大。</p>
+
+<p>看此书要取其精华，去其糟粕。比如，个人完全不同于作者对女子的态度。</p>
+
+<h3 id="toc_2">摄影的艺术</h3>
+
+<p>对自我的探索</p>
+
+<ul>
+<li>你对什么感兴趣？</li>
+<li>你想要表达什么？</li>
+</ul>
+
+<p>摄影是一种表达，为不仅仅是记录。<br/>
+摄影：主题、主体、简洁。</p>
+
+<h3 id="toc_3">iOS Programming</h3>
+
+<ul>
+<li>一个App是如何开始运行的？</li>
+</ul>
+
+<h3 id="toc_4">少有人走的路 心理学</h3>
+
+<p>这一本书的名字，我目前还没发现其与内容的联系。<br/>
+这是一本讲心理学的书，作者论述的方式，是举生活和科学实验的例子，再得出结论。<br/>
+一般很多这样论述的书，我都不太入眼，这一本却不同。<br/>
+因为你可以从各种例子中看见你自己，看见你身边的人。从而受到启发。<br/>
+第一部分是讲自律，以及其对应的四个要素。<br/>
+第二部分是讲爱。</p>
+
+<p>也许是因为翻译的原因，有些字面意与平时的理解不同，要注意。比如坠入情网。</p>
+
+<h3 id="toc_5">How to study</h3>
+
+<p>把它完整的用中文翻译了要点，下一步就需要好好地用中文的表达方式再写一遍了。</p>
+
+<p>已完成最终笔记，发布博文。</p>
+
+<h2 id="toc_6">开发</h2>
+
+<ul>
+<li>写网站 Thinkphp + Bootstrap (真的快全端通了。。)</li>
+<li>货运达APP</li>
+</ul>
+
+<h2 id="toc_7">Medium</h2>
+
+<ul>
+<li>House of Cards </li>
+<li>我是歌手</li>
+<li>荒野猎人</li>
+<li>卡罗儿</li>
+<li>欢乐颂</li>
+</ul>
+
+<h2 id="toc_8">学校</h2>
+
+<p>人机交互设计和项目管理结课。</p>
+
+<ul>
+<li>前两门准备考试</li>
+<li>数字摄影课，数据挖掘课开始</li>
+</ul>
+
+<h2 id="toc_9">第一周</h2>
+
+<p>买了iPad mini2。</p>
+
+<ul>
+<li>准备英语竞赛</li>
+<li>统筹小组开发</li>
+<li>写网站 写网站 写网站</li>
+</ul>
+
+<h2 id="toc_10">第二周</h2>
+
+<p>买了MWeb，支持独立开发者吧。</p>
+
+<ul>
+<li>参加英语竞赛，没发挥好</li>
+<li>统筹小组开发</li>
+<li>写网站 写网站 写网站</li>
+</ul>
+
+<p>如何使用Thinkphp，如何使用Bootstrap，如何使用Bootstrap Table，如何提交表单信息，如何使用省市联动插件，如何用模板标签显示，如何响应事件，如何进行跳转，如何使用模态显示。</p>
+
+<h2 id="toc_11">第三周</h2>
+
+<ul>
+<li>周一，约老师见面</li>
+<li>复习人机交互，项目管理，用思维导图整理要点</li>
+<li>周三开始写APP</li>
+</ul>
+
+<h2 id="toc_12">第四章</h2>
+
+<ul>
+<li>两门期末考试</li>
+<li>写货运达APP</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[教育使人获得精神力量——《如何学习》阅读笔记]]></title>
+    <link href="azureyu.com/2016-04-24-HowToStudy.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-04-24-HowToStudy.html</id>
+    <content type="html"><![CDATA[
+<p>大学与其说实在学习具体的学科，不如说是在学习<strong>如何学习</strong>。<br/>
+关于学习，有两门书对我的影响极大。这两本书前前后后读了不下4遍，平时也在不断重温。</p>
+
+<p>第一本，极有名气，是<strong>《如何阅读一本书》(《How to read a book》)</strong>。初看是在高三暑假，现在大三，还在读。第一次读是了解大概，之后都带着不同的中心问题的重读。</p>
+
+<p>另一本，我从未听过任何人的推荐，可谓是冷门，却是我眼中的经典之一。即是<strong>《如何学习》(《How to study》)</strong>，出版于1971年，作者George Fillmore Swain。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/48181-1edc7ffa4a407786.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="How_to_Study.png"/></p>
+
+<p>称它为一门书，其实更像一门小册子。从精神态度、理解性学习、系统性学习和习惯方法四个方面出发，提出了如格言似的建议。</p>
+
+<p>《如何阅读一本书》自己读着是越读越薄，而第二本书《如何学习》却是越读越厚，不断的在稀释。</p>
+
+<p>以下是读书笔记，是理解性翻译的原文。</p>
+
+<span id="more"></span><!-- more -->
+
+<blockquote>
+<p>For the end of education and training is to help nature to her perfection in the complete developing of all the various powers.——Richard Mulcaster,1522-1611</p>
+</blockquote>
+
+<p>作者认为，教育是一种机会。它的目的给人以心智上的力量(Power)[1]。而这种力量只能由学生自己习得。唯一真正的教育是自我教育，老师能做的只是让学生知道他自己能够做到。</p>
+
+<p>对学生而言，最重要的事情之一，即是如何学习。<br/>
+懂得如何学习的重要性显而易见。相对于整个人类庞大的知识而言，一个学生在大学里所能学到的，完全是微不足道。另外，学生很难遇见将来自己会从事什么工作。因此，如果他的教育没有教会他，在面对一个新的学科新的问题，如何进行学习并且掌握，那么教育对他而言益处极少，也很难使他适应自己未来所选的职业。</p>
+
+<p>从广义上来说，我们探讨的问题是：“如何研究一个问题”(how to investigate a problem)。</p>
+
+<p>[1]教育是功利的，但是是广义上的功利，它的目的是给人以心智上的力量。这种力量使人生活更为愉悦，提升满足感，拓宽视野等等。</p>
+
+<hr/>
+
+<h1 id="toc_0">正确的精神态度(The Proper Mental Attitude)</h1>
+
+<p>作者认为，首先需要的是正确的精神态度。不要盲目相信，要有精神上的勇气和决心。勇气，是去掌握书本的勇气。决心，是去运用自己心智的决心。写在书本上不一定就是真的，只有经过思量，经过他自己理解，他才能接受。就像中国的一句古话——“尽信书不如无书”。</p>
+
+<p>当然，因为时间原因，不可能一一的去验证。有时候你要先相信所读陈述(statement)。<em>但是，你也需要努力思索，这些内容是少数的事实(mere fact)，是定义(definition)，还是有其原因(reason)。</em> 如果现在还无法理解原因，你应该暂时性的接受这些陈述，在之后不断探寻答案。</p>
+
+<h2 id="toc_1">(a) 学生必须清晰地区分阅读和理解。——只是阅读，不管多广泛，记忆力多强，都无法给与智慧或力量。</h2>
+
+<p>只是阅读词语和句子，而没有去理解，去思索，并将内容转化为自己的理解，这样的阅读是无用的，甚而会导致精神伤害。时常要警惕自己，要么理解性的阅读，要么放下手中的书本，去做其他的事，比如锻炼或娱乐。不在于你花了多长的时间，还要看你的专注程度以及思考密度。</p>
+
+<blockquote>
+<p>学而不思则，思而不学则殆</p>
+
+<p>It is not what is read or what is remembered, but only what is understood, that gives power.</p>
+</blockquote>
+
+<h2 id="toc_2">(b) 学生必须清晰地从结论或观点中分辨出少数的事实。</h2>
+
+<p>你可以接受由可信的权威发布的事实。<br/>
+从同一事实可以推断出不同的结论和观点；逻辑上的结论和少数的观点亦是非常不同的。<br/>
+有一些结论，比如数理逻辑上的结论，在没有实验和观察的情况下，也能够推论出来。要把这一些结论或真理与需要基于事实、实验或观察的结论相区分。</p>
+
+<p>不断的训练你自己的识别力(discrimination)，对于正确的学习是重要的。</p>
+
+<h2 id="toc_3">&copy; 学生的应该在头脑中持续的审问(interrogation)要点。</h2>
+
+<p>不管在阅读什么，对于你读到的陈述，你应该不断的问自己，这其中有原因吗？如果有原因，是来自事物内在的，还是来自作者观察到的事实？如果是事物内在，那么你就尝试独立地得出结论。</p>
+
+<p>对于成立的事实，你要努力的去察觉原因。阅读时，需要不停地区别，询问，列出要点，对于你目前理解其原因的内容，不用陷得太深，先存疑放在那里。</p>
+
+<p>比如，随着科技的发展，很多原始世界无法解释的自然现象，现在都有了清晰的解释。</p>
+
+<p>聪明的学生普遍能够区分各种描述不同的陈述，并且通过与自己已有的知识结构体系相结合，不断努力的去解释和理解。遗憾的是，多数学生都只是单纯的接受。他们不为自己思考，能使他们信服你所说的唯一要素是告诉他们你是权威。</p>
+
+<h2 id="toc_4">(d) 阅读目前还无法调查原因的事实时，应该询问这些事实是如何被查明的。</h2>
+
+<p>这样的思考，可以使你关注观察、实验的方法，或者该学科的技术。</p>
+
+<h2 id="toc_5">(e) 每一个学生都应该锻炼，在他学习的作者那，不断观察证据的可靠性。以此来保证他能够接到一个正确的影响，判断他的事实和陈述或观点和结论可能被接受。</h2>
+
+<p>每一个学生都应该训练自己，对自己所学习的作者的可靠性进行思考。以此来保障作者所说的事实和陈述点或观点和结论可能是正确的。</p>
+
+<blockquote>
+<p>Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.——Bacon</p>
+</blockquote>
+
+<h2 id="toc_6">(f) 另外一个正确学习的精神态度的要素是谨慎。</h2>
+
+<p>人无完人，你自己可能犯错，同样的，你阅读的作者也可能犯错。</p>
+
+<blockquote>
+<p>Read not to contradict and to confute, nor to believe and take for granted, nor to find and discourse, but to <strong>weight and consider</strong>.—— Bacon</p>
+</blockquote>
+
+<h2 id="toc_7">(g) 以开放的心态学习，不要有预先形成的观点。</h2>
+
+<h2 id="toc_8">(h) 理智的谦逊，使自己爱上真理。</h2>
+
+<p>正确看待自己知识的局限性，看清自己知道什么不知道什么。</p>
+
+<blockquote>
+<p>知之为知之，不知为不知，是知也。</p>
+
+<p>He who knows not, and knows not that he knows not, is a fool; shun him.<br/>
+He who knows not, and knows he knows not, is a child; tech him.<br/>
+He who knows, and knows not that he knows, is asleep; wake him.<br/>
+He who knows, and knows that he knows, is wise; follow him.</p>
+</blockquote>
+
+<h2 id="toc_9">（i）请记住学习是为了获得智慧而不仅仅是知识。</h2>
+
+<h1 id="toc_10">理解性学习</h1>
+
+<p>相比于具体名词，我们如何理解抽象名词的含义？<br/>
+很多人养成了不仔细的审视名词的确切含义，而使用它们的坏习惯。</p>
+
+<h2 id="toc_11">(a) 锻炼下定义的习惯。</h2>
+
+<p>你不能满足于模糊的，不明确的，不完整的概念。<br/>
+可以尝试一些方法：</p>
+
+<ol>
+<li>学习字典。在翻译中应用字典。相比将外语翻译为自己的母语，学习将古文翻译为现代文，可能更为适合。</li>
+<li>每天为几个词下定义，然后与字典相比较。很快就会发现，虽然一个名词能有不同的说法，但只有一个最为准确。</li>
+<li>学习逻辑学。（个人认为可以看看简明逻辑学）</li>
+</ol>
+
+<h2 id="toc_12">(b) 从不同的方式或角度来陈述一件事。</h2>
+
+<p>只有你真正的理解了，你才能给准确无误的传达给其他人，让他们也能明白。所以人们说教师最好的学吧。</p>
+
+<h2 id="toc_13">&copy; 从正反两面来陈述一件事。</h2>
+
+<h2 id="toc_14">(d) 在学习一个陈述(statement)时，观察哪些词语是必要的哪些是可删除的。</h2>
+
+<p>揣摩用词。注意使用什么样的词汇来传递要表达的含义。什么样的词组合构成了该事物。</p>
+
+<h2 id="toc_15">(e) 对阅读内容进行深思：在开始下一点之前，举例说明或者应用已得到的结论。</h2>
+
+<p>检查自己是否真的理解结论的一种方式是应用它。将它尽可能多的应用到不同例子中去。</p>
+
+<h2 id="toc_16">(f) 保持头脑的活跃和机敏。</h2>
+
+<p>不要只是坐在那里凝视着书本。学习需主动，间歇性的休息也是必要的。</p>
+
+<h2 id="toc_17">(g) 当你遇见同一学科不同的观点时，思考是什么原因使得有才智的人得到了不同的结论。</h2>
+
+<h2 id="toc_18">(h) 记住陈述不是证明。许多学生认为他们可以通过用不同的方式重复陈述来证明它。</h2>
+
+<h1 id="toc_19">系统性学习是正确学习的第三点</h1>
+
+<h2 id="toc_20">(a) 发现学科的基础概念。</h2>
+
+<p>跳过细节直达事物根本。看见真正的要点。其余的自然能与主干相连。</p>
+
+<p>知识的大树，你要先把握其主干。</p>
+
+<blockquote>
+<p>Learn something accurately, and refer the rest to that.—— Jacotot</p>
+</blockquote>
+
+<p>一个知道如何正确学习的人，能够选出包含该学科关键的句子或者段落——基础的事实和原理——并且会不断的重读直到完全理解。</p>
+
+<h2 id="toc_21">(b) 在你开始学习一个学科之前， 仔细的思考并找出你已经知道的内容或你能够通过自己的努力理解的内容。</h2>
+
+<p>想一想你的期望，还有和你已经学到的知识的联系，发现其有什么应用。</p>
+
+<h2 id="toc_22">&copy; 对你已学内容进行分类。</h2>
+
+<p>当你学完了一门课程，停下来想一想它覆盖了哪些内容，整理出各个要点。做出目录并和原有的目录比较。<br/>
+联系观点，用自己的语言表达。时不时的闭上书本回想你已学到的内容。</p>
+
+<h1 id="toc_23">精神主动性</h1>
+
+<h2 id="toc_24">(a) 培养你学习的兴趣，和其引出的一些观点。</h2>
+
+<p>如果对你所学感到没有丝毫兴趣，也看不见其价值。那么还不如不学，如果对于而言，只是在灌输，那么这样的文凭不要也罢。当然也不要只局限于你感兴趣的学科，那样会使你的头脑狭隘，缺乏智者的广度。</p>
+
+<h2 id="toc_25">(b) 坚持先清晰地定义眼前的问题。</h2>
+
+<h2 id="toc_26">&copy; 独立学习。</h2>
+
+<p>自己解决问题。向老师寻求建议。出现错误要思考是什么原因并改进。<br/>
+当发现错误时，你应该感激，因为它给了你机会去测试和提示自己的能力，避免将来的错误。</p>
+
+<h2 id="toc_27">(d) 只要可能，在你知道作者的结论之前，尝试自己下结论。</h2>
+
+<p>研究任何学科的过程都是问问题和解答的过程。</p>
+
+<h2 id="toc_28">(e) 如果你无法知道作者是如何得出结论的，因为他没有指出他进行的过程，不要花太多时间去发现他如何做的，尝试着你是否能用自己的方式得到结论，以此来培养你自己的力量和主动性而不只是跟随作者。</h2>
+
+<h2 id="toc_29">(f) 学会概括。</h2>
+
+<h2 id="toc_30">(g) 超越书本。不要将书本视为学习的终点。</h2>
+
+<h2 id="toc_31">(h) 将你的结论尽可能的可视化。</h2>
+
+<h1 id="toc_32">正确的习惯和方法</h1>
+
+<h2 id="toc_33">(a) 选出对你目的而言最好的书并彻底的学习它。</h2>
+
+<p>什么是最好的书要根据你自己的实际情况。</p>
+
+<h2 id="toc_34">(b) 不要一次性学太多学科。</h2>
+
+<p>开始许多最后一事无成是个坏习惯。习得能将注意力在同一个学科上集中几小时的能力。</p>
+
+<h2 id="toc_35">&copy; 不要急。</h2>
+
+<p>花时间思考。</p>
+
+<h2 id="toc_36">(d) 不要轻易的拿起一个学科，但是一旦拿起就不要无理由的放弃。</h2>
+
+<h2 id="toc_37">(e) 习得明智的跳读能力。</h2>
+
+<h2 id="toc_38">(f) 系统化。</h2>
+
+<p>决定好了之后就不要犹豫。马上开始，周期性的在一段时间内同一件事情。持续不断的进步。</p>
+
+<h2 id="toc_39">(g) 习得专注的力量。在相当长的一段时间内，将你的注意力集中于一件事。</h2>
+
+<h2 id="toc_40">(h) 记得应用所学。</h2>
+
+<h2 id="toc_41">(g) 对你做的事情感兴趣。</h2>
+
+<h2 id="toc_42">(i) 一遍又一遍的阅读重要的事直到你完全理解。</h2>
+
+<h2 id="toc_43">(k) 列出你阅读的参考。</h2>
+
+<h2 id="toc_44">(l) 时常复习。</h2>
+
+<h2 id="toc_45">(m) 为你的学习设定特别的时间。</h2>
+
+<h2 id="toc_46">(n) 不要忽视身体锻炼。</h2>
+
+<hr/>
+
+<p>书中很多观点，中文都是有的，而且表达得更为精辟，比如：</p>
+
+<blockquote>
+<ul>
+<li>学而不思则罔，思而不学则殆。</li>
+<li>博学之，审问之，慎思之，明辨之，笃行之。</li>
+<li>人尽其材，物尽其用。</li>
+</ul>
+</blockquote>
+
+<hr/>
+
+<p>PS:如果你感兴趣，可以在哪里看到？<br/>
+- 图书馆<br/>
+- 美区iTunes<br/>
+<img src="http://upload-images.jianshu.io/upload_images/48181-45a608575a99e3b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="iBooks_Store_—_Featured.png"/><br/>
+- <a href="http://www.amazon.com/How-Study-George-Fillmore-Swain-ebook/dp/B004TRND72">Amazon</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iOS Programming Reading Notes]]></title>
+    <link href="azureyu.com/2016-04-15-iOSProgramming.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-04-15-iOSProgramming.html</id>
+    <content type="html"><![CDATA[
+<p>iOS 8 Programming Fundamental with Swift</p>
+
+<h1 id="toc_0">Part 2 IDE</h1>
+
+<h2 id="toc_1">Chapter 6. Anatomy of an Xcode Project</h2>
+
+<h2 id="toc_2">从项目到可运行的App</h2>
+
+<p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
+假设应用名为Empty Window</p>
+
+<p><img src="media/14628621715331/package.png" alt="package"/></p>
+
+<p>Empty window: 编译的文件。<br/>
+Main.Storyboard:Storyboard 文件，a bundle of nibs files.按需加载。<br/>
+Info.list : 配置文件。<br/>
+Frameworks: 需添加的框架。<br/>
+PkgInfo: 历史遗留物。</p>
+
+<h2 id="toc_3">Build Settings</h2>
+
+<p>属性列表文件就是一系列的键对值。</p>
+
+<ul>
+<li>修改Info.plist文件 Editor-&gt;Show raw values.</li>
+</ul>
+
+<h2 id="toc_4">Nib Files</h2>
+
+<p>一个Nib文件是一部分用户界面描述，它以已编译的格式包含在一个以<em>.nib结尾</em>的文件里。</p>
+
+<p>它是在编译过程中由<code>.xib</code>文件生成的,相应的，包含多个nib文件的<code>.storyboardc</code>由<br/>
+<code>.storyboard</code>文件生成。</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_5">Code File and App Launch Process</h2>
+
+<h3 id="toc_6">The entry point</h3>
+
+<p>写过C语言的都知道，程序进入开始执行的地方是main函数。同样的在Objective-C中也是。</p>
+
+<pre><code>int main(int argh, char *argv[]) {
+        @autoreleasepool {
+            return UIApplicationMain(argh, argue, nil,
+                NSStringFromClass([AppDelegate class]));
+} } 
+</code></pre>
+
+<p>做了两件事情:</p>
+
+<ul>
+<li>设置了内存管理环境</li>
+<li>调用了UIApplicationMain函数</li>
+</ul>
+
+<p>但在swift中你找不到main函数：</p>
+
+<pre><code>@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {...}
+</code></pre>
+
+<p>上面的@UIApplicationMain属性，就实现了main函数的功能。你也可以自定义，新建main.swift(必须以main命名)，在其中写：</p>
+
+<pre><code>import UIKit
+UIApplicationMain(
+    Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDelegate))
+</code></pre>
+
+<h3 id="toc_7">UIApplicationMain</h3>
+
+<p>其实你的App不过就是对单个巨大的UIApplictionMain函数的调用。（想一想C语言中main函数的调用执行）</p>
+
+<p>UIApplicationMain主要做的事：</p>
+
+<ol>
+<li>创建你app的第一个实例——共享应用实例(the shared application instance)。之后，你可以很容易的通过调用UIApplication.sharedApplication()得到该实例。UIApplicationMain调用的第三个参数，指定了应该实例化哪一个共享应用实例。默认是nil，如果你想使用一个自己写的子类，就可以改为NSStringFromClass(MyUIApplicationSubclass)（MyUIApplicationSubclass是你自己的子类名）。</li>
+<li>创建你的第二个实例—— 应用实例的代理(delegate)。同理，它对应第四个参数。</li>
+<li>如果Info.list指定了一个主故事板文件(main storyboard file)，UIApplicationMain就会加载并查找它的初始视图控制器(initial view controller)。UIApplicationMain会实例化该视图控制器。</li>
+<li>如果有一个主故事板文件，UIApplicationMain就会开始创建窗口(<code>Window</code>)。它是你app的第四个实例，是UIWindows的实例。赋给应用代理的window属性，初始化视图控制器赋给窗口实例（window instance）的rootViewController属性。</li>
+<li>UIApplicationMain转向app delegate instance并开始调用其中的代码。终于，你可以在其中写自己的代码了。但是，最好只做一些<strong>不费时</strong>的初始化工作，因为这个时候应用的界面还没有显示。</li>
+<li>如果有一个主故事板，UIApplicationMain现在回让它显示出来了。它通过调用UIWindow实例中的<code>makeKeyandVisible</code>方法来实现。</li>
+<li>现在窗口马上就会显示了。</li>
+</ol>
+
+<p>如果没有指定一个主故事板，你也可以自己写：</p>
+
+<pre><code>    class AppDelegate: UIResponder, UIApplicationDelegate {
+        var window: UIWindow?
+
+        // look, ma, no storyboard!
+        fun application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+            self.window = UIWindow()
+            self.window!.backgroundColor = UIColor.whiteColor()
+            self.window!.rootViewController =
+                MyViewController(nibName:&quot;MyViewController&quot;, bundle:nil)
+            self.window!.makeKeyAndVisible()
+            return true
+        }
+    }
+</code></pre>
+
+<p><code>framework</code>:已编译的代码库。<br/>
+对设备系统framework子集的复制叫做<code>SDK</code>(software development kit)。</p>
+
+<p>链接(<code>Linking</code>)是将你的已编译代码与所需框架挂钩的过程。</p>
+
+<p>Swift使用Modules。Modules会自动编译。<br/>
+Modules是缓存信息，存放在Library/Developer/Xcode/DrivedData/ModulesCache.它精巧而方便，但也有缺点，你无法确切的指定自己使用了哪些框架。响应的头文件也不会在导航中显示。</p>
+
+<p>有些情况下你也需要手动添加框架：</p>
+
+<hr/>
+
+<h2 id="toc_8">Cocoa</h2>
+
+<p>在进行iOS编程时，多数情况下是在与Cocoa进行交互。<br/>
+Cocoa是一个很庞大的库，它分为了几个小库。</p>
+
+<h2 id="toc_9">Subclassing</h2>
+
+<p>Cocoa会提供给你一些可以直接使用的对象，比如UIButton。有时候，你会想要自定义这些对象。在对其继承之前，最好查一查，可不可以直接进行更改。比如UIButton就可以更改其标题，背景图片等。</p>
+
+<p>但是，不管怎样，你都有更改属性和方法还是不能满足的时候。这种时候，Cocoa会提供给你一些方法可以进行子类化(subclassing)和重载。</p>
+
+<p>比如UIView，你继承UIView之后，可以对drawRect进行重载，绘制自定义视图。</p>
+
+<p>但是，继承是你在和cocoa交互时，极少会使用到的方式。知道什么时候使用继承是需要技巧的，但是更通用的规则是，如果不是确切的知道该继承，你最好不要使用它。</p>
+
+<p>不使用继承的一个重要原因是，大多数自带的Cocoa类使用委托(delegation)来自定义行为(方法)。</p>
+
+<p>(纯粹看理论会没有实际认知，需要编码去理解。<br/>
+知识编码却会陷入似懂非懂的状态，需要整合理论去理解。)</p>
+
+<h2 id="toc_10">Categories and Extensions</h2>
+
+<p>OC中Categories指直接在已存在的类上添加方法，Swift中叫作Extensions。</p>
+
+<h3 id="toc_11">Swift中如何使用extension？</h3>
+
+<p>例子，Array<T>，多使用extension加少量的protocol。多个extension，把函数体分为多个部分不不是全部在一起，这样使得代码更容易被理解，同时相关联的函数也聚集在一起。<br/>
+eg. Core Graphic</p>
+
+<h3 id="toc_12">你如何使用extension？</h3>
+
+<p>在已存在的对象类型中添加函数。<br/>
+而且它使用于Swift三种类型对象，比如enum和struct不能继承却可以extension。<br/>
+一次改变，处处改变。</p>
+
+<p>会在不同的头文件中都有categories的声明，但文档之间没有链接，这也许是cocoa框架结构的问题之一吧。</p>
+
+<h2 id="toc_13">Document</h2>
+
+<ul>
+<li>Inherits from 继承自何处，不断的向上查看父类，以寻找到你需要的信息。</li>
+<li>Conforms to 这怎么翻译，不断的查看其实现的协议(Protocal),以寻找到你需要的信息。</li>
+<li>Framework  看该类属于哪个框架，在使用时，需要将框架import你的代码中。</li>
+<li>Availability   在什么版本开始可以使用。</li>
+<li>Declared in  类被声明在哪一个头文件中。</li>
+<li>Related document 相关文档，提高给你有用的信息，比如代码示例。orient your thinking and provide you optionals</li>
+<li>Sample code 下一章具体介绍</li>
+<li>Body</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我的iOS开发入门自学路径]]></title>
+    <link href="azureyu.com/2016-03-24-iOSLearning.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-03-24-iOSLearning.html</id>
+    <content type="html"><![CDATA[
+<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
+
+<p><img src="media/14628621715071/myapp.png" alt="myapp"/></p>
+
+<p><em>PS:欢迎大家捧场~<a href="https://appsto.re/cn/jnCgbb.i">APP地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
+
+<hr/>
+
+<p>如果，有朋友说他的清单上，也有独立完成一个App这一项，这篇文章，就是我希望对他说的话了。</p>
+
+<ul>
+<li>
+<a href="#toc_0">正文：</a>
+<ul>
+<li>
+<a href="#toc_1">确认个人目标</a>
+<ul>
+<li>
+<a href="#toc_2">分析个人情况</a>
+</li>
+<li>
+<a href="#toc_3">设计自己的路线</a>
+</li>
+<li>
+<a href="#toc_4">记录学习的过程</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_5">开始吧</a>
+<ul>
+<li>
+<a href="#toc_6">语言</a>
+</li>
+<li>
+<a href="#toc_7">了解你的工具——Xcode</a>
+</li>
+<li>
+<a href="#toc_8">基于项目的学习</a>
+<ul>
+<li>
+<a href="#toc_9">从简单App开始, 分析其生命周期</a>
+</li>
+<li>
+<a href="#toc_10">学习框架</a>
+</li>
+<li>
+<a href="#toc_11">理解概念</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">界面</a>
+</li>
+<li>
+<a href="#toc_13">网络</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_14">资源：</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<hr/>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">正文：</h2>
+
+<h3 id="toc_1">确认个人目标</h3>
+
+<h4 id="toc_2">分析个人情况</h4>
+
+<p>在听取建议之前，想一想自己的情况会更有效。比如，你有面向对象的编程经验吗？如果有，那么语言学习就不需花太多时间。英语如何？基本的英文文档能读懂吗？适合你自己的学习方式是什么？<br/>
+对我而言，软件工程在读，基础课程都学过，入门较快。学校更多是在教理论，我更偏向在实践中学习(Learning by doing)。</p>
+
+<h4 id="toc_3">设计自己的路线</h4>
+
+<p>了解自己的基本情况之后，就可以设计自己的学习路线了。一开始不会有完整的路线，需要根据自己的情况不断的调整。不妨读一读其他人入门的文章，吸取经验。</p>
+
+<h4 id="toc_4">记录学习的过程</h4>
+
+<p><img src="/img/time.jpg" alt="time"/></p>
+
+<p>你怎么知道自己学得如何？传统教育，会有传统考试作为检验。我的做法是，记录过程，设置检验点，寻找概念的共通性，举一反三，问问题以及写作总结。</p>
+
+<h3 id="toc_5">开始吧</h3>
+
+<p>一开始熟悉编程语言，然后了解开发工具XCode，理解大概的项目框架，APP生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的APP类型，再针对性的学习。</p>
+
+<p><img src="media/14628621715071/Swift_-_Overview_-_Apple_Developer.png" alt="Swift_-_Overview_-_Apple_Develope"/></p>
+
+<h4 id="toc_6">语言</h4>
+
+<p>如果把写APP比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。</p>
+
+<p><img src="media/14628621715071/Xcode.png" alt="Xcode"/></p>
+
+<h4 id="toc_7">了解你的工具——Xcode</h4>
+
+<p>工欲善其事必先利其器，快速的熟悉Xcode界面，各面板功能，常用的快捷键等等，会提高不少效率。</p>
+
+<p><img src="media/14628621715071/Xcode_Keyboard_Shortcuts.png" alt="Xcode_Keyboard_Shortcuts"/></p>
+
+<h4 id="toc_8">基于项目的学习</h4>
+
+<p>除了斯坦福大学的iOS开发入门之外，我个人很喜欢的一套教程是<a href="http://swifteducation.github.io">Teaching App Development with Swift</a>。它主要的观念就是基于项目的学习，每课时都有不同的项目，一个项目多个课时，清晰的步骤一步步搭建起完整功能。由实践引出知识点，最后给出延生思考和资料。</p>
+
+<h5 id="toc_9">从简单App开始, 分析其<a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1">生命周期</a></h5>
+
+<h5 id="toc_10">学习框架</h5>
+
+<p><img src="media/14628621715071/1T0195N7-5.jpg" alt="1T0195N7-5"/></p>
+
+<p>框架是什么？<br/>
+很多系统的功能，都是不需要你实现的。想象你自己在拼一辆四驱车，马达啊，轮子啊，车身啊，一开始，这些你都不需要自己造。你需要知道的只是，每一部分的功能是什么，怎么把他们拼装在一起，哪一部分拼在哪里。同样的，框架就像是各种各样的零件，比如UIKit，可以改造车身外观，多媒体需要用AV Foundation。</p>
+
+<p>总之，要弄清两个问题:<br/>
+1. 什么时候用什么？(When to use what?)<br/>
+2. 怎么用？(How?)</p>
+
+<h5 id="toc_11">理解概念</h5>
+
+<p>一边练习一边思考思考，各概念之间的联系与区别，多问几个为什么。比如：delegate、protocol、tagart-action、closure 。</p>
+
+<p>其中Protocol，我是读了<a href="http://shop.oreilly.com/product/0636920044345.do?sortby=publicationDate">iOS 8 Programming Fundation with Swift (Matt Neuburg)</a>中的介绍，才彻底理解。<br/>
+- ##### 动手，不断犯错，不断改进<br/><br/>
+做完整的项目，而不只是一个功能点的练习。完整的项目，需要综合的考虑。界面的设计，类的设计，对象之间的交互等等。 一开始不知道如何实现时，不妨先看看其他人的实现。你可以查找书籍，在Github上阅读相关功能的源码，上StackOverFlow提问等等。</p>
+
+<h4 id="toc_12">界面</h4>
+
+<p>Apple很重视用户体验，学习基本的界面设计也是很必要的。之前完整的看了<a href="https://designcode.io">DesignCode</a>的教程，了解了基本的设计以及Sketch的使用。iOS Human Interface Guide也是开发之前的必读书。<br/>
+界面布局的时候，不得不提一句AutoLayout，一开始使用很可能会出现各种问题，不过领路要领之后，你会发现它的强大之处。</p>
+
+<h4 id="toc_13">网络</h4>
+
+<ul>
+<li>JSON</li>
+</ul>
+
+<hr/>
+
+<p><img src="media/14628621715071/iTunesEdu.png" alt="iTunesEdu"/></p>
+
+<h2 id="toc_14">资源：</h2>
+
+<blockquote>
+<h3 id="toc_15">网站:</h3>
+</blockquote>
+
+<ul>
+<li><a href="http://www.developer.apple.com/">http://www.developer.apple.com/</a>
+官方资料。文档阅读，一开始可能不知道如何下手。有一篇<a href="http://ourcoders.com/thread/show/117/">博文</a>写得十分详细。当然，<a href="http://www.oreilly.com/pub/au/249">iOS 8 Programming Fundation with Swift</a>书中第八章也是有介绍的。</li>
+<li><a href="http://github.com">http://github.com</a>
+程序员界Facebook。
+
+<ul>
+<li><a href="https://github.com/ipader/SwiftGuide">https://github.com/ipader/SwiftGuide</a></li>
+<li><a href="https://github.com/matteocrippa/awesome-swift">https://github.com/matteocrippa/awesome-swift</a> </li>
+</ul></li>
+<li><a href="http://www.stackoverflow.com/">http://www.stackoverflow.com/</a>
+技术问题版知乎。</li>
+<li><a href="http://www.raywenderlich.com/">http://www.raywenderlich.com/</a>
+声名在外的系列教程。</li>
+<li><a href="http://nshipster.com/">http://nshipster.com/</a>
+你不知道Mattt Thompson？快去看看吧。</li>
+<li><a href="https://www.objc.io/">https://www.objc.io/</a>
+基础到进阶推荐。</li>
+<li><a href="https://designcode.io/">https://designcode.io/</a>
+了解设计流程，基本界面交互、动画等。当时完整的跟着做了一遍，收获良多。</li>
+</ul>
+
+<blockquote>
+<p>书:</p>
+</blockquote>
+
+<ul>
+<li>The swift programming language</li>
+<li><a href="http://shop.oreilly.com/product/0636920044345.do?sortby=publicationDate">iOS 8 Programming Fundation with Swift (Matt Neuburg)</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920044352.do?sortby=publicationDate">Programming iOS 9 (Matt Neuburg)</a>
+个人强烈推荐的两本书，一直不断的在看，讲解细致，覆盖全面。</li>
+<li>Learning iOS UI Development (Yari D&#39;areglia)
+Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.it">http://www.thinkandbuild.it</a></li>
+</ul>
+
+<blockquote>
+<p>Post：</p>
+</blockquote>
+
+<ul>
+<li><a href="https://medium.com/ios-os-x-development/things-i-wish-i-had-known-before-starting-ios-development-part-1-421a05e8447e#.91ras6ora">Things I wish I had known before starting iOS development</a></li>
+<li><a href="https://www.zhihu.com/question/20264108/answer/30263999">iOS开发如何入门？——知乎</a></li>
+<li><a href="http://limboy.me/ios/2014/12/31/learning-ios.html">自学iOS开发的经验</a></li>
+</ul>
+
+<hr/>
+
+<p>我只列出了常用的资源，资料不在于多，而在于合理的利用。一个想法的开始很简单，按下收藏也很简单。不简单的是，开始去做，开始去实现。相信，如果你也愿意付出200小时，你也能完整的将自己的想法实现为应用。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning iOS UI Development Reading Notes]]></title>
+    <link href="azureyu.com/2016-03-15-iOSUI.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-03-15-iOSUI.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">Chapter 1. UI Fundamentals</h2>
+
+<h2 id="toc_1">Windows</h2>
+
+<p>window is an instance of UIWindow. It&rsquo;s the root class of UI&rsquo;s hierarchy. One of the function of the  window is to deliver touches to the underling views.</p>
+
+<p>window好比是画板，view好比是画纸。</p>
+
+<pre><code> -- widow
+ --- rootViewController(view controller)
+</code></pre>
+
+<h3 id="toc_2">The content of the window</h3>
+
+<p>@UIApplication从info.plist中找到信息，初始化view controller；App delegate中有window属性，设置之前初始化的view controller为其rootViewController。最后，执行完applicationDidFinishLaunching:withOption之后，会调用makeKeyAndVisible将界面从rootViewController中展示出来。（中文混杂英文描述好生涩）</p>
+
+<ol>
+<li>将某个view controller设置为rootViewController，window就会显示该view controller的view。</li>
+<li><p>@UIApplicationMain</p>
+
+<blockquote>
+<p>The @UIApplicationMain attribute in the AppDelegate.swift file is responsible for the launch of the entire application process. It marks an entry point for the application launch, reading the Storyboard&rsquo;s information from the info.plist file and instantiating the initial view controller</p>
+</blockquote></li>
+<li><p>window property in the AppDelegate. </p>
+
+<blockquote>
+<p>This property will be a handy reference to the main window for the entire life cycle of the application.</p>
+</blockquote></li>
+<li><p>代码实现：</p></li>
+</ol>
+
+<span id="more"></span><!-- more -->
+
+<pre><code>    fun application(application: UIApplication,
+    didFinishLaunchingWithOptions
+    launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+    // Instantiate a window with the same size of the screen    
+    window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    // Instantiate a view controller with the Main storyboard
+    let storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
+    let viewController = storyboard.instantiateViewControllerWithIdentifier(&quot;viewController2&quot;) as! ViewController
+    // Setup and present the window
+    window?.rootViewController = viewController
+    window?.makeKeyAndVisible()
+    return true
+    }
+</code></pre>
+
+<h2 id="toc_3">Working with views</h2>
+
+<p>UIView is the basic class for other UI element.</p>
+
+<blockquote>
+<p>UIWindow is also the subclass of the UIVIew.</p>
+</blockquote>
+
+<h3 id="toc_4">define the view&rsquo;s geometry</h3>
+
+<p>(0,0)<br/>
+&mdash;&mdash;&mdash;&mdash;&gt;x<br/>
+|<br/>
+|<br/>
+|<br/>
+y</p>
+
+<pre><code>// define a point
+let point = CGPoint(x:20, y:10)
+// define a size 
+let size = CGSize(width: 20, height: 10)
+// define a rect using size and point
+let rect_A = CGRect(origin: point, size: size)
+// define a text using x, y, width and height data
+let rect_B = CGRect(x: 15, y: 10. width: 100, height: 30)
+</code></pre>
+
+<h4 id="toc_5">1. bounds</h4>
+
+<p>the view&rsquo;s self information.自身坐标系下。</p>
+
+<h4 id="toc_6">2. frame</h4>
+
+<p>the place in the hierarchy.父级坐标系下。</p>
+
+<h4 id="toc_7">3. center</h4>
+
+<p>同frame。</p>
+
+<h2 id="toc_8">UI hierarchy and views inheritance</h2>
+
+<p>let parentVIew = view.parentview<br/>
+let children = view.subview</p>
+
+<ul>
+<li>add</li>
+<li>move</li>
+<li><p>delete</p>
+
+<pre><code>containerView.addSubView(childView)
+containerView.insertSubview(childView, at index: 2)
+containerView.insertSubview(childView, aboveSubview: anotherView)
+containerView.insetSubview(childView,belowSubview : anotherView)
+
+remove all the subview of the view:
+
+for subview in container.subview{
+    subview.removeFromSuperview()
+}
+
+viewWithTag
+</code></pre></li>
+</ul>
+
+<h3 id="toc_9">View and subview visibility</h3>
+
+<p>clipToBuounds, the parent view define the subviews&#39; visibility outside its boundaries.</p>
+
+<h3 id="toc_10">Hierarchy events</h3>
+
+<pre><code>override fun didMoveToSuperview(){
+    // to do something
+}
+
+override fun didAddSubview(){
+    // to do something
+}
+
+override fun didMoveToWindow(){
+    println(&quot;I&#39;ve been attached to this window hierarchy: \(window)&quot;)
+}
+</code></pre>
+
+<h2 id="toc_11">View drawing and life cycle</h2>
+
+<ul>
+<li>draw a view and creat snapshots for each displayed element.</li>
+</ul>
+
+<p>setNeedsDisplay pr setNeedsDisplayInRect can make the UIView invalidated. They will redraw during the next run loop. The latter one is better(the latter performs an optimization using only a portion of the new view content).</p>
+
+<h2 id="toc_12">Chapter 2. UI Components overview - UIKit</h2>
+
+<p>This chapter covers many different but related topics. Here is an overview of what you will read about in the next pages:</p>
+
+<ul>
+<li>Text elements and the keyboard</li>
+<li>Buttons, selectors, and user interaction</li>
+<li>View-based components</li>
+<li>A UI for structured data</li>
+<li>Custom components with the UIAppearance protocol</li>
+</ul>
+
+<h2 id="toc_13">Text element: UILabel,UItextfield,UItextview</h2>
+
+<pre><code>var image = UIImageView(image:      UIImage(named:&quot;Image&quot;))
+       self.textView.addSubview(image)
+        let exclusionPath = UIBezierPath(rect: image.frame)
+    self.textView.textContainer.exclusionPaths = [exclusionPath]
+</code></pre>
+
+<p>keyboard event and appearance</p>
+
+<h2 id="toc_14">Button and selectors</h2>
+
+<p>subclass of  UIControl class</p>
+
+<p>Most of the UI elements&#39; role is to interact with the users. They convert touch event into actions or choices.</p>
+
+<h3 id="toc_15">The Target-Action patten</h3>
+
+<blockquote>
+<p>This pattern defines how a control can request the execution of an function(action) to another object(target) in response to an event.</p>
+</blockquote>
+
+<h2 id="toc_16">View-based components</h2>
+
+<p>subclass of UIView</p>
+
+<ul>
+<li>UIProgressView</li>
+<li>UIActivityIndicatorView</li>
+<li>UIImageView ,UIImage</li>
+<li>UIScrollView</li>
+</ul>
+
+<h2 id="toc_17">Managing and presenting strutted data</h2>
+
+<p>table and collection views</p>
+
+<ul>
+<li>UITableView(UIScrollView)</li>
+<li>UICollectionView</li>
+</ul>
+
+<h2 id="toc_18">The UIApperance protocol</h2>
+
+<p>Example:</p>
+
+<pre><code>let minTrack = UIImage(named: &quot;minTrack&quot;)
+let maxTrack = UIImage(named: &quot;maxTrack&quot;)
+let thumb = UIImage(named: &quot;thumb&quot;)
+
+// Create resizable images
+let resizableMinTrack = 
+minTrack?.resizableImageWithCapInsets(
+UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5))
+
+let resizableMaxTrack = 
+maxTrack?.resizableImageWithCapInsets(
+UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5))
+
+// Configure the styles!
+UISlider.appearance().setMaximumTrackImage(
+resizableMaxTrack, forState: UIControlState.Normal)
+
+UISlider.appearance().setMinimumTrackImage(
+resizableMinTrack, forState: UIControlState.Normal)
+
+UISlider.appearance().setThumbImage(
+thumb, forState: UIControlState.Normal)
+</code></pre>
+
+<h1 id="toc_19">Chapter 3. Interface Builder, XIB, and storyboard</h1>
+
+<h2 id="toc_20">working with the XIB files</h2>
+
+<h2 id="toc_21">Managing user interface with storyboard</h2>
+
+<h2 id="toc_22">connecting user interface with your code</h2>
+
+<p>可以先写代码再拖动选择。</p>
+
+<pre><code> @IBAction fund signIn(sender:UIButton){
+ }
+
+ var storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
+
+var storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
+</code></pre>
+
+<h2 id="toc_23">implementing navigation with storyboard and segues</h2>
+
+<pre><code>override fun prepareForSegue(segue: UIStoryboardSegue, 
+                         sender: AnyObject?) {
+        if segue.identifier == &quot;userDetails&quot;{
+        let detailsVC = segue.destinationViewController as! 
+                      detailsViewController
+            detailsVC.firstname = user.firstname
+            detailsVC.lastname = user.lastname
+        }
+}
+
+@IBAction fund &lt;function name&gt;(segue:UIStoryboardSegue){}
+</code></pre>
+
+<h1 id="toc_24">Auto Layout</h1>
+
+<blockquote>
+<p>The main rule we should keep in mind is that if you want to specify the frame of a view with Auto Layout, you need to give it enough information for both the X/Y position and width/height size.</p>
+</blockquote>
+
+<hr/>
+
+<p>WWDC</p>
+
+<h1 id="toc_25">UI Level</h1>
+
+<ol>
+<li>Layout
+
+<ul>
+<li>stack view-&gt;behaviors </li>
+<li>layout margins</li>
+</ul></li>
+<li>Appearance
+basicline</li>
+</ol>
+
+<h2 id="toc_26">Xcode tips:</h2>
+
+<ol>
+<li>Shift + right click / control + left click</li>
+<li>file:option+shift</li>
+</ol>
+
+<h2 id="toc_27">Build time</h2>
+
+<p>design time-&gt;xml<br/>
+build time-&gt;nib</p>
+
+<h2 id="toc_28">Compiling storyboard</h2>
+
+<h2 id="toc_29">losing storyboard at run time</h2>
+
+<ol>
+<li>Performance: Nib file loaded on demand.</li>
+<li>Reuse: Nib files enable reuse.</li>
+<li>Life cycle.</li>
+</ol>
+
+<h2 id="toc_30">Run time</h2>
+
+<p>Connection, API, </p>
+
+<h2 id="toc_31">Design</h2>
+
+<ol>
+<li>Bad App Icons
+Beautiful+Instandly Recognizable</li>
+<li>Focus on a unique shape<br/></li>
+<li>Carefully select colors</li>
+<li>Avoid using a photo</li>
+<li>Avoid a lot of text</li>
+<li>Be creative</li>
+<li>Case study</li>
+</ol>
+
+<h1 id="toc_32">Cocoa Touch best practice</h1>
+
+<h2 id="toc_33">put on the background.</h2>
+
+<hr/>
+
+<h2 id="toc_34">问题：如何自定义控件？</h2>
+
+<p>-Object<br/>
+&ndash;UIResponder<br/>
+&mdash;UIView<br/>
+&mdash;-UIControl</p>
+
+<ul>
+<li>控件的机制是什么？</li>
+<li>如何获取用户的操作？</li>
+<li>如何判断操作的度量？</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我]]></title>
+    <link href="azureyu.com/14628621714939.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/14628621714939.html</id>
+    <content type="html"><![CDATA[
+<p>我不是太阳，不用负责永远灿烂</p>
+
+<p>我只是地球，一半光明，一半黑暗</p>
+
+<p>若活出自己，总要赤裸一番</p>
+
+<p>就携几分颤抖，走走看看</p>
+
+<p>谁知道尽头，是怎样</p>
+
+<p>就像这世界本没有</p>
+
+<p>标准答案</p>
+
+<p>——2014.4.21 于重庆</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2015 简短版回顾]]></title>
+    <link href="azureyu.com/2016-02-24-SimpleSum2015.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2016-02-24-SimpleSum2015.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">科学技术</h2>
+
+<p>这一年里，对专业知识有了更深的了解。</p>
+
+<ul>
+<li>数据结构与算法，数据库，计算机网络，密码学，Web开发，java，C#，大型机等</li>
+<li>软件工程，软件需求,UML等</li>
+</ul>
+
+<span id="more"></span><!-- more -->
+
+<p>接触了更多技术。</p>
+
+<ul>
+<li>接触的技术：Web(Html,Css,JS,JQ;PHP-&gt;ThinkPHP)，iOS(Swift-&gt;Cocoa)</li>
+<li>社区：Github，StackOverFlow，Medium，简书</li>
+</ul>
+
+<p>大二下期，除专业课外，学习基本的Web开发知识，搭建了自己的博客，参加校园APP大赛（一等奖）。</p>
+
+<p>暑假，学习游泳，教朋友游泳。开始认真学习吉他和iOS开发。</p>
+
+<p>大三上期，大部分时间在学专业知识，继续学习iOS和Web开发，参加了IBM个人赛（三等奖），微软灵雀云黑客马拉松。</p>
+
+<p>寒假前10天，参加项目开发，ERP系统，主要负责后端开发。</p>
+
+<h2 id="toc_1">兴趣爱好</h2>
+
+<ul>
+<li>阅读</li>
+<li>写作</li>
+<li>吉他入门</li>
+<li>英语 很喜欢英语文学老师</li>
+<li>影视</li>
+<li>玩（成都，九寨沟）</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[黑客马拉松——Emotion Note开发小记"]]></title>
+    <link href="azureyu.com/2015-12-09-EmotionNote.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-12-09-EmotionNote.html</id>
+    <content type="html"><![CDATA[
+<ul class="clearing-thumbs small-block-grid-2" data-clearing>
+
+<li><a href="http://7xle3b.com1.z0.glb.clouddn.com/Simulator%20Screen%20Shot%202015年12月6日%20下午8.10.08.png
+"><img data-caption="img" src="media/14418505549476/tt4-s.jpg"></a></li>
+
+</ul>
+
+<p>11月下旬，偶然看见有人在年级群中发，黑客马拉松的消息。点开看之后，发现是微软、灵雀云和开源社举办的。其中一个要求是使用微软牛津计划API，之前就对其中的情绪API感兴趣，正好这一次可以试着应用应用。</p>
+
+<h2 id="toc_0">选题- What &amp; Why?</h2>
+
+<p>选题的思路，有两条。一条是，分析生活中有什么需要解决的问题，可不可以应用牛津计划API进行解决；另外一条是，分析牛津计划API的特征属性，再进行联想，寻找其应用范围。此外，还对现在已经有的应用进行了调查和分析。</p>
+
+<p>初步确定是在选发型和情绪笔记中选择。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>制作选发型，需要用到图片的处理，也就是对位图的处理。另外还有有发型设计相关知识，比如：如何通过面部信息判断脸型？如何根据脸型推荐适合的发型？</p>
+
+<p>情绪笔记，需要考虑，情绪的记录方式，展示方式。UI\UX的设计是关键点。多考虑细节，让用户愿意用。</p>
+
+<p>我想，从用户的角度看，一般工具可以分为两类，一类是输入，一类是输出。比如，而换发型就是输入，用户是在通过应用获取信息，作出自己的判断和决策。笔记类是用户在表达自己，也就是用户自己在输出信息。</p>
+
+<p>平时课业也多，最近一边上下半学期的课，一边还要准备上半学期课的期末考。另外自己平时的兴趣也会花去不少时间，练练吉他，跑跑步，看看电视剧。只有在仅剩的不多时间里，进行开发。</p>
+
+<h2 id="toc_1">实现- How?</h2>
+
+<p><img src = "http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion3.jpg"><br/>
+12月初开始着手开发情绪笔记。每天大概花去两个小时，周末两天就全天在开发。</p>
+
+<p>技术学习，官网文档是必读的，我也结合这一些书在看，比如iOS Programming cook book。人人称赞的Raywenderlich也是寻找解决方案的好地方。对于自己以前没有接触过的技术，Raywenderlich有一步一步详尽的介绍，是很好的初学实例。Cook book 适合进一步的了解，而StarkOverFlow，适合寻找你无法调试成功的原因。</p>
+
+<h3 id="toc_2">基本技术:</h3>
+
+<ol>
+<li>UITablView,UIAlertController的使用</li>
+<li>手势的使用</li>
+<li>导航颜色修改</li>
+<li>相机调用，相册获取</li>
+<li>如何将图片转换为二进制，进行上传？</li>
+<li>如何存储笔记内容?</li>
+<li>如何通过Animolfire进行网络通信，调用API?</li>
+<li>如何将获取的JSON数据用SwiftJSON进行转换?</li>
+</ol>
+
+<p>最后，用Sketch进行APP启动页和Icon的设计。</p>
+
+<p>赶在6号完成了介绍视频的制作，使用QuickTimePlayer进行录制，iMovie进行剪辑制作。</p>
+
+<p>7号用Keyonte完成了演示制作，并对之前的代码进行了优化。</p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/emotionNoteFaceEmotion4.jpg"></p>
+
+<h2 id="toc_3">感受</h2>
+
+<p>第一次黑客马拉松，感觉就是在冲刺跑。</p>
+
+<p>继续复习密码学。</p>
+
+<blockquote>
+<p>后记:<br/>
+因为没有用到Docker，不太对符合要求，就当是一次快速练习了。</p>
+
+<p><a href="https://github.com/Yogayu/EmotionNote">源码地址</a></p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[IBM个人赛Part1、Part2小结]]></title>
+    <link href="azureyu.com/2015-11-15-IBMMainFrameCompetition.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-11-15-IBMMainFrameCompetition.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">1.  先过脑子，再过机子</h2>
+
+<p>用小黑箱调试，没有办法设置断点，没有提示错误(后来上了大型机的课，也就会调试和看错误了)，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+
+<h2 id="toc_1">2. 要注意细节问题</h2>
+
+<p>太久没写C语言，逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
+
+<span id="more"></span><!-- more -->
+
+<ol>
+<li><p>zOS</p>
+
+<ul>
+<li><p>连接port</p></li>
+<li><p>登录logon</p></li>
+<li><p>登出logoff</p></li>
+</ul></li>
+<li><p>linux 基本命令 修改权限</p>
+
+<ul>
+<li><p>man，ls，cat打印到屏幕，less显示内容（大文件），mkdir，cd，cp，echo，chmod（修改权限 r,w,x ），which comandLine</p></li>
+<li><p>绝对地址与相对地址 ‘/z/bin’,’./(inside)’,’../(parent)&lsquo;</p></li>
+</ul></li>
+<li><p>主界面 ISPF</p>
+
+<ul>
+<li><p>数据管理 命令=3.4</p></li>
+<li><p>数据类型 sequential data set,  file ;partitioned data set.  a folder or a directory, members : files.</p></li>
+<li><p>添加数据 =2 PDSNAME(Membername)</p></li>
+<li><p>文本编辑 i d r</p></li>
+<li><p>=6 Command Shell 执行命令 EXEC &#39;ZOS.PUBLIC.REXX(COUNT)&rsquo; &lsquo;your_name&rsquo;</p></li>
+</ul></li>
+<li><p>编码，ASCII，EBCDIC</p>
+
+<ul>
+<li>hex on/off , hx</li>
+</ul></li>
+<li><p>JCL 运行某程序</p>
+
+<ul>
+<li><p>提交：tso submit jcl(sortjcl)</p></li>
+<li><p>查看状态：sub; =sd ; st</p></li>
+</ul></li>
+<li><p>JSON,COBOL 面向企业</p></li>
+<li><p>z/OS unix：</p>
+
+<ul>
+<li>进入：tso omvs</li>
+<li>拷贝文件：cp cp unameinfo &ldquo;//‘CN00474.P2.OUTPUT($010)&lsquo;&rdquo;</li>
+</ul></li>
+<li><p>Transaction Processing Facility (TPF) 文件</p>
+
+<ul>
+<li>JSON</li>
+<li>MongoDB
+
+<ul>
+<li>db.getCollection(’PNR’).find({PnrByNumber: {number: 88440}})
+db.getCollection(&#39;PNR&rsquo;).find({PnrByName: {name: &ldquo;JRTyler&rdquo;}})
+72 Quincy, Evanston, Illinois</li>
+</ul></li>
+</ul></li>
+<li><p>blue mix 构建云应用</p></li>
+<li><p>运行不同语言的程序，编译，连接，运行</p>
+
+<ul>
+<li>Source(POKER)-run by-&gt; JCL(POKERCMP)-output-&gt; LOAD(POKER)－run by－&gt;jcl(POKRUN16)-&gt;output result.</li>
+<li>tso submit jcl(POKERCMP)</li>
+<li>tso submit jcl(POKRUN16)</li>
+</ul></li>
+<li><p>修改程序</p>
+
+<ul>
+<li>小步加进式的调试</li>
+</ul></li>
+</ol>
+
+<h2 id="toc_2">后记</h2>
+
+<p>之后也选修大型机课程，再来看个人赛觉得是简单了很多，又系统的了解更多的大型机知识，当然多数时间在学习JCL和COBOL程序设计，不得不说编写大型机应用，更需要耐心。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用CocoaPods]]></title>
+    <link href="azureyu.com/2015-10-24-cocoaPods.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-10-24-cocoaPods.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">CocoaPods是什么?</h2>
+
+<p>当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
+
+<blockquote>
+<p>你需要：<br/>
+- 会使用终端，知道基本的命令含义，比如 cd<br/>
+- 了解有的服务器在墙在外，需要更换为国内镜像</p>
+</blockquote>
+
+<p>CocoaPods官网: <a href="https://cocoapods.org">https://cocoapods.org</a></p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">如何开始？</h2>
+
+<h3 id="toc_2">step 1 安装</h3>
+
+<p>以下命令有权限问题时，加上sudo，比如：</p>
+
+<pre><code>sudo gem install cocopods
+</code></pre>
+
+<ul>
+<li><p>如果你在墙外，进入终端：</p>
+
+<pre><code>gem install cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+
+<pre><code>gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+
+<pre><code>gem install cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+
+<pre><code>pod repo remove master
+pod repo add master https://gitcafe.com/akuandev/Specs.git
+pod repo update
+</code></pre></li>
+</ul>
+
+<h3 id="toc_3">Step 2 配置</h3>
+
+<ul>
+<li><p>初始化:</p>
+
+<pre><code>cd yourProjectFile
+pod init
+</code></pre></li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+
+<pre><code>pod ‘第三方库名称’, ‘~&gt; 版本’
+</code></pre>
+
+<p>保存文件。</p></li>
+<li><p>安装：</p>
+
+<pre><code>cd yourProjectFile  
+pod install
+</code></pre></li>
+</ul>
+
+<h3 id="toc_4">Step 3. 使用</h3>
+
+<p>打开项目：yourProjectName.xcworkspace</p>
+
+<h3 id="toc_5">Step 4 查找</h3>
+
+<p>查找你需要的：</p>
+
+<pre><code>    pod search
+</code></pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[专业学习规划图]]></title>
+    <link href="azureyu.com/2015-10-20-MajorStudyPlan.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-10-20-MajorStudyPlan.html</id>
+    <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:860px; height:640px;" src="https://www.processon.com/embed/56c2f2f6e4b0e5041c2c5b1b"></iframe>
+
+<!--iframe id="embed_dom" name="embed_dom" frameborder="0" style="border:1px solid #000;display:block;width:730px; height:520px;" src="https://www.processon.com/embed/56147dcbe4b0947fc05c3645"></iframe-->
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/yxyApple.png" alt="Apple"/></p>
+
+<p>为什么会有那么多的编程语言呢？为什么说设计一门语言比改造一门语言成本低？<br/>
+也需要学习了编译器之后才会了解吧。</p>
+
+<p>如何把算法学好？现在做到理解每一个基础的算法，如何设计如何选择如何写对。再看什么时候用什么。</p>
+
+<ul>
+<li>计算机体系结构</li>
+<li>低级语言
+
+<ul>
+<li>汇编语言</li>
+</ul></li>
+<li>编译器</li>
+<li>高级语言
+
+<ul>
+<li>面向对象</li>
+<li>过程</li>
+<li>函数式</li>
+</ul></li>
+<li>数据结构与算法 -高数 线代 离散 逻辑</li>
+<li>操作系统</li>
+<li>计算机网络</li>
+<li>库、应用框架</li>
+<li>设计模式</li>
+<li>信息安全</li>
+<li>软件工程-需求、设计、开发、测试，管理</li>
+</ul>
+
+<p>建议学好一门语言，然后去应用，做一些小的作品。在其中自然而然毁碰到很多瓶颈，你就学想要学的更多。</p>
+
+<blockquote>
+<p>参考：<br/>
+1. <a href="http://lucida.me/blog/developer-reading-list/">程序员必读书单</a> </p>
+</blockquote>
+
+<p>为什么会有软件工程？<br/>
+普遍的说法是因为软件危机的产生。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web简短笔记]]></title>
+    <link href="azureyu.com/2015-09-01-WebNotes.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-09-01-WebNotes.html</id>
+    <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">为什么学习Web开发技术？</h2>
+
+<p>跨平台，多应用。好玩。</p>
+
+<h2 id="toc_1">Web开发技术可以做什么？</h2>
+
+<p>基于浏览器的平台，进行网页以及应用的开发。平台，比如iOS也是，微信平台也是。</p>
+
+<h2 id="toc_2">学习方式：</h2>
+
+<p>看书，动手，做项目。</p>
+
+<h1 id="toc_3">HTML</h1>
+
+<blockquote>
+<p>几乎所有HTML元素的display属性值要么为block，要么为inline。最明显的一个例外是table元素，它有自己特殊的display属性值。</p>
+
+<p>块级元素，比如段落、标题、列表等，在浏览器中上下堆叠显示。</p>
+
+<p>行内元素，比如a、span和img，在浏览器中左右并排显示，只有前一行没有空间时才会显示到下一行。</p>
+</blockquote>
+
+<pre><code>&lt;blockquote&gt;：独立引用
+&lt;abbr&gt;：简写
+&lt;cite&gt;：引证
+&lt;q&gt;：文本内引用
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+</code></pre>
+
+<p>实体，即一些<a href="http://www.elizabethcastro.com/html/extras/entities.html">符号</a>。&xxx;</p>
+
+<blockquote>
+<p>嵌套标记实际上就是嵌套盒子</p>
+</blockquote>
+
+<p><code>DOM</code>(Document Object Model) 文档对象模型</p>
+
+<blockquote>
+<p>DOM是从浏览器的视角来观察页面中的元素以及每个元素的属性，由此得出这些元素的一个家族树。</p>
+</blockquote>
+
+<p>说白了，就是竖着看。</p>
+
+<h1 id="toc_4">CSS</h1>
+
+<h2 id="toc_5">三种样式：</h2>
+
+<ol>
+<li>行内样式，标签中</li>
+<li>嵌入样式，style中</li>
+<li>链接样式，单独的CSS样式表中</li>
+</ol>
+
+<p>HTML引用CSS：<code>&lt;link href=&quot;styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;<br/>
+</code><br/>
+CSS中链接其他样式：<code>@import url(css/styles2.css)</code></p>
+
+<h2 id="toc_6">选择器：</h2>
+
+<h3 id="toc_7">1. 上下文选择符</h3>
+
+<pre><code>- eg. `article p {font-weight:bold;}` 
+- 子选择器 tag1 &gt; tag2
+- 紧邻同胞 tag1 + tag2
+- 一般同胞 tag1 ~ tag2
+- 通用选择符 * eg.`* p {...} section * a {...}` ,`section * a {font-size:1.3em;} `任何是section孙子元素，而非子元素的a标签都会被选中。
+</code></pre>
+
+<h3 id="toc_8">2. ID和类选择符</h3>
+
+<pre><code>- Clss `.classname{...}`, `.classname.classname{...}`,`p.classname`
+- ID `#id{...}` 导航标签
+- 区别：
+- 每个ID在同一页面只能用一次，还可以与JavaScript标签关联
+- 类，表示同一组相同特征元素
+</code></pre>
+
+<h3 id="toc_9">3. 属性选择符</h3>
+
+<h2 id="toc_10">盒模型</h2>
+
+<blockquote>
+<p>盒模型结论一：没有（就是没有设置width的）宽度的元素始终会扩展到填满其父元素的宽度为止。添加水平边框、内边距和外边距，会导致内容宽度减少，减少量等于水平边框、内边距和外边距的和。</p>
+
+<p>盒模型结论二：为设定了宽度的盒子添加边框、内边距和外边距，会导致盒子扩展得更宽。实际上，盒子的width属性设定的只是盒子内容区的宽度，而非盒子要占据的水平宽度。</p>
+</blockquote>
+
+<h2 id="toc_11">布局</h2>
+
+<p>多栏布局有三种基本的实现方案：固定宽度、流动、弹性</p>
+
+<p>三种布局：固定、浮动、流动</p>
+
+<p>布局高度一般不变，布局宽度需要把控。</p>
+
+<h3 id="toc_12">三栏布局</h3>
+
+<p>设置wapper，在其中加入各栏，设置宽度和浮动。</p>
+
+<p>为固定宽度的元素添加水平外边距、边框和内边距，会导致元素盒子变宽。</p>
+
+<p>我们也有三种方法来预防该问题发生。</p>
+
+<blockquote>
+<ol>
+<li>从设定的元素宽度中减去添加的水平外边距、边框和内边距的宽度和。（麻烦）</li>
+<li> 在容器内部的元素上添加内边距或外边距。</li>
+<li> 使用CSS3的box-sizing属性切换盒子缩放方式，比如section {box-sizing:border-box;}。 应用box-sizing属性后，给section添加边框和内边距都不会增大盒子，相反会导致内容变窄。</li>
+</ol>
+</blockquote>
+
+<p>Way 2. </p>
+
+<blockquote>
+<p>总之，由此可以得出一个结论：如果布局中的栏是浮动的，而且都设定了宽度，你就根本不要去动它！要动，就把内容放在内部div里，动这个div。(棒棒哒)</p>
+</blockquote>
+
+<p>子-星选择符 &gt; *</p>
+
+<p>Way 3.</p>
+
+<pre><code>aside {
+box-sizing:border-box;
+width:210px;
+float:left;
+background:#3f7ccf;
+padding:10px 10px;
+}
+</code></pre>
+
+<p>IE6/7 不支持<br/>
+试了试，以上两种方法，当屏幕变小时都会浮到下面去。<br/>
+原因：因为自己忘记把float：left给去掉。</p>
+
+<p>元素过大</p>
+
+<pre><code>.inner img {max-width:100%;}
+overflow:hidden
+word-wrap:break-word
+</code></pre>
+
+<h3 id="toc_13">三栏布局，中栏流动布局</h3>
+
+<blockquote>
+<p>一种是在中栏改变大小时使用负外边距定位右栏，另一种是使用CSS3让栏容器具有类似表格单元的行为。负外边距适合比较老的浏览器，而CSS的table属性则要简单得多</p>
+</blockquote>
+
+<p>Way 1. 三栏一起一个包(div)，左栏、中栏一起一个包(div)。</p>
+
+<p>Way 2. 为每栏添加display:table-cell,属性即可。</p>
+
+<hr/>
+
+<h2 id="toc_14"><a href="http://zh.learnlayout.com/max-width.html">布局</a></h2>
+
+<ul>
+<li>max-width</li>
+<li><p>box-sizing 内外边距不再会改变指定宽度元素的大小。</p>
+
+<pre><code>(星号) * {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+</code></pre></li>
+</ul>
+
+<h3 id="toc_15">position:</h3>
+
+<p>static(默认不变)，relative(偏移)，fixed(相对视窗定位)，absolute(相对最近“positioned”祖先元素定位)</p>
+
+<ul>
+<li>使用postioion进行实际页面布局。</li>
+</ul>
+
+<h3 id="toc_16">float</h3>
+
+<p>文字环绕图片</p>
+
+<h3 id="toc_17">clear 清除浮动</h3>
+
+<pre><code>.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+</code></pre>
+
+<h3 id="toc_18">百分比宽度</h3>
+
+<h3 id="toc_19">媒体查询(响应式设计)</h3>
+
+<h3 id="toc_20">display: inline-block</h3>
+
+<h3 id="toc_21">column 属性</h3>
+
+<h3 id="toc_22">flexbox，很新</h3>
+
+<p>No. 1</p>
+
+<pre><code>#center{
+background-color: red;
+max-width: 960px;
+margin: auto;
+}
+</code></pre>
+
+<p>NO.2</p>
+
+<pre><code>#center{
+background-color: red;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+</code></pre>
+
+<hr/>
+
+<h1 id="toc_23">JavaScritp</h1>
+
+<h2 id="toc_24">Overview:</h2>
+
+<p>面向对象的语言，最初设计为脚本语言。<br/>
+什么是脚本语言？</p>
+
+<blockquote>
+<p>A scripting language is a programming language that is used to manipulate, customize, and automate the facilities of an existing system.</p>
+</blockquote>
+
+<p>对已存在的系统功能进行操纵，改造并使其自动化。</p>
+
+<p>好像戏剧的脚本。</p>
+
+<h2 id="toc_25">基础:</h2>
+
+<ol>
+<li><p>基础语法：<br/>
+    var myVarible = &lsquo;Hey&rsquo;<br/>
+和Swift的变量命名方式一致。Html大小写不敏感，但是Javascritp的大小写敏感。</p></li>
+<li><p>类型<br/>
+a. 原始类型：不是对象，没有属性和方法的类型。这不是定义，不就是说不是Object类型吗？</p>
+
+<pre><code>    Undefined, Null, Boolean, String, Symbol, Number 
+</code></pre>
+
+<p>b. object 键对之？<br/>
+相等: ===</p></li>
+<li><p>事件，可以将函数赋给对应的事件，比如鼠标点击。<br/>
+不同于其他语言中，是进行调用。</p></li>
+<li><p>数组，函数，有序列表数据类型。<br/>
+判断:</p>
+
+<pre><code>return Object.prototype.toString.call(o) === &#39;[object Array]&#39;;  
+</code></pre>
+
+<p><a href="http://www.ecma-international.org/ecma-262/6.0/">概览</a></p></li>
+<li><p>值类型和引用类型区别</p></li>
+<li><p>对象的读取遍历方法 <br/>
+7.什么是对象Object，一种数据结构<br/>
+        var lesson{<br/>
+            time: 0830;<br/>
+            classroom:&ldquo;Dz098&rdquo;;<br/>
+        } <br/>
+key-value，更像是其他语言，比如swift中的<code>字典</code>。也可以加入函数，<code>函数</code>在<code>对象</code>中时，称作<code>方法</code>。</p></li>
+<li><p>表达式-语句</p>
+
+<blockquote>
+<p>实际上，<code>语句</code>和<code>表达式</code>之间有很多共同之处，粗略地讲，表达式仅仅计算出一个值但并不作任何操作，它并不改变程序的运行状态。而语句并不包含一个值（或者说它包含的值我们并不关心），但它们改变程序的运行状态。在上文中已经见过<code>变量声明语句</code>和<code>赋值语句</code>。另一类语句是<code>“控制结构”</code>（control structure），比如条件判断和循环。在介绍完函数之后，我们给出相关的示例代码。</p>
+</blockquote></li>
+<li><p>还有类，这是什么意思。对象不是类的实例化？</p></li>
+<li><p>客户端Javascript？还有服务器端的吗？</p></li>
+<li><p>脚本技术</p></li>
+<li><p>操纵HTML/CSS</p></li>
+<li><p>事件处理 onclick addEventListener</p></li>
+<li><p>jQuery</p></li>
+</ol>
+
+<p>操纵系统级是什么意思？</p>
+
+<h2 id="toc_26">实践</h2>
+
+<ol>
+<li>console.log(&ldquo;&rdquo;)</li>
+<li><p>选择,改变,动画</p>
+
+<pre><code>document.getElementById(&#39;guess&#39;).onclick=function(){}
+document.getElementById(&#39;circle&#39;).onclick=function(){
+    alert(&quot;circle clicked!&quot;);
+}
+
+$(&quot;#div&quot;).click(function() {
+console.log(&quot;circle clicked!&quot;);
+});
+
+$(&quot;.square&quot;).clicked(function(){
+console.log(&quot;square clicked!&quot;);
+});
+</code></pre></li>
+<li><p>alert();</p></li>
+<li><pre><code> var x = Math.random();
+    x = 6*x;
+    x = Math.floor(x);
+</code></pre></li>
+<li><p>content: XXX.html(&ldquo;&rdquo;)  .html()</p></li>
+<li><p>ajax $.get(&ldquo;test.html&rdquo;) </p>
+
+<pre><code>$.ajax({
+url:&quot;test.html&quot;
+}).done(function(data){
+    alert(data);
+});
+</code></pre></li>
+</ol>
+
+<p>7.Regual expression </p>
+
+<pre><code>var regx=/e/g;
+var string=&quot;Regex is Great!&quot;;
+var result=string.match(regx);
+console.log(result);
+</code></pre>
+
+<h2 id="toc_27">bootstrap</h2>
+
+<h3 id="toc_28">Bootstrap是什么？</h3>
+
+<ul>
+<li>本质，CSS、JS和字体文件</li>
+<li>响应式设计，栅格 Grid system</li>
+</ul>
+
+<h3 id="toc_29">如何使用？</h3>
+
+<ul>
+<li>安装Bootstrap，多种方式。</li>
+<li>文件目录结构，内容解释</li>
+<li>安装Grunt</li>
+</ul>
+
+<h1 id="toc_30">PHP</h1>
+
+<h2 id="toc_31">语法知识:W3C School</h2>
+
+<h2 id="toc_32">thinkphp, 框架使用</h2>
+
+<ul>
+<li>目录结构</li>
+<li>前后端交互</li>
+<li>函数方法</li>
+</ul>
+
+<h2 id="toc_33">开发环境搭建与配置</h2>
+
+<ul>
+<li>MAMP PRO</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[授人以渔”的教你搭建个人独立博客——使用jekyll在GitHub Pages上搭建个人博客]]></title>
+    <link href="azureyu.com/2015-08-15-HowToBulidBlog.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-08-15-HowToBulidBlog.html</id>
+    <content type="html"><![CDATA[
+<p>网上有不少资源，但大多是“授人以鱼”，文中一步一步的告诉你怎么做，却没有解释为什么，以及他是如何知道的。他们默认着你知道种种专业名词的含义，默认着你掌握着特定技能。你折腾半天，查资料，看教程，一步步下来，有进行不下去的地方，再去查其他人的做法，最终也建立起了自己的独立博客。但却，恍然不知，你用到的技术是什么含义。</p>
+
+<p>我认为，初学者，要想在一个项目中，切实提高自己，需要活用活学。遇到一个专业名词，就去搞懂它，而不是马马虎虎混过去。一个技能点、一个技能点的攻破，然后将点系统的连起来，形成自己的知识网络，不断去细化和扩充。所以，这篇文中，尽力的在“授人以渔”。读者边看边实践之后，一方面，可以搭建好自己的独立博客；另一方面，会学到涉及的知识。前者是实际应用，是至顶向下的过程；后者是基础知识，是自底向上的过程。至底向上与至顶向下相结合，才能融会贯通。我希望在文中表达的,或者说希望读者接收到的，也就是融会贯通的学习能力。</p>
+
+<!--more-->
+
+<h2 id="toc_0">引子</h2>
+
+<p>在互联网的世界里，建自己的博客就像是在搭建房子。当然，你可以直接用别人为你建好的房子，比如Tumblr、简书、新浪博客、Lofter、博客大巴等等。</p>
+
+<p>Tumblr和Lofter都是自己比较喜欢的，房子建得美丽又实用。在同一个平台下，就感觉你们在同一个社区。当然不是这个社区居住的人们，也是可以进来逛一逛的。简书，也是如此。顺便提一句，选择简书，是喜欢它的写作体验。</p>
+
+<p>不过，有时候，你想从头到尾自己建房子，就是搭建个自己的独立博客。如果你不知道如何选择，可以读一读《<a href="http://www.slant.co/topics/329/%7Ewhat-is-the-best-solution-for-a-personal-blog">What are the best solutions for a personal blog?</a>》（需翻墙），文章分析了不同博客平台的优缺点和针对人群。当然，我的选择是 Jekyll+Github Pages。</p>
+
+<p>开辟土地、搭建、装修、到注册门牌号等，都是需要动手的。土地就是你的服务器，房子是你的网站，装修是网站主题，布局和色彩等等，当然门牌号就是你的域名了。别忘了你还要写文章，这才是关键，你房间里放的不是家具，而是你的思考成果。</p>
+
+<p>话不多说了，我们开始建房子的美妙旅途吧 ；）</p>
+
+<h2 id="toc_1">Step 1. 选地</h2>
+
+<p>互联网上有免费的地，也有收费的地。Github Pages就是一个免费好用的地。</p>
+
+<p>具体步骤：</p>
+
+<ul>
+<li><p>首先，注册 <a href="https://github.com/">Github</a><br/>
+<img src="http://7xle3b.com1.z0.glb.clouddn.com/GitHub.jpg" alt="GitHub"/></p></li>
+<li><p>然后，建立一个仓库<br/>
+<img src="http://7xle3b.com1.z0.glb.clouddn.com/NewRespsitory.png" alt="NewRespsitory"/></p></li>
+</ul>
+
+<blockquote>
+<p>Repository name(仓库名)<strong>必须</strong>是 your_user_name.github.io</p>
+</blockquote>
+
+<p>比如，我的用户名是Yogayu，那么仓库名就取为 <strong><a href="https://github.com/Yogayu/Yogayu.github.io">Yogayu.github.io</a></strong>。<strong>这一点很重要，不要弄错。</strong></p>
+
+<ul>
+<li>最后，按照提示步骤操作
+<img src="http://7xle3b.com1.z0.glb.clouddn.com/QuickStep.png" alt=""/></li>
+</ul>
+
+<p>一种简单的方式是，下载GitHub的<a href="https://desktop.github.com/">桌面客户端</a>，安装完成后，粘贴<a href="http://github.com/your_user_name/your_user_name.github.io.git">链接</a>克隆到本地。</p>
+
+<ul>
+<li>之后，新建一个index.html文件，push到对应的master
+分支（推荐<a href="https://pages.github.com/">官网教程</a>）。等一段时间之后（可以听首歌），网站生效，访问your_user_name.github.io，就能看见完整的网页了。</li>
+</ul>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/firstIndex.png" alt=""/></p>
+
+<p>到此，我们的地就选好了，也就是在用GitHub的服务器。</p>
+
+<blockquote>
+<p>若这一过程中有问题，可以参照<a href="https://help.github.com/categories/github-pages-basics/">官网文档</a></p>
+</blockquote>
+
+<h3 id="toc_2">什么是 GitHub？</h3>
+
+<p>在说GitHub之前，必须要提到Git。Git是分布式版本控制系统。GitHub可以托管各种Git版本库，并提供一个web界面。</p>
+
+<p>Github 就像是程序员们的Facebook，程序员们，写代码，做项目，在此和全世界的人们分享。<br/>
+会使用GitHub的资源，比会搭建个人博客的价值大得多。</p>
+
+<h3 id="toc_3">那么GitHub Pages是什么呢？</h3>
+
+<blockquote>
+<p>Website for you and your project.</p>
+</blockquote>
+
+<p>GitHub Pages有两种。一种是为个人或者组织的博客。一种是为项目的博客。前者一个账号只能建一个，后者，可以建很多个。</p>
+
+<p>这样的博客，免费、独立、安全。</p>
+
+<h3 id="toc_4">Git和Github如何使用？</h3>
+
+<p>可选择终端或图形化界面操作。怎么顺手怎么来吧。</p>
+
+<ul>
+<li><a href="http://www.bootcss.com/p/git-guide/">Git简易指南</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程-廖雪峰</a></li>
+<li><a href="http://www.zhihu.com/topic/19566035/top-answers">如何使用GitHub -知乎</a></li>
+<li><a href="http://www.linuxidc.com/Linux/2014-09/106230p2.htm">GitHub 使用教程图文详解</a></li>
+</ul>
+
+<h2 id="toc_5">Step 2. 搭建</h2>
+
+<p>环境搭建。</p>
+
+<ul>
+<li><p>安装Ruby，Mac一般默认安装了Ruby，这一步可以忽略。<a href="https://www.ruby-lang.org/zh_cn/downloads/">官网安装</a></p></li>
+<li><p>安装Bundler，在Terminal中输入： </p>
+
+<p>gem install bundler</p></li>
+<li><p>安装Jekyll，同理输入：</p>
+
+<p>source &lsquo;<a href="https://rubygems.org">https://rubygems.org</a>&rsquo;<br/>
+   gem &lsquo;github-pages&rsquo;</p></li>
+</ul>
+
+<p>*当然，如果你在墙内，很容易出问题，无法安装，推荐修改镜像源（<a href="http://ruby.taobao.org/">淘宝镜像源</a>）。</p>
+
+<ul>
+<li><p>安装Jekyll</p>
+
+<p>gem install jekyll</p></li>
+</ul>
+
+<p>在你希望存放的目录下，输入：</p>
+
+<pre><code>jekyll new your-site-name
+</code></pre>
+
+<p>进入：</p>
+
+<pre><code>  cd your-site-name
+</code></pre>
+
+<p>运行本地服务：</p>
+
+<pre><code>  jekyll s
+</code></pre>
+
+<p>在浏览器中输入：</p>
+
+<pre><code>  http://localhost:4000
+</code></pre>
+
+<p>就可以在本地进行查看和调试你的网站了。</p>
+
+<h3 id="toc_6">什么是Jekyll？</h3>
+
+<blockquote>
+<p><a href="http://jekyllrb.com/">Jekyll</a> is a simple, blog-aware, static site generator.</p>
+
+<p><a href="http://jekyllcn.com/">Jekyll</a> 是一个简单的博客形态的静态站点生产机器</p>
+</blockquote>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Jekyll.png" alt=""/></p>
+
+<p>解释一下，Jekyll可以将纯文本转换为静态博客网站。你整个网站的页面都是它生成的，从主页index到文章post。<br/>
+比如，文章怎么写？标准网页格式是扩展标记语言<a href="http://baike.baidu.com/link?url=C0WcPEpZO4MrmTIu6x2G9hMKcEB2PJ3L2dLv4-XsSE0FOSgxhILqYR2Lpbu6WFW_">HTML</a>。纯手写？未免太麻烦。大家，多偏爱<a href="http://sspai.com/25137">Markdown</a>。所以，就用它写。不过，你需要有一个能把你用Markdown格式写的文章，转化为HTML网页的东西，这里使用的就是静态网页生成器。</p>
+
+<p>静态网页是相对于动态网页而言的，如果感兴趣可以自己学习。</p>
+
+<h3 id="toc_7">Jekyll目录</h3>
+
+<p>解释一下整个jekyll的目录(<a href="http://jekyllrb.com/docs/home/">官方文档</a>):<br/>
+为了之后不至于完全茫然，很值得先看一看，第一次看不懂没关系，用着用着就知道什么意思了。就像练习吉他和弦的转换，开始很难，可换着换着你就会了。</p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/struct.png" alt=""/></p>
+
+<p>这个很奇怪的结构是，文件目录树，_config.yml这样的代表一个文件，_drafts这样的代表一个文件夹，与它连接的文件，比如begin-with-the-crazy-ideas.textile，就在文件夹中。一开始，我没怎么看官方文档，嫌麻烦，不如直接开始干。结果是绕了不少弯路，修改主题的时候，找半天各个部分。</p>
+
+<p>先说需要了解的，其余以后依个人需求学习</p>
+
+<ul>
+<li>_config.yml 是配置文件，你可以在里面配置你博客会用到的常量，比如博客名，邮件</li>
+<li>_includes：就是你文章各个部分的html文件，可以在布局中包含这些文件</li>
+<li>_layouts：存放模板。就是你网页的布局，主页布局，文章布局。当然不是指CSS那样的布局，是指，你包含哪些基本的内容到页面上。包含的内容就是includes里面的文件。</li>
+<li>_posts: 存放博客文章</li>
+<li>index：博客主页</li>
+<li>CNAME文件：域名地址</li>
+<li>CSS：存放博客所用CSS</li>
+<li>JS: 存放博客所用JavaScript </li>
+</ul>
+
+<p>可以设置每个html文件的title(标题)和layout(布局)。比如index的layout一般是default。你也可以添加其他的页面，加上不同的layout。</p>
+
+<p>当你想定制博客的时候，以上目录就很有用了。</p>
+
+<h3 id="toc_8">如何发表文章？</h3>
+
+<p>文章的写法，在Markdown开头加上一段：</p>
+
+<pre><code>---
+layout: posttitle: &quot;Welcome to Jekyll!&quot;
+date: 2014-01-27 21:57:11
+categories: Blog
+---
+</code></pre>
+
+<p>文件命名格式: 时间加标题<br/>
+比如：2015-08-15-HowTOBuildBlog.md</p>
+
+<p>ok，你可以写文章了，放入_post文件夹即可。</p>
+
+<h2 id="toc_9">Step 3. 装修</h2>
+
+<h3 id="toc_10">如何选择和修改主题？</h3>
+
+<ul>
+<li>一种方式是使用程序员们写好的，免费开源。</li>
+</ul>
+
+<p>推荐两个超级丰富的资源</p>
+
+<blockquote>
+<ol>
+<li> <a href="http://jekyllthemes.org/">Jekyll 主题</a></li>
+<li><a href="https://github.com/mattvh/jekyllthemes">Jekyll 主题搜集</a></li>
+</ol>
+</blockquote>
+
+<ul>
+<li>另一种是，你也可以自己写或修改，需要懂一些前端的知识。</li>
+</ul>
+
+<p>之前，我在<a href="http://www.codecademy.com">Codecademy</a>上学了两、三天，进行入门。正好用自己的博客，来做练习。<br/>
+其实前端还蛮好玩的，特别满足强迫症的强迫意愿。<br/>
+推荐资源：</p>
+
+<blockquote>
+<ul>
+<li>基础学习：<a href="http://www.codecademy.com">Codecademy</a></li>
+<li>框架: <a href="http://www.bootcss.com/">Bootstrap</a></li>
+</ul>
+</blockquote>
+
+<p>虽然下了dreamweaver, 没怎么用，不过官网上的<a href="https://helpx.adobe.com/dreamweaver/how-to/first-website-part2.html">教程</a>不错。 推荐使用 <a href="http://www.sublimetext.com/">Sublime Text</a>, 多么好用的代码编辑器啊，还有一个不错的<a href="http://blog.jobbole.com/88648/">教程</a>。再配上Jekyll的本地服务器，在Chrome上调试。那感觉~</p>
+
+<p>自己写是好，也要看看别人是如何做的，优秀的网站是如何设计的。文章可以注重注重排版，字体选择，屏幕适配调整等。不过说实在的，个人博客最重要的还是你的文章内容。</p>
+
+<h2 id="toc_11">Step 4. 定制</h2>
+
+<p>如果你已经做到了这一步，那么恭喜你，你的个人博客已经搭建完成。不过要享受折腾的快乐，或想要更好的独特性，就继续进行吧。</p>
+
+<h3 id="toc_12">如何使用独立域名？</h3>
+
+<ul>
+<li>购买域名 著名的有 <a href="https://www.godaddy.com/?isc=bsfndom4&amp;ci=">Godaddy</a>，支持支付宝。在网上可以搜到优惠码。</li>
+</ul>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/godaddy.png" alt=""/></p>
+
+<ul>
+<li><p>在你本地网站文件夹中添加一个文件 <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">CNAME</a>，写入你的域名即可。</p></li>
+<li><p>考虑到我国网络特殊情况，进行域名解析，可以选择<a href="https://www.dnspod.cn/Login?default=email">dnspod</a><br/>
+添加两条A记录(<a href="https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&amp;tsid=42">教程</a>)，对，就是计算机网络课上学的A记录。在你的Godaddy上看你买的域名，就能找到，两条A记录。</p></li>
+</ul>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/AA.png" alt=""/></p>
+
+<p><em>买域名这事，我自己还有点经历。一开始我买了个azureyu.cn的域名，cn是国内的，然后让提交身份证信息，输入各种资料。又要进行网站备份，一大推看不懂的备份名词，最后放弃了。买了个国外的域名azureyu.com，没有了以上复杂环节，马上就可以用了。</em></p>
+
+<h3 id="toc_13">如何添加评论功能？</h3>
+
+<p>这些平时习以为常的东西，到这都是纯手工制造。<br/>
+我使用的是<a href="https://disqus.com/">Disqus</a></p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/Disqus.png" alt=""/></p>
+
+<ul>
+<li>注册Disqus</li>
+<li>点击右侧选择在博客中添加，就会自动获得它为你生成的一段代码，复制它</li>
+</ul>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/comment.png" alt=""/></p>
+
+<ul>
+<li>新建一个名为Comments的html文件，复制进去这段代码，保存到文件夹_includes里去。然后在_layouts的post文件里加入：</li>
+</ul>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/addcmt.png" alt=""/></p>
+
+<p>其实，就是在你的网页中加入一段代码，加载之后在网页中加入Disqus，就会自动获得它为你生成的一段代码。</p>
+
+<p>要还想添加一些feather就去折腾吧。比如分享、文章目录、代码高亮、标签云、搜索等等。我想到现在，学习这些内容，对你已经很简单了。 </p>
+
+<hr/>
+
+<h2 id="toc_14">最后</h2>
+
+<p>个人建议：</p>
+
+<ul>
+<li>多看官方文档，系统清晰很多</li>
+<li>利用好而不是滥用搜索引擎</li>
+<li>遇见问题，先看看他人如何解决</li>
+</ul>
+
+<p>用一句作为结束：</p>
+
+<blockquote>
+<p>不要忘记初衷，在折腾之后，表达写作，才是最重要的事情。</p>
+</blockquote>
+
+<hr/>
+
+<blockquote>
+<p>参考：<br/>
+1. <a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html">http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html</a><br/>
+2. <a href="http://beiyuu.com/github-pages/">http://beiyuu.com/github-pages/</a><br/>
+3. <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a><br/>
+4. <a href="http://stevelosh.com/">http://stevelosh.com/</a><br/>
+5. <a href="http://jekyllbootstrap.com/">http://jekyllbootstrap.com/</a><br/>
+6. <a href="http://gaohaoyang.github.io">http://gaohaoyang.github.io</a><br/>
+7. <a href="http://segmentfault.com/a/1190000000406013">http://segmentfault.com/a/1190000000406013</a><br/>
+8. <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html</a></p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[尝得出味，指不出形状]]></title>
+    <link href="azureyu.com/2015-07-25-taste.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-07-25-taste.html</id>
+    <content type="html"><![CDATA[
+<p>谈谈这学期的英文文学课。<br/>
+英语提高课，选了两门，一门是英语文学，一门是职场英语。两门课的思想相差很大，老师的教学方式也不同。</p>
+
+<p>英语文学，第一节课。就被老师美丽优雅的文艺气质所吸引。不是矫揉造作的谈文学，而是富有理性和浪漫的谈文学。她说，自己为什么选择文学。学习理科知识，更多的是在讲逻辑，谈理论。而只有文学是关于情感的(emotion)。</p>
+
+<p>上课时突然问到我，仓促的回答说，是希望学习更好的表达。等下课之后，回过神来，才想起，是因为文学中的种种体验，才喜欢的吧。</p>
+
+<p>当你说话时，她会认真的倾听，并作出总结，再提出她得看法或问题。</p>
+
+<p>教学是在引导，而不是强推。<br/>
+读作品，更多的是带着我们去感受和理解。在恰当好处之时问出一连串的问题来。为什么主人公会这样做？他的理由是什么？换一种方式行不行？为什么要描写这一段？这句话中蕴含着怎样的信息？作者自身的经历是什么？这之间有什么关系？&hellip;&hellip;这些问题，让你思考。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>当我们提出自己的观点时，又说，不要总说我认为，你认为又怎么样呢？要说你为什么这样认为，给出文本的具体例子来，给出你的思考线路。</p>
+
+<p>课堂上做presentation时，她会坐到教室最后一排，拿着笔带着纸。没有任何的批评，不会说你是对是错，会告诉你怎么做才更好。比如，要有眼神的交流，环视大家。又会传一些实用的tips。比如，害怕看眼睛时，可以看眉心。</p>
+
+<p>讲她喜爱的作家时，会带上几本自己读的原版书，一本一本的讲简介和自己的感悟，课间时又让我们自己翻一翻。书页间，会有铅笔浅浅的勾勾画画，偶尔批注着感叹号或画着笑脸的表情。能感受到，读时享受的心情。</p>
+
+<p>不经想起朱光潜先生的一句话：<br/>
+<blockquote class="blockquote-center"><br/>
+文艺作者不能没有学识，但他的学识须如盐溶解在水里，尝得出味，指不出形状。<br/>
+</blockquote><br/>
+身边有良师，“耳濡目染，不学以能。”</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[去创造，去体验]]></title>
+    <link href="azureyu.com/2014-12-01-CreateExperience.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2014-12-01-CreateExperience.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​</p>
+</blockquote>
+
+<p>很早很早之前就想到，人生，我的人生就那么几十年，过了就没有了，相比起整个人类之长河，相比起宇宙之浩瀚，相比起无穷之未知，我是何其渺小。而那些在历史长河中所沉淀的不朽，长久的随人类而存的痕迹，是我所想创造的。所以，我曾梦想，自己这一生走完之后，会给这个世界留下些经得起时间检验的不朽的事物，有所创造。</p>
+
+<p>​对，这是我<strong>最初的想法</strong>。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>后来呢​？我开始发现人类比我所想的还要渺小，而这个世界上也没有什么不朽，所有的这一切一切都终会逝去，没有人知道如何开始一般的没有人知道如何结束。我们在科幻片中想象着无穷无尽的可能，生化危机、星球转移。</p>
+
+<p>原以为写一本书是很有创造意义的事，后来到了图书馆那一层一层一本一本的书，种类繁多，喜欢的文学也不过是其中的一小类，旧书已经成千上亿，而新书依旧在以极快的速度出版，不断出版，像地球上每天被吹起的尘埃。​我们在表达，于纸于电子。今天的信息量已远远超过人类之前的总和。而这些信息量中所含有的思想却不见得成比例的增长。</p>
+
+<p><strong>书，于是乎不再是我所之唯求。</strong></p>
+
+<p>然后，认为创业很酷，可以有激情的做自己喜欢做的事。最初看新东方的演讲，相信未来，心潮澎湃，心里觉着自己未来一片光明，好好学习，努力拼搏，未来就是我们的。看古典的做生活的高手，年轻时追求自己的梦想，不把目光留给自己的敌人，只留给自己的梦想，自己的目标。这些满满的正能量的视频文字，都让自己感到，未来前途一片光明，这个社会如此美好。现实，却给了你重重一击，失败的人远比成功的人多，而这个世界也不是以热情和意图来判断输赢的，它是以实际成果。 没有名次的战场，反而更容易引起循环无止境的竞争战斗，更好更好再更好。说幸福不在于外而在于内，而偏偏大多数人都生活在外。</p>
+
+<p>你要考虑以后的工作，你将来做什么？​这些真的含糊不得，未来的工作在你生命中占的比例是远比单纯的学生时代多。自己也是最近才真正的弄明白这一点。如果不是一生致力于学术，那么你很快就会发现，在学校所学的知识，只有极少一部分能直接运用于你的生活，使你生活得更好。你会用微积分算曲边梯形的面积，不代表你去菜市场买菜，知道哪家的便宜又新鲜；你会用化学方程式推出一种物质的合成方法，不代表你知道炒菜什么时候放油最好；你看得懂五言七言，不代表你知道见不同的人，该说哪些不同的话。思想品德书告诉你什么是对，什么是错，就算你看懂也好，没看到也好，不代表你能从心中分辨善恶是非，不代表你在道德两难的时候知道自己该怎么做；历史书上写的历史，不代表你知道了真实，什么是真实？什么是准确？你想过吗？</p>
+
+<p><strong>会学习重要，会生活更重要。</strong></p>
+
+<p>科学之美，在于它有规律，你可以用逻辑感受到它的脉搏​。<br/>
+科学是原本就存在，还是因为人类的发现而存在？发现、创造、使用，我们一代一代的进行下去。人之不同，在于人会思考，思考本身就是值得思考的。语言文字，是符号，符号亦是一种图形，而图形代表一种意象。谁知道究竟为何我们能将自己的思考用语言表达？而文字亦是有不同的。同时代、同文化，改变、发展、完善。</p>
+
+<p>我开始不再去想追求那大的永恒，太难。我开始想就过好我这一生吧。人生既是短暂，为何不多去体验。因为体验，我可以用仅有的一生活出诸多精彩。三毛说她不愿像姐姐那样循规蹈矩的过一生。她愿有质，活一世像三世。马伯庸说写作，就像造境，说人命既是脆弱，何不靠体验多活几回。王小波说，他活在世上，无非想要明白些道理，遇见些有趣的事。方励说，去做自己喜欢的事。他50多了，说自己这辈子很值，一辈子活出了几辈子。我为什么喜欢文字，因为我喜欢在这笔墨之间，去放开自己，去感受不同的体验。</p>
+
+<p>这样一想就有了可行性。我可以去做不同的事情，而不会害怕，因为从未做过而没经验，因为新鲜，所带来的体验也是不同的。我想知道不同阶级不同文化不同背景的 人们，都有着怎样的生活，他们做些什么，他们想些什么，又与我有什么不同，又与我有什么相同​。美食入口，是一种体验，麻辣鲜香，蒸、炒、煮、炸，各有不 同；美景是一种体验，稀薄空旷，繁华茂密。情感是一种体验，快乐、悲伤、忐忑、纠结&hellip;&hellip;</p>
+
+<p>** 用心生活，勇于探索，尽情体验丰富人生。**</p>
+
+<p>而且，凡此体验，于众人​同，于个人异。于茫茫宇宙，于悠悠时间长河，我是渺小，但我独特。人之有趣，在于独特。形之独特，态之独特，思之独特。完完全全相 同的人生是没有的，而我们也不能将自己活成了别人，完完全全活成了别人的时候，请问这世间又真的有你来过吗？我们彼此的思想有同有异，同时相对一笑，异时 也不必非你对我错，你不必将自己与环境同化。你就是你，是颜色不一样的烟火。哪怕是天空海阔，渺小渺小，依旧记得，请做坚强的泡沫。</p>
+
+<p>在这一系列的思考后，我写下：</p>
+
+<p><strong>生命可贵，人生短暂，在前行的道路上，做独一无二的自己，体验丰富多彩的人生。​</strong></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[言语]]></title>
+    <link href="azureyu.com/PowerfulWords.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/PowerfulWords.html</id>
+    <content type="html"><![CDATA[
+<p><strong>Sort but powerful</strong></p>
+
+<h2 id="toc_0">智慧</h2>
+
+<hr/>
+
+<p>记忆是相会的一种形式，忘记是自由的一种形式。——纪伯伦</p>
+
+<hr/>
+
+<p>雪崩时，没有一片雪花觉得自己有责任。—— 伏尔泰 </p>
+
+<hr/>
+
+<p>科技，始终来源于人性。——约翰·奈斯比特《定见》 </p>
+
+<hr/>
+
+<p>把自己的生活当作正文，把书籍当作注解。——爱默生</p>
+
+<!--more-->
+
+<hr/>
+
+<p>为了追求更好，我们毁损了原已够好的。——莎士比亚 </p>
+
+<hr/>
+
+<p>青青陵上柏，磊磊涧中石。 人生天地间，忽如远行客。——《列子》 </p>
+
+<hr/>
+
+<p>有时候我们必须放弃一些我们喜欢的东西／你喜欢的，别人也喜欢的东西——《春夏秋冬又一春》 </p>
+
+<hr/>
+
+<p>人静而后安，安而能后定，定而能后慧，慧而能后悟，悟而能后得。——《大学》 </p>
+
+<hr/>
+
+<p>当我抱着她的时候，我想的是另一个她。这时我突然在想，那她抱著我的时候，是不是想的是另一个他。—— 朱德庸 </p>
+
+<hr/>
+
+<p>孩子，我们并不只活在我们所属的时代里，我们身上也扛着历史。不要忘记你在这个房间内看到的每一样东西都曾经是崭新的。 ——乔斯坦·贾德《苏菲的世界》</p>
+
+<hr/>
+
+<p>在一次长途旅行中，最好是有一位称心的旅伴，其次好是没有旅伴，最坏是有一个不称心的旅伴。</p>
+
+<hr/>
+
+<p>你不忙，是因为你有足够的时间做你自己想做的事；你忙，是因为你有太多你不得不做的事。</p>
+
+<hr/>
+
+<p>最深最平和的快乐，就是静观天地与人世，慢慢品味出它的美与和谐。这份快乐，乍一看也许平淡无奇，事实上它深远而悠长，在我，生命的享受就在其中了。——三毛</p>
+
+<hr/>
+
+<p>我们真正的家不是房子、城市甚至国家，而是我们的身体。只要你还在这世上，它就是你的灵魂和精神唯一一刻都不离的栖息之所。它是这世上你能照料的有形之物中最最重要的。</p>
+
+<hr/>
+
+<p>敢于提问，敢于质疑，独立思考的批评性思维，也是习惯于灌输＂唯一正确答案＂的教育体系所不鼓励的。思想的开放性和包容性，理性思辨的社会氛围，对创新而言，如空气般不可缺少。——杨澜</p>
+
+<hr/>
+
+<p>就是这种天马行空的想象，让我们看到了令人时而嘘唏，时而雀跃，时而沉默，时而痛骂的精彩故事。凭什么猫有九命，人却生死一线？人命既是脆弱，那就靠体验多活几回吧。——马伯庸《写作就像跳脱衣舞》</p>
+
+<hr/>
+
+<p>生活充实的含义，应是阅历得广，明白得多，有发现的能力，有推断的方法，性情丰厚，兴趣饶富，内外合一，即知即行，等等。——叶圣陶《如何写作》</p>
+
+<hr/>
+
+<p>富勒认为，要改变一个人是很困难的，要改变一个人生存的环境也非常困难。但是，你可以发明出新的工具，并且是非常优秀的工具，久而久之，人们就会开始了解和使用这些工具，而从他们开始使用新工具的那一刻开始，他们的世界观也会由此而改变。——WholeEarthCatalog外傳</p>
+
+<hr/>
+
+<p>我喜欢成熟而且有趣的人。他们理性，从容，可是永远保留着爆发的能量。他们保持着对世界的好奇心，永远在学习。他们不轻易动摇，但是永远准备着倾听不同的意见，理解不同的人生。他们对自己的选择负责，他们也许抱怨，但是抱怨之后一定有真正的行动。</p>
+
+<hr/>
+
+<p>真正的自我成长就是认认真真、朴朴实实的做自己。理想其实很单纯，人生的意义也很单纯：尽力开发自己内在的各种潜在可能性（尽己），诚诚恳恳用心对待身边的人（尽心），掌握机会去追求各种最极致的感动和各种情感经验（尽兴），让自己善用每一分钟每一秒来提升生命的价值。——《活出生命最好的可能》彭明辉</p>
+
+<hr/>
+
+<hr/>
+
+<h2 id="toc_1">诗歌</h2>
+
+<hr/>
+
+<p>你脚踩的地狱只是天堂的倒影，我唇角的故事终将是时间的灰烬 </p>
+
+<hr/>
+
+<p>情诗情节，也掉落在秋水秋波的秋晕里，一涡半转，跟着秋流去。—徐志摩</p>
+
+<hr/>
+
+<p>行过许多地方我的桥，看过许多次数的云，喝过许多种类的酒，却只爱过一个正当最好年龄的人。 ——沈从文</p>
+
+<hr/>
+
+<p>秋天的黄昏使林间落叶有了一种质地沉重的感觉，而隐约的晨霜则使玻璃窗有了新鲜的泪痕。———《逝川 》迟子键</p>
+
+<hr/>
+
+<p>记得早先少年时/大家诚诚恳恳/说一句 是一句/清早上火车站/长街黑暗无行人/卖豆浆的小店冒着热气 /从前的日色变得慢/车，马，邮件都慢/一生只够爱一个人/从前的锁也好看/钥匙精美有样子/你锁了 人家就懂了——木心《从前慢》</p>
+
+<hr/>
+
+<p>那时我们还年轻。穿过残垣断壁苍松古柏，我们来到山崖上。沐浴着夕阳，心静如水，我们向云雾飘荡的远方眺望。其实啥也看不到，生活的悲欢离合远在地平线以外，而眺望是一种青春的姿态。 ——北岛《青灯》</p>
+
+<hr/>
+
+<p>你从远方来，我到远方去，遥远的路程经过这里。天空一无所有，为何给我安慰。——海子</p>
+
+<hr/>
+
+<p>请原谅我不说一声再会，而在，最深最深的角落里，试着将你藏起，藏到任何人、任何岁月，也无法触及的距离 。—— 席慕蓉《诀别》</p>
+
+<hr/>
+
+<h2 id="toc_2">鼓舞</h2>
+
+<hr/>
+
+<p>One way to develop self-confidence is to do the thing you fear and get a record of successful experience behind you.</p>
+
+<hr/>
+
+<p>我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。——本杰明 · 巴顿</p>
+
+<hr/>
+
+<p>人性是充满惰性的，没有到生死关头，是不会使尽全力来付出，但有智慧的人，并不会把自己逼到谷底才努力，而是预见自己不努力的未来，将是沮丧、绝望，被众人唾弃，若等到丧失所有资源才觉悟，那时通常年岁已长，时机也已过了。</p>
+
+<hr/>
+
+<p>真正的光明绝不是永没有黑暗的时间，只是永不被黑暗所掩蔽罢了。真正的英雄绝不是永没有卑下的情操，只是用不被卑下的情操所屈服罢了。<br/>
+所以你要战胜外来的敌人之前，先得战胜你内在的敌人。不必害怕沉沦堕落，只消你能不断的自拔与更新。——傅雷《约翰・克里斯多夫》序</p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,539 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  iOS Programming Reading Notes - Azure Yu
+  
+  </title>
+  
+  
+  <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:azureyu.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        <li id="menu_item_index"><a href="index.html">HOME</a></li>
+        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
+
+</nav>
+
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; Azure Yu</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+
+    <li><label>Categories</label></li>
+
+        
+            <li><a href="Books.html">Books</a></li>
+        
+            <li><a href="Hum.html">Hum</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
+        
+            <li><a href="iOS.html">iOS</a></li>
+        
+            <li><a href="Life.html">Life</a></li>
+         
+
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+
+        <section id="main-content" role="main" class="scroll-container">
+        
+       
+
+ <script type="text/javascript">
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
+</script>
+<div class="row">
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>iOS Programming Reading Notes</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2016/4/15</span>
+
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          
+              <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          
+              <span class="posted-in"><a href='Books.html'>Books</a></span>
+           
+         
+          <span class="comments">
+            
+              <a href="azureyu.com/2016-04-15-iOSProgramming.html#disqus_thread">comments</a>
+            
+
+            
+              &nbsp;<a  class="ds-thread-count" data-thread-key="2016-04-15-iOSProgramming.html" data-count-type="comments" href="2016-04-15-iOSProgramming.html#ds-thread"></a>
+            
+          </span>
+
+        </div>
+      </div><!-- article -->
+
+      <div class="article-content">
+      <p>iOS 8 Programming Fundamental with Swift</p>
+
+<h1 id="toc_0">Part 2 IDE</h1>
+
+<h2 id="toc_1">Chapter 6. Anatomy of an Xcode Project</h2>
+
+<h2 id="toc_2">从项目到可运行的App</h2>
+
+<p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
+假设应用名为Empty Window</p>
+
+<p><img src="media/14628621715331/package.png" alt="package"/></p>
+
+<p>Empty window: 编译的文件。<br/>
+Main.Storyboard:Storyboard 文件，a bundle of nibs files.按需加载。<br/>
+Info.list : 配置文件。<br/>
+Frameworks: 需添加的框架。<br/>
+PkgInfo: 历史遗留物。</p>
+
+<h2 id="toc_3">Build Settings</h2>
+
+<p>属性列表文件就是一系列的键对值。</p>
+
+<ul>
+<li>修改Info.plist文件 Editor-&gt;Show raw values.</li>
+</ul>
+
+<h2 id="toc_4">Nib Files</h2>
+
+<p>一个Nib文件是一部分用户界面描述，它以已编译的格式包含在一个以<em>.nib结尾</em>的文件里。</p>
+
+<p>它是在编译过程中由<code>.xib</code>文件生成的,相应的，包含多个nib文件的<code>.storyboardc</code>由<br/>
+<code>.storyboard</code>文件生成。</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_5">Code File and App Launch Process</h2>
+
+<h3 id="toc_6">The entry point</h3>
+
+<p>写过C语言的都知道，程序进入开始执行的地方是main函数。同样的在Objective-C中也是。</p>
+
+<pre><code>int main(int argh, char *argv[]) {
+        @autoreleasepool {
+            return UIApplicationMain(argh, argue, nil,
+                NSStringFromClass([AppDelegate class]));
+} } 
+</code></pre>
+
+<p>做了两件事情:</p>
+
+<ul>
+<li>设置了内存管理环境</li>
+<li>调用了UIApplicationMain函数</li>
+</ul>
+
+<p>但在swift中你找不到main函数：</p>
+
+<pre><code>@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {...}
+</code></pre>
+
+<p>上面的@UIApplicationMain属性，就实现了main函数的功能。你也可以自定义，新建main.swift(必须以main命名)，在其中写：</p>
+
+<pre><code>import UIKit
+UIApplicationMain(
+    Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDelegate))
+</code></pre>
+
+<h3 id="toc_7">UIApplicationMain</h3>
+
+<p>其实你的App不过就是对单个巨大的UIApplictionMain函数的调用。（想一想C语言中main函数的调用执行）</p>
+
+<p>UIApplicationMain主要做的事：</p>
+
+<ol>
+<li>创建你app的第一个实例——共享应用实例(the shared application instance)。之后，你可以很容易的通过调用UIApplication.sharedApplication()得到该实例。UIApplicationMain调用的第三个参数，指定了应该实例化哪一个共享应用实例。默认是nil，如果你想使用一个自己写的子类，就可以改为NSStringFromClass(MyUIApplicationSubclass)（MyUIApplicationSubclass是你自己的子类名）。</li>
+<li>创建你的第二个实例—— 应用实例的代理(delegate)。同理，它对应第四个参数。</li>
+<li>如果Info.list指定了一个主故事板文件(main storyboard file)，UIApplicationMain就会加载并查找它的初始视图控制器(initial view controller)。UIApplicationMain会实例化该视图控制器。</li>
+<li>如果有一个主故事板文件，UIApplicationMain就会开始创建窗口(<code>Window</code>)。它是你app的第四个实例，是UIWindows的实例。赋给应用代理的window属性，初始化视图控制器赋给窗口实例（window instance）的rootViewController属性。</li>
+<li>UIApplicationMain转向app delegate instance并开始调用其中的代码。终于，你可以在其中写自己的代码了。但是，最好只做一些<strong>不费时</strong>的初始化工作，因为这个时候应用的界面还没有显示。</li>
+<li>如果有一个主故事板，UIApplicationMain现在回让它显示出来了。它通过调用UIWindow实例中的<code>makeKeyandVisible</code>方法来实现。</li>
+<li>现在窗口马上就会显示了。</li>
+</ol>
+
+<p>如果没有指定一个主故事板，你也可以自己写：</p>
+
+<pre><code>    class AppDelegate: UIResponder, UIApplicationDelegate {
+        var window: UIWindow?
+
+        // look, ma, no storyboard!
+        fun application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+            self.window = UIWindow()
+            self.window!.backgroundColor = UIColor.whiteColor()
+            self.window!.rootViewController =
+                MyViewController(nibName:&quot;MyViewController&quot;, bundle:nil)
+            self.window!.makeKeyAndVisible()
+            return true
+        }
+    }
+</code></pre>
+
+<p><code>framework</code>:已编译的代码库。<br/>
+对设备系统framework子集的复制叫做<code>SDK</code>(software development kit)。</p>
+
+<p>链接(<code>Linking</code>)是将你的已编译代码与所需框架挂钩的过程。</p>
+
+<p>Swift使用Modules。Modules会自动编译。<br/>
+Modules是缓存信息，存放在Library/Developer/Xcode/DrivedData/ModulesCache.它精巧而方便，但也有缺点，你无法确切的指定自己使用了哪些框架。响应的头文件也不会在导航中显示。</p>
+
+<p>有些情况下你也需要手动添加框架：</p>
+
+<hr/>
+
+<h2 id="toc_8">Cocoa</h2>
+
+<p>在进行iOS编程时，多数情况下是在与Cocoa进行交互。<br/>
+Cocoa是一个很庞大的库，它分为了几个小库。</p>
+
+<h2 id="toc_9">Subclassing</h2>
+
+<p>Cocoa会提供给你一些可以直接使用的对象，比如UIButton。有时候，你会想要自定义这些对象。在对其继承之前，最好查一查，可不可以直接进行更改。比如UIButton就可以更改其标题，背景图片等。</p>
+
+<p>但是，不管怎样，你都有更改属性和方法还是不能满足的时候。这种时候，Cocoa会提供给你一些方法可以进行子类化(subclassing)和重载。</p>
+
+<p>比如UIView，你继承UIView之后，可以对drawRect进行重载，绘制自定义视图。</p>
+
+<p>但是，继承是你在和cocoa交互时，极少会使用到的方式。知道什么时候使用继承是需要技巧的，但是更通用的规则是，如果不是确切的知道该继承，你最好不要使用它。</p>
+
+<p>不使用继承的一个重要原因是，大多数自带的Cocoa类使用委托(delegation)来自定义行为(方法)。</p>
+
+<p>(纯粹看理论会没有实际认知，需要编码去理解。<br/>
+知识编码却会陷入似懂非懂的状态，需要整合理论去理解。)</p>
+
+<h2 id="toc_10">Categories and Extensions</h2>
+
+<p>OC中Categories指直接在已存在的类上添加方法，Swift中叫作Extensions。</p>
+
+<h3 id="toc_11">Swift中如何使用extension？</h3>
+
+<p>例子，Array<T>，多使用extension加少量的protocol。多个extension，把函数体分为多个部分不不是全部在一起，这样使得代码更容易被理解，同时相关联的函数也聚集在一起。<br/>
+eg. Core Graphic</p>
+
+<h3 id="toc_12">你如何使用extension？</h3>
+
+<p>在已存在的对象类型中添加函数。<br/>
+而且它使用于Swift三种类型对象，比如enum和struct不能继承却可以extension。<br/>
+一次改变，处处改变。</p>
+
+<p>会在不同的头文件中都有categories的声明，但文档之间没有链接，这也许是cocoa框架结构的问题之一吧。</p>
+
+<h2 id="toc_13">Document</h2>
+
+<ul>
+<li>Inherits from 继承自何处，不断的向上查看父类，以寻找到你需要的信息。</li>
+<li>Conforms to 这怎么翻译，不断的查看其实现的协议(Protocal),以寻找到你需要的信息。</li>
+<li>Framework  看该类属于哪个框架，在使用时，需要将框架import你的代码中。</li>
+<li>Availability   在什么版本开始可以使用。</li>
+<li>Declared in  类被声明在哪一个头文件中。</li>
+<li>Related document 相关文档，提高给你有用的信息，比如代码示例。orient your thinking and provide you optionals</li>
+<li>Sample code 下一章具体介绍</li>
+<li>Body</li>
+</ul>
+
+      </div>
+
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+          <a href="2016-04-24-HowToStudy.html" 
+          title="Previous Post: 教育使人获得精神力量——《如何学习》阅读笔记">&laquo; 教育使人获得精神力量——《如何学习》阅读笔记</a>
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="2016-03-24-iOSLearning.html" 
+          title="Next Post: 我的iOS开发入门自学路径">我的iOS开发入门自学路径 &raquo;</a>
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
+
+          
+            <div id="disqus_thread"></div>
+          
+
+          
+              <div class="ds-thread" data-thread-key="2016-04-15-iOSProgramming.html" data-url="azureyu.com/2016-04-15-iOSProgramming.html" data-title="iOS Programming Reading Notes"></div>
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
+
+
+
+
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <div class="site-a-logo"><img src="img/avatar.jpg" /></div>
+            
+                <h1>Azure Yu</h1>
+                <div class="site-des">游薪渝的个人博客</div>
+                <div class="social">
+
+
+
+
+
+
+
+<a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>
+<a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
+<a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
+
+  <a class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="Books.html"><strong>Books</strong></a>
+        
+            <a href="Hum.html"><strong>Hum</strong></a>
+        
+            <a href="Tech.html"><strong>Tech</strong></a>
+        
+            <a href="iOS.html"><strong>iOS</strong></a>
+        
+            <a href="Life.html"><strong>Life</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="2016-05-01-April.html">四月记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-04-24-HowToStudy.html">教育使人获得精神力量——《如何学习》阅读笔记</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-04-15-iOSProgramming.html">iOS Programming Reading Notes</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-03-24-iOSLearning.html">我的iOS开发入门自学路径</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-03-15-iOSUI.html">Learning iOS UI Development Reading Notes</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
+  <div class="row">
+   <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'yogayu'; 
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+var disqus_shortname = 'yogayu'; 
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+  
+
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:'yogayu'};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+    
+
+    <script src="asset/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
+     
+    </script>
+
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+    // dynamic User by Hux
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+  </body>
+</html>
