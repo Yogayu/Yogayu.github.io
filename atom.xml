@@ -4,13 +4,81 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-05-10T18:11:36+08:00</updated>
+  <updated>2016-05-10T19:40:02+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello MWeb]]></title>
+    <link href="azureyu.com/2016-05-10-HelloMWeb.html"/>
+    <updated>2016-05-10T18:24:17+08:00</updated>
+    <id>azureyu.com/2016-05-10-HelloMWeb.html</id>
+    <content type="html"><![CDATA[
+<p>作为重度Markdown使用者，个人很喜欢MWeb。决定将博客从Jekyll转为MWeb生成。</p>
+
+<p>下面是简单的步骤。</p>
+
+<ol>
+<li><p>在外部模式下(Command+L),新建分类并导入</p>
+
+<p><img src="media/14628758572486/MWeb-import.png" alt="MWeb-import"/></p></li>
+<li><p>点击编辑设置网站信息</p>
+
+<p><img src="media/14628758572486/MWeb-edit.png" alt="MWeb-edit"/></p>
+
+<p>依次填写就可以了。<br/>
+高级设置中可以修改网站生成位置。<br/>
+<img src="media/14628758572486/MWeb-Setting.png" alt="MWeb-Setting"/></p></li>
+<li><p>添加分类</p>
+
+<p><img src="media/14628758572486/Meb-classify.png" alt="Meb-classify"/></p>
+
+<p>将文章拖入对应的分类</p>
+
+<p><img src="media/14628758572486/class.gif" alt="class"/></p>
+
+<p>设置每篇文章信息：</p>
+
+<p><img src="media/14628758572486/MWeb-date.png" alt="MWeb-date"/></p></li>
+<li><p>生成网站</p>
+
+<p><img src="media/14628758572486/MWeb-WebGen.png" alt="MWeb-WebGen"/>     </p></li>
+<li><p>高级设置</p></li>
+</ol>
+
+<p>可以自定义扩展：<br/>
+将如下代码存为DoucmentExtension.json</p>
+
+<pre><code>[{&quot;title&quot;:&quot;small omg&quot;,&quot;variableName&quot;:&quot;small_image&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;small image path&quot;},{&quot;title&quot;:&quot;featured&quot;,&quot;variableName&quot;:&quot;featured_image&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;featured image path&quot;},{&quot;title&quot;:&quot;excerpt&quot;,&quot;variableName&quot;:&quot;excerpt&quot;,&quot;inputFieldHeight&quot;:66,&quot;exampleText&quot;:&quot;&quot;},{&quot;title&quot;:&quot;sen KW&quot;,&quot;variableName&quot;:&quot;so_keywords&quot;,&quot;inputFieldHeight&quot;:44,&quot;exampleText&quot;:&quot;sen keywords&quot;},{&quot;title&quot;:&quot;sen Des&quot;,&quot;variableName&quot;:&quot;seo_des&quot;,&quot;inputFieldHeight&quot;:66,&quot;exampleText&quot;:&quot;sen description&quot;}]
+</code></pre>
+
+<p>在文档扩展中导入：</p>
+
+<p><img src="media/14628758572486/setting.png" alt="setting"/></p>
+
+<p>同理，将一下代码存为SiteExtension.json</p>
+
+<pre><code>[{&quot;title&quot;:&quot;logo path&quot;,&quot;variableName&quot;:&quot;logo_path&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;240x240&quot;},{&quot;title&quot;:&quot;twitter&quot;,&quot;variableName&quot;:&quot;twitter_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your twitter url&quot;},{&quot;title&quot;:&quot;github&quot;,&quot;variableName&quot;:&quot;github_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your github url&quot;},{&quot;title&quot;:&quot;weibo&quot;,&quot;variableName&quot;:&quot;weibo_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your weibo url&quot;},{&quot;title&quot;:&quot;Facebook&quot;,&quot;variableName&quot;:&quot;facebook_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your Facebook url&quot;},{&quot;title&quot;:&quot;stack overflow&quot;,&quot;variableName&quot;:&quot;stackoverflow_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your stack overflow url&quot;},{&quot;title&quot;:&quot;linked&quot;,&quot;variableName&quot;:&quot;linkedin_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your linked url&quot;},{&quot;title&quot;:&quot;pinterest&quot;,&quot;variableName&quot;:&quot;interest_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your pinterest url&quot;},{&quot;title&quot;:&quot;quota&quot;,&quot;variableName&quot;:&quot;quora_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your quota url&quot;},{&quot;title&quot;:&quot;google&quot;,&quot;variableName&quot;:&quot;google_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your google plus url&quot;},{&quot;title&quot;:&quot;instagram&quot;,&quot;variableName&quot;:&quot;instagram_url&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your instagram url&quot;},{&quot;title&quot;:&quot;email&quot;,&quot;variableName&quot;:&quot;email&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;your email&quot;},{&quot;title&quot;:&quot;disqus&quot;,&quot;variableName&quot;:&quot;disqus_shortname&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;disqus short name&quot;},{&quot;title&quot;:&quot;duoshuo &quot;,&quot;variableName&quot;:&quot;duoshuo_shortname&quot;,&quot;inputFieldHeight&quot;:22,&quot;exampleText&quot;:&quot;duoshuo short name&quot;}]
+</code></pre>
+
+<p>在网站扩展中导入</p>
+
+<p><img src="media/14628758572486/%E8%AE%BE%E7%BD%AE2.png" alt="设置2"/></p>
+
+<p>最后在偏好设置中设置信息</p>
+
+<p><img src="media/14628758572486/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE3.png" alt="偏好设置3"/></p>
+
+<p>其实就是把很多之前文档配置的内容，转化为了GUI展现。</p>
+
+<p>Jekyll用多了，再用这些其实都很简单。</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[四月记]]></title>
@@ -158,8 +226,6 @@
 <p>第一本，极有名气，是<strong>《如何阅读一本书》(《How to read a book》)</strong>。初看是在高三暑假，现在大三，还在读。第一次读是了解大概，之后都带着不同的中心问题的重读。</p>
 
 <p>另一本，我从未听过任何人的推荐，可谓是冷门，却是我眼中的经典之一。即是<strong>《如何学习》(《How to study》)</strong>，出版于1971年，作者George Fillmore Swain。</p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/48181-1edc7ffa4a407786.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="How_to_Study.png"/></p>
 
 <p>称它为一门书，其实更像一门小册子。从精神态度、理解性学习、系统性学习和习惯方法四个方面出发，提出了如格言似的建议。</p>
 
