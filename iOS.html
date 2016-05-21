@@ -105,6 +105,90 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="2016-05-14-iOS-Localizable.html">
+                
+                  <h1>iOS开发之让你的App本地化</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<ul>
+<li>
+<a href="#toc_0">本地化的重要性</a>
+</li>
+<li>
+<a href="#toc_1">如何本地化？</a>
+<ul>
+<li>
+<a href="#toc_2">Info.list</a>
+</li>
+<li>
+<a href="#toc_3">Storyboard/Xib</a>
+</li>
+<li>
+<a href="#toc_4">Code String</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 id="toc_0">本地化的重要性</h2>
+
+<p>当你的App上架AppStore之后，便可以在全球范围内销售了。<br/>
+如果想App在世界各地更畅销，那么本地化一定是不可少的。</p>
+
+<p>本文将简明的从Info.list、Storyboard和Code String三种方式来讲解本地化。Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称，Storyboard即界面显示内容的本地化，Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等。</p>
+
+<h2 id="toc_1">如何本地化？</h2>
+
+<h3 id="toc_2">Info.list</h3>
+
+<p>本地化App名</p>
+
+<p>选中Info.plist,如图点击添加：</p>
+
+<p><img src="media/14632150485486/Info_plist1.png" alt="Info_plist1"/></p>
+
+<p>添加Bundle display name，Value为App名。</p>
+
+<p><img src="media/14632150485486/Info_plist2.png" alt="Info_plist2"/></p>
+
+<p>新建String File类文件，命名为InfoPlist，注意命名的大小写。</p>
+
+<p><img src="media/14632150485486/location3.png" alt="location3"/></p>
+
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="2016-05-14-iOS-Localizable.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2016/5/14</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+                        <a href="azureyu.com/2016-05-14-iOS-Localizable.html#disqus_thread">comments</a>
+                      
+
+                      
+                        &nbsp;<a  class="ds-thread-count" data-thread-key="2016-05-14-iOS-Localizable.html" data-count-type="comments" href="2016-05-14-iOS-Localizable.html#ds-thread"></a>
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="2016-04-15-iOSProgramming.html">
                 
                   <h1>iOS Programming Reading Notes</h1>
@@ -112,13 +196,58 @@
                       
                       <div class="a-content-text">
                         
-                        	<p>iOS 8 Programming Fundamental with Swift</p>
+                        	<ul>
+<li>
+<a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
+</li>
+<li>
+<a href="#toc_1">从项目到可运行的App</a>
+</li>
+<li>
+<a href="#toc_2">Build Settings</a>
+</li>
+<li>
+<a href="#toc_3">Nib Files</a>
+</li>
+<li>
+<a href="#toc_4">Code File and App Launch Process</a>
+<ul>
+<li>
+<a href="#toc_5">The entry point</a>
+</li>
+<li>
+<a href="#toc_6">UIApplicationMain</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_7">Cocoa</a>
+</li>
+<li>
+<a href="#toc_8">Subclassing</a>
+</li>
+<li>
+<a href="#toc_9">Categories and Extensions</a>
+<ul>
+<li>
+<a href="#toc_10">Swift中如何使用extension？</a>
+</li>
+<li>
+<a href="#toc_11">你如何使用extension？</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">Document</a>
+</li>
+</ul>
 
-<h1 id="toc_0">Part 2 IDE</h1>
 
-<h2 id="toc_1">Chapter 6. Anatomy of an Xcode Project</h2>
+<p>iOS 8 Programming Fundamental with Swift Part 2 IDE</p>
 
-<h2 id="toc_2">从项目到可运行的App</h2>
+<h2 id="toc_0">Chapter 6. Anatomy of an Xcode Project</h2>
+
+<h2 id="toc_1">从项目到可运行的App</h2>
 
 <p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
 假设应用名为Empty Window</p>
@@ -131,21 +260,6 @@ Info.list : 配置文件。<br/>
 Frameworks: 需添加的框架。<br/>
 PkgInfo: 历史遗留物。</p>
 
-<h2 id="toc_3">Build Settings</h2>
-
-<p>属性列表文件就是一系列的键对值。</p>
-
-<ul>
-<li>修改Info.plist文件 Editor-&gt;Show raw values.</li>
-</ul>
-
-<h2 id="toc_4">Nib Files</h2>
-
-<p>一个Nib文件是一部分用户界面描述，它以已编译的格式包含在一个以<em>.nib结尾</em>的文件里。</p>
-
-<p>它是在编译过程中由<code>.xib</code>文件生成的,相应的，包含多个nib文件的<code>.storyboardc</code>由<br/>
-<code>.storyboard</code>文件生成。</p>
-
 
                         
                       </div>
@@ -157,9 +271,9 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/4/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				  
           					    <span class="posted-in"><a href='Books.html'>Books</a></span>
           				   
@@ -184,10 +298,6 @@ PkgInfo: 历史遗留物。</p>
                   <h1>我的iOS开发入门自学路径</h1>
                   <div class="a-content">
                       
-		                  <div class="a-content-img">
-                      		<img src="img/iTunesEdu.png" />
-                      	  </div>
-		              
                       <div class="a-content-text">
                         
                         	<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
@@ -272,9 +382,9 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/3/22</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -341,11 +451,11 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/3/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				  
+          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -393,9 +503,9 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2015/10/24</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -488,7 +598,19 @@ PkgInfo: 历史遗留物。</p>
 	      
 		      
 			      <li class="post">
+			        <a href="2016-05-14-iOS-Localizable.html">iOS开发之让你的App本地化</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="2016-05-10-HelloMWeb.html">Hello MWeb</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-05-10-comipler.html">编译原理——词法分析</a>
 			      </li>
 		     
 		  
@@ -505,16 +627,8 @@ PkgInfo: 历史遗留物。</p>
 		     
 		  
 		      
-			      <li class="post">
-			        <a href="2016-04-15-iOSProgramming.html">iOS Programming Reading Notes</a>
-			      </li>
-		     
 		  
 		      
-			      <li class="post">
-			        <a href="2016-03-24-iOSLearning.html">我的iOS开发入门自学路径</a>
-			      </li>
-		     
 		  
 		      
 		  

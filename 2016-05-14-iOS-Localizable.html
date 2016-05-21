@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Learning iOS UI Development Reading Notes - Azure Yu
+  iOS开发之让你的App本地化 - Azure Yu
   
   </title>
-  
-  
+  <meta name="keywords" content="iOS Localizable 本地化 游薪渝 iOS开发" />
+  <meta name="description" content="iOS应用本地化 " />
   <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
@@ -105,27 +105,25 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>Learning iOS UI Development Reading Notes</h1>
+          <h1>iOS开发之让你的App本地化</h1>
      
         <div class="read-more clearfix">
-          <span class="date">2016/3/15</span>
+          <span class="date">2016/5/14</span>
 
           <span>posted in&nbsp;</span> 
           
               <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           
               <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          
-              <span class="posted-in"><a href='Books.html'>Books</a></span>
            
          
           <span class="comments">
             
-              <a href="azureyu.com/2016-03-15-iOSUI.html#disqus_thread">comments</a>
+              <a href="azureyu.com/2016-05-14-iOS-Localizable.html#disqus_thread">comments</a>
             
 
             
-              &nbsp;<a  class="ds-thread-count" data-thread-key="2016-03-15-iOSUI.html" data-count-type="comments" href="2016-03-15-iOSUI.html#ds-thread"></a>
+              &nbsp;<a  class="ds-thread-count" data-thread-key="2016-05-14-iOS-Localizable.html" data-count-type="comments" href="2016-05-14-iOS-Localizable.html#ds-thread"></a>
             
           </span>
 
@@ -133,340 +131,201 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <h2 id="toc_0">Chapter 1. UI Fundamentals</h2>
+      <ul>
+<li>
+<a href="#toc_0">本地化的重要性</a>
+</li>
+<li>
+<a href="#toc_1">如何本地化？</a>
+<ul>
+<li>
+<a href="#toc_2">Info.list</a>
+</li>
+<li>
+<a href="#toc_3">Storyboard/Xib</a>
+</li>
+<li>
+<a href="#toc_4">Code String</a>
+</li>
+</ul>
+</li>
+</ul>
 
-<h2 id="toc_1">Windows</h2>
 
-<p>window is an instance of UIWindow. It&rsquo;s the root class of UI&rsquo;s hierarchy. One of the function of the  window is to deliver touches to the underling views.</p>
+<h2 id="toc_0">本地化的重要性</h2>
 
-<p>window好比是画板，view好比是画纸。</p>
+<p>当你的App上架AppStore之后，便可以在全球范围内销售了。<br/>
+如果想App在世界各地更畅销，那么本地化一定是不可少的。</p>
 
-<pre><code> -- widow
- --- rootViewController(view controller)
-</code></pre>
+<p>本文将简明的从Info.list、Storyboard和Code String三种方式来讲解本地化。Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称，Storyboard即界面显示内容的本地化，Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等。</p>
 
-<h3 id="toc_2">The content of the window</h3>
+<h2 id="toc_1">如何本地化？</h2>
 
-<p>@UIApplication从info.plist中找到信息，初始化view controller；App delegate中有window属性，设置之前初始化的view controller为其rootViewController。最后，执行完applicationDidFinishLaunching:withOption之后，会调用makeKeyAndVisible将界面从rootViewController中展示出来。（中文混杂英文描述好生涩）</p>
+<h3 id="toc_2">Info.list</h3>
 
-<ol>
-<li>将某个view controller设置为rootViewController，window就会显示该view controller的view。</li>
-<li><p>@UIApplicationMain</p>
+<p>本地化App名</p>
 
-<blockquote>
-<p>The @UIApplicationMain attribute in the AppDelegate.swift file is responsible for the launch of the entire application process. It marks an entry point for the application launch, reading the Storyboard&rsquo;s information from the info.plist file and instantiating the initial view controller</p>
-</blockquote></li>
-<li><p>window property in the AppDelegate. </p>
+<p>选中Info.plist,如图点击添加：</p>
 
-<blockquote>
-<p>This property will be a handy reference to the main window for the entire life cycle of the application.</p>
-</blockquote></li>
-<li><p>代码实现：</p></li>
-</ol>
+<p><img src="media/14632150485486/Info_plist1.png" alt="Info_plist1"/></p>
+
+<p>添加Bundle display name，Value为App名。</p>
+
+<p><img src="media/14632150485486/Info_plist2.png" alt="Info_plist2"/></p>
+
+<p>新建String File类文件，命名为InfoPlist，注意命名的大小写。</p>
+
+<p><img src="media/14632150485486/location3.png" alt="location3"/></p>
 
 <span id="more"></span><!-- more -->
 
-<pre><code>    fun application(application: UIApplication,
-    didFinishLaunchingWithOptions
-    launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
-    // Instantiate a window with the same size of the screen    
-    window = UIWindow(frame: UIScreen.mainScreen().bounds)
-    // Instantiate a view controller with the Main storyboard
-    let storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
-    let viewController = storyboard.instantiateViewControllerWithIdentifier(&quot;viewController2&quot;) as! ViewController
-    // Setup and present the window
-    window?.rootViewController = viewController
-    window?.makeKeyAndVisible()
-    return true
+<p>选中新建的文件，InfoPlist.strings，在Xcode的File inspection中点击Localize。<br/>
+<img src="media/14632150485486/InfoPlist_strings4.png" alt="InfoPlist_strings4"/></p>
+
+<p>当然，本地化内容之前，需要添加将本地化的语言。</p>
+
+<p>编辑Project，在Info下，如图点击添加：</p>
+
+<p><img src="media/14632150485486/5.png" alt="5"/></p>
+
+<p>即可添加你想本地化的语言。</p>
+
+<p>然后在目录中你会看到：</p>
+
+<p><img src="media/14632150485486/6.png" alt="6"/></p>
+
+<p>编辑InfoPlist.strings即可设置。格式为：</p>
+
+<pre><code>&quot;Key&quot; = &quot;Value&quot;;
+</code></pre>
+
+<p>因为是C语言风格，记得加<strong>分号</strong>。</p>
+
+<p>举个例子，本地化我们的App名，首先需要知道Key。</p>
+
+<p>选中info.plist，在任意条目中右击，如图进行选择：</p>
+
+<p><img src="media/14632150485486/Info_plist7.png" alt="Info_plist7"/></p>
+
+<p>你将看见：</p>
+
+<p><img src="media/14632150485486/Info_plist8.png" alt="Info_plist8"/></p>
+
+<p>复制粘贴到InfoPlist.strings</p>
+
+<pre><code>&quot;CFBundleDisplayName&quot; = &quot;GuitarFere&quot;;
+</code></pre>
+
+<p>对于不同语言，在对于的InfoPlist.strings中修改对应Value即可。</p>
+
+<p>比如：</p>
+
+<pre><code>&quot;CFBundleDisplayName&quot; = &quot;吉他伴侣&quot;;
+
+&quot;CFBundleDisplayName&quot; = &quot;吉他伴侶&quot;;
+
+&quot;CFBundleDisplayName&quot; = &quot;ギターコンパニオン&quot;;
+</code></pre>
+
+<h3 id="toc_3">Storyboard/Xib</h3>
+
+<p>同理，首先选择要本地化的Storyboard，在File inspection中点击Localize，如果你在前一步中已经将Storyboard本地化，则可以跳过此步。</p>
+
+<p><img src="media/14632150485486/Main_storyboard1.png" alt="Main_storyboard1"/></p>
+
+<p>Xcode会自动为你生成对应的Key-Value，对应修改即可：</p>
+
+<p><img src="media/14632150485486/Main_strings2.png" alt="Main_strings2"/></p>
+
+<p>option+Command+return快捷键，选择preview：</p>
+
+<p><img src="media/14632150485486/Main_storyboard3.png" alt="Main_storyboard3"/></p>
+
+<p>点击右下角语言，预览效果：</p>
+
+<p><img src="media/14632150485486/9.png" alt="9"/></p>
+
+<h3 id="toc_4">Code String</h3>
+
+<p>有时候，你想要本地化的内容是在代码中指定的。</p>
+
+<p>首先，在代码中将你要本地化的字符串，使用如下进行定义</p>
+
+<pre><code>NSLocalizedString(&quot;Key&quot;, comment: &quot;comment&quot;)
+</code></pre>
+
+<p>比如：</p>
+
+<pre><code>fun loadSampleSettingList()  {
+    let help_1 = NSLocalizedString(&quot;help_1&quot;, comment: &quot;Saved settings&quot;)
+    let help_2 = NSLocalizedString(&quot;help_2&quot;, comment: &quot;Press + to add&quot;)
+    let help_3 = NSLocalizedString(&quot;help_3&quot;, comment: &quot;Swipe left to delete&quot;)
+
+    let setting_1 = SettingList(tempo: 80, beat: 4, note: 4,
+                                handlePoint: 144, name: help_1)!
+    let setting_2 = SettingList(tempo: 100, beat: 8, note: 4,
+                                handlePoint: 181,name: help_2)!
+    let setting_3 = SettingList(tempo: 120, beat: 3, note: 4,
+                                handlePoint: 216, name: help_3)!
+
+    settingList += [setting_1,setting_2,setting_3]
+}
+</code></pre>
+
+<p>再比如：</p>
+
+<pre><code>@IBAction fund mailBtnDidTouched(sender: AnyObject) {
+    let sendTitle = NSLocalizedString(&quot;sendFeedback&quot;, comment: &quot;send feedback to me&quot;)
+    let sendMessage = NSLocalizedString(&quot;sendMessage&quot;, comment: &quot;send feedback message&quot;)
+    let okTitle = NSLocalizedString(&quot;Send_Ok&quot;, comment: &quot;accept to send&quot;)
+    let cancel = NSLocalizedString(&quot;Cancel&quot;, comment: &quot;cancel send&quot;)
+
+    let alert = UIAlertController(title: sendTitle, message: sendMessage, preferredStyle: UIAlertControllerStyle.Alert)
+    self.presentViewController(alert, animated: true, completion: nil)
+    let defaultAction = UIAlertAction(title: okTitle, style: UIAlertActionStyle.Default) { (UIAlertAction) -&gt; Void in
+
+        let email = &quot;yudelovesong@icloud.com&quot;
+        let url = NSURL(string: &quot;mailto:\(email)&quot;)
+        UIApplication.sharedApplication().openURL(url!)
     }
+    let cancelAction = UIAlertAction(title: cancel, style: UIAlertActionStyle.Cancel, handler: nil)
+
+    alert.addAction(defaultAction)
+    alert.addAction(cancelAction)
+}
 </code></pre>
 
-<h2 id="toc_3">Working with views</h2>
+<p>然后，同理，新建一个String File类文件，命名为Localizable，注意命名的大小写。</p>
 
-<p>UIView is the basic class for other UI element.</p>
+<p>现在你需要写对应的Key-Value，有没有想过，如果你有很多需要本地化的字符串，纯手写Key-Value是一件很麻烦的事情？所以我们可以使用自动生成的方式。</p>
+
+<p>打开终端，输入：</p>
+
+<pre><code>gensstrings 
+</code></pre>
+
+<p>空格之后，在Finder中将你含有本地化字符串的文件拖入终端（当然，你也可以手写自动遍历）</p>
+
+<p><img src="media/14632150485486/genstrings.png" alt="genstrings"/></p>
+
+<p>回车执行，在对应的Finder目录中，会生成Localizable.strings文件：</p>
+
+<p><img src="media/14632150485486/genstringsSting.png" alt="genstringsSting"/></p>
+
+<p>该文件内容即自动生成的Key-Value。</p>
+
+<p>就是这样了，看完之后，是不是觉得Xcode本地化很方便呢~</p>
+
+<p>PS：你还可以修改对应的XML进行本地化，在此就不再介绍了。</p>
+
+<p>参考：</p>
 
 <blockquote>
-<p>UIWindow is also the subclass of the UIVIew.</p>
+<ul>
+<li><a href="https://developer.apple.com/videos/play/wwdc2014/412/">WWDC 2014 412</a></li>
+<li>iOS Programming Foundation with Swift Chapter 9</li>
+</ul>
 </blockquote>
-
-<h3 id="toc_4">define the view&rsquo;s geometry</h3>
-
-<p>(0,0)<br/>
-&mdash;&mdash;&mdash;&mdash;&gt;x<br/>
-|<br/>
-|<br/>
-|<br/>
-y</p>
-
-<pre><code>// define a point
-let point = CGPoint(x:20, y:10)
-// define a size 
-let size = CGSize(width: 20, height: 10)
-// define a rect using size and point
-let rect_A = CGRect(origin: point, size: size)
-// define a text using x, y, width and height data
-let rect_B = CGRect(x: 15, y: 10. width: 100, height: 30)
-</code></pre>
-
-<h4 id="toc_5">1. bounds</h4>
-
-<p>the view&rsquo;s self information.自身坐标系下。</p>
-
-<h4 id="toc_6">2. frame</h4>
-
-<p>the place in the hierarchy.父级坐标系下。</p>
-
-<h4 id="toc_7">3. center</h4>
-
-<p>同frame。</p>
-
-<h2 id="toc_8">UI hierarchy and views inheritance</h2>
-
-<p>let parentVIew = view.parentview<br/>
-let children = view.subview</p>
-
-<ul>
-<li>add</li>
-<li>move</li>
-<li><p>delete</p>
-
-<pre><code>containerView.addSubView(childView)
-containerView.insertSubview(childView, at index: 2)
-containerView.insertSubview(childView, aboveSubview: anotherView)
-containerView.insetSubview(childView,belowSubview : anotherView)
-
-remove all the subview of the view:
-
-for subview in container.subview{
-    subview.removeFromSuperview()
-}
-
-viewWithTag
-</code></pre></li>
-</ul>
-
-<h3 id="toc_9">View and subview visibility</h3>
-
-<p>clipToBuounds, the parent view define the subviews&#39; visibility outside its boundaries.</p>
-
-<h3 id="toc_10">Hierarchy events</h3>
-
-<pre><code>override fun didMoveToSuperview(){
-    // to do something
-}
-
-override fun didAddSubview(){
-    // to do something
-}
-
-override fun didMoveToWindow(){
-    println(&quot;I&#39;ve been attached to this window hierarchy: \(window)&quot;)
-}
-</code></pre>
-
-<h2 id="toc_11">View drawing and life cycle</h2>
-
-<ul>
-<li>draw a view and creat snapshots for each displayed element.</li>
-</ul>
-
-<p>setNeedsDisplay pr setNeedsDisplayInRect can make the UIView invalidated. They will redraw during the next run loop. The latter one is better(the latter performs an optimization using only a portion of the new view content).</p>
-
-<h2 id="toc_12">Chapter 2. UI Components overview - UIKit</h2>
-
-<p>This chapter covers many different but related topics. Here is an overview of what you will read about in the next pages:</p>
-
-<ul>
-<li>Text elements and the keyboard</li>
-<li>Buttons, selectors, and user interaction</li>
-<li>View-based components</li>
-<li>A UI for structured data</li>
-<li>Custom components with the UIAppearance protocol</li>
-</ul>
-
-<h2 id="toc_13">Text element: UILabel,UItextfield,UItextview</h2>
-
-<pre><code>var image = UIImageView(image:      UIImage(named:&quot;Image&quot;))
-       self.textView.addSubview(image)
-        let exclusionPath = UIBezierPath(rect: image.frame)
-    self.textView.textContainer.exclusionPaths = [exclusionPath]
-</code></pre>
-
-<p>keyboard event and appearance</p>
-
-<h2 id="toc_14">Button and selectors</h2>
-
-<p>subclass of  UIControl class</p>
-
-<p>Most of the UI elements&#39; role is to interact with the users. They convert touch event into actions or choices.</p>
-
-<h3 id="toc_15">The Target-Action patten</h3>
-
-<blockquote>
-<p>This pattern defines how a control can request the execution of an function(action) to another object(target) in response to an event.</p>
-</blockquote>
-
-<h2 id="toc_16">View-based components</h2>
-
-<p>subclass of UIView</p>
-
-<ul>
-<li>UIProgressView</li>
-<li>UIActivityIndicatorView</li>
-<li>UIImageView ,UIImage</li>
-<li>UIScrollView</li>
-</ul>
-
-<h2 id="toc_17">Managing and presenting strutted data</h2>
-
-<p>table and collection views</p>
-
-<ul>
-<li>UITableView(UIScrollView)</li>
-<li>UICollectionView</li>
-</ul>
-
-<h2 id="toc_18">The UIApperance protocol</h2>
-
-<p>Example:</p>
-
-<pre><code>let minTrack = UIImage(named: &quot;minTrack&quot;)
-let maxTrack = UIImage(named: &quot;maxTrack&quot;)
-let thumb = UIImage(named: &quot;thumb&quot;)
-
-// Create resizable images
-let resizableMinTrack = 
-minTrack?.resizableImageWithCapInsets(
-UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5))
-
-let resizableMaxTrack = 
-maxTrack?.resizableImageWithCapInsets(
-UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5))
-
-// Configure the styles!
-UISlider.appearance().setMaximumTrackImage(
-resizableMaxTrack, forState: UIControlState.Normal)
-
-UISlider.appearance().setMinimumTrackImage(
-resizableMinTrack, forState: UIControlState.Normal)
-
-UISlider.appearance().setThumbImage(
-thumb, forState: UIControlState.Normal)
-</code></pre>
-
-<h1 id="toc_19">Chapter 3. Interface Builder, XIB, and storyboard</h1>
-
-<h2 id="toc_20">working with the XIB files</h2>
-
-<h2 id="toc_21">Managing user interface with storyboard</h2>
-
-<h2 id="toc_22">connecting user interface with your code</h2>
-
-<p>可以先写代码再拖动选择。</p>
-
-<pre><code> @IBAction fund signIn(sender:UIButton){
- }
-
- var storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
-
-var storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
-</code></pre>
-
-<h2 id="toc_23">implementing navigation with storyboard and segues</h2>
-
-<pre><code>override fun prepareForSegue(segue: UIStoryboardSegue, 
-                         sender: AnyObject?) {
-        if segue.identifier == &quot;userDetails&quot;{
-        let detailsVC = segue.destinationViewController as! 
-                      detailsViewController
-            detailsVC.firstname = user.firstname
-            detailsVC.lastname = user.lastname
-        }
-}
-
-@IBAction fund &lt;function name&gt;(segue:UIStoryboardSegue){}
-</code></pre>
-
-<h1 id="toc_24">Auto Layout</h1>
-
-<blockquote>
-<p>The main rule we should keep in mind is that if you want to specify the frame of a view with Auto Layout, you need to give it enough information for both the X/Y position and width/height size.</p>
-</blockquote>
-
-<hr/>
-
-<p>WWDC</p>
-
-<h1 id="toc_25">UI Level</h1>
-
-<ol>
-<li>Layout
-
-<ul>
-<li>stack view-&gt;behaviors </li>
-<li>layout margins</li>
-</ul></li>
-<li>Appearance
-basicline</li>
-</ol>
-
-<h2 id="toc_26">Xcode tips:</h2>
-
-<ol>
-<li>Shift + right click / control + left click</li>
-<li>file:option+shift</li>
-</ol>
-
-<h2 id="toc_27">Build time</h2>
-
-<p>design time-&gt;xml<br/>
-build time-&gt;nib</p>
-
-<h2 id="toc_28">Compiling storyboard</h2>
-
-<h2 id="toc_29">losing storyboard at run time</h2>
-
-<ol>
-<li>Performance: Nib file loaded on demand.</li>
-<li>Reuse: Nib files enable reuse.</li>
-<li>Life cycle.</li>
-</ol>
-
-<h2 id="toc_30">Run time</h2>
-
-<p>Connection, API, </p>
-
-<h2 id="toc_31">Design</h2>
-
-<ol>
-<li>Bad App Icons
-Beautiful+Instandly Recognizable</li>
-<li>Focus on a unique shape<br/></li>
-<li>Carefully select colors</li>
-<li>Avoid using a photo</li>
-<li>Avoid a lot of text</li>
-<li>Be creative</li>
-<li>Case study</li>
-</ol>
-
-<h1 id="toc_32">Cocoa Touch best practice</h1>
-
-<h2 id="toc_33">put on the background.</h2>
-
-<hr/>
-
-<h2 id="toc_34">问题：如何自定义控件？</h2>
-
-<p>-Object<br/>
-&ndash;UIResponder<br/>
-&mdash;UIView<br/>
-&mdash;-UIControl</p>
-
-<ul>
-<li>控件的机制是什么？</li>
-<li>如何获取用户的操作？</li>
-<li>如何判断操作的度量？</li>
-</ul>
 
       </div>
 
@@ -474,16 +333,13 @@ Beautiful+Instandly Recognizable</li>
         <div class="large-6 columns">
         <p class="text-left" style="padding:15px 0px;">
       
-          <a href="2016-03-24-iOSLearning.html" 
-          title="Previous Post: 我的iOS开发入门自学路径">&laquo; 我的iOS开发入门自学路径</a>
-      
         </p>
         </div>
         <div class="large-6 columns">
       <p class="text-right" style="padding:15px 0px;">
       
-          <a  href="14628621714939.html" 
-          title="Next Post: 我">我 &raquo;</a>
+          <a  href="2016-05-10-HelloMWeb.html" 
+          title="Next Post: Hello MWeb">Hello MWeb &raquo;</a>
       
       </p>
         </div>
@@ -497,7 +353,7 @@ Beautiful+Instandly Recognizable</li>
           
 
           
-              <div class="ds-thread" data-thread-key="2016-03-15-iOSUI.html" data-url="azureyu.com/2016-03-15-iOSUI.html" data-title="Learning iOS UI Development Reading Notes"></div>
+              <div class="ds-thread" data-thread-key="2016-05-14-iOS-Localizable.html" data-url="azureyu.com/2016-05-14-iOS-Localizable.html" data-title="iOS开发之让你的App本地化"></div>
           
         </div>
       </div>

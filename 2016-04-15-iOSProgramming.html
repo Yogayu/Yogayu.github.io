@@ -112,9 +112,9 @@
 
           <span>posted in&nbsp;</span> 
           
-              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          
               <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          
+              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           
               <span class="posted-in"><a href='Books.html'>Books</a></span>
            
@@ -133,13 +133,58 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <p>iOS 8 Programming Fundamental with Swift</p>
+      <ul>
+<li>
+<a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
+</li>
+<li>
+<a href="#toc_1">从项目到可运行的App</a>
+</li>
+<li>
+<a href="#toc_2">Build Settings</a>
+</li>
+<li>
+<a href="#toc_3">Nib Files</a>
+</li>
+<li>
+<a href="#toc_4">Code File and App Launch Process</a>
+<ul>
+<li>
+<a href="#toc_5">The entry point</a>
+</li>
+<li>
+<a href="#toc_6">UIApplicationMain</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_7">Cocoa</a>
+</li>
+<li>
+<a href="#toc_8">Subclassing</a>
+</li>
+<li>
+<a href="#toc_9">Categories and Extensions</a>
+<ul>
+<li>
+<a href="#toc_10">Swift中如何使用extension？</a>
+</li>
+<li>
+<a href="#toc_11">你如何使用extension？</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">Document</a>
+</li>
+</ul>
 
-<h1 id="toc_0">Part 2 IDE</h1>
 
-<h2 id="toc_1">Chapter 6. Anatomy of an Xcode Project</h2>
+<p>iOS 8 Programming Fundamental with Swift Part 2 IDE</p>
 
-<h2 id="toc_2">从项目到可运行的App</h2>
+<h2 id="toc_0">Chapter 6. Anatomy of an Xcode Project</h2>
+
+<h2 id="toc_1">从项目到可运行的App</h2>
 
 <p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
 假设应用名为Empty Window</p>
@@ -152,7 +197,9 @@ Info.list : 配置文件。<br/>
 Frameworks: 需添加的框架。<br/>
 PkgInfo: 历史遗留物。</p>
 
-<h2 id="toc_3">Build Settings</h2>
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">Build Settings</h2>
 
 <p>属性列表文件就是一系列的键对值。</p>
 
@@ -160,18 +207,16 @@ PkgInfo: 历史遗留物。</p>
 <li>修改Info.plist文件 Editor-&gt;Show raw values.</li>
 </ul>
 
-<h2 id="toc_4">Nib Files</h2>
+<h2 id="toc_3">Nib Files</h2>
 
 <p>一个Nib文件是一部分用户界面描述，它以已编译的格式包含在一个以<em>.nib结尾</em>的文件里。</p>
 
 <p>它是在编译过程中由<code>.xib</code>文件生成的,相应的，包含多个nib文件的<code>.storyboardc</code>由<br/>
 <code>.storyboard</code>文件生成。</p>
 
-<span id="more"></span><!-- more -->
+<h2 id="toc_4">Code File and App Launch Process</h2>
 
-<h2 id="toc_5">Code File and App Launch Process</h2>
-
-<h3 id="toc_6">The entry point</h3>
+<h3 id="toc_5">The entry point</h3>
 
 <p>写过C语言的都知道，程序进入开始执行的地方是main函数。同样的在Objective-C中也是。</p>
 
@@ -202,7 +247,7 @@ UIApplicationMain(
     Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDelegate))
 </code></pre>
 
-<h3 id="toc_7">UIApplicationMain</h3>
+<h3 id="toc_6">UIApplicationMain</h3>
 
 <p>其实你的App不过就是对单个巨大的UIApplictionMain函数的调用。（想一想C语言中main函数的调用执行）</p>
 
@@ -247,12 +292,12 @@ Modules是缓存信息，存放在Library/Developer/Xcode/DrivedData/ModulesCach
 
 <hr/>
 
-<h2 id="toc_8">Cocoa</h2>
+<h2 id="toc_7">Cocoa</h2>
 
 <p>在进行iOS编程时，多数情况下是在与Cocoa进行交互。<br/>
 Cocoa是一个很庞大的库，它分为了几个小库。</p>
 
-<h2 id="toc_9">Subclassing</h2>
+<h2 id="toc_8">Subclassing</h2>
 
 <p>Cocoa会提供给你一些可以直接使用的对象，比如UIButton。有时候，你会想要自定义这些对象。在对其继承之前，最好查一查，可不可以直接进行更改。比如UIButton就可以更改其标题，背景图片等。</p>
 
@@ -267,16 +312,16 @@ Cocoa是一个很庞大的库，它分为了几个小库。</p>
 <p>(纯粹看理论会没有实际认知，需要编码去理解。<br/>
 知识编码却会陷入似懂非懂的状态，需要整合理论去理解。)</p>
 
-<h2 id="toc_10">Categories and Extensions</h2>
+<h2 id="toc_9">Categories and Extensions</h2>
 
 <p>OC中Categories指直接在已存在的类上添加方法，Swift中叫作Extensions。</p>
 
-<h3 id="toc_11">Swift中如何使用extension？</h3>
+<h3 id="toc_10">Swift中如何使用extension？</h3>
 
 <p>例子，Array<T>，多使用extension加少量的protocol。多个extension，把函数体分为多个部分不不是全部在一起，这样使得代码更容易被理解，同时相关联的函数也聚集在一起。<br/>
 eg. Core Graphic</p>
 
-<h3 id="toc_12">你如何使用extension？</h3>
+<h3 id="toc_11">你如何使用extension？</h3>
 
 <p>在已存在的对象类型中添加函数。<br/>
 而且它使用于Swift三种类型对象，比如enum和struct不能继承却可以extension。<br/>
@@ -284,7 +329,7 @@ eg. Core Graphic</p>
 
 <p>会在不同的头文件中都有categories的声明，但文档之间没有链接，这也许是cocoa框架结构的问题之一吧。</p>
 
-<h2 id="toc_13">Document</h2>
+<h2 id="toc_12">Document</h2>
 
 <ul>
 <li>Inherits from 继承自何处，不断的向上查看父类，以寻找到你需要的信息。</li>
@@ -394,7 +439,19 @@ eg. Core Graphic</p>
 	      
 		      
 			      <li class="post">
+			        <a href="2016-05-14-iOS-Localizable.html">iOS开发之让你的App本地化</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="2016-05-10-HelloMWeb.html">Hello MWeb</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-05-10-comipler.html">编译原理——词法分析</a>
 			      </li>
 		     
 		  
@@ -411,16 +468,8 @@ eg. Core Graphic</p>
 		     
 		  
 		      
-			      <li class="post">
-			        <a href="2016-04-15-iOSProgramming.html">iOS Programming Reading Notes</a>
-			      </li>
-		     
 		  
 		      
-			      <li class="post">
-			        <a href="2016-03-24-iOSLearning.html">我的iOS开发入门自学路径</a>
-			      </li>
-		     
 		  
 		      
 		  
