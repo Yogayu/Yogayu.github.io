@@ -107,7 +107,7 @@
 			<div class="article">
                 <a class="clearlink" href="2016-05-14-iOS-Localizable.html">
                 
-                  <h1>iOS开发之让你的App本地化</h1>
+                  <h1>让你的App说出多国语言——iOS开发之本地化(国际化)</h1>
                   <div class="a-content">
                       
                       <div class="a-content-text">
@@ -128,7 +128,13 @@
 <li>
 <a href="#toc_4">Code String</a>
 </li>
+<li>
+<a href="#toc_5">XML</a>
+</li>
 </ul>
+</li>
+<li>
+<a href="#toc_6">参考</a>
 </li>
 </ul>
 
@@ -138,7 +144,11 @@
 <p>当你的App上架AppStore之后，便可以在全球范围内销售了。<br/>
 如果想App在世界各地更畅销，那么本地化一定是不可少的。</p>
 
-<p>本文将简明的从Info.list、Storyboard和Code String三种方式来讲解本地化。Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称，Storyboard即界面显示内容的本地化，Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等。</p>
+<p>本文将简明的从Info.list、Storyboard、Code String和XML四种方式来讲解本地化。</p>
+
+<p>Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称；Storyboard即界面显示内容的本地化；Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等；最后一种XML方式则更为通用，直接将需要本地化的内容导出，修改之后再导入。</p>
+
+<p>当然，本文只涉及本地化的技术层面，而不涉及具体如何翻译。</p>
 
 <h2 id="toc_1">如何本地化？</h2>
 
@@ -271,11 +281,11 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/4/15</span>
                     <span>posted in&nbsp;</span> 
           				  
+          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -451,11 +461,11 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/3/15</span>
                     <span>posted in&nbsp;</span> 
           				  
+          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -560,7 +570,7 @@ PkgInfo: 历史遗留物。</p>
 <a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>
 <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
 <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
-
+<a class="email" href="mailto:yxydiscovery@gmail.com" title="Email">Email</a>
   <a class="rss" href="atom.xml" title="RSS">RSS</a>
                 
               	 </div>
@@ -598,7 +608,7 @@ PkgInfo: 历史遗留物。</p>
 	      
 		      
 			      <li class="post">
-			        <a href="2016-05-14-iOS-Localizable.html">iOS开发之让你的App本地化</a>
+			        <a href="2016-05-14-iOS-Localizable.html">让你的App说出多国语言——iOS开发之本地化(国际化)</a>
 			      </li>
 		     
 		  
@@ -732,7 +742,6 @@ var duoshuoQuery = {short_name:'yogayu'};
     <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script>
-    // dynamic User by Hux
     var _baId = '7e918b457095c138d6ce710350596dfc';
 
     // Originial

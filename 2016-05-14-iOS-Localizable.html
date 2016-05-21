@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  iOS开发之让你的App本地化 - Azure Yu
+  让你的App说出多国语言——iOS开发之本地化(国际化) - Azure Yu
   
   </title>
-  <meta name="keywords" content="iOS Localizable 本地化 游薪渝 iOS开发" />
-  <meta name="description" content="iOS应用本地化 " />
+  <meta name="keywords" content="iOS Localizable 本地化 游薪渝 iOS开发 国际化 Azureyu Xcode" />
+  <meta name="description" content="iOS应用本地化 国际化 游薪渝的博客 Azureyu" />
   <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
@@ -105,7 +105,7 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>iOS开发之让你的App本地化</h1>
+          <h1>让你的App说出多国语言——iOS开发之本地化(国际化)</h1>
      
         <div class="read-more clearfix">
           <span class="date">2016/5/14</span>
@@ -147,7 +147,13 @@
 <li>
 <a href="#toc_4">Code String</a>
 </li>
+<li>
+<a href="#toc_5">XML</a>
+</li>
 </ul>
+</li>
+<li>
+<a href="#toc_6">参考</a>
 </li>
 </ul>
 
@@ -157,7 +163,11 @@
 <p>当你的App上架AppStore之后，便可以在全球范围内销售了。<br/>
 如果想App在世界各地更畅销，那么本地化一定是不可少的。</p>
 
-<p>本文将简明的从Info.list、Storyboard和Code String三种方式来讲解本地化。Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称，Storyboard即界面显示内容的本地化，Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等。</p>
+<p>本文将简明的从Info.list、Storyboard、Code String和XML四种方式来讲解本地化。</p>
+
+<p>Info.list即将一些基本设置本地化，例如App在主屏幕显示的名称；Storyboard即界面显示内容的本地化；Code String则是你在代码中设置的一些语句的本地化，比如通知提醒等；最后一种XML方式则更为通用，直接将需要本地化的内容导出，修改之后再导入。</p>
+
+<p>当然，本文只涉及本地化的技术层面，而不涉及具体如何翻译。</p>
 
 <h2 id="toc_1">如何本地化？</h2>
 
@@ -314,11 +324,28 @@
 
 <p>该文件内容即自动生成的Key-Value。</p>
 
-<p>就是这样了，看完之后，是不是觉得Xcode本地化很方便呢~</p>
+<h3 id="toc_5">XML</h3>
 
-<p>PS：你还可以修改对应的XML进行本地化，在此就不再介绍了。</p>
+<p>最后一种方式，不需要你手动的去选择和添加文件，可以直接导出所有需要本地化的内容为XML，进行更改，最后再导入即可。</p>
 
-<p>参考：</p>
+<p>选中项目之后（不要忘记这一点），在Editor中选中Export For Localization：</p>
+
+<p>导出之后的文件：<br/>
+<img src="media/14632150485486/GuitarFere.png" alt="GuitarFere"/></p>
+
+<p>编辑对应的文件：</p>
+
+<p><img src="media/14632150485486/zh-Hans_xliff.png" alt="zh-Hans_xliff"/></p>
+
+<p>完成之后，在进行导入：</p>
+
+<p><img src="media/14632150485486/Editor_%E5%92%8C_Menubar.png" alt="Editor_和_Menuba"/></p>
+
+<p><img src="media/14632150485486/%E6%88%AA%E5%B1%8F16_5_15_%E4%B8%8B%E5%8D%885_47.png" alt="截屏16_5_15_下午5_47"/></p>
+
+<p>最后，以上四种方式，什么时候使用哪一种，按自己的需求选择就可以了。</p>
+
+<h2 id="toc_6">参考</h2>
 
 <blockquote>
 <ul>
@@ -353,7 +380,7 @@
           
 
           
-              <div class="ds-thread" data-thread-key="2016-05-14-iOS-Localizable.html" data-url="azureyu.com/2016-05-14-iOS-Localizable.html" data-title="iOS开发之让你的App本地化"></div>
+              <div class="ds-thread" data-thread-key="2016-05-14-iOS-Localizable.html" data-url="azureyu.com/2016-05-14-iOS-Localizable.html" data-title="让你的App说出多国语言——iOS开发之本地化(国际化)"></div>
           
         </div>
       </div>
@@ -383,7 +410,7 @@
 <a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>
 <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
 <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
-
+<a class="email" href="mailto:yxydiscovery@gmail.com" title="Email">Email</a>
   <a class="rss" href="atom.xml" title="RSS">RSS</a>
                 
               	 </div>
@@ -421,7 +448,7 @@
 	      
 		      
 			      <li class="post">
-			        <a href="2016-05-14-iOS-Localizable.html">iOS开发之让你的App本地化</a>
+			        <a href="2016-05-14-iOS-Localizable.html">让你的App说出多国语言——iOS开发之本地化(国际化)</a>
 			      </li>
 		     
 		  
@@ -555,7 +582,6 @@ var duoshuoQuery = {short_name:'yogayu'};
     <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script>
-    // dynamic User by Hux
     var _baId = '7e918b457095c138d6ce710350596dfc';
 
     // Originial
