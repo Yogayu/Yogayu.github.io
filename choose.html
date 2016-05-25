@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  编译原理——词法分析 - Azure Yu
+  跟随自己的心去选择 - Azure Yu
   
   </title>
   
@@ -105,19 +105,19 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>编译原理——词法分析</h1>
+          <h1>跟随自己的心去选择</h1>
      
         <div class="read-more clearfix">
-          <span class="date">2016/5/10</span>
+          <span class="date">2016/5/25</span>
 
           <span>posted in&nbsp;</span> 
           
-              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+              <span class="posted-in"><a href='Life.html'>Life</a></span>
            
          
           <span class="comments">
             
-              <a href="azureyu.com/2016-05-10-comipler.html#disqus_thread">comments</a>
+              <a href="azureyu.com/choose.html#disqus_thread">comments</a>
             
 
             
@@ -127,253 +127,51 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <ul>
-<li>
-<a href="#toc_0">词法分析</a>
-</li>
-<li>
-<a href="#toc_1">3.2 单词符号的描述</a>
-<ul>
-<li>
-<a href="#toc_2">1. 正规表达式（正则表达式 regex）</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_3">3.3 有限自动机 FINITE AUTOMATA</a>
-<ul>
-<li>
-<a href="#toc_4">1. 是什么？</a>
-</li>
-<li>
-<a href="#toc_5">2. 类别</a>
-</li>
-<li>
-<a href="#toc_6">3. NFA和DFA转换</a>
-</li>
-<li>
-<a href="#toc_7">4. 从正规表达式到有限状态机</a>
-</li>
-<li>
-<a href="#toc_8">5. 简化DFA</a>
-</li>
-<li>
-<a href="#toc_9">Others</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_10">3.5 Lex</a>
-<ul>
-<li>
-<a href="#toc_11">1. Lex 是什么？</a>
-</li>
-<li>
-<a href="#toc_12">2. 如何使用？</a>
-</li>
-</ul>
-</li>
-</ul>
+      <blockquote>
+<p>去年写的文章，翻出来看看。感觉很温暖，希望依旧有定力吧。</p>
+</blockquote>
 
+<p>小时候爱看多啦A梦，四次元口袋里，总有神奇道具。</p>
 
-<hr/>
+<p>记得有一集，是讲未来望远镜。通过这个望远镜，你可以看到未来自己将要发生的事情。大熊迫不及待的开始使用望远镜。他看到了自己将有很好的运气，父亲还会带自己去看烟花。大熊越看越开心，舍不得放下，等到他放下望远镜的时候，时间已经不早了。他满心欢喜的去找父亲，却没有听到要带自己出去的消息。</p>
 
-<ul>
-<li>编译器的地位</li>
-<li>概览
-
-<ul>
-<li>词法分析</li>
-<li>语法分析</li>
-<li>语义分析</li>
-</ul></li>
-</ul>
-
-<h2 id="toc_0">词法分析</h2>
-
-<ul>
-<li>步骤</li>
-<li>作用
-切分单词（中国古代文言文）</li>
-</ul>
-
-<p>单词符号的种别和属性。<br/>
-二元式表示&lt;单词种别，单词符号的属性&gt;</p>
-
-<h2 id="toc_1">3.2 单词符号的描述</h2>
-
-<h3 id="toc_2">1. 正规表达式（正则表达式 regex）</h3>
+<p>大熊一脸失落的问哆啦A梦为什么。哆啦A梦说：“因为你把原本事情应该发生的时间，用来看望远镜了，改变了原本的事件，所以也就改变了未来的事件。”（这样看来要有多个未来，不然不合理）</p>
 
 <span id="more"></span><!-- more -->
 
-<p>没有必要使用零型语言、二型语言，三型语言就够了。但对于复杂的语法，例如if语句，就需要二型语言。</p>
+<p>我们每个人都多少有这样的期待，站在选择的分岔路口上，可以预见未来，预知哪一个选择将会最好。 </p>
 
-<ul>
-<li><p>是什么？描述字符串格式的模式 pattern</p>
+<p>我们会纠结于选择，花大量的时间在重要的人生决定上。比如，选什么学校？读什么专业？在哪里工作？要不要跳槽？Ta和Ta谁更适合我？要不要结婚？要不要买房？</p>
 
-<p>正则表达式的运算——字符串集合语言的运算<br/>
-优先级关系（ * + 连接 | ）</p></li>
-</ul>
+<p>我们沉浸于选择，而忘记时间一刻不停。事情是发生时间里，时间即是你的生命。</p>
 
-<p>[windows] ? -&gt; 单个字符 ab?.pdf<br/>
-[正则] * -&gt; *闭包 </p>
+<p>何必花大量的时间纠结于走哪一条路，到最后，只会发现自己还停在原地。</p>
 
-<blockquote>
-<p>a* = {a<sup>n</sup> | n &gt;= 0}<br/>
-a+ = {a<sup>n</sup> | n &gt;= 1}<br/>
-(a | b) * = { (a | b)<sup>n</sup> | n &gt;=0}</p>
-</blockquote>
+<p>想清楚自己选择的标准是什么，然后在一定的时间里作出决定。而不是犹豫不决，左顾右盼，脑补着每个选择将遇见的困难，每个选择将带来的美好。到最后没了时间，也没了选择。</p>
 
-<p><img src="media/14628409291084/regulerExp.png" alt="regulerExp"/></p>
+<p>思考一定要有，期待一定要有，顾虑一定要有。但是，一超度，你就会失去原本属于你的美好。</p>
 
-<p>软件：</p>
+<p>大大小小的欲望很多，与其花时间纠结满足哪一个愿望。不如现在就开始去实现最渴望的那个愿望。一个一个来，实在不行就换一个次一些渴望的愿望。</p>
 
-<blockquote>
-<ul>
-<li>grepWin</li>
-</ul>
-</blockquote>
+<p>而往往我们极想要的，又都是我们目前不可得的。</p>
 
-<p>书籍：</p>
+<p>如果决定了想要，就一步一步的去靠近，就一步一步的去争取，没有必要困顿于自己的想象之中。</p>
 
-<blockquote>
-<ul>
-<li>sed与awk</li>
-<li>Mastering Regular Expression</li>
-</ul>
-</blockquote>
+<p>只是，你知道自己选择的标准是什么吗？你知道怎么评估自己的欲望吗？</p>
 
-<h2 id="toc_3">3.3 有限自动机 FINITE AUTOMATA</h2>
+<p>要知识？要财富？要名誉？要内心的平和？要快乐？要健康？要影响力？</p>
 
-<h3 id="toc_4">1. 是什么？</h3>
+<p>你说你想要这想要那，谁不会想？要么你就多想几步，深入进去，要么你就去实践尝试。最可怕的是，总停留在表面思考还什么都不去尝试。是随波逐流？大多数人这样想，所以我也这样想？是独立思考？我有我自己的路要走？这两者没有绝对的好坏。</p>
 
-<h3 id="toc_5">2. 类别</h3>
+<p>怎么样才能知道自己喜欢什么？最重要的是对自己诚实。喜欢丰子恺的一句话：一个彻底诚实的人是从不面对选择的，那条路会永远清楚无二的呈现在你的面前。</p>
 
-<ul>
-<li><p>NFA 不确定<br/>
-图 <br/>
-<img src="media/14628409291084/NFA2.png" alt="NFA2"/></p>
+<p>问一问自己，你想要的究竟是什么呢？</p>
 
-<p>Table<br/>
-<img src="media/14628409291084/NFA_table.png" alt="NFA_table"/><br/>
-如何识别？寻找从开始状态到接受状态的一条通路。<br/>
-NFC能识别的所有字符串的集合，为该NFA定义的语言。</p>
+<p>而得到只是一瞬间的事，是一瞬间的感觉。无法持久。真正重要的，是你在追求“得到”这个点的过程中，你的经历，你的感受，你的成长。</p>
 
-<ul>
-<li>DFA 确定 一状态一输入</li>
-</ul></li>
-</ul>
+<p>人生，持续不断的是意义。</p>
 
-<h3 id="toc_6">3. NFA和DFA转换</h3>
-
-<p>子集构造法</p>
-
-<p>所能做的操作：</p>
-
-<p><img src="media/14628409291084/Operate.png" alt="Operate"/></p>
-
-<p>例子3.21</p>
-
-<p>Dtran[A,a]= 𝜺-closure(move(A,a)) 集合A中元素输入a之后能转移的所有状态</p>
-
-<p>将问题转化为有限状态机。程序可以轻易完成。   </p>
-
-<h3 id="toc_7">4. 从正规表达式到有限状态机</h3>
-
-<p>regex-&gt;NFA-&gt;DFA</p>
-
-<h3 id="toc_8">5. 简化DFA</h3>
-
-<p>算法：<br/>
-    1. 分为两类，接受和非接受<br/>
-    2. 输入状态，分离转移的状态<br/>
-    3. 重复1、2，直到无法分离</p>
-
-<p>正规文法-&gt;regex-&gt;NFA-&gt;DFA-&gt;min(DFA)</p>
-
-<h3 id="toc_9">Others</h3>
-
-<ul>
-<li>计算机网络TCP协议</li>
-<li>将FA转化为代码</li>
-<li>Lex</li>
-</ul>
-
-<h2 id="toc_10">3.5 Lex</h2>
-
-<h3 id="toc_11">1. Lex 是什么？</h3>
-
-<p>词法分析生成工具</p>
-
-<h3 id="toc_12">2. 如何使用？</h3>
-
-<ol>
-<li>执行的流程：</li>
-</ol>
-
-<p><img src="media/14628409291084/Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf%EF%BC%88%E7%AC%AC_164_%E9%A1%B5%EF%BC%8C%E5%85%B1_1_038_%E9%A1%B5%EF%BC%89.png" alt="Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf（第_164_页，共_1_038_页）"/><br/>
-2. 编写语言<br/>
-语言的结构：<br/>
-<img src="media/14628409291084/Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf%EF%BC%88%E7%AC%AC_164_%E9%A1%B5%EF%BC%8C%E5%85%B1_1_038_%E9%A1%B5%EF%BC%89.png" alt="Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf（第_164_页，共_1_038_页）"/></p>
-
-<p>结构：</p>
-
-<pre><code>%{
-/* 声明 */
-
-%}
-
-%%
-/* 规则*/
-
-%%
-/* 辅助函数*/
-%%
-</code></pre>
-
-<p>例子，Verb识别：</p>
-
-<pre><code>%{
-
-%}
-
-%%
-
-[\t ]+  /* ignore whitespace*/;
-
-is |
-am | 
-are |
-were |
-was |
-be |
-being |
-been |
-do |
-does |
-done |
-will |
-would |
-can |
-could |
-has |
-have |
-had |
-go  { printf(&quot;%s: is a verb\n&quot;,yytext); }
-
-[a-zA-Z] { print(&quot;%s : is not a verb\n&quot;, yytext); }
-
-. | \n    {ECHO;/*normal default anyway*/}
-%%
-
-main(){
-    yylex();
-}
-</code></pre>
-
-<p>lex 规则：<br/>
-    1. 只会进行一次匹配<br/>
-    2. 尽可能长的进行匹配 比如 am ，ambitation同时出现时，会匹配后者</p>
+<p>2015-11</p>
 
       </div>
     
@@ -382,7 +180,7 @@ main(){
      <blockquote>
      <div>
           <ul>
-              <li>作者「<a href="http://azureyu.com" rel="author" class="pjax">AzureYu</a>」于  <span class="date">2016/5/10</span> 更新<a href="2016-05-10-comipler.html">本文</a></li>
+              <li>作者「<a href="http://azureyu.com" rel="author" class="pjax">AzureYu</a>」于  <span class="date">2016/5/25</span> 更新<a href="choose.html">本文</a></li>
 
               <li>文章声明：自由转载-非商用-非衍生-保持署名  |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank" rel="nofollow">BY-NC-SA</a></li>
           </ul>
@@ -393,16 +191,13 @@ main(){
         <div class="large-6 columns">
         <p class="text-left" style="padding:15px 0px;">
       
-          <a href="2016-05-10-HelloMWeb.html" 
-          title="Previous Post: Hello MWeb">&laquo; Hello MWeb</a>
-      
         </p>
         </div>
         <div class="large-6 columns">
       <p class="text-right" style="padding:15px 0px;">
       
-          <a  href="2016-05-01-April.html" 
-          title="Next Post: 四月记">四月记 &raquo;</a>
+          <a  href="14640120604550.html" 
+          title="Next Post: 让你生活更美好的小工具">让你生活更美好的小工具 &raquo;</a>
       
       </p>
         </div>
