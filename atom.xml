@@ -4,7 +4,7 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-05-28T16:32:55+08:00</updated>
+  <updated>2016-05-28T22:07:15+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,26 +13,73 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
+    <title type="html"><![CDATA[自己的谚语]]></title>
+    <link href="azureyu.com/words.html"/>
+    <updated>2016-05-28T21:20:13+08:00</updated>
+    <id>azureyu.com/words.html</id>
+    <content type="html"><![CDATA[
+<p>《思考的整理术》中曾提到可以将自己的经验整理为自己的谚语，作为高度的总结。和自己常做的事，一拍即合，只是之前未给它们命名。现在想来，叫做“自己的谚语”确实有几分道理。</p>
+
+<ul>
+<li>  静而生慧。</li>
+<li>阅读是思量。</li>
+<li>追求智慧，而非知识。</li>
+<li>“外禅而内定，是为禅定。”</li>
+<li>“成功不必在我，功力必不唐娟。”</li>
+<li>学以致用。理解，练习，应用，改进，重复。</li>
+<li>实践出真知。花很多时间计划思考，不如去试错，不断调整。</li>
+<li>关注情景&ndash;&gt;不要随意听取别人的意见或者建议(鳄鱼和壁虎)。</li>
+<li>外界对你的认知和你对自己的认知不必相同，内心与外界要有一定距离。</li>
+<li>人与人的关系很多(人情与面子)，感情亦然。</li>
+<li>没有什么过不去，都是一时的机遇。得意时莫膨胀，失意时莫灰心。</li>
+<li>先清楚你要做什么，然后去做。</li>
+<li>想清楚自己的长处，发展自己的长处。</li>
+<li>有话必说，无话不说。<br/></li>
+<li>“ 独立之意识，自由之思想。”<br/></li>
+</ul>
+
+<span id="more"></span><!-- more -->
+
+<ul>
+<li>“You don&rsquo;t know what you have until it’s gone.”</li>
+<li>尽量不要和别人讲人生道理，多数情况下讲了也没有，讲个故事吧。</li>
+<li>拿出证据来，用事实说话。</li>
+<li>不要总在“觉得”，要去“行动”去表现。Don&rsquo;t just tell it, show it.</li>
+<li>欲速则不达，一步一步的认真去做，就是最快的捷径。</li>
+<li>思考要有深度，广度。目光要放远。思想要集中。</li>
+<li>要有完整作品。文章也好，项目也好。</li>
+<li>理性生活，感性创作。</li>
+<li>独处可以丰富。</li>
+<li>科学不过是另一种宗教。</li>
+<li>不同的时间有不同的烦恼，不要期待自己到达一个点之后就一切安好。</li>
+<li>如果给你十个苹果，从最好的那个开始吃吧。</li>
+<li>想做什么就去做什么吧，这真是最好的建议。你没做，只是想的事啊，多半不是真的想。</li>
+<li>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</li>
+<li> 个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[App再次被拒]]></title>
     <link href="azureyu.com/14643326121905.html"/>
     <updated>2016-05-27T15:03:32+08:00</updated>
     <id>azureyu.com/14643326121905.html</id>
     <content type="html"><![CDATA[
-<p><img src="media/14643326121905/iTunes_Connect.png" alt="iTunes_Connect"/></p>
-
 <p>一周之前完成了App2.0 的开发。还早早的完成了宣传网站。</p>
 
 <p>就等着审核通过。</p>
 
 <p>不料，两次被拒。</p>
 
+<span id="more"></span><!-- more -->
+
 <p>第一次是我自己存档出错，很快更正了。果然心急吃不了热豆腐。</p>
 
 <p>第二次，Apple审核团队说，App出现了crash，并附上了对应的log。</p>
 
 <p>我在所有的设备上测试了很多次。iPhone、iPad、iPod touch的真机和模拟器都试了，怎么也无法使之crash。</p>
-
-<span id="more"></span><!-- more -->
 
 <p>累觉不爱。</p>
 
@@ -2917,41 +2964,6 @@ categories: Blog
 7. <a href="http://segmentfault.com/a/1190000000406013">http://segmentfault.com/a/1190000000406013</a><br/>
 8. <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html</a></p>
 </blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[尝得出味，指不出形状]]></title>
-    <link href="azureyu.com/2015-07-25-taste.html"/>
-    <updated>2016-05-10T14:36:11+08:00</updated>
-    <id>azureyu.com/2015-07-25-taste.html</id>
-    <content type="html"><![CDATA[
-<p>谈谈这学期的英文文学课。<br/>
-英语提高课，选了两门，一门是英语文学，一门是职场英语。两门课的思想相差很大，老师的教学方式也不同。</p>
-
-<p>英语文学，第一节课。就被老师美丽优雅的文艺气质所吸引。不是矫揉造作的谈文学，而是富有理性和浪漫的谈文学。她说，自己为什么选择文学。学习理科知识，更多的是在讲逻辑，谈理论。而只有文学是关于情感的(emotion)。</p>
-
-<p>上课时突然问到我，仓促的回答说，是希望学习更好的表达。等下课之后，回过神来，才想起，是因为文学中的种种体验，才喜欢的吧。</p>
-
-<p>当你说话时，她会认真的倾听，并作出总结，再提出她得看法或问题。</p>
-
-<p>教学是在引导，而不是强推。<br/>
-读作品，更多的是带着我们去感受和理解。在恰当好处之时问出一连串的问题来。为什么主人公会这样做？他的理由是什么？换一种方式行不行？为什么要描写这一段？这句话中蕴含着怎样的信息？作者自身的经历是什么？这之间有什么关系？&hellip;&hellip;这些问题，让你思考。</p>
-
-<span id="more"></span><!-- more -->
-
-<p>当我们提出自己的观点时，又说，不要总说我认为，你认为又怎么样呢？要说你为什么这样认为，给出文本的具体例子来，给出你的思考线路。</p>
-
-<p>课堂上做presentation时，她会坐到教室最后一排，拿着笔带着纸。没有任何的批评，不会说你是对是错，会告诉你怎么做才更好。比如，要有眼神的交流，环视大家。又会传一些实用的tips。比如，害怕看眼睛时，可以看眉心。</p>
-
-<p>讲她喜爱的作家时，会带上几本自己读的原版书，一本一本的讲简介和自己的感悟，课间时又让我们自己翻一翻。书页间，会有铅笔浅浅的勾勾画画，偶尔批注着感叹号或画着笑脸的表情。能感受到，读时享受的心情。</p>
-
-<p>不经想起朱光潜先生的一句话：<br/>
-<blockquote class="blockquote-center"><br/>
-文艺作者不能没有学识，但他的学识须如盐溶解在水里，尝得出味，指不出形状。<br/>
-</blockquote><br/>
-身边有良师，“耳濡目染，不学以能。”</p>
 
 ]]></content>
   </entry>
