@@ -8,7 +8,7 @@
   Azure Yu
   
   </title>
-  <meta name="keywords" content="IBM 个人赛 " />
+  <meta name="keywords" content="EmotionNote" />
   
   <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
@@ -107,6 +107,108 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="2016-04-15-iOSProgramming.html">
+                
+                  <h1>iOS Programming Reading Notes</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<ul>
+<li>
+<a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
+</li>
+<li>
+<a href="#toc_1">从项目到可运行的App</a>
+</li>
+<li>
+<a href="#toc_2">Build Settings</a>
+</li>
+<li>
+<a href="#toc_3">Nib Files</a>
+</li>
+<li>
+<a href="#toc_4">Code File and App Launch Process</a>
+<ul>
+<li>
+<a href="#toc_5">The entry point</a>
+</li>
+<li>
+<a href="#toc_6">UIApplicationMain</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_7">Cocoa</a>
+</li>
+<li>
+<a href="#toc_8">Subclassing</a>
+</li>
+<li>
+<a href="#toc_9">Categories and Extensions</a>
+<ul>
+<li>
+<a href="#toc_10">Swift中如何使用extension？</a>
+</li>
+<li>
+<a href="#toc_11">你如何使用extension？</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">Document</a>
+</li>
+</ul>
+
+
+<p>iOS 8 Programming Fundamental with Swift Part 2 IDE</p>
+
+<h2 id="toc_0">Chapter 6. Anatomy of an Xcode Project</h2>
+
+<h2 id="toc_1">从项目到可运行的App</h2>
+
+<p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
+假设应用名为Empty Window</p>
+
+<p><img src="media/14628621715331/package.png" alt="package"/></p>
+
+<p>Empty window: 编译的文件。<br/>
+Main.Storyboard:Storyboard 文件，a bundle of nibs files.按需加载。<br/>
+Info.list : 配置文件。<br/>
+Frameworks: 需添加的框架。<br/>
+PkgInfo: 历史遗留物。</p>
+
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="2016-04-15-iOSProgramming.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2016/4/15</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
+          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+                        <a href="azureyu.com/2016-04-15-iOSProgramming.html#disqus_thread">comments</a>
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="2016-03-24-iOSLearning.html">
                 
                   <h1>我的iOS开发入门自学路径</h1>
@@ -116,7 +218,7 @@
                         
                         	<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
 
-<p><img src="media/14628621715071/myapp.png" alt="myapp"/></p>
+<p><img src="media/14628621715071/iTunes.png" alt="iTunes"/></p>
 
 <p><em>PS:欢迎大家捧场~<a href="https://appsto.re/cn/jnCgbb.i">APP地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
 
@@ -196,9 +298,9 @@
                     <span class="date">2016/3/22</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -263,11 +365,11 @@
                     <span class="date">2016/3/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
           				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -423,48 +525,6 @@
                 </div>
               </div><!-- article -->
         
-			<div class="article">
-                <a class="clearlink" href="2015-11-15-IBMMainFrameCompetition.html">
-                
-                  <h1>IBM个人赛Part1、Part2小结</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<h2 id="toc_0">1.  先过脑子，再过机子</h2>
-
-<p>用小黑箱调试，没有办法设置断点，没有提示错误(后来上了大型机的课，也就会调试和看错误了)，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
-
-<h2 id="toc_1">2. 要注意细节问题</h2>
-
-<p>太久没写C语言，逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="2015-11-15-IBMMainFrameCompetition.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2015/11/15</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-                        <a href="azureyu.com/2015-11-15-IBMMainFrameCompetition.html#disqus_thread">comments</a>
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
               
 
 
@@ -557,6 +617,12 @@
 	      
 		      
 			      <li class="post">
+			        <a href="iOSDevRecord.html">iOS 独立开发记录</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="2016-05-29-Reread.html">【一日一系列】重读</a>
 			      </li>
 		     
@@ -576,12 +642,6 @@
 		      
 			      <li class="post">
 			        <a href="choose.html">跟随自己的心去选择</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14640120604550.html">让你生活更美好的小工具</a>
 			      </li>
 		     
 		  

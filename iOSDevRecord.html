@@ -1,0 +1,1402 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  iOS 独立开发记录 - Azure Yu
+  
+  </title>
+  
+  
+  <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:azureyu.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        <li id="menu_item_index"><a href="index.html">HOME</a></li>
+        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
+
+</nav>
+
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; Azure Yu</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+       
+       <li><a href="index.html">HOME</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+
+    <li><label>Categories</label></li>
+
+        
+            <li><a href="Books.html">Books</a></li>
+        
+            <li><a href="Hum.html">Hum</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
+        
+            <li><a href="iOS.html">iOS</a></li>
+        
+            <li><a href="Life.html">Life</a></li>
+        
+            <li><a href="HUM.html">一日一</a></li>
+         
+
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+
+        <section id="main-content" role="main" class="scroll-container">
+        
+       
+
+ <script type="text/javascript">
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
+</script>
+<div class="row">
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>iOS 独立开发记录</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2016/6/2</span>
+
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          
+              <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+           
+         
+          <span class="comments">
+            
+              <a href="azureyu.com/iOSDevRecord.html#disqus_thread">comments</a>
+            
+
+            
+          </span>
+
+        </div>
+      </div><!-- article -->
+
+      <div class="article-content">
+      <ul>
+<li>
+<a href="#toc_0">知识从何而来？</a>
+</li>
+<li>
+<a href="#toc_1">资源</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_2">想法</a>
+<ul>
+<li>
+<a href="#toc_3">设计</a>
+</li>
+<li>
+<a href="#toc_4">开发</a>
+<ul>
+<li>
+<a href="#toc_5">多主题设计</a>
+<ul>
+<li>
+<a href="#toc_6">配色</a>
+</li>
+<li>
+<a href="#toc_7">多主题实现</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_8">本地化</a>
+</li>
+<li>
+<a href="#toc_9">保持用户设置</a>
+<ul>
+<li>
+<a href="#toc_10">Struct如何转为AnyObject？</a>
+</li>
+<li>
+<a href="#toc_11">存储用户当前主题设置</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">摇一摇换肤</a>
+</li>
+<li>
+<a href="#toc_13">钟摆绘制</a>
+</li>
+<li>
+<a href="#toc_14">侧边菜单栏</a>
+<ul>
+<li>
+<a href="#toc_15">分离</a>
+</li>
+<li>
+<a href="#toc_16">动画 Spring Animation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_17">内购</a>
+</li>
+<li>
+<a href="#toc_18">声音</a>
+</li>
+<li>
+<a href="#toc_19">后台播放</a>
+</li>
+<li>
+<a href="#toc_20">细节问题</a>
+<ul>
+<li>
+<a href="#toc_21">为什么nav颜色无法更改，感觉蒙上了一层影？</a>
+</li>
+<li>
+<a href="#toc_22">为什么点击按钮之后，图片位置会改变？</a>
+</li>
+<li>
+<a href="#toc_23">UIScrollerView</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_24">测试</a>
+</li>
+<li>
+<a href="#toc_25">发布</a>
+<ul>
+<li>
+<a href="#toc_26">网站</a>
+</li>
+<li>
+<a href="#toc_27">截图</a>
+</li>
+<li>
+<a href="#toc_28">视频</a>
+</li>
+<li>
+<a href="#toc_29">上传</a>
+</li>
+<li>
+<a href="#toc_30">介绍</a>
+</li>
+<li>
+<a href="#toc_31">被拒 5-24</a>
+<ul>
+<li>
+<a href="#toc_32">再次被拒</a>
+</li>
+<li>
+<a href="#toc_33">审核通过 6-1</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_34">Market</a>
+</li>
+</ul>
+
+
+<blockquote>
+<p>前期思考要全面，设计要具体，在具体实现过程中，需要兵来将挡，水来土掩。</p>
+</blockquote>
+
+<p>半个月前，完成了个人App的2.0版本，也在普天同庆的六一儿童节这天上架了。因为是个人开发，很多实现都是边探索边做。现在完成之后再回顾，发现自己走了些弯路。所以写了这篇总结，概览了从想法、设计、开发到最终发布的过程。希望读者参考本文，可以少走一些弯路；另外，本文也给列出了开发中具体思路和资源列表。</p>
+
+<h2 id="toc_0">知识从何而来？</h2>
+
+<p>Apple的知识又是从何而来？是哪些人在创造这些机制，又是哪些人在传播这些机制？为什么要这样设计呢？为什么要这样编码呢？</p>
+
+<p>iOS开发是在询问什么问题？技术的实现，究竟是在问什么？为什么要这样做？那样做？评价的标准为何？</p>
+
+<h2 id="toc_1">资源</h2>
+
+<p>我在开发过程中常使用的资源：</p>
+
+<ul>
+<li><p>相关书籍 </p>
+
+<p>寻找大致实现方向，我有庞大的电子书库，在此感谢学校提供的优质资源。很多书，都会先检视阅读一遍，这样心中有地图，开发时就可快速定位。</p>
+
+<p>书本是理论的简单系统化表示。</p></li>
+<li><p>Apple 官方文档 视频 示例代码</p>
+
+<p>系统化的概览，具体可使用内容的查找。</p></li>
+<li><p>StackOverflow </p>
+
+<p>主要是查找一些细节问题。</p></li>
+<li><p>Github上的相关项目</p>
+
+<p>看具体的代码实现，分析不同实现的优缺点，取其精华去其糟粕。</p></li>
+<li><p>RayWonderful</p>
+
+<p>可以很快上手入门新知识点。</p></li>
+<li><p>博客</p></li>
+<li><p>论文 <br/>
+对于想深入理解的知识，会参考相关论文。</p></li>
+</ul>
+
+<p>搜索时使用google或者bing，绝对可以节约你的时间。时间即是生命。<br/>
+我选择的简单是易用SS，<a href="https://portal.shadowsocks.com/aff.php?aff=6105">我的推介链接</a>。</p>
+
+<h1 id="toc_2">想法</h1>
+
+<ul>
+<li>目标：简洁优雅易用节拍器</li>
+<li>用户：学习乐器演奏的群体</li>
+<li>使用场景：乐器演奏</li>
+<li>做什么：小而美。好看，好用，占内存小。</li>
+<li>不做什么：不做专业程度极高，功能十分完备的节拍器。</li>
+</ul>
+
+<h1 id="toc_3">设计</h1>
+
+<p>我一般使用Sketch进行快速原型设计。<br/>
+同时思考，是否可实现？</p>
+
+<h1 id="toc_4">开发</h1>
+
+<p>我使用的是coding的仓库，git进行版本管理。</p>
+
+<p>主要介绍2.0版本中的一些开发过程。<br/>
+你可以免费下载，看看有哪些基本功能。</p>
+
+<h2 id="toc_5">多主题设计</h2>
+
+<h3 id="toc_6">配色</h3>
+
+<p>参考网站：</p>
+
+<ul>
+<li><a href="https://coolors.co/browser">https://coolors.co/browser</a></li>
+<li><a href="http://uigradients.com/#Jonquil">http://uigradients.com/#Jonquil</a></li>
+<li><a href="http://www.rocket-design.fr/color-template/">http://www.rocket-design.fr/color-template/</a></li>
+<li><a href="http://www.shejidaren.com/examples/tools/color-scheme/">http://www.shejidaren.com/examples/tools/color-scheme/</a></li>
+<li><a href="http://www.shejidaren.com/mbe-style.html">http://www.shejidaren.com/mbe-style.html</a></li>
+<li><a href="http://www.peise.net/">http://www.peise.net/</a></li>
+</ul>
+
+<p>扁平化颜色库：</p>
+
+<blockquote>
+<p><code>Chameleon</code> is a lightweight, yet powerful, color framework for iOS (Objective-C &amp; Swift). It is built on the idea that software applications should function effortlessly while simultaneously maintaining their beautiful interfaces.</p>
+
+<p><a href="https://github.com/ViccAlexander/Chameleon">https://github.com/ViccAlexander/Chameleon</a></p>
+</blockquote>
+
+<h3 id="toc_7">多主题实现</h3>
+
+<p>OC版：<br/>
+<a href="https://github.com/Draveness/DKNightVersion">https://github.com/Draveness/DKNightVersion</a></p>
+
+<p>Swift版：<br/>
+<a href="http://www.jianshu.com/p/a5cd0176bcf5">http://www.jianshu.com/p/a5cd0176bcf5</a><br/>
+<a href="https://github.com/zhangbozhb/ChameleonSwift">https://github.com/zhangbozhb/ChameleonSwift</a></p>
+
+<ol>
+<li>theme</li>
+<li>view</li>
+</ol>
+
+<p>部分配色表：</p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>defaultColor</th>
+<th>SeaColor</th>
+<th>GreenColor</th>
+<th>CoffeeColor</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>backgroundColor</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BlockColor</td>
+<td>rgba(184, 184, 184, 1)</td>
+<td>#D5EBE9</td>
+<td>#F4ADA2</td>
+<td>#D4C38F</td>
+</tr>
+<tr>
+<td>BlockColorFill</td>
+<td>rgba(251, 251, 251, 1)</td>
+<td>#F5FAF9</td>
+<td>#F07973</td>
+<td>#EFDFAF</td>
+</tr>
+<tr>
+<td>BlockBdrColor</td>
+<td>rgba(57, 57, 57, 1)</td>
+<td>#38465F</td>
+<td>#38465F</td>
+<td>#272727</td>
+</tr>
+<tr>
+<td>shadowColor</td>
+<td>rgba(41, 44, 48, 1)</td>
+<td>#38465F</td>
+<td>#A0785C</td>
+<td>#5D4531</td>
+</tr>
+<tr>
+<td>Sliderstart</td>
+<td>rgba(184, 184, 184, 1)</td>
+<td>#F5FAF9</td>
+<td>#F2F2F2</td>
+<td>#88DEF2</td>
+</tr>
+<tr>
+<td>Sliderend</td>
+<td>rgba(185, 200, 245, 1)</td>
+<td>#B0D5C2</td>
+<td>#F4ADA2</td>
+<td>#FAD199</td>
+</tr>
+<tr>
+<td>SliderBackground</td>
+<td>Black</td>
+<td>#364960</td>
+<td>#3A4C39</td>
+<td>#2B2B2B</td>
+</tr>
+<tr>
+<td>nameIncDecTextColor</td>
+<td>Black</td>
+<td>White</td>
+<td>Black</td>
+<td>Black</td>
+</tr>
+<tr>
+<td>labelColor</td>
+<td>Black</td>
+<td>white</td>
+<td>Black</td>
+<td>Black</td>
+</tr>
+</tbody>
+</table>
+
+<p>根据图片配色举例：</p>
+
+<p><a href="http://www.design-seeds.com/sea/color-sail-2/">seaColor</a>:</p>
+
+<p><img src="media/14616875454899/Color_Sail___Design_Seeds.png" alt="Color_Sail___Design_Seeds"/><img src="media/14616875454899/Color1.png" alt="Colo"/></p>
+
+<span id="more"></span><!-- more -->
+
+<p>代码实现：</p>
+
+<ol>
+<li><p>Struct方式</p>
+
+<pre><code>public protocol YXYTheme {
+    // MetreView
+    var blockColor              : UIColor { get set }
+    var blockFillColor          : UIColor { get set }
+    var blockBdrColor           : UIColor { get set }
+    var blockShadowColor        : UIColor { get set }
+    // View
+    var backgroundColor         : UIColor { get set }
+    var nameIncDecTextColor     : UIColor { get set }
+    var labelColor              : UIColor { get set }
+    var incAndDecLabelTextColor : UIColor { get set }
+    // Slider
+    var sliderBackgroundColor   : UIColor { get set }
+    var sliderStartColor        : UIColor { get set }
+    var sliderEndColor          : UIColor { get set }
+    var sliderHandleColor       : UIColor { get set }
+}   
+
+struct DarkTheme : YXYTheme, AnyObjectConvertible {
+    var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
+    var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+    var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
+    var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
+    var backgroundColor         = UIColor(red:0.34, green:0.34, blue:0.34, alpha:1)
+    var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+
+    var labelColor              = UIColor.whiteColor()
+    var incAndDecLabelTextColor = UIColor.whiteColor()
+    var sliderBackgroundColor   = UIColor.lightGrayColor()
+    var sliderStartColor        = UIColor.grayColor()
+    var sliderEndColor          = UIColor.greenColor()
+    var sliderHandleColor       = UIColor.greenColor()
+}
+</code></pre></li>
+<li><p>class 方式</p>
+
+<pre><code>//
+//  LightTheme.swift
+//  GuitarFere
+//
+//  Created by youxinyu on 16/3/10.
+//  Copyright © 2016年 yogayu.github.io. All rights reserved.
+//
+
+import UIKit
+
+class LightTheme : NSObject, YXYTheme, AnyObjectConvertible
+{
+    var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
+    var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+    var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
+    var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
+    var backgroundColor         = UIColor.whiteColor()
+    var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+    var labelColor              = UIColor.whiteColor()
+    var incAndDecLabelTextColor = UIColor.whiteColor()
+    var sliderBackgroundColor   = UIColor.lightGrayColor()
+    var sliderStartColor        = UIColor.grayColor()
+    var sliderEndColor          = UIColor.redColor()
+    var sliderHandleColor       = UIColor.greenColor()
+
+init( blockColor:UIColor, blockFillColor:UIColor, blockBdrColor:UIColor, blockShadowColor:UIColor, 
+        backgroundColor:UIColor, nameIncDecTextColor:UIColor, labelColor:UIColor, incAndDecLabelTextColor:UIColor, 
+        sliderBackgroundColor:UIColor, sliderStartColor:UIColor, sliderEndColor:UIColor, sliderHandleColor:UIColor){
+
+    self.blockColor = blockColor
+    self.blockFillColor = blockFillColor
+    self.blockBdrColor = blockBdrColor
+    self.blockShadowColor = blockShadowColor
+    self.backgroundColor = backgroundColor
+    self.nameIncDecTextColor = nameIncDecTextColor
+    self.labelColor = labelColor
+    self.incAndDecLabelTextColor = incAndDecLabelTextColor
+    self.sliderBackgroundColor = sliderBackgroundColor
+    self.sliderStartColor = sliderStartColor
+    self.sliderEndColor = sliderEndColor
+    self.sliderHandleColor = sliderHandleColor
+
+    }
+}   
+</code></pre></li>
+</ol>
+
+<h2 id="toc_8">本地化</h2>
+
+<p>参见我之前博文：<br/>
+<a href="http://www.jianshu.com/p/782aaf3bf7da">http://www.jianshu.com/p/782aaf3bf7da</a><br/>
+或<br/>
+<a href="http://azureyu.com/2016-05-14-iOS-Localizable.html">http://azureyu.com/2016-05-14-iOS-Localizable.html</a>      </p>
+
+<h2 id="toc_9">保持用户设置</h2>
+
+<pre><code>let userDefaultsLastTempoKey = &quot;DefaultsTempoKey&quot;   
+
+let defaults = NSUserDefaults.standardUserDefaults()
+
+func saveTempo(tempo:Int){
+    defaults.setInteger(tempo, forKey: userDefaultsLastTempoKey)
+    defaults.synchronize()
+}
+</code></pre>
+
+<p>读取：</p>
+
+<pre><code>func initialTempo(){
+    let savedTempo = NSUserDefaults.standardUserDefaults().objectForKey( userDefaultsLastTempoKey) as? Int
+    if let tempo = savedTempo {
+        metronome.tempo = tempo
+        tempoLabel.text = &quot;\(metronome.tempo)&quot;
+    }else {
+        tempoLabel.text = &quot;\(metronome.tempo)&quot;
+    }
+}
+</code></pre>
+
+<h3 id="toc_10">Struct如何转为AnyObject？</h3>
+
+<p>参考：<br/>
+<a href="https://github.com/tarunon/AnyObjectConvertible">https://github.com/tarunon/AnyObjectConvertible</a></p>
+
+<pre><code>class Box&lt;T&gt; {
+let value: T
+init(value: T) {
+self.value = value
+}
+}
+
+NSNotificationCenter.defaultCenter().postNotificationName(&quot;foo&quot;, object: Box(value: YourOwnStruct())) // OK
+But Box&lt;T&gt; unwrap is too lazy.
+let value = (notification.object as? Box&lt;YourOwnStruct&gt;)?.value
+
+You can cast your struct/enum directory if implement AnyObjectConvertible at that type.
+
+extension YourOwnStruct: AnyObjectConvertible {}
+
+NSNotificationCenter.defaultCenter().postNotificationName(&quot;foo&quot;, object: YourOwnStruct()) // OK
+let value = notification.object as? YourOwnStruct
+</code></pre>
+
+<h3 id="toc_11">存储用户当前主题设置</h3>
+
+<p>初始显示，无法使用函数更改，为什么？<br/>
+解决：因为存的内容不对，主题是一个Struct或Class。</p>
+
+<pre><code>func initTheme() {
+    let savedTheme = retrieveTheme()
+
+    if let theme = savedTheme {
+        UIApplication.ch_switchTheme(lightTheme)
+    }else{
+        // ...
+    }
+}
+</code></pre>
+
+<p><del>转化Struct为AnyObject之后存储：AnyObject， BOX(Theme)<br/>
+取：AnyObject。传给UIApplication.ch_switchTheme(theme)的是YXYTheme，需要将AnyObject转为YXYTheme。</del></p>
+
+<pre><code>GuitarFere[20074:736310] *** Terminating app due to uncaught exception &#39;NSInvalidArgumentException&#39;, reason: &#39;Attempt to insert non-property list object GuitarFere.Box&lt;GuitarFere.YXYTheme&gt; for key DefaultThemeKey&#39;
+</code></pre>
+
+<blockquote>
+<p>The code you posted tries to save an array of custom objects to NSUserDefaults. You can&rsquo;t do that. Implementing the NSCoding methods doesn&rsquo;t help. You can only store things like NSArray, NSDictionary, NSString, NSData, NSNumber, and NSDate in NSUserDefaults.<br/>
+You need to convert the object to NSData (like you have in some of the code) and store that NSData in NSUserDefaults. You can even store an NSArray of NSData if you need to.<br/>
+When you read back the array you need to unarchive the NSData to get back your BC_Personobjects.<br/>
+<a href="http://stackoverflow.com/questions/19720611/attempt-to-set-a-non-property-list-object-as-an-nsuserdefaults">http://stackoverflow.com/questions/19720611/attempt-to-set-a-non-property-list-object-as-an-nsuserdefaults</a></p>
+</blockquote>
+
+<pre><code>func saveTheme(theme:LightTheme){
+
+//    let archivedObject = NSKeyedArchiver.archivedDataWithRootObject((theme as? NSObject)!)
+    let archivedObject = NSKeyedArchiver.archiveRootObject(theme as NSObject, toFile: userDefaultsLastThemeKey)
+
+    defaults.setObject(archivedObject, forKey: userDefaultsLastThemeKey)
+    defaults.synchronize()
+}
+
+
+存：
+
+    func saveTheme(theme:LightTheme){
+
+    //    let archivedObject = NSKeyedArchiver.archivedDataWithRootObject((theme as? NSObject)!)
+        let archivedObject = NSKeyedArchiver.archiveRootObject(theme as NSObject, toFile: userDefaultsLastThemeKey)
+
+        defaults.setObject(archivedObject, forKey: userDefaultsLastThemeKey)
+        defaults.synchronize()
+    }
+</code></pre>
+
+<p>上面解决方式还是有问题。</p>
+
+<p><strong>突然想到，不用保存主题本身，直接保存是第几个(Int)主题就好。<br/>
+问题就这样解决了。</strong></p>
+
+<h2 id="toc_12">摇一摇换肤</h2>
+
+<pre><code>override func canBecomeFirstResponder() -&gt; Bool {
+    return true
+}
+
+override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+    if(event?.subtype == UIEventSubtype.MotionShake) {
+        randomTheme()
+        print(&quot;shacked&quot;)
+        self.setNeedsStatusBarAppearanceUpdate()
+    }
+}
+
+func randomTheme() {
+    let max = themes.count - 1
+    let index = randomIn(min: 0, max: max)
+    let randomTheme = themes[index]
+    saveTheme(index)
+    UIApplication.ch_switchTheme(randomTheme)
+}
+</code></pre>
+
+<h2 id="toc_13">钟摆绘制</h2>
+
+<p>主要使用图像绘制。</p>
+
+<p>例如绘制三角形：</p>
+
+<pre><code>func drawTriangle()
+    {
+        //1.获得图形上下文
+        let context = UIGraphicsGetCurrentContext()
+
+        //绘制三角形
+        let height = self.frame.height
+        let width = self.frame.width
+
+        CGContextMoveToPoint(context, 0, 0)
+        CGContextAddLineToPoint(context, width, height/2)
+        CGContextAddLineToPoint(context, 0, height)
+
+        //关闭路径，闭环，（连接起点和最后一个点）
+        powerOffColor.setFill()
+        CGContextClosePath(context)
+        //显示在view上
+        CGContextFillPath(context)
+    }
+</code></pre>
+
+<h2 id="toc_14">侧边菜单栏</h2>
+
+<p>查看Github上相关实现，一开始选择的是<a href="https://github.com/dekatotoro/SlideMenuControllerSwift">SlideMenuControllerSwift</a>，后来决定更改为自定义，使用更简洁的方式。</p>
+
+<h3 id="toc_15">分离</h3>
+
+<p>分离之前的SliderMeanController，再添加动画。</p>
+
+<ol>
+<li>MainViewController </li>
+</ol>
+
+<p>remove:</p>
+
+<pre><code>    extension MainViewController:SlideMenuControllerDelegate{
+
+    func leftWillOpen() {
+//        print(&quot;SlideMenuControllerDelegate: leftWillOpen&quot;)
+        OnceOpened = true
+    }
+
+    func leftDidOpen() {
+//        print(&quot;SlideMenuControllerDelegate: leftDidOpen&quot;)
+    }
+
+    func leftWillClose() {
+//        print(&quot;SlideMenuControllerDelegate: leftWillClose&quot;)
+
+        noteLabel.text = &quot;\(metronome.noteNum)&quot;
+        metreLabel.text = &quot;\(metronome.metreView.numMetre)&quot;
+        tempoLabel.text = &quot;\(metronome.tempo)&quot;
+        tempoItalianName(italianName)
+        initialHandelPoint()
+        metronome.metreView.setNeedsDisplay()
+
+        print(&quot;subview count:&quot;)
+        print(view.subviews.count)
+        self.ball.setNeedsDisplay()
+    }
+
+    func leftDidClose() {
+//        print(&quot;SlideMenuControllerDelegate: leftDidClose&quot;)
+    }
+
+}
+</code></pre>
+
+<ol>
+<li>LeftViewController</li>
+</ol>
+
+<p>remove:</p>
+
+<pre><code>wiilappear:
+initialMenu()
+</code></pre>
+
+<p>class里面：</p>
+
+<pre><code>weak var delegate: LeftMenuProtocol?
+
+func initialMenu() {
+
+    let storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
+    let nonMenuController = storyboard.instantiateViewControllerWithIdentifier(&quot;purchaseViewController&quot;) as! PurchaseViewController
+    nonMenuController.delegate = self
+    self.nonMenuViewController = UINavigationController(rootViewController: nonMenuController)
+}
+</code></pre>
+
+<p>class 前：</p>
+
+<pre><code>enum LeftMenu: Int {
+    case Main = 0
+}
+protocol LeftMenuProtocol : class {
+    func changeViewController(menu: LeftMenu)
+}
+</code></pre>
+
+<p>class extension：</p>
+
+<pre><code>// MARK: - LeftMenuProtocol
+extension LeftViewController: LeftMenuProtocol{
+    func changeViewController(menu: LeftMenu) {
+        switch menu {
+        case .Main:
+            self.slideMenuController()?.changeMainViewController(self.mainViewController, close: true)
+        }
+    }
+}
+</code></pre>
+
+<p>alert 转场：</p>
+
+<pre><code>self.slideMenuController()?.
+changeMainViewController(self.nonMenuViewController, close: true)
+</code></pre>
+
+<p>App delegate里面：</p>
+
+<pre><code>private func createMenuView() {
+
+    // create viewController code...
+    let storyboard = UIStoryboard(name: &quot;Main&quot;, bundle: nil)
+
+    let mainViewController = storyboard.instantiateViewControllerWithIdentifier(&quot;MainViewController&quot;) as! MainViewController
+    let leftViewController = storyboard.instantiateViewControllerWithIdentifier(&quot;LeftViewController&quot;) as! LeftViewController
+
+    let mvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+
+    UINavigationBar.appearance().tintColor = UIColor(hex: &quot;689F38&quot;)
+
+    leftViewController.mainViewController = mvc
+
+    let slideMenuController = ExSlideMenuController(mainViewController:mvc, leftMenuViewController: leftViewController)
+    slideMenuController.automaticallyAdjustsScrollViewInsets = true
+    slideMenuController.delegate = mainViewController
+    //        self.window?.backgroundColor = UIColor(red: 236.0, green: 238.0, blue: 241.0, alpha: 1.0)
+    self.window?.rootViewController = slideMenuController
+    self.window?.makeKeyAndVisible()
+}
+</code></pre>
+
+<p>purchaseViewCont：</p>
+
+<p>class 里面：</p>
+
+<pre><code>weak var delegate: LeftMenuProtocol?
+
+
+func done() {
+    delegate?.changeViewController(LeftMenu.Main)
+}
+
+
+override func viewWillAppear(animated: Bool) {
+    super.viewWillAppear(animated)
+    self.removeNavigationBarItem()
+
+    let doneTitle = NSLocalizedString(&quot;doneTitle&quot;, comment: &quot;Purchase done title&quot;)
+    let rightButton: UIBarButtonItem = UIBarButtonItem(title: doneTitle, style: .Plain, target: self, action: #selector(done))
+    navigationItem.rightBarButtonItem = rightButton
+
+    }
+</code></pre>
+
+<h3 id="toc_16">动画 Spring Animation</h3>
+
+<p>我使用的是MengTo的<a href="https://github.com/MengTo/Spring">Spring动画库</a>。</p>
+
+<h2 id="toc_17">内购</h2>
+
+<p>技术参考：</p>
+
+<p><a href="https://developer.apple.com/in-app-purchase/">https://developer.apple.com/in-app-purchase/</a><br/>
+<a href="https://www.raywenderlich.com/122144/in-app-purchase-tutorial">https://www.raywenderlich.com/122144/in-app-purchase-tutorial</a><br/>
+<a href="https://www.raywenderlich.com/121218/video-tutorial-in-app-purchase-series-introduction">https://www.raywenderlich.com/121218/video-tutorial-in-app-purchase-series-introduction</a><br/>
+<a href="https://github.com/mattt/Ono">https://github.com/mattt/Ono</a><br/>
+<a href="https://github.com/awseeley/Swift-In-App-Purchase-Tutorial">https://github.com/awseeley/Swift-In-App-Purchase-Tutorial</a></p>
+
+<p>页面实现：<br/>
+How to make a beautiful page for the purchase?<br/>
+使用Collection View，使用卡片展示。</p>
+
+<h2 id="toc_18">声音</h2>
+
+<p>Where to find the good sound?<br/>
+推荐网站：</p>
+
+<ul>
+<li><a href="https://www.freesound.org/people/toiletrolltube/sounds/345691/">https://www.freesound.org/people/toiletrolltube/sounds/345691/</a></li>
+<li><a href="http://www.findsounds.com/ISAPI/search.dll?keywords=drum+solo">http://www.findsounds.com/ISAPI/search.dll?keywords=drum+solo</a></li>
+</ul>
+
+<p>声音下载之后需要自己进行一些细化处理，推荐Sound Studio，它小而简洁，进行简单的处理足够了。</p>
+
+<h2 id="toc_19">后台播放</h2>
+
+<p>参考书籍：iOS8 Programming </p>
+
+<p>Appledelegate:</p>
+
+<pre><code>func application(application: UIApplication,didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool    {
+
+    // paly on the background
+    _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient, withOptions: [])
+    // others
+  }
+
+func applicationWillResignActive(application: UIApplication) {
+
+    _ = try? AVAudioSession.sharedInstance().setActive(true, withOptions: [])
+}
+
+func applicationDidBecomeActive(application: UIApplication) {
+
+    _ = try? AVAudioSession.sharedInstance().setActive(true, withOptions: [])
+}
+</code></pre>
+
+<h2 id="toc_20">细节问题</h2>
+
+<p>问题：</p>
+
+<h3 id="toc_21">为什么nav颜色无法更改，感觉蒙上了一层影？</h3>
+
+<p><img src="media/14616875454899/nav_problem.png" alt="nav_proble"/></p>
+
+<pre><code>解决： 
+参考：
+- Swift: https://github.com/DanisFabric/RainbowNavigation
+
+UINavigationBarExtension.swift
+
+    //
+    //  UINavigationBarExtension.swift
+    //  GuitarFere
+    //
+    //  Created by youxinyu on 16/5/9.
+    //  Copyright © 2016年 yogayu.github.io. All rights reserved.
+    //
+
+    import UIKit
+
+    private var kBackgroundViewKey = &quot;kBackgroundViewKey&quot;
+    private var kStatusBarMaskKey  = &quot;kStatusBarMaskKey&quot;
+
+    extension UINavigationBar {
+
+        public func df_setStatusBarMaskColor(color: UIColor) {
+            if statusBarMask == nil {
+                statusBarMask = UIView(frame: CGRect(x: 0, y: -20, width: UIScreen.mainScreen().bounds.width, height: 20))
+                statusBarMask?.autoresizingMask = [.FlexibleWidth,.FlexibleHeight]
+                if let tempBackgroundView = backgroundView {
+                    insertSubview(statusBarMask!, aboveSubview: tempBackgroundView)
+                }else {
+                    insertSubview(statusBarMask!, atIndex: 0)
+                }
+            }
+            statusBarMask?.backgroundColor = color
+        }
+        public func df_setBackgroundColor(color: UIColor) {
+            if backgroundView == nil {
+                setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+                shadowImage = UIImage()
+                backgroundView = UIView(frame: CGRect(x: 0, y: -20, width: UIScreen.mainScreen().bounds.width, height: 64))
+                backgroundView?.userInteractionEnabled = false
+                backgroundView?.autoresizingMask = [.FlexibleHeight,.FlexibleWidth]
+                insertSubview(backgroundView!, atIndex: 0)
+            }
+            backgroundView?.backgroundColor = color
+
+        }
+
+        public func df_reset() {
+            setBackgroundImage(nil, forBarMetrics: .Default)
+            shadowImage = nil
+
+            backgroundView?.removeFromSuperview()
+            backgroundView = nil
+        }
+
+        // MARK: Properties
+        private var backgroundView:UIView? {
+            get {
+                return objc_getAssociatedObject(self, &amp;kBackgroundViewKey) as? UIView
+            }
+            set {
+                objc_setAssociatedObject(self, &amp;kBackgroundViewKey, newValue, .OBJC_ASSOCIATION_RETAIN)
+
+            }
+        }
+        private var statusBarMask:UIView? {
+            get {
+                return objc_getAssociatedObject(self, &amp;kStatusBarMaskKey) as? UIView
+            }
+            set {
+                objc_setAssociatedObject(self, &amp;kStatusBarMaskKey, newValue, .OBJC_ASSOCIATION_RETAIN)
+            }
+        }
+}
+</code></pre>
+
+<p>在MainViewController中添加：</p>
+
+<pre><code>    self.navigationController?.navigationBar.df_setBackgroundColor(UIColor.clearColor())
+</code></pre>
+
+<h3 id="toc_22">为什么点击按钮之后，图片位置会改变？</h3>
+
+<p>改变UIButton的image之后，它的位置也会改变，需要将之前的先存储，改变图片之后再赋给它。</p>
+
+<pre><code>CGPoint currentLoc = self.imageButton.center;
+[self.imageButton setImage:[UIImage imageNamed:@&quot;face&quot;] forState:UIControlStateNormal];
+self.imageButton.center = currentLoc;
+</code></pre>
+
+<p>好像不是这个问题。我把外面的View去掉一层就OK了。</p>
+
+<h3 id="toc_23">UIScrollerView</h3>
+
+<p>UIScrollerView的contentSize是取决于其子视图的，所以一定要通过子视图来限制其大小。<br/>
+UIScrollerView需要探索的地方还很多，比如像相册这样的应用，是两个scrollerView，一个用来zoom，一个用来左右切换。</p>
+
+<h1 id="toc_24">测试</h1>
+
+<ul>
+<li>TestFlight测试 （外部测试需审核）</li>
+<li>其他第三方测试 （无需审核）</li>
+</ul>
+
+<h1 id="toc_25">发布</h1>
+
+<ol>
+<li>如何取好App名字？</li>
+<li>如何写好App介绍？</li>
+<li>制作App简短视频？</li>
+</ol>
+
+<h2 id="toc_26">网站</h2>
+
+<p>因为也做过一些网站，用Bootstrap写过前端，PHP写过后台。基本的HTML/CSS，JS都会些，所以做网站对我来说没什么问题。不过，你不需要那么多知识，你可以在直接使用模板，再进行修改即可。</p>
+
+<ul>
+<li>选择模板</li>
+<li>准备内容素材（图片、文字、链接）</li>
+</ul>
+
+<p>最终效果：<a href="http://azureyu.com/pulse">http://azureyu.com/pulse</a></p>
+
+<h2 id="toc_27">截图</h2>
+
+<p>素材：</p>
+
+<ul>
+<li>在设备上运行，同时按home+电源键进行截图</li>
+<li>或者使用模拟器运行之后按Command+S,即可保持截图</li>
+</ul>
+
+<p>AppStore介绍截图制作：</p>
+
+<ul>
+<li>使用Sketch</li>
+<li>推荐模板：<a href="https://github.com/LaunchKit/SketchToAppStore">https://github.com/LaunchKit/SketchToAppStore</a></li>
+<li>思考介绍内容，编辑，修改，再修改，再修改</li>
+<li>导出</li>
+</ul>
+
+<h2 id="toc_28">视频</h2>
+
+<p>录制步骤：</p>
+
+<ul>
+<li>连接设备</li>
+<li>打开QuickTime Player</li>
+<li>进行文件影片录制</li>
+<li>使用iMovie进行剪辑，iMove中可直接新建应用商店预览视频。</li>
+</ul>
+
+<p>Tips:</p>
+
+<ul>
+<li>视频上传需使用Safair浏览器，最好用iMovie中直接选择导出为应用商店预览视频。这样不会出现视屏帧数太多等问题。</li>
+<li>如何旋转视频？使用QuickTime Player打开，然后在菜单中选择编辑，向左选择即可。</li>
+</ul>
+
+<p>最好将所有素材放在同一个文件夹中，按照一定的命名方式进行整理。</p>
+
+<h2 id="toc_29">上传</h2>
+
+<ul>
+<li><a href="https://developer.apple.com/app-store/cn/">https://developer.apple.com/app-store/cn/</a></li>
+<li><a href="https://itunespartner.apple.com/cn/apps/videos">https://itunespartner.apple.com/cn/apps/videos</a></li>
+<li><a href="https://app.grammarly.com/">https://app.grammarly.com/</a>  避免英语文法错误</li>
+</ul>
+
+<h2 id="toc_30">介绍</h2>
+
+<p>English:</p>
+
+<pre><code>Pulse is a clean and beautiful Metronome. It helps you better your music feeling and skill. With Pulse, your play time will be much more joyful.
+
+*****************************************************
+Features:
+* Colorful Themes. There are ten attractive themes that you can choose: night, tree, coffee, pink, azure, blue, purple...... make your play time more colorful. 
+* Nice Sounds. You can hear the different kinds of sounds: wood, ping, claves, triangle, shaker, blocks......choice the one suit your ear.
+* Save setlist. You can save the setlist that you often play, it&#39;s easy to use. 
+* Swing. You can visualize the time passing, see the movements. In Pulse, there are 7 swing types: none, small, medium, large, ball, square, diamond. It always has the one you want.
+
+Others:
+- Play on the lock mood and background.
+- Universal app, available on you iPod touch、iPhone and iPad.
+
+*****************************************************
+
+Support :
+- E-mail: yxydiscovery@gmail.com
+- Website: http://azureyu.com/pulse
+- Twitter: https://twitter.com/yxydiscovery
+- Weibo: http://weibo.com/yxydiscovery
+</code></pre>
+
+<p>中文：</p>
+
+<pre><code>律动是一款简洁而美观的节拍器。它能够帮助你提升乐感和技能。缤纷的主题，悦耳的音色，可视化时间流逝的钟摆都能让你的练习更为多彩。
+
+&gt;&gt;&gt; 特点：
+* 十种主题缤纷主题任你选择：碳黑、咖啡、森林、粉红、蔚蓝、紫藤、翠绿等。
+* 十余种悦耳音色舒适双耳：实木、沙铃、三角铁、铃环、木鱼、鼓、钢琴、铁、铛等。
+* 一键保存演出列表：一键保持你的演出列表，节约你的时间，方便你的练习。
+* 7种钟摆模式：无, 小, 中, 长, 球, 方, 菱。可视化时间流逝的最佳选择。
+
+&gt;&gt;&gt; 其他：
+- 支持锁屏播放和后台播放
+- 支持屏幕常量
+- 支持所有iPod Touch、iPhone和iPad设备
+
+
+&gt;&gt;&gt; 反馈：
+- E-mail: yxydiscovery@gmail.com
+- Website: http://azureyu.com/pulse
+- Twitter: https://twitter.com/yxydiscovery
+- Weibo: http://weibo.com/yxydiscovery
+</code></pre>
+
+<hr/>
+
+<h2 id="toc_31">被拒 5-24</h2>
+
+<p>版本上传错误。</p>
+
+<h3 id="toc_32">再次被拒</h3>
+
+<p>Apple审核团队说App会在iPad Air下点击菜单按钮会crash，可是测试了很多次之后，我都没能重现crash，和他们沟通无果。等了两天，我在代码原封不动的情况下，重新build了一个版本，再上传，就通过了。</p>
+
+<h3 id="toc_33">审核通过 6-1</h3>
+
+<h1 id="toc_34">Market</h1>
+
+<ul>
+<li>产品推荐网站 :例如36NEXT,MindStore之类。</li>
+<li>Weibo Twitter BBS</li>
+</ul>
+
+<p>用户会去哪些地方？</p>
+
+<hr/>
+
+<p>麻雀虽小，五脏俱全。虽只是一个简单的节拍器，也没用到复杂的算法和很难的技术。</p>
+
+<p>但学习本就是从易到难的吧。重要的是有想法并去实现，然后不断去完善。</p>
+
+      </div>
+    
+
+     <hr>
+     <blockquote>
+     <div>
+          <ul>
+              <li>作者「<a href="http://azureyu.com" rel="author" class="pjax">AzureYu</a>」于  <span class="date">2016/6/2</span> 更新<a href="iOSDevRecord.html">本文</a></li>
+
+              <li>文章声明：自由转载-非商用-非衍生-保持署名  |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank" rel="nofollow">BY-NC-SA</a></li>
+          </ul>
+     </div>
+     </blockquote>
+
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="2016-05-29-Reread.html" 
+          title="Next Post: 【一日一系列】重读">【一日一系列】重读 &raquo;</a>
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
+
+          
+            <div id="disqus_thread"></div>
+          
+
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
+
+
+
+
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <div class="site-a-logo"><img src="img/avatar.jpg" /></div>
+            
+                <h1>Azure Yu</h1>
+                <div class="site-des">去创造 去体验</div>
+                <div class="social">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>
+                    <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
+                    <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
+                    
+                      <a class="rss" href="atom.xml" title="RSS">RSS</a>
+              	 </div>
+          	</div>
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Sites</h2>
+                </div>
+                <div class="side-content">
+                  <ol class="posts-list">
+                    <li class="post"><a href="http://azureyu.com/book">
+                      Books: My Reading List</a></li>
+                    <li class="post"><a href="http://azureyu.com/pulse">
+                      Pulse: My first iOS App</a></li>
+                  </ol>
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="Books.html"><strong>Books</strong></a>
+        
+            <a href="Hum.html"><strong>Hum</strong></a>
+        
+            <a href="Tech.html"><strong>Tech</strong></a>
+        
+            <a href="iOS.html"><strong>iOS</strong></a>
+        
+            <a href="Life.html"><strong>Life</strong></a>
+        
+            <a href="HUM.html"><strong>一日一</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="iOSDevRecord.html">iOS 独立开发记录</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="2016-05-29-Reread.html">【一日一系列】重读</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="words.html">自己的谚语</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14643326121905.html">App再次被拒</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="choose.html">跟随自己的心去选择</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
+  <div class="row">
+   <p class="copyright">Copyright &copy; 2015-2016 Azure Yu.&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'yogayu'; 
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+var disqus_shortname = 'yogayu'; 
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+  
+    
+
+    <script src="asset/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
+     
+    </script>
+
+    
+
+
+
+  </body>
+</html>

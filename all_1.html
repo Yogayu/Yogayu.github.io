@@ -8,8 +8,8 @@
   Azure Yu
   
   </title>
-  
-  
+  <meta name="keywords" content="George Fillmore Swain" />
+  <meta name="description" content="How to study" />
   <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
@@ -107,6 +107,67 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="14634473408769.html">
+                
+                  <h1>编译原理——语法分析</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<h2 id="toc_0">4.1 概述</h2>
+
+<p><img src="media/14634473408769/Chapter4.png" alt="Chapte"/></p>
+
+<ul>
+<li>Context-Free Grammar</li>
+</ul>
+
+<h2 id="toc_1">自顶向下</h2>
+
+<ol>
+<li><p>带回溯的自顶向下分析（基于穷举）<br/>
+效率低，问题可能在最后才被发觉。</p>
+
+<blockquote>
+<p>适用广，代价高。<br/>
+难以定位出错位置，弃用。</p>
+</blockquote></li>
+<li><p>不带回溯的自顶向下分析</p></li>
+</ol>
+
+<h2 id="toc_2">自底向上</h2>
+
+<p>LR分析：通用、广泛、复杂</p>
+
+<p>GCC: GNU Complier Collection<br/>
+LLVM</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2016/5/17</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+                        <a href="azureyu.com/14634473408769.html#disqus_thread">comments</a>
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="2016-05-14-iOS-Localizable.html">
                 
                   <h1>让你的App说出多国语言——iOS开发之本地化(国际化)</h1>
@@ -181,9 +242,9 @@
                     <span class="date">2016/5/14</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -418,117 +479,15 @@
                     <span class="date">2016/4/24</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Hum.html'>Hum</a></span>
-          				  
           					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
+          					    <span class="posted-in"><a href='Hum.html'>Hum</a></span>
           				   
                   </div>
                   <div class="more-right right">
                   <span class="comments">
                       
                         <a href="azureyu.com/2016-04-24-HowToStudy.html#disqus_thread">comments</a>
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="2016-04-15-iOSProgramming.html">
-                
-                  <h1>iOS Programming Reading Notes</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<ul>
-<li>
-<a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
-</li>
-<li>
-<a href="#toc_1">从项目到可运行的App</a>
-</li>
-<li>
-<a href="#toc_2">Build Settings</a>
-</li>
-<li>
-<a href="#toc_3">Nib Files</a>
-</li>
-<li>
-<a href="#toc_4">Code File and App Launch Process</a>
-<ul>
-<li>
-<a href="#toc_5">The entry point</a>
-</li>
-<li>
-<a href="#toc_6">UIApplicationMain</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_7">Cocoa</a>
-</li>
-<li>
-<a href="#toc_8">Subclassing</a>
-</li>
-<li>
-<a href="#toc_9">Categories and Extensions</a>
-<ul>
-<li>
-<a href="#toc_10">Swift中如何使用extension？</a>
-</li>
-<li>
-<a href="#toc_11">你如何使用extension？</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_12">Document</a>
-</li>
-</ul>
-
-
-<p>iOS 8 Programming Fundamental with Swift Part 2 IDE</p>
-
-<h2 id="toc_0">Chapter 6. Anatomy of an Xcode Project</h2>
-
-<h2 id="toc_1">从项目到可运行的App</h2>
-
-<p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
-假设应用名为Empty Window</p>
-
-<p><img src="media/14628621715331/package.png" alt="package"/></p>
-
-<p>Empty window: 编译的文件。<br/>
-Main.Storyboard:Storyboard 文件，a bundle of nibs files.按需加载。<br/>
-Info.list : 配置文件。<br/>
-Frameworks: 需添加的框架。<br/>
-PkgInfo: 历史遗留物。</p>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="2016-04-15-iOSProgramming.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/4/15</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
-          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
-          				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-                        <a href="azureyu.com/2016-04-15-iOSProgramming.html#disqus_thread">comments</a>
                       
 
                        
@@ -629,6 +588,12 @@ PkgInfo: 历史遗留物。</p>
 	      
 		      
 			      <li class="post">
+			        <a href="iOSDevRecord.html">iOS 独立开发记录</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="2016-05-29-Reread.html">【一日一系列】重读</a>
 			      </li>
 		     
@@ -648,12 +613,6 @@ PkgInfo: 历史遗留物。</p>
 		      
 			      <li class="post">
 			        <a href="choose.html">跟随自己的心去选择</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14640120604550.html">让你生活更美好的小工具</a>
 			      </li>
 		     
 		  
