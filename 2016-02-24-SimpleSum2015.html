@@ -410,7 +410,19 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 
     
 
+<script>
+    // dynamic User by Hux
+    var _baId = '{{ site.ba_track_id }}';
 
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
   </body>
 </html>

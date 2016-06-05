@@ -107,6 +107,8 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
+              <div class="f-img"><img src="media/14650561718675/Pi_2_Model_B.png" /></div>
+          
           <h1>校园网无路由器无显示器情况下使用树莓派</h1>
      
         <div class="read-more clearfix">
@@ -183,6 +185,8 @@
 <p>如果你有路由器，那么很简单，登录路由器配置网址即可。但是，有时候学校没有办法用路由器。</p>
 
 <p>假设你的电脑可以连上无线网络。</p>
+
+<span id="more"></span><!-- more -->
 
 <h3 id="toc_2">第一步：查找</h3>
 
@@ -312,7 +316,7 @@ case &quot;$1&quot; in
  start)
   echo &quot;Starting VNC Server&quot;
   #Insert your favoured settings for a VNC session
-  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565&quot;
+  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1000x800 &quot;
   ;;
 
  stop)
@@ -348,6 +352,10 @@ update-rc.d vncboot defaults
 </code></pre>
 
 <p>说明成功了。</p>
+
+<p>重启你的树莓派，VNC Server就会自动运行了。</p>
+
+<p>愉快的开始玩吧。</p>
 
       </div>
     
@@ -590,7 +598,19 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 
     
 
+<script>
+    // dynamic User by Hux
+    var _baId = '{{ site.ba_track_id }}';
 
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
   </body>
 </html>

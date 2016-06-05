@@ -109,6 +109,8 @@
 			<div class="article">
                 <a class="clearlink" href="2016-06-05-connectRaspberryPi.html">
                 
+                  <div class="f-img"><img src="media/14650561718675/Pi_2_Model_B.png" /></div>
+                
                   <h1>校园网无路由器无显示器情况下使用树莓派</h1>
                   <div class="a-content">
                       
@@ -169,170 +171,6 @@
 
 <p>假设你的电脑可以连上无线网络。</p>
 
-<h3 id="toc_2">第一步：查找</h3>
-
-<p>运行命令，输入</p>
-
-<pre><code>    arp -a
-</code></pre>
-
-<p>将网线一端连接树莓派，另一端连接电脑。</p>
-
-<p>再次输入<br/>
-        arp -a</p>
-
-<p>对比两次结果，多出来IP地址的即是树莓派的IP地址。</p>
-
-<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A51.jpg" alt="树莓派连接1"/></p>
-
-<h3 id="toc_3">第二步：连接</h3>
-
-<p>打开Putty(可在网络上下载，该软件开源)。</p>
-
-<p>输入刚才的IP地址，可以将其Save，方便下次使用。<br/>
-回车连接。</p>
-
-<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A52.jpg" alt="树莓派连接2"/></p>
-
-<p>连接成功之后，输入用户名，默认为pi，回车。<br/>
-再输入密码，默认为raspberry，回车。<br/>
-即登录成功。</p>
-
-<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A53.jpg" alt="树莓派连接3"/></p>
-
-<h2 id="toc_4">怎么进行VNC连接？</h2>
-
-<h3 id="toc_5">第一步 网络共享</h3>
-
-<p>将电脑网络共享给树莓派。<br/>
-进入设置，搜索更改适配器设置，进入。<br/>
-选择无线网连接，右击属性，点击共享Tab，勾选“运行其他网络用户通过此计算机的Internet连接来连接”，点击确定。</p>
-
-<h3 id="toc_6">第二步 安装VNC Server</h3>
-
-<p>在树莓派上安装VNC Server：</p>
-
-<pre><code>sudo apt-get install tightvncserver
-</code></pre>
-
-<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A54.jpg" alt="树莓派连接4"/></p>
-
-<p>安装成功之后设置两次密码。我已经安装过了，所以没有输入。</p>
-
-<p>启动树莓派VNC Server</p>
-
-<pre><code>vncserver :1 -geometry 800x600
-</code></pre>
-
-<p>vncserver 和 :1之间有空格，不然就会像我👇下面那样。</p>
-
-<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A55.jpg" alt="树莓派连接5"/></p>
-
-<p>Tips:</p>
-
-<p>如果VNC Server密码忘了怎么办？<br/>
-输入</p>
-
-<pre><code>vncpasswd
-</code></pre>
-
-<p>来进行重置：</p>
-
-<p>（请忽略我之前的错误尝试）</p>
-
-<p><img src="media/14650561718675/7.jpg" alt="7"/></p>
-
-<h3 id="toc_7">第三步 启动VNC Viwer</h3>
-
-<p>如果你电脑没有安装VNC Viewer需要先安装，<a href="www.realvnc.com">下载地址</a>。</p>
-
-<p>输入树莓派IP加设置vnc server时的对于号(比如刚才是:1)</p>
-
-<pre><code>192.168.2.2:1 
-</code></pre>
-
-<p>点击Connect，输入vncserver密码。</p>
-
-<p>OK，大功告成。</p>
-
-<p><img src="media/14650561718675/8.jpg" alt="8"/></p>
-
-<p><img src="media/14650561718675/10.jpg" alt="10"/></p>
-
-<h2 id="toc_8">进阶 如何自动开启VNC Server？</h2>
-
-<p>原理是写一个脚本，在root时自动执行。</p>
-
-<p>在终端中登录：</p>
-
-<pre><code>sudo su
-</code></pre>
-
-<p>进入目录：/etc/init.d/:</p>
-
-<pre><code>cd ./etc/init.d/
-</code></pre>
-
-<p>在此目录下新建一个文件：</p>
-
-<pre><code>#! /bin/sh
-# /etc/init.d/vncboot
-
-### BEGIN INIT INFO
-# Provides: vncboot
-# Required-Start: $remote_fs $syslog
-# Required-Stop: $remote_fs $syslog
-# Default-Start: 2 3 4 5
-# Default-Stop: 0 1 6
-# Short-Description: Start VNC Server at boot time
-# Description: Start VNC Server at boot time.
-### END INIT INFO
-
-USER=pi
-HOME=/home/pi
-
-export USER HOME
-
-case &quot;$1&quot; in
- start)
-  echo &quot;Starting VNC Server&quot;
-  #Insert your favoured settings for a VNC session
-  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565&quot;
-  ;;
-
- stop)
-  echo &quot;Stopping VNC Server&quot;
-  /usr/bin/vncserver -kill :1
-  ;;
-
- *)
-  echo &quot;Usage: /etc/init.d/vncboot {start|stop}&quot;
-  exit 1
-  ;;
-esac
-
-exit 0
-</code></pre>
-
-<p>保存。</p>
-
-<p>使该文件可执行：</p>
-
-<pre><code>chmod 755 filename
-</code></pre>
-
-<p>最后：</p>
-
-<pre><code>update-rc.d -f lightdm remove
-update-rc.d vncboot defaults
-</code></pre>
-
-<p>返回：</p>
-
-<pre><code>update-rc.d: using dependency based boot sequencing
-</code></pre>
-
-<p>说明成功了。</p>
 
                         
                       </div>
@@ -340,7 +178,7 @@ update-rc.d vncboot defaults
                 </a>
                 <div class="read-more clearfix">
                   <div class="more-left left">
-                  
+                   <a href="2016-06-05-connectRaspberryPi.html">Read more</a>&nbsp;&nbsp; 
                     <span class="date">2016/6/5</span>
                     <span>posted in&nbsp;</span> 
           				  
@@ -1122,7 +960,19 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 
     
 
+<script>
+    // dynamic User by Hux
+    var _baId = '{{ site.ba_track_id }}';
 
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
   </body>
 </html>

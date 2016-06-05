@@ -4,7 +4,7 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-06-03T16:32:56+08:00</updated>
+  <updated>2016-06-05T11:40:45+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -72,6 +72,8 @@
 <p>如果你有路由器，那么很简单，登录路由器配置网址即可。但是，有时候学校没有办法用路由器。</p>
 
 <p>假设你的电脑可以连上无线网络。</p>
+
+<span id="more"></span><!-- more -->
 
 <h3 id="toc_2">第一步：查找</h3>
 
@@ -201,7 +203,7 @@ case &quot;$1&quot; in
  start)
   echo &quot;Starting VNC Server&quot;
   #Insert your favoured settings for a VNC session
-  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565&quot;
+  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1000x800 &quot;
   ;;
 
  stop)
@@ -237,6 +239,10 @@ update-rc.d vncboot defaults
 </code></pre>
 
 <p>说明成功了。</p>
+
+<p>重启你的树莓派，VNC Server就会自动运行了。</p>
+
+<p>愉快的开始玩吧。</p>
 
 ]]></content>
   </entry>
