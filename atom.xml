@@ -4,13 +4,242 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-06-03T16:27:11+08:00</updated>
+  <updated>2016-06-03T16:32:56+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[校园网无路由器无显示器情况下使用树莓派]]></title>
+    <link href="azureyu.com/2016-06-05-connectRaspberryPi.html"/>
+    <updated>2016-06-05T00:02:51+08:00</updated>
+    <id>azureyu.com/2016-06-05-connectRaspberryPi.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>
+<a href="#toc_0">解决方案</a>
+</li>
+<li>
+<a href="#toc_1">怎么获取IP地址？</a>
+<ul>
+<li>
+<a href="#toc_2">第一步：查找</a>
+</li>
+<li>
+<a href="#toc_3">第二步：连接</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_4">怎么进行VNC连接？</a>
+<ul>
+<li>
+<a href="#toc_5">第一步 网络共享</a>
+</li>
+<li>
+<a href="#toc_6">第二步 安装VNC Server</a>
+</li>
+<li>
+<a href="#toc_7">第三步 启动VNC Viwer</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_8">进阶 如何自动开启VNC Server？</a>
+</li>
+</ul>
+
+
+<p>就如标题所言，我们的处境很艰难。</p>
+
+<p>想玩树莓派，但是没有额外的显示器。<br/>
+还是在校园网的环境下，无法通过路由器查看树莓派IP地址。</p>
+
+<h2 id="toc_0">解决方案</h2>
+
+<p>不过办法总比困难多。</p>
+
+<p>我们可以使用<a href="https://zh.wikipedia.org/wiki/Secure_Shell">SSH</a>登录之后，再使用<a href="https://zh.wikipedia.org/wiki/VNC">VNC</a>操纵树莓派。</p>
+
+<h2 id="toc_1">怎么获取IP地址？</h2>
+
+<p>想要通过SSH登录，你需要知道树莓派的IP地址。<br/>
+树莓派默认是开启<a href="https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E4%B8%BB%E6%9C%BA%E8%AE%BE%E7%BD%AE%E5%8D%8F%E8%AE%AE">DHCP</a>的，也就是说它会自动分配动态地址。</p>
+
+<p>如果你有路由器，那么很简单，登录路由器配置网址即可。但是，有时候学校没有办法用路由器。</p>
+
+<p>假设你的电脑可以连上无线网络。</p>
+
+<h3 id="toc_2">第一步：查找</h3>
+
+<p>运行命令，输入</p>
+
+<pre><code>    arp -a
+</code></pre>
+
+<p>将网线一端连接树莓派，另一端连接电脑。</p>
+
+<p>再次输入<br/>
+        arp -a</p>
+
+<p>对比两次结果，多出来IP地址的即是树莓派的IP地址。</p>
+
+<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A51.jpg" alt="树莓派连接1"/></p>
+
+<h3 id="toc_3">第二步：连接</h3>
+
+<p>打开Putty(可在网络上下载，该软件开源)。</p>
+
+<p>输入刚才的IP地址，可以将其Save，方便下次使用。<br/>
+回车连接。</p>
+
+<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A52.jpg" alt="树莓派连接2"/></p>
+
+<p>连接成功之后，输入用户名，默认为pi，回车。<br/>
+再输入密码，默认为raspberry，回车。<br/>
+即登录成功。</p>
+
+<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A53.jpg" alt="树莓派连接3"/></p>
+
+<h2 id="toc_4">怎么进行VNC连接？</h2>
+
+<h3 id="toc_5">第一步 网络共享</h3>
+
+<p>将电脑网络共享给树莓派。<br/>
+进入设置，搜索更改适配器设置，进入。<br/>
+选择无线网连接，右击属性，点击共享Tab，勾选“运行其他网络用户通过此计算机的Internet连接来连接”，点击确定。</p>
+
+<h3 id="toc_6">第二步 安装VNC Server</h3>
+
+<p>在树莓派上安装VNC Server：</p>
+
+<pre><code>sudo apt-get install tightvncserver
+</code></pre>
+
+<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A54.jpg" alt="树莓派连接4"/></p>
+
+<p>安装成功之后设置两次密码。我已经安装过了，所以没有输入。</p>
+
+<p>启动树莓派VNC Server</p>
+
+<pre><code>vncserver :1 -geometry 800x600
+</code></pre>
+
+<p>vncserver 和 :1之间有空格，不然就会像我👇下面那样。</p>
+
+<p><img src="media/14650561718675/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%9E%E6%8E%A55.jpg" alt="树莓派连接5"/></p>
+
+<p>Tips:</p>
+
+<p>如果VNC Server密码忘了怎么办？<br/>
+输入</p>
+
+<pre><code>vncpasswd
+</code></pre>
+
+<p>来进行重置：</p>
+
+<p>（请忽略我之前的错误尝试）</p>
+
+<p><img src="media/14650561718675/7.jpg" alt="7"/></p>
+
+<h3 id="toc_7">第三步 启动VNC Viwer</h3>
+
+<p>如果你电脑没有安装VNC Viewer需要先安装，<a href="www.realvnc.com">下载地址</a>。</p>
+
+<p>输入树莓派IP加设置vnc server时的对于号(比如刚才是:1)</p>
+
+<pre><code>192.168.2.2:1 
+</code></pre>
+
+<p>点击Connect，输入vncserver密码。</p>
+
+<p>OK，大功告成。</p>
+
+<p><img src="media/14650561718675/8.jpg" alt="8"/></p>
+
+<p><img src="media/14650561718675/10.jpg" alt="10"/></p>
+
+<h2 id="toc_8">进阶 如何自动开启VNC Server？</h2>
+
+<p>原理是写一个脚本，在root时自动执行。</p>
+
+<p>在终端中登录：</p>
+
+<pre><code>sudo su
+</code></pre>
+
+<p>进入目录：/etc/init.d/:</p>
+
+<pre><code>cd ./etc/init.d/
+</code></pre>
+
+<p>在此目录下新建一个文件：</p>
+
+<pre><code>#! /bin/sh
+# /etc/init.d/vncboot
+
+### BEGIN INIT INFO
+# Provides: vncboot
+# Required-Start: $remote_fs $syslog
+# Required-Stop: $remote_fs $syslog
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Start VNC Server at boot time
+# Description: Start VNC Server at boot time.
+### END INIT INFO
+
+USER=pi
+HOME=/home/pi
+
+export USER HOME
+
+case &quot;$1&quot; in
+ start)
+  echo &quot;Starting VNC Server&quot;
+  #Insert your favoured settings for a VNC session
+  su - $USER -c &quot;/usr/bin/vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565&quot;
+  ;;
+
+ stop)
+  echo &quot;Stopping VNC Server&quot;
+  /usr/bin/vncserver -kill :1
+  ;;
+
+ *)
+  echo &quot;Usage: /etc/init.d/vncboot {start|stop}&quot;
+  exit 1
+  ;;
+esac
+
+exit 0
+</code></pre>
+
+<p>保存。</p>
+
+<p>使该文件可执行：</p>
+
+<pre><code>chmod 755 filename
+</code></pre>
+
+<p>最后：</p>
+
+<pre><code>update-rc.d -f lightdm remove
+update-rc.d vncboot defaults
+</code></pre>
+
+<p>返回：</p>
+
+<pre><code>update-rc.d: using dependency based boot sequencing
+</code></pre>
+
+<p>说明成功了。</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iOS 独立开发记录]]></title>
@@ -3260,94 +3489,6 @@ db.getCollection(&#39;PNR&rsquo;).find({PnrByName: {name: &ldquo;JRTyler&rdquo;}
 <h2 id="toc_2">后记</h2>
 
 <p>之后也选修大型机课程，再来看个人赛觉得是简单了很多，又系统的了解更多的大型机知识，当然多数时间在学习JCL和COBOL程序设计，不得不说编写大型机应用，更需要耐心。</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用CocoaPods]]></title>
-    <link href="azureyu.com/2015-10-24-cocoaPods.html"/>
-    <updated>2016-05-10T14:36:11+08:00</updated>
-    <id>azureyu.com/2015-10-24-cocoaPods.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">CocoaPods是什么?</h2>
-
-<p>当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
-
-<blockquote>
-<p>你需要：<br/>
-- 会使用终端，知道基本的命令含义，比如 cd<br/>
-- 了解有的服务器在墙在外，需要更换为国内镜像</p>
-</blockquote>
-
-<p>CocoaPods官网: <a href="https://cocoapods.org">https://cocoapods.org</a></p>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_1">如何开始？</h2>
-
-<h3 id="toc_2">step 1 安装</h3>
-
-<p>以下命令有权限问题时，加上sudo，比如：</p>
-
-<pre><code>sudo gem install cocopods
-</code></pre>
-
-<ul>
-<li><p>如果你在墙外，进入终端：</p>
-
-<pre><code>gem install cocoapods
-gem setup
-</code></pre></li>
-<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
-
-<pre><code>gem sources --remove https://rubygems.org/
-gem sources -a https://ruby.taobao.org/
-gem sources -l
-</code></pre></li>
-<li><p>再输入:</p>
-
-<pre><code>gem install cocoapods
-</code></pre></li>
-<li><p>同样，在墙内时，</p>
-
-<pre><code>pod repo remove master
-pod repo add master https://gitcafe.com/akuandev/Specs.git
-pod repo update
-</code></pre></li>
-</ul>
-
-<h3 id="toc_3">Step 2 配置</h3>
-
-<ul>
-<li><p>初始化:</p>
-
-<pre><code>cd yourProjectFile
-pod init
-</code></pre></li>
-<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
-
-<pre><code>pod ‘第三方库名称’, ‘~&gt; 版本’
-</code></pre>
-
-<p>保存文件。</p></li>
-<li><p>安装：</p>
-
-<pre><code>cd yourProjectFile  
-pod install
-</code></pre></li>
-</ul>
-
-<h3 id="toc_4">Step 3. 使用</h3>
-
-<p>打开项目：yourProjectName.xcworkspace</p>
-
-<h3 id="toc_5">Step 4 查找</h3>
-
-<p>查找你需要的：</p>
-
-<pre><code>    pod search
-</code></pre>
 
 ]]></content>
   </entry>
