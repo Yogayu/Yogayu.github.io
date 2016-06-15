@@ -4,7 +4,7 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-06-10T17:36:51+08:00</updated>
+  <updated>2016-06-15T21:42:58+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -45,6 +45,13 @@
     <updated>2016-06-05T00:02:51+08:00</updated>
     <id>azureyu.com/2016-06-05-connectRaspberryPi.html</id>
     <content type="html"><![CDATA[
+<p>就如标题所言，我们的处境很艰难。</p>
+
+<p>想玩树莓派，但是没有额外的显示器。<br/>
+还是在校园网的环境下，无法通过路由器查看树莓派IP地址。</p>
+
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>
 <a href="#toc_0">解决方案</a>
@@ -79,13 +86,6 @@
 </li>
 </ul>
 
-
-<p>就如标题所言，我们的处境很艰难。</p>
-
-<p>想玩树莓派，但是没有额外的显示器。<br/>
-还是在校园网的环境下，无法通过路由器查看树莓派IP地址。</p>
-
-<span id="more"></span><!-- more -->
 
 <h2 id="toc_0">解决方案</h2>
 
@@ -280,6 +280,14 @@ update-rc.d vncboot defaults
     <updated>2016-04-27T00:19:05+08:00</updated>
     <id>azureyu.com/iOSDevRecord.html</id>
     <content type="html"><![CDATA[
+<blockquote>
+<p>前期思考要全面，设计要具体，在具体实现过程中，需要兵来将挡，水来土掩。</p>
+</blockquote>
+
+<p>半个月前，完成了个人App的2.0版本，也在普天同庆的六一儿童节这天上架了。因为是个人开发，很多实现都是边探索边做。现在完成之后再回顾，发现自己走了些弯路。所以写了这篇总结，概览了从想法、设计、开发到最终发布的过程。希望读者参考本文，可以少走一些弯路；另外，本文也给列出了开发中具体思路和资源列表。</p>
+
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>
 <a href="#toc_0">知识从何而来？</a>
@@ -404,12 +412,6 @@ update-rc.d vncboot defaults
 </li>
 </ul>
 
-
-<blockquote>
-<p>前期思考要全面，设计要具体，在具体实现过程中，需要兵来将挡，水来土掩。</p>
-</blockquote>
-
-<p>半个月前，完成了个人App的2.0版本，也在普天同庆的六一儿童节这天上架了。因为是个人开发，很多实现都是边探索边做。现在完成之后再回顾，发现自己走了些弯路。所以写了这篇总结，概览了从想法、设计、开发到最终发布的过程。希望读者参考本文，可以少走一些弯路；另外，本文也给列出了开发中具体思路和资源列表。</p>
 
 <h2 id="toc_0">知识从何而来？</h2>
 
@@ -599,7 +601,7 @@ update-rc.d vncboot defaults
 
 <p><img src="media/14616875454899/Color_Sail___Design_Seeds.png" alt="Color_Sail___Design_Seeds"/><img src="media/14616875454899/Color1.png" alt="Colo"/></p>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <p>代码实现：</p>
 
@@ -1317,6 +1319,8 @@ Support :
 
 <p>而我认为，当你读书到一定量之后，你重读的书的数量，才决定了你读书的质量。</p>
 
+<span id="more"></span><!-- more -->
+
 <p></br></p>
 
 <p>一本真正的好书值得重读，甚至是重读很多遍。每一遍你都会有新的感悟和发现。</p>
@@ -1329,8 +1333,6 @@ Support :
 <p>如果你重读一本好书之后，理解到的和以前相同，那么很可能你心智没有在成长。</p>
 
 <p>当然，前提是那是一本好书。这样的好书，是不多的，而对于每一个人，这样的好书也是不同的。</p>
-
-<span id="more"></span><!-- more -->
 
 <p></br><br/>
 拿《如何阅读一本书》举例，第一次读，读出了书中的阅读规则；第二次读，读出了教育、语言与思想的关系；第三次读，读出了什么是心智与理解。</p>
@@ -1359,6 +1361,8 @@ Support :
     <content type="html"><![CDATA[
 <p>《思考的整理术》中曾提到可以将自己的经验整理为自己的谚语，作为高度的总结。和自己常做的事，一拍即合，只是之前未给它们命名。现在想来，叫做“自己的谚语”确实有几分道理。</p>
 
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>  静而生慧。</li>
 <li>阅读是思量。</li>
@@ -1374,27 +1378,22 @@ Support :
 <li>先清楚你要做什么，然后去做。</li>
 <li>想清楚自己的长处，发展自己的长处。</li>
 <li>有话必说，无话不说。<br/></li>
-<li>“ 独立之意识，自由之思想。”<br/></li>
-</ul>
-
-<span id="more"></span><!-- more -->
-
-<ul>
-<li>“You don&rsquo;t know what you have until it’s gone.”</li>
-<li>尽量不要和别人讲人生道理，多数情况下讲了也没有，讲个故事吧。</li>
-<li>拿出证据来，用事实说话。</li>
-<li>不要总在“觉得”，要去“行动”去表现。Don&rsquo;t just tell it, show it.</li>
-<li>欲速则不达，一步一步的认真去做，就是最快的捷径。</li>
-<li>思考要有深度，广度。目光要放远。思想要集中。</li>
-<li>要有完整作品。文章也好，项目也好。</li>
-<li>理性生活，感性创作。</li>
-<li>独处可以丰富。</li>
-<li>科学不过是另一种宗教。</li>
-<li>不同的时间有不同的烦恼，不要期待自己到达一个点之后就一切安好。</li>
-<li>如果给你十个苹果，从最好的那个开始吃吧。</li>
-<li>想做什么就去做什么吧，这真是最好的建议。你没做，只是想的事啊，多半不是真的想。</li>
-<li>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</li>
-<li> 个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</li>
+<li><p>“ 独立之意识，自由之思想。”       </p></li>
+<li><p>“You don&rsquo;t know what you have until it’s gone.”</p></li>
+<li><p>尽量不要和别人讲人生道理，多数情况下讲了也没有，讲个故事吧。</p></li>
+<li><p>拿出证据来，用事实说话。</p></li>
+<li><p>不要总在“觉得”，要去“行动”去表现。Don&rsquo;t just tell it, show it.</p></li>
+<li><p>欲速则不达，一步一步的认真去做，就是最快的捷径。</p></li>
+<li><p>思考要有深度，广度。目光要放远。思想要集中。</p></li>
+<li><p>要有完整作品。文章也好，项目也好。</p></li>
+<li><p>理性生活，感性创作。</p></li>
+<li><p>独处可以丰富。</p></li>
+<li><p>科学不过是另一种宗教。</p></li>
+<li><p>不同的时间有不同的烦恼，不要期待自己到达一个点之后就一切安好。</p></li>
+<li><p>如果给你十个苹果，从最好的那个开始吃吧。</p></li>
+<li><p>想做什么就去做什么吧，这真是最好的建议。你没做，只是想的事啊，多半不是真的想。</p></li>
+<li><p>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</p></li>
+<li><p>个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</p></li>
 </ul>
 
 ]]></content>
@@ -1506,68 +1505,6 @@ Support :
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[让你生活更美好的小工具]]></title>
-    <link href="azureyu.com/14640120604550.html"/>
-    <updated>2016-05-23T22:01:00+08:00</updated>
-    <id>azureyu.com/14640120604550.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_0">f.lux</h2>
-
-<h2 id="toc_1">CheckSheet</h2>
-
-<h2 id="toc_2">圈点</h2>
-
-<h2 id="toc_3">MarkMan</h2>
-
-<h2 id="toc_4">Clipping-fere</h2>
-
-<h2 id="toc_5">OmandiskSweeper</h2>
-
-<h2 id="toc_6">Pin</h2>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[编译原理——语法分析]]></title>
-    <link href="azureyu.com/14634473408769.html"/>
-    <updated>2016-05-17T09:09:00+08:00</updated>
-    <id>azureyu.com/14634473408769.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">4.1 概述</h2>
-
-<p><img src="media/14634473408769/Chapter4.png" alt="Chapte"/></p>
-
-<ul>
-<li>Context-Free Grammar</li>
-</ul>
-
-<h2 id="toc_1">自顶向下</h2>
-
-<ol>
-<li><p>带回溯的自顶向下分析（基于穷举）<br/>
-效率低，问题可能在最后才被发觉。</p>
-
-<blockquote>
-<p>适用广，代价高。<br/>
-难以定位出错位置，弃用。</p>
-</blockquote></li>
-<li><p>不带回溯的自顶向下分析</p></li>
-</ol>
-
-<h2 id="toc_2">自底向上</h2>
-
-<p>LR分析：通用、广泛、复杂</p>
-
-<p>GCC: GNU Complier Collection<br/>
-LLVM</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[让你的App说出多国语言——iOS开发之本地化(国际化)]]></title>
     <link href="azureyu.com/2016-05-14-iOS-Localizable.html"/>
     <updated>2016-05-14T16:37:28+08:00</updated>
@@ -1600,6 +1537,8 @@ LLVM</p>
 </ul>
 
 
+<span id="more"></span><!-- more -->
+
 <h2 id="toc_0">本地化的重要性</h2>
 
 <p>当你的App上架AppStore之后，便可以在全球范围内销售了。<br/>
@@ -1629,7 +1568,7 @@ LLVM</p>
 
 <p><img src="media/14632150485486/location3.png" alt="location3"/></p>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <p>选中新建的文件，InfoPlist.strings，在Xcode的File inspection中点击Localize。<br/>
 <img src="media/14632150485486/InfoPlist_strings4.png" alt="InfoPlist_strings4"/></p>
@@ -1870,11 +1809,13 @@ LLVM</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[编译原理——词法分析]]></title>
+    <title type="html"><![CDATA[编译原理]]></title>
     <link href="azureyu.com/2016-05-10-comipler.html"/>
     <updated>2016-05-10T08:42:09+08:00</updated>
     <id>azureyu.com/2016-05-10-comipler.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>
 <a href="#toc_0">词法分析</a>
@@ -1921,21 +1862,20 @@ LLVM</p>
 </li>
 </ul>
 </li>
+<li>
+<a href="#toc_13">语法分析</a>
+</li>
+<li>
+<a href="#toc_14">4.1 概述</a>
+</li>
+<li>
+<a href="#toc_15">自顶向下</a>
+</li>
+<li>
+<a href="#toc_16">自底向上</a>
+</li>
 </ul>
 
-
-<hr/>
-
-<ul>
-<li>编译器的地位</li>
-<li>概览
-
-<ul>
-<li>词法分析</li>
-<li>语法分析</li>
-<li>语义分析</li>
-</ul></li>
-</ul>
 
 <h2 id="toc_0">词法分析</h2>
 
@@ -1952,7 +1892,7 @@ LLVM</p>
 
 <h3 id="toc_2">1. 正规表达式（正则表达式 regex）</h3>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <p>没有必要使用零型语言、二型语言，三型语言就够了。但对于复杂的语法，例如if语句，就需要二型语言。</p>
 
@@ -2123,6 +2063,36 @@ main(){
     1. 只会进行一次匹配<br/>
     2. 尽可能长的进行匹配 比如 am ，ambitation同时出现时，会匹配后者</p>
 
+<h2 id="toc_13">语法分析</h2>
+
+<h2 id="toc_14">4.1 概述</h2>
+
+<p><img src="media/14634473408769/Chapter4.png" alt="Chapte"/></p>
+
+<ul>
+<li>Context-Free Grammar</li>
+</ul>
+
+<h2 id="toc_15">自顶向下</h2>
+
+<ol>
+<li><p>带回溯的自顶向下分析（基于穷举）<br/>
+效率低，问题可能在最后才被发觉。</p>
+
+<blockquote>
+<p>适用广，代价高。<br/>
+难以定位出错位置，弃用。</p>
+</blockquote></li>
+<li><p>不带回溯的自顶向下分析</p></li>
+</ol>
+
+<h2 id="toc_16">自底向上</h2>
+
+<p>LR分析：通用、广泛、复杂</p>
+
+<p>GCC: GNU Complier Collection<br/>
+LLVM</p>
+
 ]]></content>
   </entry>
   
@@ -2274,13 +2244,13 @@ main(){
 
 <p>另一本，我从未听过任何人的推荐，可谓是冷门，却是我眼中的经典之一。即是<strong>《如何学习》(《How to study》)</strong>，出版于1971年，作者George Fillmore Swain。</p>
 
+<span id="more"></span><!-- more -->
+
 <p>称它为一门书，其实更像一门小册子。从精神态度、理解性学习、系统性学习和习惯方法四个方面出发，提出了如格言似的建议。</p>
 
 <p>《如何阅读一本书》自己读着是越读越薄，而第二本书《如何学习》却是越读越厚，不断的在稀释。</p>
 
 <p>以下是读书笔记，是理解性翻译的原文。</p>
-
-<span id="more"></span><!-- more -->
 
 <blockquote>
 <p>For the end of education and training is to help nature to her perfection in the complete developing of all the various powers.——Richard Mulcaster,1522-1611</p>
@@ -2519,6 +2489,8 @@ He who knows, and knows that he knows, is wise; follow him.</p>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-04-15-iOSProgramming.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>
 <a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
@@ -2583,7 +2555,7 @@ Info.list : 配置文件。<br/>
 Frameworks: 需添加的框架。<br/>
 PkgInfo: 历史遗留物。</p>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <h2 id="toc_2">Build Settings</h2>
 
@@ -2739,6 +2711,8 @@ eg. Core Graphic</p>
     <content type="html"><![CDATA[
 <p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
 
+<span id="more"></span><!-- more -->
+
 <p><img src="media/14628621715071/iTunes.png" alt="iTunes"/></p>
 
 <p><em>PS:欢迎大家捧场~<a href="https://appsto.re/cn/jnCgbb.i">APP地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
@@ -2807,8 +2781,6 @@ eg. Core Graphic</p>
 
 
 <hr/>
-
-<span id="more"></span><!-- more -->
 
 <h2 id="toc_0">正文：</h2>
 
@@ -2951,6 +2923,8 @@ Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.i
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-03-15-iOSUI.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <h2 id="toc_0">Chapter 1. UI Fundamentals</h2>
 
 <h2 id="toc_1">Windows</h2>
@@ -2982,7 +2956,7 @@ Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.i
 <li><p>代码实现：</p></li>
 </ol>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <pre><code>    fun application(application: UIApplication,
     didFinishLaunchingWithOptions
@@ -3320,6 +3294,8 @@ Beautiful+Instandly Recognizable</li>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-02-24-SimpleSum2015.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <h2 id="toc_0">科学技术</h2>
 
 <p>这一年里，对专业知识有了更深的了解。</p>
@@ -3328,8 +3304,6 @@ Beautiful+Instandly Recognizable</li>
 <li>数据结构与算法，数据库，计算机网络，密码学，Web开发，java，C#，大型机等</li>
 <li>软件工程，软件需求,UML等</li>
 </ul>
-
-<span id="more"></span><!-- more -->
 
 <p>接触了更多技术。</p>
 
@@ -3361,11 +3335,13 @@ Beautiful+Instandly Recognizable</li>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[黑客马拉松——Emotion Note开发小记"]]></title>
+    <title type="html"><![CDATA[黑客马拉松——Emotion Note开发小记]]></title>
     <link href="azureyu.com/2015-12-09-EmotionNote.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2015-12-09-EmotionNote.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <ul class="clearing-thumbs small-block-grid-2" data-clearing>
 
 <li><a href="http://7xle3b.com1.z0.glb.clouddn.com/Simulator%20Screen%20Shot%202015年12月6日%20下午8.10.08.png
@@ -3381,7 +3357,7 @@ Beautiful+Instandly Recognizable</li>
 
 <p>初步确定是在选发型和情绪笔记中选择。</p>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <p>制作选发型，需要用到图片的处理，也就是对位图的处理。另外还有有发型设计相关知识，比如：如何通过面部信息判断脸型？如何根据脸型推荐适合的发型？</p>
 
@@ -3431,6 +3407,185 @@ Beautiful+Instandly Recognizable</li>
 
 <p><a href="https://github.com/Yogayu/EmotionNote">源码地址</a></p>
 </blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[IBM个人赛Part1、Part2小结]]></title>
+    <link href="azureyu.com/2015-11-15-IBMMainFrameCompetition.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-11-15-IBMMainFrameCompetition.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">1.  先过脑子，再过机子</h2>
+
+<p>用小黑箱调试，没有办法设置断点，没有提示错误(后来上了大型机的课，也就会调试和看错误了)，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">2. 要注意细节问题</h2>
+
+<p>太久没写C语言，逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
+
+<ol>
+<li><p>zOS</p>
+
+<ul>
+<li><p>连接port</p></li>
+<li><p>登录logon</p></li>
+<li><p>登出logoff</p></li>
+</ul></li>
+<li><p>linux 基本命令 修改权限</p>
+
+<ul>
+<li><p>man，ls，cat打印到屏幕，less显示内容（大文件），mkdir，cd，cp，echo，chmod（修改权限 r,w,x ），which comandLine</p></li>
+<li><p>绝对地址与相对地址 ‘/z/bin’,’./(inside)’,’../(parent)&lsquo;</p></li>
+</ul></li>
+<li><p>主界面 ISPF</p>
+
+<ul>
+<li><p>数据管理 命令=3.4</p></li>
+<li><p>数据类型 sequential data set,  file ;partitioned data set.  a folder or a directory, members : files.</p></li>
+<li><p>添加数据 =2 PDSNAME(Membername)</p></li>
+<li><p>文本编辑 i d r</p></li>
+<li><p>=6 Command Shell 执行命令 EXEC &#39;ZOS.PUBLIC.REXX(COUNT)&rsquo; &lsquo;your_name&rsquo;</p></li>
+</ul></li>
+<li><p>编码，ASCII，EBCDIC</p>
+
+<ul>
+<li>hex on/off , hx</li>
+</ul></li>
+<li><p>JCL 运行某程序</p>
+
+<ul>
+<li><p>提交：tso submit jcl(sortjcl)</p></li>
+<li><p>查看状态：sub; =sd ; st</p></li>
+</ul></li>
+<li><p>JSON,COBOL 面向企业</p></li>
+<li><p>z/OS unix：</p>
+
+<ul>
+<li>进入：tso omvs</li>
+<li>拷贝文件：cp cp unameinfo &ldquo;//‘CN00474.P2.OUTPUT($010)&lsquo;&rdquo;</li>
+</ul></li>
+<li><p>Transaction Processing Facility (TPF) 文件</p>
+
+<ul>
+<li>JSON</li>
+<li>MongoDB
+
+<ul>
+<li>db.getCollection(’PNR’).find({PnrByNumber: {number: 88440}})
+db.getCollection(&#39;PNR&rsquo;).find({PnrByName: {name: &ldquo;JRTyler&rdquo;}})
+72 Quincy, Evanston, Illinois</li>
+</ul></li>
+</ul></li>
+<li><p>blue mix 构建云应用</p></li>
+<li><p>运行不同语言的程序，编译，连接，运行</p>
+
+<ul>
+<li>Source(POKER)-run by-&gt; JCL(POKERCMP)-output-&gt; LOAD(POKER)－run by－&gt;jcl(POKRUN16)-&gt;output result.</li>
+<li>tso submit jcl(POKERCMP)</li>
+<li>tso submit jcl(POKRUN16)</li>
+</ul></li>
+<li><p>修改程序</p>
+
+<ul>
+<li>小步加进式的调试</li>
+</ul></li>
+</ol>
+
+<h2 id="toc_2">后记</h2>
+
+<p>之后也选修大型机课程，再来看个人赛觉得是简单了很多，又系统的了解更多的大型机知识，当然多数时间在学习JCL和COBOL程序设计，不得不说编写大型机应用，更需要耐心。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用CocoaPods]]></title>
+    <link href="azureyu.com/2015-10-24-cocoaPods.html"/>
+    <updated>2016-05-10T14:36:11+08:00</updated>
+    <id>azureyu.com/2015-10-24-cocoaPods.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">CocoaPods是什么?</h2>
+
+<p>当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
+
+<blockquote>
+<p>你需要：<br/>
+- 会使用终端，知道基本的命令含义，比如 cd<br/>
+- 了解有的服务器在墙在外，需要更换为国内镜像</p>
+</blockquote>
+
+<p>CocoaPods官网: <a href="https://cocoapods.org">https://cocoapods.org</a></p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">如何开始？</h2>
+
+<h3 id="toc_2">step 1 安装</h3>
+
+<p>以下命令有权限问题时，加上sudo，比如：</p>
+
+<pre><code>sudo gem install cocopods
+</code></pre>
+
+<ul>
+<li><p>如果你在墙外，进入终端：</p>
+
+<pre><code>gem install cocoapods
+gem setup
+</code></pre></li>
+<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
+
+<pre><code>gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+gem sources -l
+</code></pre></li>
+<li><p>再输入:</p>
+
+<pre><code>gem install cocoapods
+</code></pre></li>
+<li><p>同样，在墙内时，</p>
+
+<pre><code>pod repo remove master
+pod repo add master https://gitcafe.com/akuandev/Specs.git
+pod repo update
+</code></pre></li>
+</ul>
+
+<h3 id="toc_3">Step 2 配置</h3>
+
+<ul>
+<li><p>初始化:</p>
+
+<pre><code>cd yourProjectFile
+pod init
+</code></pre></li>
+<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
+
+<pre><code>pod ‘第三方库名称’, ‘~&gt; 版本’
+</code></pre>
+
+<p>保存文件。</p></li>
+<li><p>安装：</p>
+
+<pre><code>cd yourProjectFile  
+pod install
+</code></pre></li>
+</ul>
+
+<h3 id="toc_4">Step 3. 使用</h3>
+
+<p>打开项目：yourProjectName.xcworkspace</p>
+
+<h3 id="toc_5">Step 4 查找</h3>
+
+<p>查找你需要的：</p>
+
+<pre><code>    pod search
+</code></pre>
 
 ]]></content>
   </entry>

@@ -121,12 +121,6 @@
 
 <p>另一本，我从未听过任何人的推荐，可谓是冷门，却是我眼中的经典之一。即是<strong>《如何学习》(《How to study》)</strong>，出版于1971年，作者George Fillmore Swain。</p>
 
-<p>称它为一门书，其实更像一门小册子。从精神态度、理解性学习、系统性学习和习惯方法四个方面出发，提出了如格言似的建议。</p>
-
-<p>《如何阅读一本书》自己读着是越读越薄，而第二本书《如何学习》却是越读越厚，不断的在稀释。</p>
-
-<p>以下是读书笔记，是理解性翻译的原文。</p>
-
 
                         
                       </div>
@@ -163,71 +157,7 @@
                       
                       <div class="a-content-text">
                         
-                        	<ul>
-<li>
-<a href="#toc_0">Chapter 6. Anatomy of an Xcode Project</a>
-</li>
-<li>
-<a href="#toc_1">从项目到可运行的App</a>
-</li>
-<li>
-<a href="#toc_2">Build Settings</a>
-</li>
-<li>
-<a href="#toc_3">Nib Files</a>
-</li>
-<li>
-<a href="#toc_4">Code File and App Launch Process</a>
-<ul>
-<li>
-<a href="#toc_5">The entry point</a>
-</li>
-<li>
-<a href="#toc_6">UIApplicationMain</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_7">Cocoa</a>
-</li>
-<li>
-<a href="#toc_8">Subclassing</a>
-</li>
-<li>
-<a href="#toc_9">Categories and Extensions</a>
-<ul>
-<li>
-<a href="#toc_10">Swift中如何使用extension？</a>
-</li>
-<li>
-<a href="#toc_11">你如何使用extension？</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_12">Document</a>
-</li>
-</ul>
-
-
-<p>iOS 8 Programming Fundamental with Swift Part 2 IDE</p>
-
-<h2 id="toc_0">Chapter 6. Anatomy of an Xcode Project</h2>
-
-<h2 id="toc_1">从项目到可运行的App</h2>
-
-<p>App文件其实就是一个特殊的叫作<em>package</em>的文件夹。<br/>
-假设应用名为Empty Window</p>
-
-<p><img src="media/14628621715331/package.png" alt="package"/></p>
-
-<p>Empty window: 编译的文件。<br/>
-Main.Storyboard:Storyboard 文件，a bundle of nibs files.按需加载。<br/>
-Info.list : 配置文件。<br/>
-Frameworks: 需添加的框架。<br/>
-PkgInfo: 历史遗留物。</p>
-
-
+                        	
                         
                       </div>
                   </div>
@@ -238,11 +168,11 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/4/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
-          				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				  
           					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
+          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -265,38 +195,7 @@ PkgInfo: 历史遗留物。</p>
                       
                       <div class="a-content-text">
                         
-                        	<h2 id="toc_0">Chapter 1. UI Fundamentals</h2>
-
-<h2 id="toc_1">Windows</h2>
-
-<p>window is an instance of UIWindow. It&rsquo;s the root class of UI&rsquo;s hierarchy. One of the function of the  window is to deliver touches to the underling views.</p>
-
-<p>window好比是画板，view好比是画纸。</p>
-
-<pre><code> -- widow
- --- rootViewController(view controller)
-</code></pre>
-
-<h3 id="toc_2">The content of the window</h3>
-
-<p>@UIApplication从info.plist中找到信息，初始化view controller；App delegate中有window属性，设置之前初始化的view controller为其rootViewController。最后，执行完applicationDidFinishLaunching:withOption之后，会调用makeKeyAndVisible将界面从rootViewController中展示出来。（中文混杂英文描述好生涩）</p>
-
-<ol>
-<li>将某个view controller设置为rootViewController，window就会显示该view controller的view。</li>
-<li><p>@UIApplicationMain</p>
-
-<blockquote>
-<p>The @UIApplicationMain attribute in the AppDelegate.swift file is responsible for the launch of the entire application process. It marks an entry point for the application launch, reading the Storyboard&rsquo;s information from the info.plist file and instantiating the initial view controller</p>
-</blockquote></li>
-<li><p>window property in the AppDelegate. </p>
-
-<blockquote>
-<p>This property will be a handy reference to the main window for the entire life cycle of the application.</p>
-</blockquote></li>
-<li><p>代码实现：</p></li>
-</ol>
-
-
+                        	
                         
                       </div>
                   </div>
@@ -307,11 +206,11 @@ PkgInfo: 历史遗留物。</p>
                     <span class="date">2016/3/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
-          				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				  
           					    <span class="posted-in"><a href='Books.html'>Books</a></span>
+          				  
+          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -365,7 +264,7 @@ PkgInfo: 历史遗留物。</p>
                     <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
                     <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
                     
-                    <a class="jianshu" target="_blank" href="" title="JianShu">简书</a>
+                    <!-- <a class="jianshu" target="_blank" href="" title="JianShu">简书</a> -->
                       <a class="rss" href="atom.xml" title="RSS">RSS</a>
               	 </div>
           	</div>

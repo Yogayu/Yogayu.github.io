@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  编译原理——词法分析 - Azure Yu
+  编译原理 - Azure Yu
   
   </title>
   
@@ -107,7 +107,7 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>编译原理——词法分析</h1>
+          <h1>编译原理</h1>
      
         <div class="read-more clearfix">
           <span class="date">2016/5/10</span>
@@ -129,7 +129,9 @@
       </div><!-- article -->
 
       <div class="article-content">
-      <ul>
+      <span id="more"></span><!-- more -->
+
+<ul>
 <li>
 <a href="#toc_0">词法分析</a>
 </li>
@@ -175,21 +177,20 @@
 </li>
 </ul>
 </li>
+<li>
+<a href="#toc_13">语法分析</a>
+</li>
+<li>
+<a href="#toc_14">4.1 概述</a>
+</li>
+<li>
+<a href="#toc_15">自顶向下</a>
+</li>
+<li>
+<a href="#toc_16">自底向上</a>
+</li>
 </ul>
 
-
-<hr/>
-
-<ul>
-<li>编译器的地位</li>
-<li>概览
-
-<ul>
-<li>词法分析</li>
-<li>语法分析</li>
-<li>语义分析</li>
-</ul></li>
-</ul>
 
 <h2 id="toc_0">词法分析</h2>
 
@@ -206,7 +207,7 @@
 
 <h3 id="toc_2">1. 正规表达式（正则表达式 regex）</h3>
 
-<span id="more"></span><!-- more -->
+<!-- more -->
 
 <p>没有必要使用零型语言、二型语言，三型语言就够了。但对于复杂的语法，例如if语句，就需要二型语言。</p>
 
@@ -377,6 +378,36 @@ main(){
     1. 只会进行一次匹配<br/>
     2. 尽可能长的进行匹配 比如 am ，ambitation同时出现时，会匹配后者</p>
 
+<h2 id="toc_13">语法分析</h2>
+
+<h2 id="toc_14">4.1 概述</h2>
+
+<p><img src="media/14634473408769/Chapter4.png" alt="Chapte"/></p>
+
+<ul>
+<li>Context-Free Grammar</li>
+</ul>
+
+<h2 id="toc_15">自顶向下</h2>
+
+<ol>
+<li><p>带回溯的自顶向下分析（基于穷举）<br/>
+效率低，问题可能在最后才被发觉。</p>
+
+<blockquote>
+<p>适用广，代价高。<br/>
+难以定位出错位置，弃用。</p>
+</blockquote></li>
+<li><p>不带回溯的自顶向下分析</p></li>
+</ol>
+
+<h2 id="toc_16">自底向上</h2>
+
+<p>LR分析：通用、广泛、复杂</p>
+
+<p>GCC: GNU Complier Collection<br/>
+LLVM</p>
+
       </div>
     
 
@@ -447,7 +478,7 @@ main(){
                     <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a>
                     <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a>
                     
-                    <a class="jianshu" target="_blank" href="" title="JianShu">简书</a>
+                    <!-- <a class="jianshu" target="_blank" href="" title="JianShu">简书</a> -->
                       <a class="rss" href="atom.xml" title="RSS">RSS</a>
               	 </div>
           	</div>
