@@ -107,6 +107,244 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="programminglanguage.html">
+                
+                  <h1>关于编程语言的思考（上）Thinking of the Programming Language (Part 1)</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<ul>
+<li>
+<a href="#toc_0">问题 Problems</a>
+</li>
+<li>
+<a href="#toc_1">什么是编程语言？What is programming language?</a>
+</li>
+<li>
+<a href="#toc_2">语言类型 What&#39;s the type of programming languages?</a>
+</li>
+<li>
+<a href="#toc_3">语言的基本组成要素是什么？What’s the core foundations of programming language？</a>
+<ul>
+<li>
+<a href="#toc_4">过程 process</a>
+</li>
+<li>
+<a href="#toc_5">面向对象 object-oriented</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_6">Reference:</a>
+</li>
+</ul>
+
+
+<h2 id="toc_0">问题 Problems</h2>
+
+<ul>
+<li>什么是编程语言？有哪些？各自是什么类型？What is programming language? How many programming language we have? How many types?</li>
+<li>语言的基本组成要素是什么？What&rsquo;s the core foundations of programming language？</li>
+<li>为什么有那么多的编程语言? Why there are so many programming language?</li>
+<li>语言之间的相同点和异同点是什么？What are the similarities and differences among those languages?</li>
+<li>为什么有时候创造一门新语言能更好的解决问题？Why sometimes creating a new language is a better way to solve problems?</li>
+<li>如何实现一门编程语言？How to implement a programming language</li>
+<li><p>我学过哪些编程语言? How many programming languages I have learned?</p>
+
+<pre><code>- C
+- C++
+- 汇编
+- Java
+- C#
+- HTML/CSS
+- JavaScript
+- Swift
+- Cobol、JCL
+- PHP
+- Objective-C
+</code></pre></li>
+</ul>
+
+<hr/>
+
+<h2 id="toc_1">什么是编程语言？What is programming language?</h2>
+
+<p>人类语言的一大目的是为了沟通，计算机编程语言也是如此。只是编程语言的沟通对象是人与机器。计算机本身很“笨”，因为它所做的所有事情[ <sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> ]都需要命令指挥。而这些命令就是人们使用编程语言来编写的。</p>
+
+<p>One of the main function of human language is to communicate, so does the computer programming language. But  it&rsquo;s a communication between the computers and human beings. The computer is quite &ldquo;stupid&rdquo; since it only does the instructions which have been told. Those instructions, written by human beings, are programming languages. </p>
+
+<h2 id="toc_2">语言类型 What&rsquo;s the type of programming languages?</h2>
+
+<p>你可能听过不少语言的分类标准，比如，从语言的等级来分，有低级语言(汇编)、中级语言&copy;和高级语言(C++，java)。从语言的实现角度来分，有编译型语言(C、C++，Pascal)、解释型语言(php，lisp)和以上两者的混合型语言(Java，Python)。从语言类型是否在编译时确定，也可以分为静态语言（C++，Java）和动态语言（JavaScript）。或者，我们可以从编程风格来分，有面向对象、函数式和逻辑式。当然一种语言可能属于其中的几种类别。</p>
+
+<p>You may have heard different standard of classification.For example, we can divide them from the language level: low level, medium level and high level. We can see from the language Implementation:  Interpreted、Compiled、Hybrid Language Implementations. Or we can divide from the style: Imperative/Object-Oriented Programming, Functional Programming, Logic Programming.  </p>
+
+<p>举个例子，如何区分编译型和解释型呢？一个程序，要让计算机执行，必须是计算机所能理解的形式。编译器可以把用某种编程语言写成的程序（源语言），转换成另一种编程语言（目标语言）。解释器不是通过直接翻译，而是直接一行一行的解释执行。<br/>
+How to distinguish between compiled language and interpreted language? A program must be translate to the form which the computer can execute. The complier does the translation from the source language to target language. While the Interpreter directly execute the operations in the source program.</p>
+
+<p>编译器 Complier：<br/>
+<img src="media/14670280497426/%E7%BC%96%E8%AF%91%E5%99%A8.jpg" alt="编译器"/></p>
+
+<p>解释器 Interpeter：<br/>
+<img src="media/14670280497426/%E8%A7%A3%E9%87%8A%E5%99%A8.jpg" alt="解释器"/></p>
+
+<p>wiki分类：</p>
+
+<p><img src="media/14670280497426/https___zh_wikipedia_org_wiki_ALGOL.png" alt="https___zh_wikipedia_org_wiki_ALGO"/><br/>
+<a href="https://zh.wikipedia.org/wiki/ALGOL">图片来源</a></p>
+
+<p><em>编译原理课上，老师推荐学习四门语言，C语言，汇编，脚本语言，Lisp。课后问他为什么没有面向对象的语言，他说面向对象是一种设计。不过，我自己还是坚持面向对象的语言是必学的。</em></p>
+
+<h2 id="toc_3">语言的基本组成要素是什么？What’s the core foundations of programming language？</h2>
+
+<p>因为我个人接触语言的局限性，目前只做了如下的思考，欢迎各位讨论，提出自己的见解。<br/>
+The following thinking is based on my own limit experience with programming language, so please feel free to offer your own opinions and discuss with me.</p>
+
+<p>学习一门语言，会学习其语法，以及其对应的语义。语法定义了程序的组织书写形式。语义描述程序将如何被执行。</p>
+
+<blockquote>
+<p>Syntax of a programming language determines the well-formed or grammatically correct programs of the language. Semantics describes how or whether such programs will execute. <br/>
+- Syntax is how things look <br/>
+- Semantics is how things work (the meaning)</p>
+</blockquote>
+
+<h3 id="toc_4">过程 process</h3>
+
+<ul>
+<li>表达式 expression
+
+<ul>
+<li>语句 statement
+
+<ul>
+<li>声明 declare 常量与变量</li>
+<li>赋值</li>
+</ul></li>
+<li>判断 judge
+
+<ul>
+<li>if-else</li>
+<li>switch-case</li>
+</ul></li>
+<li>循环 loop
+
+<ul>
+<li>while / do while</li>
+<li>for</li>
+<li>if</li>
+</ul></li>
+</ul></li>
+<li><p>操作operation</p>
+
+<ul>
+<li>+ - * / %</li>
+<li> :? || &amp;&amp; ! &gt;&gt; &lt;&lt;</li>
+</ul></li>
+<li><p>数据类型 data type (the value and the operation)</p>
+
+<ul>
+<li>原始类型 primitive type
+
+<ul>
+<li>数值型 numberic: short,int,float,double,long</li>
+<li>字符 string:char,string</li>
+<li>空 nil</li>
+</ul></li>
+<li>高级类型 advanced type
+
+<ul>
+<li>enumeration</li>
+<li>dictionary</li>
+<li>array</li>
+<li>struct</li>
+<li>generic</li>
+</ul></li>
+</ul></li>
+<li><p>函数 function</p>
+
+<ul>
+<li>type-return</li>
+<li>name</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_5">面向对象 object-oriented</h3>
+
+<ul>
+<li>类 class
+
+<ul>
+<li>attribute</li>
+<li>function(method)</li>
+<li>construct-deconstruct</li>
+</ul></li>
+<li>继承 inherit
+
+<ul>
+<li>单继承、多继承</li>
+</ul></li>
+<li>多态
+
+<ul>
+<li>重载</li>
+</ul></li>
+<li>接口 interface</li>
+<li>协议 delegate</li>
+</ul>
+
+<hr/>
+
+<p>SCIP:<br/>
+- 过程抽象<br/>
+- 数据抽象</p>
+
+<h2 id="toc_6">Reference:</h2>
+
+<ul>
+<li><a href="https://www.amazon.com/Programming-Languages-Active-Learning-Approach/dp/0387794212">Programming Language</a></li>
+<li><a href="https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811?ie=UTF8&amp;*Version*=1&amp;*entries*=0">Complier</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/ALGOL">https://zh.wikipedia.org/wiki/ALGOL</a></li>
+<li>SCIP</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+
+<li id="fn1">
+<p>从本质上来看，计算机能做的事情就是计算，不是吗？Actually, the computer can do nothing but computation, isn&rsquo;t it?&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2016/6/27</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+                        <a href="azureyu.com/programminglanguage.html#disqus_thread">comments</a>
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="2016-06-10-RM.html">
                 
                   <h1>Mac快速远程控制Windows电脑桌面</h1>
@@ -214,9 +452,9 @@
                     <span class="date">2016/6/2</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
                   </div>
                   <div class="more-right right">
@@ -290,59 +528,17 @@
                     <span class="date">2016/5/28</span>
                     <span>posted in&nbsp;</span> 
           				  
+          					    <span class="posted-in"><a href='Life.html'>Life</a></span>
+          				  
           					    <span class="posted-in"><a href='Hum.html'>Hum</a></span>
           				  
           					    <span class="posted-in"><a href='HUM.html'>一日一</a></span>
-          				  
-          					    <span class="posted-in"><a href='Life.html'>Life</a></span>
           				   
                   </div>
                   <div class="more-right right">
                   <span class="comments">
                       
                         <a href="azureyu.com/words.html#disqus_thread">comments</a>
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="14643326121905.html">
-                
-                  <h1>App再次被拒</h1>
-                  <div class="a-content">
-                      
-		                  <div class="a-content-img">
-                      		<img src="media/14643326121905/iTunes_Connect.png" />
-                      	  </div>
-		              
-                      <div class="a-content-text">
-                        
-                        	<p>一周之前完成了App2.0 的开发。还早早的完成了宣传网站。</p>
-
-<p>就等着审核通过。</p>
-
-<p>不料，两次被拒。</p>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="14643326121905.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/5/27</span>
-                    
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-                        <a href="azureyu.com/14643326121905.html#disqus_thread">comments</a>
                       
 
                        
@@ -446,6 +642,12 @@
 	      
 		      
 			      <li class="post">
+			        <a href="programminglanguage.html">关于编程语言的思考（上）Thinking of the Programming Language (Part 1)</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="2016-06-10-RM.html">Mac快速远程控制Windows电脑桌面</a>
 			      </li>
 		     
@@ -465,12 +667,6 @@
 		      
 			      <li class="post">
 			        <a href="2016-05-29-Reread.html">【一日一系列】重读</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="words.html">自己的谚语</a>
 			      </li>
 		     
 		  
@@ -567,18 +763,8 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 
     
 
-<script>
-    var _baId = '{{ site.ba_track_id }}';
 
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script><script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -588,6 +774,20 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
   ga('send', 'pageview');
 
 </script>
+<script>
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
 
   </body>
 </html>

@@ -4,13 +4,227 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="azureyu.com/atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-06-15T21:42:58+08:00</updated>
+  <updated>2016-06-27T21:12:50+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[关于编程语言的思考（上）Thinking of the Programming Language (Part 1)]]></title>
+    <link href="azureyu.com/programminglanguage.html"/>
+    <updated>2016-06-27T19:47:29+08:00</updated>
+    <id>azureyu.com/programminglanguage.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>
+<a href="#toc_0">问题 Problems</a>
+</li>
+<li>
+<a href="#toc_1">什么是编程语言？What is programming language?</a>
+</li>
+<li>
+<a href="#toc_2">语言类型 What&#39;s the type of programming languages?</a>
+</li>
+<li>
+<a href="#toc_3">语言的基本组成要素是什么？What’s the core foundations of programming language？</a>
+<ul>
+<li>
+<a href="#toc_4">过程 process</a>
+</li>
+<li>
+<a href="#toc_5">面向对象 object-oriented</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_6">Reference:</a>
+</li>
+</ul>
+
+
+<h2 id="toc_0">问题 Problems</h2>
+
+<ul>
+<li>什么是编程语言？有哪些？各自是什么类型？What is programming language? How many programming language we have? How many types?</li>
+<li>语言的基本组成要素是什么？What&rsquo;s the core foundations of programming language？</li>
+<li>为什么有那么多的编程语言? Why there are so many programming language?</li>
+<li>语言之间的相同点和异同点是什么？What are the similarities and differences among those languages?</li>
+<li>为什么有时候创造一门新语言能更好的解决问题？Why sometimes creating a new language is a better way to solve problems?</li>
+<li>如何实现一门编程语言？How to implement a programming language</li>
+<li><p>我学过哪些编程语言? How many programming languages I have learned?</p>
+
+<pre><code>- C
+- C++
+- 汇编
+- Java
+- C#
+- HTML/CSS
+- JavaScript
+- Swift
+- Cobol、JCL
+- PHP
+- Objective-C
+</code></pre></li>
+</ul>
+
+<hr/>
+
+<h2 id="toc_1">什么是编程语言？What is programming language?</h2>
+
+<p>人类语言的一大目的是为了沟通，计算机编程语言也是如此。只是编程语言的沟通对象是人与机器。计算机本身很“笨”，因为它所做的所有事情[ <sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> ]都需要命令指挥。而这些命令就是人们使用编程语言来编写的。</p>
+
+<p>One of the main function of human language is to communicate, so does the computer programming language. But  it&rsquo;s a communication between the computers and human beings. The computer is quite &ldquo;stupid&rdquo; since it only does the instructions which have been told. Those instructions, written by human beings, are programming languages. </p>
+
+<h2 id="toc_2">语言类型 What&rsquo;s the type of programming languages?</h2>
+
+<p>你可能听过不少语言的分类标准，比如，从语言的等级来分，有低级语言(汇编)、中级语言&copy;和高级语言(C++，java)。从语言的实现角度来分，有编译型语言(C、C++，Pascal)、解释型语言(php，lisp)和以上两者的混合型语言(Java，Python)。从语言类型是否在编译时确定，也可以分为静态语言（C++，Java）和动态语言（JavaScript）。或者，我们可以从编程风格来分，有面向对象、函数式和逻辑式。当然一种语言可能属于其中的几种类别。</p>
+
+<p>You may have heard different standard of classification.For example, we can divide them from the language level: low level, medium level and high level. We can see from the language Implementation:  Interpreted、Compiled、Hybrid Language Implementations. Or we can divide from the style: Imperative/Object-Oriented Programming, Functional Programming, Logic Programming.  </p>
+
+<p>举个例子，如何区分编译型和解释型呢？一个程序，要让计算机执行，必须是计算机所能理解的形式。编译器可以把用某种编程语言写成的程序（源语言），转换成另一种编程语言（目标语言）。解释器不是通过直接翻译，而是直接一行一行的解释执行。<br/>
+How to distinguish between compiled language and interpreted language? A program must be translate to the form which the computer can execute. The complier does the translation from the source language to target language. While the Interpreter directly execute the operations in the source program.</p>
+
+<p>编译器 Complier：<br/>
+<img src="media/14670280497426/%E7%BC%96%E8%AF%91%E5%99%A8.jpg" alt="编译器"/></p>
+
+<p>解释器 Interpeter：<br/>
+<img src="media/14670280497426/%E8%A7%A3%E9%87%8A%E5%99%A8.jpg" alt="解释器"/></p>
+
+<p>wiki分类：</p>
+
+<p><img src="media/14670280497426/https___zh_wikipedia_org_wiki_ALGOL.png" alt="https___zh_wikipedia_org_wiki_ALGO"/><br/>
+<a href="https://zh.wikipedia.org/wiki/ALGOL">图片来源</a></p>
+
+<p><em>编译原理课上，老师推荐学习四门语言，C语言，汇编，脚本语言，Lisp。课后问他为什么没有面向对象的语言，他说面向对象是一种设计。不过，我自己还是坚持面向对象的语言是必学的。</em></p>
+
+<h2 id="toc_3">语言的基本组成要素是什么？What’s the core foundations of programming language？</h2>
+
+<p>因为我个人接触语言的局限性，目前只做了如下的思考，欢迎各位讨论，提出自己的见解。<br/>
+The following thinking is based on my own limit experience with programming language, so please feel free to offer your own opinions and discuss with me.</p>
+
+<p>学习一门语言，会学习其语法，以及其对应的语义。语法定义了程序的组织书写形式。语义描述程序将如何被执行。</p>
+
+<blockquote>
+<p>Syntax of a programming language determines the well-formed or grammatically correct programs of the language. Semantics describes how or whether such programs will execute. <br/>
+- Syntax is how things look <br/>
+- Semantics is how things work (the meaning)</p>
+</blockquote>
+
+<h3 id="toc_4">过程 process</h3>
+
+<ul>
+<li>表达式 expression
+
+<ul>
+<li>语句 statement
+
+<ul>
+<li>声明 declare 常量与变量</li>
+<li>赋值</li>
+</ul></li>
+<li>判断 judge
+
+<ul>
+<li>if-else</li>
+<li>switch-case</li>
+</ul></li>
+<li>循环 loop
+
+<ul>
+<li>while / do while</li>
+<li>for</li>
+<li>if</li>
+</ul></li>
+</ul></li>
+<li><p>操作operation</p>
+
+<ul>
+<li>+ - * / %</li>
+<li> :? || &amp;&amp; ! &gt;&gt; &lt;&lt;</li>
+</ul></li>
+<li><p>数据类型 data type (the value and the operation)</p>
+
+<ul>
+<li>原始类型 primitive type
+
+<ul>
+<li>数值型 numberic: short,int,float,double,long</li>
+<li>字符 string:char,string</li>
+<li>空 nil</li>
+</ul></li>
+<li>高级类型 advanced type
+
+<ul>
+<li>enumeration</li>
+<li>dictionary</li>
+<li>array</li>
+<li>struct</li>
+<li>generic</li>
+</ul></li>
+</ul></li>
+<li><p>函数 function</p>
+
+<ul>
+<li>type-return</li>
+<li>name</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_5">面向对象 object-oriented</h3>
+
+<ul>
+<li>类 class
+
+<ul>
+<li>attribute</li>
+<li>function(method)</li>
+<li>construct-deconstruct</li>
+</ul></li>
+<li>继承 inherit
+
+<ul>
+<li>单继承、多继承</li>
+</ul></li>
+<li>多态
+
+<ul>
+<li>重载</li>
+</ul></li>
+<li>接口 interface</li>
+<li>协议 delegate</li>
+</ul>
+
+<hr/>
+
+<p>SCIP:<br/>
+- 过程抽象<br/>
+- 数据抽象</p>
+
+<h2 id="toc_6">Reference:</h2>
+
+<ul>
+<li><a href="https://www.amazon.com/Programming-Languages-Active-Learning-Approach/dp/0387794212">Programming Language</a></li>
+<li><a href="https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811?ie=UTF8&amp;*Version*=1&amp;*entries*=0">Complier</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/ALGOL">https://zh.wikipedia.org/wiki/ALGOL</a></li>
+<li>SCIP</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+
+<li id="fn1">
+<p>从本质上来看，计算机能做的事情就是计算，不是吗？Actually, the computer can do nothing but computation, isn&rsquo;t it?&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mac快速远程控制Windows电脑桌面]]></title>
@@ -2709,13 +2923,13 @@ eg. Core Graphic</p>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-03-24-iOSLearning.html</id>
     <content type="html"><![CDATA[
-<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的APP并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
+<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的App并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
 
 <span id="more"></span><!-- more -->
 
 <p><img src="media/14628621715071/iTunes.png" alt="iTunes"/></p>
 
-<p><em>PS:欢迎大家捧场~<a href="https://appsto.re/cn/jnCgbb.i">APP地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
+<p><em>PS:欢迎大家捧场~<a href="https://Appsto.re/cn/jnCgbb.i">App地址</a></em>。<em>当然，这不是我写的第一个App，你可以在<a href="https://github.com/yogayu">我的github</a>上看更多的项目,比如开源的<a href="https://github.com/Yogayu/EmotionNote">EmotionNote</a>。</em></p>
 
 <hr/>
 
@@ -2803,13 +3017,13 @@ eg. Core Graphic</p>
 
 <h3 id="toc_5">开始吧</h3>
 
-<p>一开始熟悉编程语言，然后了解开发工具XCode，理解大概的项目框架，APP生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的APP类型，再针对性的学习。</p>
+<p>一开始熟悉编程语言，然后了解开发工具Xcode，理解大概的项目框架，App生命周期，界面如何和代码交互。理解设计模式，例如MVC。之后，就可以开始与Cocoa框架交互。最后，根据你想要写的App类型，再针对性的学习。</p>
 
 <p><img src="media/14628621715071/Swift_-_Overview_-_Apple_Developer.png" alt="Swift_-_Overview_-_Apple_Develope"/></p>
 
 <h4 id="toc_6">语言</h4>
 
-<p>如果把写APP比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。</p>
+<p>如果把写App比作是建房子，那么语言就是基本的砖块。那么，应该学习swift还是Objective-C呢？我个人的建议是先Swift，之后再熟悉OC。相比较OC，Swift更易上手，社区也日渐活跃。如果你有编程经验，这一步应该不会花去太多的时间，get your hands dirty才是关键。</p>
 
 <p><img src="media/14628621715071/Xcode.png" alt="Xcode"/></p>
 
@@ -2823,7 +3037,7 @@ eg. Core Graphic</p>
 
 <p>除了斯坦福大学的iOS开发入门之外，我个人很喜欢的一套教程是<a href="http://swifteducation.github.io">Teaching App Development with Swift</a>。它主要的观念就是基于项目的学习，每课时都有不同的项目，一个项目多个课时，清晰的步骤一步步搭建起完整功能。由实践引出知识点，最后给出延生思考和资料。</p>
 
-<h5 id="toc_9">从简单App开始, 分析其<a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1">生命周期</a></h5>
+<h5 id="toc_9">从简单App开始, 分析其<a href="https://developer.Apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//Apple_ref/doc/uid/TP40007072-CH2-SW1">生命周期</a></h5>
 
 <h5 id="toc_10">学习框架</h5>
 
@@ -2866,7 +3080,7 @@ eg. Core Graphic</p>
 </blockquote>
 
 <ul>
-<li><a href="http://www.developer.apple.com/">http://www.developer.apple.com/</a>
+<li><a href="http://www.developer.Apple.com/">http://www.developer.Apple.com/</a>
 官方资料。文档阅读，一开始可能不知道如何下手。有一篇<a href="http://ourcoders.com/thread/show/117/">博文</a>写得十分详细。当然，<a href="http://www.oreilly.com/pub/au/249">iOS 8 Programming Fundation with Swift</a>书中第八章也是有介绍的。</li>
 <li><a href="http://github.com">http://github.com</a>
 程序员界Facebook。
@@ -3498,94 +3712,6 @@ db.getCollection(&#39;PNR&rsquo;).find({PnrByName: {name: &ldquo;JRTyler&rdquo;}
 <h2 id="toc_2">后记</h2>
 
 <p>之后也选修大型机课程，再来看个人赛觉得是简单了很多，又系统的了解更多的大型机知识，当然多数时间在学习JCL和COBOL程序设计，不得不说编写大型机应用，更需要耐心。</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用CocoaPods]]></title>
-    <link href="azureyu.com/2015-10-24-cocoaPods.html"/>
-    <updated>2016-05-10T14:36:11+08:00</updated>
-    <id>azureyu.com/2015-10-24-cocoaPods.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">CocoaPods是什么?</h2>
-
-<p>当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
-
-<blockquote>
-<p>你需要：<br/>
-- 会使用终端，知道基本的命令含义，比如 cd<br/>
-- 了解有的服务器在墙在外，需要更换为国内镜像</p>
-</blockquote>
-
-<p>CocoaPods官网: <a href="https://cocoapods.org">https://cocoapods.org</a></p>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_1">如何开始？</h2>
-
-<h3 id="toc_2">step 1 安装</h3>
-
-<p>以下命令有权限问题时，加上sudo，比如：</p>
-
-<pre><code>sudo gem install cocopods
-</code></pre>
-
-<ul>
-<li><p>如果你在墙外，进入终端：</p>
-
-<pre><code>gem install cocoapods
-gem setup
-</code></pre></li>
-<li><p>否则，在墙内时，上面两二句先不要输入，先做些准备工作</p>
-
-<pre><code>gem sources --remove https://rubygems.org/
-gem sources -a https://ruby.taobao.org/
-gem sources -l
-</code></pre></li>
-<li><p>再输入:</p>
-
-<pre><code>gem install cocoapods
-</code></pre></li>
-<li><p>同样，在墙内时，</p>
-
-<pre><code>pod repo remove master
-pod repo add master https://gitcafe.com/akuandev/Specs.git
-pod repo update
-</code></pre></li>
-</ul>
-
-<h3 id="toc_3">Step 2 配置</h3>
-
-<ul>
-<li><p>初始化:</p>
-
-<pre><code>cd yourProjectFile
-pod init
-</code></pre></li>
-<li><p>配置。打开项目文件夹，打开文件Podfile,输入：</p>
-
-<pre><code>pod ‘第三方库名称’, ‘~&gt; 版本’
-</code></pre>
-
-<p>保存文件。</p></li>
-<li><p>安装：</p>
-
-<pre><code>cd yourProjectFile  
-pod install
-</code></pre></li>
-</ul>
-
-<h3 id="toc_4">Step 3. 使用</h3>
-
-<p>打开项目：yourProjectName.xcworkspace</p>
-
-<h3 id="toc_5">Step 4 查找</h3>
-
-<p>查找你需要的：</p>
-
-<pre><code>    pod search
-</code></pre>
 
 ]]></content>
   </entry>
