@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>azureyu.com/</loc>
-  <lastmod>2016-06-27T21:14:07+08:00</lastmod>
+  <lastmod>2016-07-01T22:25:54+08:00</lastmod>
 </url>
 
 <url>
@@ -148,9 +148,13 @@
 
 <url>
   <loc>azureyu.com/about.html</loc>
-  <lastmod>2016-06-08T15:32:31+08:00</lastmod>
+  <lastmod>2016-06-27T22:30:55+08:00</lastmod>
 </url>
 
+
+<url>
+  <loc>azureyu.com/Books.html</loc>
+</url>
 
 <url>
   <loc>azureyu.com/Life.html</loc>
@@ -158,10 +162,6 @@
 
 <url>
   <loc>azureyu.com/Hum.html</loc>
-</url>
-
-<url>
-  <loc>azureyu.com/Books.html</loc>
 </url>
 
 <url>
