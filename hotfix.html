@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  Week 2 Day 5 热修复(Hotfix)调研- Draft - Azure Yu
+  
+  </title>
+  
+  
+  <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site:azureyu.com ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        <li id="menu_item_index"><a href="index.html">HOME</a></li>
+        <li id="menu_item_archives"><a href="archives.html">ARCHIVES</a></li>
+        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+            <form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+                <input type="hidden" id="search_q" name="q" value="" />
+                <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+            </form>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+</nav>
+
+<nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; Azure Yu</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+       
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="archives.html">ARCH</a></li>
+       <li><a href="about.html">ABOUT</a></li>
+
+       <li><label>Categories</label></li>
+
+        
+            <li><a href="Tip.html">Tip</a></li>
+        
+            <li><a href="iOS.html">iOS</a></li>
+        
+            <li><a href="Life.html">Life</a></li>
+        
+            <li><a href="Book.html">Book</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
+         
+  
+       <li><label>SITES</label></li>
+       <li class="post"><a href="http://azureyu.com/pulse">App</a></li>
+       <li class="post"><a href="http://azureyu.com/book">Books</a></li>
+       
+       <li><label>Links</label></li>
+       <li class="post"><a href="https://github.com/yogayu">Github</a></li>
+       <li class="post"><a href="http://www.jianshu.com/users/313e5a37caee/latest_articles">Jianshu</a></li>
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+
+<section id="main-content" role="main" class="scroll-container">
+        
+       
+
+ <script type="text/javascript">
+	$(function(){
+		var currentURL = 'hotfix.html';
+		currentURL = currentURL.substr(0,currentURL.length-5);
+		$('#menu_item_'+currentURL).addClass('is_active');
+	});
+</script>
+<div class="row">
+
+    <div id="single-page-wrap">
+        <h1>Week 2 Day 5 热修复(Hotfix)调研- Draft</h1>
+
+        <div class="markdown-body post-page">
+        <h2 id="toc_0">需求</h2>
+
+<p>有哪一些热修复方案？各自的优缺点是什么？<br/>
+选择哪一种热修复方案？为什么？<br/>
+是否可保障安全性？</p>
+
+<h2 id="toc_1">方案：</h2>
+
+<p>国内流行的有JSPatch和WaxPatch，国外相应的服务有Rollout和Apptimize，一共四种。</p>
+
+<ol>
+<li><p><a href="https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95">JSPatch</a></p>
+
+<p>JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally use for hotfix iOS App. </p></li>
+<li><p><a href="https://github.com/alibaba/wax">WaxPatch</a> </p>
+
+<p>Wax is a framework that lets you write native iPhone apps in Lua. It bridges Objective-C and Lua using the Objective-C runtime.  </p></li>
+<li><p><a href="https://rollout.io/">Rollout</a> <br/>
+Rollout’s revolutionary SDK lets you react to production issues or modify your app in real time. </p></li>
+<li><p><a href="http://apptimize.com/blog/2014/04/hide-bugs-without-app-store/">Apptimize</a> </p></li>
+</ol>
+
+<p>四种方案中，Rollout和Apptimize都是国外闭源的服务，因为我们的需求是采用其核心技术，使用自己的后端，不适合，所以对比JSPatch和WaxPatch进行选择。</p>
+
+<h3 id="toc_2">JSPatch与WaxParchWax对比表格：</h3>
+
+<p><strong>基本：</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>语言</th>
+<th>大小</th>
+<th>使用率</th>
+<th>活跃度</th>
+<th>文档</th>
+<th>工具</th>
+<th>Swift</th>
+<th>支持版本</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>JSPatch</td>
+<td>JavaScript 使用广泛</td>
+<td>小巧 <br> 使用内置库</td>
+<td><a href="http://using.jspatch.org/">高</a></td>
+<td>高<br> 8天前更新</td>
+<td>中英文</td>
+<td>1.自动补全插件<br>2.OC-&gt;JS工具</td>
+<td>有条件使用 继承NSObject<br>dynamic修饰</td>
+<td>iOS 7+</td>
+</tr>
+<tr>
+<td>WaxPatch</td>
+<td>Lua 简洁快速</td>
+<td>较大 引入库WAX.Framwork</td>
+<td>中</td>
+<td>中 五个月前更新</td>
+<td>英文</td>
+<td>无</td>
+<td>同上</td>
+<td>iOS 6+</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>对比优缺点：</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>优点</th>
+<th>缺点</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95">JSPatch</a></td>
+<td><br>1. 更小巧 <br>3. 更符合Apple规范 <br>5. <a href="http://using.jspatch.org/">使用广泛</a><br>6. 工具便捷</td>
+<td>1.不支持iOS 6</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alibaba/Wax">WaxPatch</a></td>
+<td>1. 支持iOS 6 <br> 2. Lua脚本简单快速</td>
+<td>1. 相对较大 <br></td>
+</tr>
+</tbody>
+</table>
+
+<p>综合来看，选择JSPatch最好。</p>
+
+<p>相对WaxPatch，JSPatch采用的是JS语言比Lua使用更为广泛，提高的工具可以提高效率；更符合Apple的规则；因为使用系统内置JavaScriptCore.framework不用另外引入脚本引擎，所以小巧；缺点是不支持iOS 6，但豆瓣FM iOS客户端最低支持iOS 7，所以没有影响；另外JSPatch比WaxPatch的使用更广泛，维护更活跃。</p>
+
+<h2 id="toc_3">安全性</h2>
+
+<p>安全问题：</p>
+
+<ol>
+<li>网络传输过程中被中间人篡改 </li>
+<li>本地脚本文件被解包获取</li>
+</ol>
+
+<p><a href="http://blog.cnbang.net/tech/2879/">JSPatch 部署安全策略</a> </p>
+
+<ul>
+<li><p>传输安全： 对称加密、HTTPS、RSA 校验 </p></li>
+<li><p>执行安全：灰度、监控、回退</p></li>
+</ul>
+
+<h2 id="toc_4">如何使用？——Demo</h2>
+
+<p>pod init</p>
+
+<pre><code>platform :ios, &#39;7.0&#39;
+pod &#39;JSPatch&#39;
+</code></pre>
+
+<p>pod install</p>
+
+<p>添加JavaScriptCore.framework</p>
+
+<p>didFinishLaunchingWithOptions启用脚本：</p>
+
+<pre><code>[JPEngine startEngine];
+
+// exec js file from local
+ NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@&quot;demo&quot; ofType:@&quot;js&quot;];
+ NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
+
+ [JPEngine evaluateScript:script];
+
+// exec js file from network
+[NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@&quot;http://7xle3b.com1.z0.glb.clouddn.com/YXYDemo.js&quot;]] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+    NSString *script_online = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    [JPEngine evaluateScript:script_online];
+    NSLog(@&quot;Run the script from internet.&quot;);
+}];
+</code></pre>
+
+<p>导入所需头文件：</p>
+
+<pre><code>require(&#39;YXYViewController,UIColor&#39;);
+</code></pre>
+
+<p>ViewController源代码：</p>
+
+<pre><code>#import &quot;ViewController.h&quot;
+#import &quot;YXYViewController.h&quot;
+#import &quot;JPEngine.h&quot;
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self chooseTheColor];
+}
+
+- (IBAction)pushJPTableViewVC:(id)sender {
+}
+
+- (void)chooseTheColor {
+}
+
+@end
+</code></pre>
+
+<p>通过JS写方法：</p>
+
+<pre><code>defineClass(&#39;ViewController&#39;, {
+
+pushJPTableViewVC: function(sender) {
+    var tableViewCtrl = JPTableViewController.alloc().init()
+    self.navigationController().pushViewController_animated(tableViewCtrl, YES)
+    console.log(&quot;did touch hanleBtn&quot;);
+},
+
+chooseTheColor: function() {
+    var isNight = false;
+
+    if (isNight == false) {
+        self.view().setBackgroundColor(UIColor.grayColor());
+    } else {
+        self.view().setBackgroundColor(UIColor.whiteColor());
+    }
+},
+});
+</code></pre>
+
+<p>通过JS写一个新的TableViewController：</p>
+
+<pre><code>defineClass(&#39;JPTableViewController : UITableViewController &lt;UIAlertViewDelegate&gt;&#39;, [&#39;data&#39;], {
+  dataSource: function() {
+    var data = self.data();
+    if (data) return data;
+    var data = [];
+    for (var i = 0; i &lt; 20; i ++) {
+      data.push(&quot;cell No.&quot; + i + &quot; test form local.&quot;);
+    }
+    self.setData(data)
+    return data;
+  },
+  numberOfSectionsInTableView: function(tableView) {
+    return 1;
+  },
+  tableView_numberOfRowsInSection: function(tableView, section) {
+    return self.dataSource().length;
+  },
+  tableView_cellForRowAtIndexPath: function(tableView, indexPath) {
+    var cell = tableView.dequeueReusableCellWithIdentifier(&quot;cell&quot;) 
+    if (!cell) {
+      cell = require(&#39;UITableViewCell&#39;).alloc().initWithStyle_reuseIdentifier(0, &quot;cell&quot;)
+    }
+    cell.textLabel().setText(self.dataSource()[indexPath.row()])
+    return cell
+  },
+  tableView_heightForRowAtIndexPath: function(tableView, indexPath) {
+    return 60
+  },
+  tableView_didSelectRowAtIndexPath: function(tableView, indexPath) {
+     var alertView = require(&#39;UIAlertView&#39;).alloc().initWithTitle_message_delegate_cancelButtonTitle_otherButtonTitles(&quot;Alert&quot;,self.dataSource()[indexPath.row()], self, &quot;OK&quot;,  null);
+     alertView.show()
+  },
+  alertView_willDismissWithButtonIndex: function(alertView, idx) {
+    console.log(&#39;click btn &#39; + alertView.buttonTitleAtIndex(idx).toJS())
+  }
+})
+</code></pre>
+
+<h2 id="toc_5">如何优化？</h2>
+
+<p>自动补全插件：<a href="https://github.com/bang590/JSPatchX">https://github.com/bang590/JSPatchX</a><br/>
+OC自动转JS</p>
+
+<hr/>
+
+<p>资源：</p>
+
+<p>Article：</p>
+
+<ul>
+<li> <a href="http://www.securityweek.com/ios-app-patching-solutions-introduce-security-risks-fireeye">JSPatch解决方案，会出现的安全问题 </a></li>
+<li><a href="https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html">HOT OR NOT? THE BENEFITS AND RISKS OF IOS REMOTE HOT PATCHING</a></li>
+<li><a href="https://www.fireeye.com/blog/threat-research/2016/04/rollout_or_not_the.html">ROLLOUT OR NOT: THE BENEFITS AND RISKS OF IOS REMOTE HOT PATCHING</a></li>
+<li>对于上诉文章作者的<a href="http://blog.cnbang.net/internet/2990/">回应</a></li>
+<li><a href="http://thehackernews.com/2016/01/ios-apps-jspatch-hack.html">iOS Apps JSPatch Hack</a></li>
+<li><a href="http://blog.oneapm.com/apm-tech/591.html">讨论</a></li>
+<li><a href="http://awhisper.github.io/2016/07/22/Weex-ReactNative-JSPatch/">Weex &amp; ReactNative &amp; JSPatch</a></li>
+</ul>
+
+<p>其他</p>
+
+<ul>
+<li><a href="http://philonpang.github.io/blog/2015/06/26/jspatchxue-xi-yi-ji-iosping-tai-hotfixzai-xian-bu-ding-guan-li-fang-an-shi-xian/">IOS平台Hotfix框架</a></li>
+<li><a href="http://blog.cnbang.net/works/2767/">JSpatch</a>:</li>
+</ul>
+
+<blockquote>
+<p>InfoQ：你们是否使用了热修复技术，目前实践情况如何？<br/>
+李贤辉：滴滴采用了 Lua 和 JSPatch 两种热修复技术，由于 JSPatch 更加被苹果官方认可，目前在线上主要使用 JSPatch。我们还在开发一套 JSPatch 发布平台，内部使用者可以通过后台可以下发和管理脚本，并且处理传输安全等部署工作，提供了脚本后台管理、版本管理，并保证传输安全等功能。——<a href="http://www.infoq.com/cn/news/2016/03/lixianhui-interview">原文</a></p>
+
+<p>与其他产品相比，JSPatch 的最大优势是什么？<br/>
+最大的优势是轻巧。JSPatch 整个库只有三个文件，加起来只有 1k 行代码，JSPatch 一直有意识保持库的小巧，不给使用者添加负担。另外相对目前另一个使用 lua 打补丁方案 WaxPatch，JSPatch 的优势有：<br/>
+JS 语言<br/>
+使用内置 JavaScriptCore 引擎，符合 Apple 审核规则<br/>
+线程安全，替换的方法支持多线程调用<br/>
+支持替换方法名包含下划线的方法<br/>
+支持 Block / GCD<br/>
+——<a href="http://www.wmyouxi.com/a/57298.html#ixzz4G2nZYpzb">来源</a></p>
+</blockquote>
+
+<hr/>
+
+        </div>
+    </div>
+</div>              
+ <div class="page-bottom clearfix">
+  <div class="row">
+   <p class="copyright">Copyright &copy; 2014-2016 Azure Yu.&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'yogayu'; 
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+var disqus_shortname = 'yogayu'; 
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+  
+    
+
+    <script src="asset/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
+     
+    </script>
+
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78816000-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+  </body>
+</html>

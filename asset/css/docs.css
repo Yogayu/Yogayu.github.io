@@ -714,7 +714,7 @@ font-family: "PT Sans", "SF UI Display", ".PingFang SC","PingFang SC", "Neue Haa
 }
 
 
-#main-content .markdown-body h1{font-size: 28px;border-bottom: none; }
+#main-content .markdown-body h1{font-size: 25px;border-bottom: none; }
 #main-content .markdown-body h2{font-size: 24px;border-bottom: none;}
 #main-content .markdown-body h3{font-size: 22px;}
 #main-content .markdown-body h4{font-size: 20px;}
@@ -743,7 +743,7 @@ font-family: "PT Sans", "SF UI Display", ".PingFang SC","PingFang SC", "Neue Haa
 #main-content .article-wrap .article{ margin-bottom: 38px;}
 #main-content .article-wrap .article h1{border-bottom: none; margin: 0; padding: 0; padding-bottom: 8px; }
 
-#main-content .archives-wrap h1{ font-size: 20px; margin: 0; padding: 0; padding-bottom: 4px;}
+#main-content .archives-wrap h1{ font-size: 19px; margin: 0; padding: 0; padding-bottom: 4px;}
 #main-content .archives-wrap .article{padding: 15px 0px; border-bottom: solid 1px #f1f1f1;}
 
 #main-content .article-wrap .article:last-child{ border-bottom: none;}
@@ -783,3 +783,11 @@ font-family: "PT Sans", "SF UI Display", ".PingFang SC","PingFang SC", "Neue Haa
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5); }
   .markdown-body ul.clearing-thumbs a.radius {
     border-radius: 3px; }
+
+.cc-license{
+  border:1px dashed #ccc;
+  padding:5px 10px 5px; /*108px*/
+  font-size: 0.8em;
+  /*background: url(http://i.creativecommons.org/l/by-nc/3.0/88x31.png) no-repeat 10px center;*/
+  line-height: 1.6em;
+}

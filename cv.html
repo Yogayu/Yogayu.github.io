@@ -31,34 +31,33 @@
     <div class="marketing off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
 
-
 <nav class="top-bar docs-bar hide-for-small" data-topbar>
-
 
   <section class="top-bar-section">
   <div class="row">
       <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
         <ul id="main-menu" class="left">
         <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_archives"><a href="archives.html">ARCHIVES</a></li>
         <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
         </ul>
 
         <ul class="right" id="search-wrap">
           <li>
-<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
-    <input type="hidden" id="search_q" name="q" value="" />
-    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
-</form>
-</li>
+            <form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+                <input type="hidden" id="search_q" name="q" value="" />
+                <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+            </form>
+          </li>
           </ul>
-      </div></div>
+      </div>
+    </div>
   </div>
   </section>
 
 </nav>
 
-        <nav class="tab-bar show-for-small">
+<nav class="tab-bar show-for-small">
   <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
     <span> &nbsp; Azure Yu</span>
   </a>
@@ -68,32 +67,37 @@
       <ul class="off-canvas-list">
        
        <li><a href="index.html">HOME</a></li>
-    <li><a href="archives.html">Archives</a></li>
-    <li><a href="about.html">ABOUT</a></li>
+       <li><a href="archives.html">ARCH</a></li>
+       <li><a href="about.html">ABOUT</a></li>
 
-    <li><label>Categories</label></li>
+       <li><label>Categories</label></li>
 
         
-            <li><a href="Books.html">Books</a></li>
-        
-            <li><a href="Hum.html">Hum</a></li>
-        
-            <li><a href="Tech.html">Tech</a></li>
+            <li><a href="Tip.html">Tip</a></li>
         
             <li><a href="iOS.html">iOS</a></li>
         
             <li><a href="Life.html">Life</a></li>
         
-            <li><a href="HUM.html">一日一</a></li>
+            <li><a href="Book.html">Book</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
          
-
+  
+       <li><label>SITES</label></li>
+       <li class="post"><a href="http://azureyu.com/pulse">App</a></li>
+       <li class="post"><a href="http://azureyu.com/book">Books</a></li>
+       
+       <li><label>Links</label></li>
+       <li class="post"><a href="https://github.com/yogayu">Github</a></li>
+       <li class="post"><a href="http://www.jianshu.com/users/313e5a37caee/latest_articles">Jianshu</a></li>
       </ul>
     </aside>
 
 <a class="exit-off-canvas" href="#"></a>
 
 
-        <section id="main-content" role="main" class="scroll-container">
+<section id="main-content" role="main" class="scroll-container">
         
        
 
@@ -209,7 +213,7 @@
 </div>              
  <div class="page-bottom clearfix">
   <div class="row">
-   <p class="copyright">Copyright &copy; 2015-2016 Azure Yu.&nbsp; 
+   <p class="copyright">Copyright &copy; 2014-2016 Azure Yu.&nbsp; 
 Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
   </div>
 </div>
@@ -259,9 +263,8 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
      
     </script>
 
-    
-
-
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -284,8 +287,6 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
       s.parentNode.insertBefore(hm, s);
     })();
 </script>
-
-
 
   </body>
 </html>

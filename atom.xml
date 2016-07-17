@@ -2,15 +2,322 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Azure Yu]]></title>
-  <link href="azureyu.com/atom.xml" rel="self"/>
+  <link href="atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-06-30T20:16:13+08:00</updated>
+  <updated>2016-10-14T17:33:52+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[豆蔻年华 与你为瓣——在豆瓣实习]]></title>
+    <link href="azureyu.com/douban-intern.html"/>
+    <updated>2016-07-26T22:27:01+08:00</updated>
+    <id>azureyu.com/douban-intern.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>豆瓣在乎你的工作，你一定也在意吧。还记得你上学第一天吗？那天早上你遇到了什么样的人，同学、老师&hellip;&hellip; 在豆瓣的实习生活，可能是你人生又一个重要的第一天，你又将遇到些什么样的人，开始什么样的工作和生活。在这里是新的起点，这段经历你不只是一个实习生。——<a href="https://jobs.douban.com/jobs/intern/">工作在豆瓣</a></p>
+</blockquote>
+
+<p><br></p>
+
+<h2 id="toc_0">缘起</h2>
+
+<blockquote>
+<p><a href="https://blog.douban.com/douban/2016/02/16/3099/">除了一个小秘密，我只是一个极其平凡的人。</a></p>
+</blockquote>
+
+<p>一次在朋友圈看到豆瓣的影像诗，心生好感。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>之后看到实习招聘，便抱着试一试的心态投了简历。花了一下午的时间，用心的把自己的大学经历思考和整理了一遍，大致的思路是，我做了什么，达到了什么样的效果，感悟是什么，学到了什么。最后还写了写自己的人生态度，以及为什么想要去豆瓣，整个思考的过程十分流畅。  </p>
+
+<p>很久之后，接到了笔试邮件。笔试方式是通过邮件链接进行在线笔试。当时正好学校组织的实训开始，实训一共三周，第一天选题组队，也在同一天笔试。就像考试时那样，时间流逝异常快。也总觉得如果再多一点时间，就能做得更好。笔试之后，没有多想，忙着做学校实训项目。</p>
+
+<p>大约一周，接到了豆瓣HR的电话，简单的确认面试的时间，最终约在了下午。当时我们实训的地点是实验室，在学校正门东大门入口处，一共五层，U型建筑。站在楼顶宽阔的天台上，一边望着远处的图书馆和缙湖，湖中的喷泉一上一下，一边接着电话。</p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG46.jpeg" alt="学校"/></p>
+
+<p>因为是第一次电话面试，没经验，所以按照自己的想法准备了准备。想了两段自我介绍，基本上就是讲之前简历中的内容，用口语化的方式再表达了一遍，一个三分钟版本和一个一分钟版本，再想了想可能会问到一些什么问题，零零散散加起来有半天的时间。就像童年里那一句“总是要等到考试前，才发现该念的书没念”。</p>
+
+<p>最终面试的时候，提前找了安静的地方，准备好纸笔。整个面试过程中，除去电话中声音太小，其他的都很顺利，感觉很舒服。因为在问问题之前，都会先确定你准备好了。先告诉你之后会问哪一方面的问题。问完一个问题之后，会根据你的回答再继续深入下去。下午两点面试，四点左右HR便来电话，便通知了结果，然后和HR聊了聊一些基本情况。当时一开心，就说了不少话。不过，开心的劲头过了一会儿，便回去继续码代码了。</p>
+
+<p>当发现和面试我的人微博上互相关注时，还是有一点意外和开心。</p>
+
+<p>如果想让人们通过你平时的表现而不是一次的应试般的面试认识你的话，平时的积累真的很重要。</p>
+
+<p>之后，便是找房子，订机票等等。</p>
+
+<p>提前几天和家人到北京，逛一逛这座城市，和好久不见的小伙伴约聊。</p>
+
+<ul class="example-orbit" data-orbit>
+ <li>
+    <img src=" http://7xle3b.com1.z0.glb.clouddn.com/WechatIMG5New.png" alt="" />
+    <div class="orbit-caption">颐和园</div>
+  </li>
+  <li>
+    <img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/imgWechatIMG3.png" alt="" />
+    <div class="orbit-caption">故宫</div>
+  </li>
+  <li>
+    <img src="http://7xle3b.com1.z0.glb.clouddn.com/WechatIMG1.png" alt="" />
+    <div class="orbit-caption">天安门</div>
+  </li>
+  <li>
+    <img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/imgWechatIMG2.png" alt="" />
+    <div class="orbit-caption">鸟巢</div>
+  </li>
+  <li>
+    <img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/imgWechatIMG7.png" alt="" />
+    <div class="orbit-caption">798</div>
+  </li>
+</ul>
+
+<h2 id="toc_1">环境</h2>
+
+<p>豆瓣位于朝阳区酒仙桥兆维华灯大厦工业园区，出将台路地铁站，便能望见。整个园区由建筑物围成方形，像一个不大的公园，有着各家公司入驻。和一般的公园类似，也摆放着几件健身娱乐器材，一个典型的凉亭，时不时会有人坐在其中。</p>
+
+<p>我在的地方是公司的D区。上三楼，出电梯，抬头便能看见金属水管为底，外嵌着白炽灯泡的箭头指示，右拐就能望见端放着iMac的前台。前台的墙，一片乳白，突出着布质感Douban图标。 整体是Loft装修风格，乳白色调为主，间杂着绿色调。一楼多是办公区，开放式，除去会议室外，没有格子间。办公时可坐可站，桌上能看见很多零零散散堆叠的书本，和一些绿色小植物。室内楼梯上去之后的二楼，多是会议室，我实习的临时办公室也就在一间会议室里。</p>
+
+<p>第一天和已在实习的小伙伴同去，在公司吃了中式早餐，有包子、粥、玉米、油条等等。另外，像下午茶，一般是水果加点小吃。</p>
+
+<p>到达之后，坐在中间的一间会议室内，终于见到了电话中的HR。HR给人的第一感觉很随和，简单的白色T恤加浅色牛仔，套双夏日休闲鞋。她简要的说明了需要填写的表格内容，之后大致的介绍公司历史文化，现在的部门分布，以及主要的产品和业务。同时发送给我们相应的邮件，用于之后工作环境的配置。另外一个有活力的文科妹子和我们一起。</p>
+
+<p>然后便带着我们去各自的部门见导师。也终于见到了电话里面试我的导师，虽然之前也有微信交流，但第一次见面，还是不同。一眼望去的办公桌上，左一叠厚厚的书，其他地方也都被书本覆盖着，间隙中夹着各种各样的线。一台Mac叠放在中间，Mac前是加高的架子，上面立着大屏显示器，这样能方便站着使用电脑。旁边工程师，大多都对着几个屏幕，有横着的屏，有竖着的屏，显示着密密麻麻色彩斑斓的终端代码。特别喜欢着的是一个有着彩色键帽的机械键盘。</p>
+
+<p>导师带着我，简单的给部门的人做了介绍。说一说名字，说一说是实习生。最后到了我办公的区域，在二楼的一个会议室中，到那时已经有其他实习生在那了。大部分都加过微信，知道名字，算是第一次把名字一一与真人对上了号。</p>
+
+<p>第一天，在导师的帮助下，愉快的配置好了网络环境和开发环境。其实，光看别人做事情的方式，就能学到不少，一些实践中的细节可以提高效率。比如git别名，iTerm替代终端，Meow自动代理切换。</p>
+
+<p>中午导师请吃饭，一起聊天，谈方方面面不仅限于技术的事。一顿之后，大致有了相互的了解。想来，果然约饭是最好的了解彼此的方式。</p>
+
+<p>第二天期待已久的暑期训练营便开始了。</p>
+
+<h2 id="toc_2">暑期训练营</h2>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/doubanIntern.jpg" alt="-w" class="mw_img_right" style="width:200px;display: block; float: right; margin: 0px 0px 8px 8px;"/></p>
+
+<p>暑期训练营是在一间大会议室里，出前台门外右拐，大约有学校小教室大小。零零散散着几张白色大书桌，不过都是可拼接的，一半凹型，一半凸型。</p>
+
+<p>课程总体来说，技术覆盖面广，但因时间有限，讲得很快。内容多是概览，如果是新手，真的不一定能听完全听懂，不过总会了解到公司现在在使用的技术。</p>
+
+<p>第一天，HR做主持，了解了公司文化。大家一起玩两个小游戏，很快便拉近了实习生之间的距离。一个是互猜名字，另一个是无声传数字。</p>
+
+<p>先是围着坐了大半个圈，每个人介绍自己，基本信息加三个关键词，彼此之间的关键词不能重复，最后在附带可选部分。大家都很随意，大多都是讲自己生活性质的关键词，比如像很宅、喜欢猫、喜欢综艺节目、爱踢球、内向不太会群聚、喜欢什么动漫、猥琐萌、爱冒险。总之，多多少少都带着自己独特的成分。记得，我说的关键词是：科技、文学和音乐。直接说了第一个念想中的答案，之后想想，其实可以说得更接地气一些。</p>
+
+<p>游戏开始之后，分为两组，HR们一人拉一边，用如窗帘般大小的棕色布匹做遮挡，两队分别派自己队伍中一员上场，蹲在布的两边。当一、二、三倒计时声结束之后，松开双手，布帘下滑，第一个说出对方名字的人即是胜利。游戏结束之后，我们都感慨，对方的人都都记全了，自己方的反而还差点儿。</p>
+
+<p>无声传数字，同样分为两组，各自站成一列，出题人在纸上写出数字，由最后一个人在前一个人背上书写，直到传给最前面的人，写下数字，与出题卡数字对比。三局两胜。大概有五分钟的策略商讨时间，大家都在积极的说自己的想法，比如，如果有分数怎么办，如果有小数点怎么办（可是一开始没有想到有负数的情况）。最后，我们队的策略是，在纸上怎么写，就在背上怎么写，暴力拆解，获得胜利。</p>
+
+<p>中午聚餐，很简单，边吃边聊着三三两两的几句话。要是舒服便可以多说说，要是不舒服便可以不说。</p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG16.jpeg" alt="大合照"/></p>
+
+<p>之后一般一周三天课程，大家随意的坐在一起上课。与其说是听课，不如说是分享。没有高三尺的讲台，没有麦克风，只有平易近人的厂工们，一个接一个的讲解着。PPT多白底黑字，排版简洁，风格简约。</p>
+
+<p>Python当然是开胃菜，一天之内从入门到“高阶”。前端其实很“简单”，两节课之后你就开始写界面。移动开发算什么，四大组件生命周期一次讲完。推荐算法，在几张PPT上优化完成。机械学习一黑板公式。当然我们还有自己造的轮子。Docker知道吗？没事，直接上来讲实践优化。产品经理可以读这个这个还有那个，设计是这样的，用户体验是那样的，豆瓣架构是这样演变的，此处省去一千字。好，讲完，此处应该有掌声👏。（I am kidding :P）</p>
+
+<p><img src="media/14695432218849/Bootcamp.png" alt="Bootcamp 课程表"/></p>
+
+<p><br></p>
+
+<p>中途还有实习生们的分享会，自己也去简单分享了iOS开发从入门到上架的过程。</p>
+
+<p><br></p>
+
+<ul class="clearing-thumbs small-block-grid-2" data-clearing>
+  <li><a href=""><img data-caption="iOS" src="http://7xle3b.com1.z0.glb.clouddn.com/iOS_developing_from_Beginning_to_Distribution.png"></a></li>
+  <li><a href=""><img data-caption="iOS 2" src="http://7xle3b.com1.z0.glb.clouddn.com/iOS_developing_from_Beginning_to_Distribution_dev.png"></a></li>
+</ul>
+
+<p>最后一天称为Happy Day。愉快的入门了Prolog编程语言，第一次动手写逻辑式语言，思维方式转化挺大，而且边做题边和小伙伴讨论，算是最有收获的一天。</p>
+
+<p><br></p>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/prolog.png" alt=""/></p>
+
+<p><br></p>
+
+<h2 id="toc_3">我在做什么</h2>
+
+<ul class="clearing-thumbs small-block-grid-1" data-clearing>
+  <li><a href=""><img data-caption="door" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG19.jpeg"></a></li>
+</ul>
+
+<p>一开始配置环境，搭建公司内网VPN。关键是有一个好导师，很快就搞定前期配置。第一次在Xcode中将豆瓣FM运行成功时，心中默默的哇了一声。当知道豆瓣FM iOS客户端目前就我导师一人在维护时，还是有一点小惊讶。</p>
+
+<p>因为FM的代码都是混编(Objective-C &amp; Swift)，自己之前独自开发多使用Swift，所以花了一段时间一边看文档一边看书来熟悉Objective-C。当然理解语法是很快的，多数概念都是共通的，关键是在实际的使用场景中，如何具体选择和使用。<br/>
+另外，在新手训练营的间隙中，去逐渐理解项目的组织架构，重点去理了理FM播放部分的核心内容。之前自己做项目时，需要有一个从零到一的过程，各方面都有去思考。但现在更多的是先要理解现有的项目，然后在其上修修补补、添砖加瓦。</p>
+
+<p>熟悉环境之后，才开始正式做第一个功能。内容是调研并实现豆瓣FM的热修复，主要考虑实用和安全。对比调研之后选择了JSPatch。一边调研，一边写Hotfix Demo和对应的过程文档。写文档的好处是能更清晰的思考，记录参考资料；因为用git管理，还能看见一路文档和编码中的演变。在具体的实践过程中，才会出现你一开始无法考虑到的细节问题，以及不同写法选择的优劣。很多时候不需要自己造轮子，但是需要理解轮子、改造轮子，并且知道为什么需要这样去改造。</p>
+
+<p>目前来看我个人还是很喜欢这种方式，可以系统的去理解、实现并完善一个功能，而不只是敲敲打打的修bug。</p>
+
+<p>但也明显感觉自己最近的效率不及在学校高，可能是因为换了环境，新认识了很多人，需要有一段时间来调整节奏。</p>
+
+<h3 id="toc_4">文化</h3>
+
+<p>简单务实 轻松快乐</p>
+
+<p>来了之后才知道，豆瓣是阿北在豆瓣胡同写出，所以叫豆瓣。豆瓣有着<a href="https://blog.douban.com/douban/2007/12/17/105/">指环王文化</a>，项目很多以指环王中的人物命名。项目以前是在自建的Code平台上，现在多用Github企业版。<br/>
+Python真的是无处不在。弹性办公时间，不打卡。有着引以为傲的DAE。</p>
+
+<h3 id="toc_5">沟通</h3>
+
+<p>就我平时观察所了解的沟通方式，最简单直接的当然是面对面交流，较正式的事情发邮件(gmail)，写邮件最好主题突出，内容简明。IM用企业微信。大家都在一个大群里，有什么事情可以直接问，发现产品的bug也可以直接在群里提。每周都有周会。团队多在使用Trello。</p>
+
+<h3 id="toc_6">活动</h3>
+
+<p>来北京第一周周末，和导师还有其他部门的人一起去看演唱会。摇滚乐，虽然只有摇滚没有乐，但还是很开心和感激，缓解了离家很远的感觉。</p>
+
+<p>周二有体育活动，比如羽毛球。周三、周四晚会交替着有电影放映。电影的质量很有保证，比最近看的：剧情张力十足，结局引人深思的《完美陌生人》，提前点映，温暖慢调的《幸运是我》（和主演慧英红有映后交流）。大尺度，镜头华美精致，配乐出众的《小姐》，小投资而极富好评的国产恐怖片《中邪》（和导演有映后交流）。</p>
+
+<p><br></p>
+
+<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+  <li><a href=""><img data-caption="door" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG12New.jpeg"></a></li>
+  <li><a href=""><img data-caption="798" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG32.jpeg"></a></li>
+  <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG25New.jpeg"></a>
+  <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/photo.jpeg"></a>
+    <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG23.jpeg"></a>
+     <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/WechatIMG34.jpeg"></a>
+     <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/lucky.jpeg"></a>
+     <li><a href=""><img data-caprion="movie" src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/tur.jpeg"></a>
+</ul>
+
+<p><br></p>
+
+<p>看豆瓣的周末去哪北京场，会发现各种风格的活动都很多。帝都虽然空气不好，但文化氛围还是浓烈。</p>
+
+<h2 id="toc_7">生活</h2>
+
+<h3 id="toc_8">住</h3>
+
+<p>早点找房子，多关注周边基础设施，比如饭店、超市等等。租房，还算和谐，大家都有礼貌。推荐豆瓣租房小组。很多都不短租，这一点很麻烦。看图片和看实际相差还是蛮大的，所以最好是去看。中介费一般是房租的一个月价格，短租亦然。</p>
+
+<p>租房这件事，十分感激的是有朋友在北京帮忙看。</p>
+
+<p>住的地方在798艺术区入口，所以没事就可以去逛一逛，看看展览什么的。<br/>
+因为和另外两个小伙伴也住一个地方，每天都一起上下班，听他们俩互黑。<br/>
+每周末一起去玩，算是把北京有名字的景点都去了一遍。</p>
+
+<h3 id="toc_9">行</h3>
+
+<p>去的时候票最好提前购买。比如机票，可以下载相应的App，然后订阅你想要时间段航班的机票，机票的价位有一定的浮动，你可以等到合适的时间购买。建议能够快递的物品，最好快递，比如衣物，自己带几套，剩下的快递过去就好。这样能够省不少力。北京市内，交通发达，办张交通卡会很方便。</p>
+
+<h3 id="toc_10">食</h3>
+
+<p>各种风味都有。北京基本的口味偏清淡，没有重庆的辣味重，比如这边的火锅很多麻酱，麻辣烫不麻也不烫。</p>
+
+<p>平时和FM部门的同事，中午都一起去吃饭，队伍也是蛮大，每天都会提出人生问题之——“今天吃什么？”。</p>
+
+<h3 id="toc_11">天气</h3>
+
+<p>北京的夏天，蝉声绵绵，热度是赶不上重庆。可惜雾霾太重，跑步都要选日子，总归还能去游泳。</p>
+
+<hr/>
+
+<p>简单记录在豆瓣的一个半月，在这段时间最感激的是遇见的人，只可惜笔力不够，没法一一描述。</p>
+
+<p>不管怎样，生活还在继续，旅途还在继续&hellip;&hellip;</p>
+
+<p><br></p>
+
+<blockquote>
+<p>最后附上无处不在的大蛋。</p>
+</blockquote>
+
+<p><img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/cat.jpeg" alt="Dadan.cat"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Technology Biscuit]]></title>
+    <link href="azureyu.com/14711002551177.html"/>
+    <updated>2016-08-13T22:57:35+08:00</updated>
+    <id>azureyu.com/14711002551177.html</id>
+    <content type="html"><![CDATA[
+<p>文章就像精神食粮，饕餮大餐的书籍吃多了，偶尔来点小饼干也不错。</p>
+
+<p>所以这里烹饪的文章多短篇，记录日常开发中的配置、工具使用或问题解决等等。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>之后还会烹饪些什么呢？本糕点师还在思考中&hellip;&hellip;</p>
+
+<ul>
+<li><a href="./2016-08-13-Xcode-Command-Tool.html">Install Xcode Command Tool</a></li>
+<li><a href="./2016-08-13-Kindle-Reset.html">Kindle Reset</a></li>
+<li><a href="./2016-08-14-git-alias.html">Git 别名 Git Alias</a></li>
+<li><a href="./2016-08-07-Basic-Linux.html">Linux Basic</a></li>
+<li><a href="./2016-07-19-iterm2.html">iTerm 2 配置和快捷键</a></li>
+<li><a href="./2016-07-10-Vim.html">Vim Bsaic</a></li>
+<li><a href="./2016-08-13-jekyll-wrong.html">Jekyll Error</a></li>
+<li><a href="./2016-iOSYoga.html">iOSYoga</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[自动引用计数（ Auto Reference Count, ARC）]]></title>
+    <link href="azureyu.com/2016-07-17-arc.html"/>
+    <updated>2016-05-25T22:23:40+08:00</updated>
+    <id>azureyu.com/2016-07-17-arc.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>2016-5-25 初稿</p>
+</blockquote>
+
+<ol>
+<li><p>解决什么样的问题？什么时候释放对象。</p>
+
+<p>对象不同于一般的变量，生存周期受其作用域的影响。比如在函数内声明的变量，在函数之外就没有了作用。对象的生存周期是受其引用对象的影响。</p>
+
+<p>引用的实质是使用指向其内存的指针。</p>
+
+<span id="more"></span><!-- more -->
+
+<p>当我们实例化对象时，也就为其分配了相应的内存，再通过指向对象的指针访问这些内存。释放就是把指向对应内存的指针给消除。而其实，对应内存的内容是没有去改变的。直到该内存下一次被使用时，其内容才会被改变。</p>
+
+<p>什么是内存？计算机内存，是数据存储的地方。计算机存储存在着一种层次结构，如同三角型。因为越快的越贵，越大的越便宜，越大的也越慢。每一个内存都有其对应的地址。如果你学过操作系统，还应该知道，因为虚拟机的原因，程序使用的是虚拟内存，需要进行转换之后，得到实际的物理内存。</p>
+
+<p>什么是指针？指针存储对象所在的内存地址。比如，寻宝图，你到达A地之后，A地会有指向B地的对应消息。这个消息就是指针。</p></li>
+<li><p>什么是引用计数？<br/>
+引用计数，是当一个对象A使用另一对象B时，对象B的引用数会加一。当对象B没有引用之后，便会释放。</p></li>
+<li><p>什么是自动引用计数？</p>
+
+<p>自动引用计数，即当对象被引用之后，会自动对其引用数加一；解除引用之后，会自动减一；没有引用之后，会自动释放。</p></li>
+<li><p>为什么需要自动引用计数？方便内存管理。</p></li>
+<li><p>什么时候不能使用？对于一些底层的类。</p></li>
+<li><p>存在着什么样的弊端？循环引用。<br/>
+循环引用，当A对象持有(引用)B对象，B对象持有A对象，此时彼此都在等待对方，导致内存无法释放。 </p>
+
+<p>如何解决？狭路相逢，要么有人仲裁，要么一方示弱。你可以手动解决，或者只将其中一方声明为weak引用。</p>
+
+<p>你可以通过定义类之间的关系为弱引用(weak)或者无主引用(unwoned)，以此替代强引用，从而解决循环强引用的问题。</p></li>
+<li><p>其他语言中是如何做的呢？<br/>
+Java中采用的是垃圾回收机制(Garbage Collection, GC)。垃圾回收机制的基本原理是建立一棵树。</p></li>
+</ol>
+
+<p>GC也有不好的地方，对于实时的应用程序效果就不理想，因为你不知道CG会在什么时候发生。影响系统性能。</p>
+
+<blockquote>
+<p>Garbage collection does have its own problems. Languages like Java and Ruby aren’t as suited to <code>real-time applications</code> where timing is critical. In these languages you never know when garbage collection will occur. Of course there is research into these problems to solve this issue for real-time systems but in general C++ is probably a better choice for real-time applications. <br/>
+——《Programming Language》</p>
+</blockquote>
+
+<p>看编译原理第七章运行时环境，很多东西都讲了的。</p>
+
+<p>突然意识到，很多博客，不过是书籍的个人阐述，不如自己读书。</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[关于编程语言的思考（上）Thinking of the Programming Language (Part 1)]]></title>
@@ -45,6 +352,8 @@
 </ul>
 
 
+<span id="more"></span><!-- more -->
+
 <h2 id="toc_0">问题 Problems</h2>
 
 <ul>
@@ -55,6 +364,8 @@
 <li>为什么有时候创造一门新语言能更好的解决问题？Why sometimes creating a new language is a better way to solve problems?</li>
 <li>如何实现一门编程语言？How to implement a programming language</li>
 <li><p>我学过哪些编程语言? How many programming languages I have learned?</p>
+
+<hr/>
 
 <pre><code>- C
 - C++
@@ -80,7 +391,7 @@
 
 <h2 id="toc_2">语言类型 What&rsquo;s the type of programming languages?</h2>
 
-<p>你可能听过不少语言的分类标准，比如，从语言的等级来分，有低级语言(汇编)、中级语言&copy;和高级语言(C++，java)。从语言的实现角度来分，有编译型语言(C、C++，Pascal)、解释型语言(php，lisp)和以上两者的混合型语言(Java，Python)。从语言类型是否在编译时确定，也可以分为静态语言（C++，Java）和动态语言（JavaScript）。或者，我们可以从编程风格(编程范式)来分，有面向对象、函数式和逻辑式。当然一种语言可能属于其中的几种类别。</p>
+<p>你可能听过不少语言的分类标准，比如，从语言的等级来分，有低级语言(汇编)、中级语言(<code>C</code>)和高级语言(C++，java)。从语言的实现角度来分，有编译型语言(C、C++，Pascal)、解释型语言(php，lisp)和以上两者的混合型语言(Java，Python)。从语言类型是否在编译时确定，也可以分为静态语言（C++，Java）和动态语言（JavaScript）。或者，我们可以从编程风格(编程范式)来分，有面向对象、函数式和逻辑式。当然一种语言可能属于其中的几种类别。</p>
 
 <p>You may have heard different standard of classification.For example, we can divide them from the language level: low level, medium level and high level. We can see from the language Implementation:  Interpreted、Compiled、Hybrid Language Implementations. Or we can divide from the style: Imperative/Object-Oriented Programming, Functional Programming, Logic Programming.  </p>
 
@@ -1524,7 +1835,7 @@ Support :
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[【一日一系列】重读]]></title>
+    <title type="html"><![CDATA[重读]]></title>
     <link href="azureyu.com/2016-05-29-Reread.html"/>
     <updated>2016-05-29T22:54:30+08:00</updated>
     <id>azureyu.com/2016-05-29-Reread.html</id>
@@ -1592,73 +1903,23 @@ Support :
 <li>先清楚你要做什么，然后去做。</li>
 <li>想清楚自己的长处，发展自己的长处。</li>
 <li>有话必说，无话不说。<br/></li>
-<li><p>“ 独立之意识，自由之思想。”       </p></li>
-<li><p>“You don&rsquo;t know what you have until it’s gone.”</p></li>
-<li><p>尽量不要和别人讲人生道理，多数情况下讲了也没有，讲个故事吧。</p></li>
-<li><p>拿出证据来，用事实说话。</p></li>
-<li><p>不要总在“觉得”，要去“行动”去表现。Don&rsquo;t just tell it, show it.</p></li>
-<li><p>欲速则不达，一步一步的认真去做，就是最快的捷径。</p></li>
-<li><p>思考要有深度，广度。目光要放远。思想要集中。</p></li>
-<li><p>要有完整作品。文章也好，项目也好。</p></li>
-<li><p>理性生活，感性创作。</p></li>
-<li><p>独处可以丰富。</p></li>
-<li><p>科学不过是另一种宗教。</p></li>
-<li><p>不同的时间有不同的烦恼，不要期待自己到达一个点之后就一切安好。</p></li>
-<li><p>如果给你十个苹果，从最好的那个开始吃吧。</p></li>
-<li><p>想做什么就去做什么吧，这真是最好的建议。你没做，只是想的事啊，多半不是真的想。</p></li>
-<li><p>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</p></li>
-<li><p>个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</p></li>
+<li>“ 独立之意识，自由之思想。”<br/></li>
+<li>“You don&rsquo;t know what you have until it’s gone.”</li>
+<li>尽量不要和别人讲人生道理，多数情况下讲了也没有，讲个故事吧。</li>
+<li>拿出证据来，用事实说话。</li>
+<li>不要总在“觉得”，要去“行动”去表现。Don&rsquo;t just tell it, show it.</li>
+<li>欲速则不达，一步一步的认真去做，就是最快的捷径。</li>
+<li>思考要有深度，广度。目光要放远。思想要集中。</li>
+<li>要有完整作品。文章也好，项目也好。</li>
+<li>理性生活，感性创作。</li>
+<li>独处可以丰富。</li>
+<li>科学不过是另一种宗教。</li>
+<li>不同的时间有不同的烦恼，不要期待自己到达一个点之后就一切安好。</li>
+<li>如果给你十个苹果，从最好的那个开始吃吧。</li>
+<li>想做什么就去做什么吧，这真是最好的建议。你没做，只是想的事啊，多半不是真的想。</li>
+<li>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</li>
+<li> 个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[App再次被拒]]></title>
-    <link href="azureyu.com/14643326121905.html"/>
-    <updated>2016-05-27T15:03:32+08:00</updated>
-    <id>azureyu.com/14643326121905.html</id>
-    <content type="html"><![CDATA[
-<p>一周之前完成了App2.0 的开发。还早早的完成了宣传网站。</p>
-
-<p>就等着审核通过。</p>
-
-<p>不料，两次被拒。</p>
-
-<span id="more"></span><!-- more -->
-
-<p>第一次是我自己存档出错，很快更正了。果然心急吃不了热豆腐。</p>
-
-<p>第二次，Apple审核团队说，App出现了crash，并附上了对应的log。</p>
-
-<p>我在所有的设备上测试了很多次。iPhone、iPad、iPod touch的真机和模拟器都试了，怎么也无法使之crash。</p>
-
-<p>累觉不爱。</p>
-
-<p>开始分析crash log：</p>
-
-<p><img src="media/14643326121905/symbol_crash.png" alt="symbol_crash"/></p>
-
-<p><img src="media/14643326121905/temp_bash.png" alt="temp_bash"/><br/>
-<img src="media/14643326121905/devices.png" alt="devices"/></p>
-
-<p>试完了所有StockOverflow上的答案。</p>
-
-<p>哦。</p>
-
-<p>还是不行。</p>
-
-<p>只能看见地址。</p>
-
-<p>让我静静&hellip;&hellip;</p>
-
-<p>算了，我还是去写编译原理的实验吧。</p>
-
-<hr/>
-
-<p><br><br/>
-后记：<br/>
-在六一儿童节通过了审核，我的处理方式是，重新build，然后上传，没有修改一行代码的情况下，审核顺利通过。</p>
 
 ]]></content>
   </entry>
@@ -2018,294 +2279,6 @@ Support :
 <p>其实就是把很多之前文档配置的内容，转化为了GUI展现。</p>
 
 <p>Jekyll用多了，再用这些其实都很简单。</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[编译原理]]></title>
-    <link href="azureyu.com/2016-05-10-comipler.html"/>
-    <updated>2016-05-10T08:42:09+08:00</updated>
-    <id>azureyu.com/2016-05-10-comipler.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
-
-<ul>
-<li>
-<a href="#toc_0">词法分析</a>
-</li>
-<li>
-<a href="#toc_1">3.2 单词符号的描述</a>
-<ul>
-<li>
-<a href="#toc_2">1. 正规表达式（正则表达式 regex）</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_3">3.3 有限自动机 FINITE AUTOMATA</a>
-<ul>
-<li>
-<a href="#toc_4">1. 是什么？</a>
-</li>
-<li>
-<a href="#toc_5">2. 类别</a>
-</li>
-<li>
-<a href="#toc_6">3. NFA和DFA转换</a>
-</li>
-<li>
-<a href="#toc_7">4. 从正规表达式到有限状态机</a>
-</li>
-<li>
-<a href="#toc_8">5. 简化DFA</a>
-</li>
-<li>
-<a href="#toc_9">Others</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_10">3.5 Lex</a>
-<ul>
-<li>
-<a href="#toc_11">1. Lex 是什么？</a>
-</li>
-<li>
-<a href="#toc_12">2. 如何使用？</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_13">语法分析</a>
-</li>
-<li>
-<a href="#toc_14">4.1 概述</a>
-</li>
-<li>
-<a href="#toc_15">自顶向下</a>
-</li>
-<li>
-<a href="#toc_16">自底向上</a>
-</li>
-</ul>
-
-
-<h2 id="toc_0">词法分析</h2>
-
-<ul>
-<li>步骤</li>
-<li>作用
-切分单词（中国古代文言文）</li>
-</ul>
-
-<p>单词符号的种别和属性。<br/>
-二元式表示&lt;单词种别，单词符号的属性&gt;</p>
-
-<h2 id="toc_1">3.2 单词符号的描述</h2>
-
-<h3 id="toc_2">1. 正规表达式（正则表达式 regex）</h3>
-
-<!-- more -->
-
-<p>没有必要使用零型语言、二型语言，三型语言就够了。但对于复杂的语法，例如if语句，就需要二型语言。</p>
-
-<ul>
-<li><p>是什么？描述字符串格式的模式 pattern</p>
-
-<p>正则表达式的运算——字符串集合语言的运算<br/>
-优先级关系（ * + 连接 | ）</p></li>
-</ul>
-
-<p>[windows] ? -&gt; 单个字符 ab?.pdf<br/>
-[正则] * -&gt; *闭包 </p>
-
-<blockquote>
-<p>a* = {a<sup>n</sup> | n &gt;= 0}<br/>
-a+ = {a<sup>n</sup> | n &gt;= 1}<br/>
-(a | b) * = { (a | b)<sup>n</sup> | n &gt;=0}</p>
-</blockquote>
-
-<p><img src="media/14628409291084/regulerExp.png" alt="regulerExp"/></p>
-
-<p>软件：</p>
-
-<blockquote>
-<ul>
-<li>grepWin</li>
-</ul>
-</blockquote>
-
-<p>书籍：</p>
-
-<blockquote>
-<ul>
-<li>sed与awk</li>
-<li>Mastering Regular Expression</li>
-</ul>
-</blockquote>
-
-<h2 id="toc_3">3.3 有限自动机 FINITE AUTOMATA</h2>
-
-<h3 id="toc_4">1. 是什么？</h3>
-
-<h3 id="toc_5">2. 类别</h3>
-
-<ul>
-<li><p>NFA 不确定<br/>
-图 <br/>
-<img src="media/14628409291084/NFA2.png" alt="NFA2"/></p>
-
-<p>Table<br/>
-<img src="media/14628409291084/NFA_table.png" alt="NFA_table"/><br/>
-如何识别？寻找从开始状态到接受状态的一条通路。<br/>
-NFC能识别的所有字符串的集合，为该NFA定义的语言。</p>
-
-<ul>
-<li>DFA 确定 一状态一输入</li>
-</ul></li>
-</ul>
-
-<h3 id="toc_6">3. NFA和DFA转换</h3>
-
-<p>子集构造法</p>
-
-<p>所能做的操作：</p>
-
-<p><img src="media/14628409291084/Operate.png" alt="Operate"/></p>
-
-<p>例子3.21</p>
-
-<p>Dtran[A,a]= 𝜺-closure(move(A,a)) 集合A中元素输入a之后能转移的所有状态</p>
-
-<p>将问题转化为有限状态机。程序可以轻易完成。   </p>
-
-<h3 id="toc_7">4. 从正规表达式到有限状态机</h3>
-
-<p>regex-&gt;NFA-&gt;DFA</p>
-
-<h3 id="toc_8">5. 简化DFA</h3>
-
-<p>算法：<br/>
-    1. 分为两类，接受和非接受<br/>
-    2. 输入状态，分离转移的状态<br/>
-    3. 重复1、2，直到无法分离</p>
-
-<p>正规文法-&gt;regex-&gt;NFA-&gt;DFA-&gt;min(DFA)</p>
-
-<h3 id="toc_9">Others</h3>
-
-<ul>
-<li>计算机网络TCP协议</li>
-<li>将FA转化为代码</li>
-<li>Lex</li>
-</ul>
-
-<h2 id="toc_10">3.5 Lex</h2>
-
-<h3 id="toc_11">1. Lex 是什么？</h3>
-
-<p>词法分析生成工具</p>
-
-<h3 id="toc_12">2. 如何使用？</h3>
-
-<ol>
-<li>执行的流程：</li>
-</ol>
-
-<p><img src="media/14628409291084/Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf%EF%BC%88%E7%AC%AC_164_%E9%A1%B5%EF%BC%8C%E5%85%B1_1_038_%E9%A1%B5%EF%BC%89.png" alt="Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf（第_164_页，共_1_038_页）"/><br/>
-2. 编写语言<br/>
-语言的结构：<br/>
-<img src="media/14628409291084/Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf%EF%BC%88%E7%AC%AC_164_%E9%A1%B5%EF%BC%8C%E5%85%B1_1_038_%E9%A1%B5%EF%BC%89.png" alt="Aho_-_Compilers_-_Principles__Techiniques__Tools_2nd__pdf（第_164_页，共_1_038_页）"/></p>
-
-<p>结构：</p>
-
-<pre><code>%{
-/* 声明 */
-
-%}
-
-%%
-/* 规则*/
-
-%%
-/* 辅助函数*/
-%%
-</code></pre>
-
-<p>例子，Verb识别：</p>
-
-<pre><code>%{
-
-%}
-
-%%
-
-[\t ]+  /* ignore whitespace*/;
-
-is |
-am | 
-are |
-were |
-was |
-be |
-being |
-been |
-do |
-does |
-done |
-will |
-would |
-can |
-could |
-has |
-have |
-had |
-go  { printf(&quot;%s: is a verb\n&quot;,yytext); }
-
-[a-zA-Z] { print(&quot;%s : is not a verb\n&quot;, yytext); }
-
-. | \n    {ECHO;/*normal default anyway*/}
-%%
-
-main(){
-    yylex();
-}
-</code></pre>
-
-<p>lex 规则：<br/>
-    1. 只会进行一次匹配<br/>
-    2. 尽可能长的进行匹配 比如 am ，ambitation同时出现时，会匹配后者</p>
-
-<h2 id="toc_13">语法分析</h2>
-
-<h2 id="toc_14">4.1 概述</h2>
-
-<p><img src="media/14634473408769/Chapter4.png" alt="Chapte"/></p>
-
-<ul>
-<li>Context-Free Grammar</li>
-</ul>
-
-<h2 id="toc_15">自顶向下</h2>
-
-<ol>
-<li><p>带回溯的自顶向下分析（基于穷举）<br/>
-效率低，问题可能在最后才被发觉。</p>
-
-<blockquote>
-<p>适用广，代价高。<br/>
-难以定位出错位置，弃用。</p>
-</blockquote></li>
-<li><p>不带回溯的自顶向下分析</p></li>
-</ol>
-
-<h2 id="toc_16">自底向上</h2>
-
-<p>LR分析：通用、广泛、复杂</p>
-
-<p>GCC: GNU Complier Collection<br/>
-LLVM</p>
 
 ]]></content>
   </entry>
@@ -2693,6 +2666,390 @@ He who knows, and knows that he knows, is wise; follow him.</p>
 - 美区iTunes<br/>
 <img src="http://upload-images.jianshu.io/upload_images/48181-45a608575a99e3b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="iBooks_Store_—_Featured.png"/><br/>
 - <a href="http://www.amazon.com/How-Study-George-Fillmore-Swain-ebook/dp/B004TRND72">Amazon</a></p>
+
+<blockquote>
+<p>Free Download <a href="http://digilibraries.com/ebook/how-to-study">Here</a></p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Student Writer [Note]]]></title>
+    <link href="azureyu.com/The-Student-Writer.html"/>
+    <updated>2016-04-16T17:40:20+08:00</updated>
+    <id>azureyu.com/The-Student-Writer.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>
+<a href="#toc_0">Chapter 1 The Connection between Reading and Writing</a>
+<ul>
+<li>
+<a href="#toc_1">Read Analytically</a>
+<ul>
+<li>
+<a href="#toc_2">1. Step 1: Preview the Material</a>
+</li>
+<li>
+<a href="#toc_3">2. Step 2: Read thoughtfully</a>
+</li>
+<li>
+<a href="#toc_4">3. Step 3: Review and Write for Retention.</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_5">Writing a summary</a>
+</li>
+<li>
+<a href="#toc_6">Sharing Person Reactions and Associations</a>
+</li>
+<li>
+<a href="#toc_7">Evaluating the Author&#39;s Ideas</a>
+</li>
+<li>
+<a href="#toc_8">Analyzing Visual Content</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_9">Chapter 2 Getting Started</a>
+<ul>
+<li>
+<a href="#toc_10">The Writing Process</a>
+</li>
+<li>
+<a href="#toc_11">Choosing A Writing Topic</a>
+<ul>
+<li>
+<a href="#toc_12">Pay Attention to the World around you</a>
+</li>
+<li>
+<a href="#toc_13">Freewrite(I love this way)</a>
+</li>
+<li>
+<a href="#toc_14">Narrow A Broad Topic</a>
+</li>
+<li>
+<a href="#toc_15">Write A List</a>
+</li>
+<li>
+<a href="#toc_16">Considering the Patterns of Development</a>
+</li>
+<li>
+<a href="#toc_17">Map Your Topic</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_18">Establishing Your Purpose</a>
+</li>
+<li>
+<a href="#toc_19">Identifying And Assessing Your Audience</a>
+</li>
+<li>
+<a href="#toc_20">Developing Ideas To Develop Your Topic</a>
+</li>
+<li>
+<a href="#toc_21">Developing A Preliminary Thesis</a>
+<ul>
+<li>
+<a href="#toc_22">The Qualities of an Effective Thesis</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_23">Organizing and Drafting</a>
+<ul>
+<li>
+<a href="#toc_24">Ordering Ideas</a>
+<ul>
+<li>
+<a href="#toc_25">Chronological Order</a>
+</li>
+<li>
+<a href="#toc_26">Spatial Order</a>
+</li>
+<li>
+<a href="#toc_27">Progressive Order</a>
+</li>
+<li>
+<a href="#toc_28">Outlining</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_29">Writing Your First Draft</a>
+<ul>
+<li>
+<a href="#toc_30">Structuring your essay</a>
+</li>
+<li>
+<a href="#toc_31">The introduction</a>
+</li>
+<li>
+<a href="#toc_32">Body Paragraphs</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<span id="more"></span><!-- more -->
+
+<h1 id="toc_0">Chapter 1 The Connection between Reading and Writing</h1>
+
+<h2 id="toc_1">Read Analytically</h2>
+
+<h3 id="toc_2">1. Step 1: Preview the Material</h3>
+
+<p>Grasp the whole book. Get some information. Think about the author.</p>
+
+<p>What questions it will answer? What information it will provide? What do you hope it tell you?</p>
+
+<h3 id="toc_3">2. Step 2: Read thoughtfully</h3>
+
+<ul>
+<li>Thesis, audience and purpose.</li>
+<li>Facts and opinion.</li>
+<li>Make Inferences.</li>
+<li>Make connections(your experience and knowledge). Mark the text.</li>
+<li>Quality.</li>
+<li>Draw conclusion. Mark the text.</li>
+</ul>
+
+<h3 id="toc_4">3. Step 3: Review and Write for Retention.</h3>
+
+<ul>
+<li>Reread the material you underline or highlighted. Understand it.</li>
+<li>Review and reflect upon your material notes. Ask question.</li>
+<li>Writing is an excellent way to &lsquo;set&rsquo; information so you remember it.</li>
+</ul>
+
+<h2 id="toc_5">Writing a summary</h2>
+
+<ol>
+<li>Underline or list the major ideas in the section.</li>
+<li>Write an opening sentence that include the author&rsquo;s name, the title of the reading selection, and the thesis.</li>
+<li>After the first use of the author&rsquo;s full name, refer to the author with his or her last name or with a pronoun.</li>
+<li>You should use a present tense verb with the author&rsquo;s name.</li>
+<li>Draft the body of the summary by writing in your own words and the style the major ideas you underline or listed.</li>
+<li>If some of the main ideas are hard to express in you own words, quote them, but use quotation sparingly.</li>
+<li>Revise to be sure you have not included ideas that did not appear in the original.</li>
+<li>Check that you have used transitions to ease the flow from point to point, including repeating the author&rsquo;s name with a present-tense verb.</li>
+</ol>
+
+<h2 id="toc_6">Sharing Person Reactions and Associations</h2>
+
+<h2 id="toc_7">Evaluating the Author&rsquo;s Ideas</h2>
+
+<ul>
+<li>Example</li>
+<li>Exercise</li>
+</ul>
+
+<h2 id="toc_8">Analyzing Visual Content</h2>
+
+<h1 id="toc_9">Chapter 2 Getting Started</h1>
+
+<ul>
+<li>Use your resources.</li>
+<li>Remember writing is a process.</li>
+<li>Think of yourself as a critic and an editor.</li>
+<li>Understand the difference between professional writers and student writers.</li>
+</ul>
+
+<h2 id="toc_10">The Writing Process</h2>
+
+<h2 id="toc_11">Choosing A Writing Topic</h2>
+
+<h3 id="toc_12">Pay Attention to the World around you</h3>
+
+<h3 id="toc_13">Freewrite(I love this way)</h3>
+
+<ul>
+<li>Do not stop.(5~10 minutes)</li>
+<li>Record everything comes to mind.
+<img src="media/14607996200348/freewrite.jpg" alt="freewrite"/></li>
+</ul>
+
+<h3 id="toc_14">Narrow A Broad Topic</h3>
+
+<p>Narrow the topic to something that can be managed in a suitable length.<br/>
+<img src="media/14607996200348/narrowTopic.jpg" alt="narrowTopi"/></p>
+
+<h3 id="toc_15">Write A List</h3>
+
+<h3 id="toc_16">Considering the Patterns of Development</h3>
+
+<p><img src="media/14607996200348/process.jpg" alt="process"/></p>
+
+<h3 id="toc_17">Map Your Topic</h3>
+
+<h2 id="toc_18">Establishing Your Purpose</h2>
+
+<p>Four Purpose:</p>
+
+<pre><code>1. To `express` feelings or ideas to the reader and/or relate experiences.
+2. To `inform` reader of something.
+3. To `persuade` the reader to think or act with a certain way.
+4. To `entertain` the reader.
+</code></pre>
+
+<p><strong>What-&gt;Why-&gt;How.</strong></p>
+
+<p>This remained me of the book &ldquo;How can everybody make extrorindary persections&rdquo;</p>
+
+<h2 id="toc_19">Identifying And Assessing Your Audience</h2>
+
+<p>Like purpose, Audience shapes writing.<br/>
+<img src="media/14607996200348/Audience.jpg" alt="Audience"/></p>
+
+<h2 id="toc_20">Developing Ideas To Develop Your Topic</h2>
+
+<p>Idea generation techniques:</p>
+
+<ul>
+<li>Freewrite</li>
+<li>Write a List</li>
+<li>Answer Question</li>
+<li>Write A Map</li>
+<li>Write a Letter</li>
+<li>Investigate Sources</li>
+<li>Keep a Journal
+<img src="media/14607996200348/ideas.jpg" alt="ideas"/><img src="media/14607996200348/writePattern.jpg" alt="writePattern"/>
+<img src="media/14607996200348/topic.jpg" alt="topi"/></li>
+</ul>
+
+<h2 id="toc_21">Developing A Preliminary Thesis</h2>
+
+<p>A thesis is a statement of what an essay is about. Everything you write must relate to the thesis and help prove or explain it.</p>
+
+<h3 id="toc_22">The Qualities of an Effective Thesis</h3>
+
+<ol>
+<li>State your <code>topic</code> and your <code>opinion</code> on that topic.</li>
+<li>Limit your thesis to one topic and one opinion.</li>
+<li>Avoid broad statements.</li>
+<li>Express your opinion in a specific words.</li>
+<li>Avoid factual statements.</li>
+<li>Write your thesis so it is not an statement.</li>
+<li>Avoid expressings such as &ldquo;in my opinion&rdquo;, &ldquo;I believe&rdquo;, &ldquo;I think&rdquo; and &ldquo;it seems to me&rdquo;.
+<img src="media/14607996200348/assignment.jpg" alt="assignment"/></li>
+</ol>
+
+<h1 id="toc_23">Organizing and Drafting</h1>
+
+<p>Perwriting is a necessary process.</p>
+
+<p>Evulating your idea. Choose those realated to your aduience, topic and opinion, thesis. </p>
+
+<h2 id="toc_24">Ordering Ideas</h2>
+
+<h3 id="toc_25">Chronological Order</h3>
+
+<p>Time order. It&rsquo;s often used for narration or explain how to do something.</p>
+
+<h3 id="toc_26">Spatial Order</h3>
+
+<p>You use it when you want to describe something.</p>
+
+<h3 id="toc_27">Progressive Order</h3>
+
+<p>Order it according to how compelling it is.</p>
+
+<h3 id="toc_28">Outlining</h3>
+
+<ul>
+<li>The formal outline</li>
+<li>The outline Worksheet</li>
+</ul>
+
+<p><strong>Introduction</strong></p>
+
+<ul>
+<li>Details to generate reader interest___</li>
+<li>Preliminary thesis</li>
+</ul>
+
+<p><strong>Parapraph</strong><br/>
+- Main ideas<br/>
+    <img src="media/14607996200348/outline.jpg" alt="outline"/></p>
+
+<ul>
+<li>Supporting detalis
+**Conclusion **</li>
+<li><p>Details to privde closure </p></li>
+<li><p>The outline tree</p></li>
+</ul>
+
+<p><img src="media/14607996200348/outlineTree.jpg" alt="outlineTree"/></p>
+
+<h2 id="toc_29">Writing Your First Draft</h2>
+
+<h3 id="toc_30">Structuring your essay</h3>
+
+<ul>
+<li>The beginning</li>
+<li>The middle</li>
+<li>body paragraph(Topic sentence)</li>
+<li>The end</li>
+</ul>
+
+<h3 id="toc_31">The introduction</h3>
+
+<ul>
+<li>Provide Background Information</li>
+<li>Tell a Perinent Story</li>
+<li>Explain Why Your Topic Is Important</li>
+<li>Present Some Interesting Images or Use Description</li>
+<li>Present an Intriguing Problem or Raise a Provocative Question</li>
+<li>Present an Opposing ViewPoint</li>
+<li>Establish Yourself As Someone Knowlegeable About the Topic</li>
+<li>Open with an Attention-Grabbing Statemnet</li>
+<li>Explain your purpose</li>
+<li>Find Some Common Ground to Establish a Bond With Your Reader</li>
+<li>Provide an interesting Question</li>
+<li>Define Something</li>
+<li>Give Relevant Example</li>
+</ul>
+
+<p>Avoid apologizing.</p>
+
+<h3 id="toc_32">Body Paragraphs</h3>
+
+<ul>
+<li>Topic Sentence
+
+<ul>
+<li>Placement of the Topic Sentence(first,last) </li>
+<li>Quantities of an Effective Sentence
+
+<ul>
+<li>Accurately state the main idea of the body paragraph.</li>
+<li>State one main idea.</li>
+<li>State a main related to the thesis. </li>
+</ul></li>
+</ul></li>
+<li><p>Supporting details</p>
+
+<ul>
+<li><p>Effective Supporting details</p>
+
+<ul>
+<li><p>Provide adequate supporting deatils</p>
+
+<blockquote>
+<p>To provide adquate deatils, remember to <strong><em>show</em></strong> as well as <strong><em>tell</em></strong>.  </p>
+</blockquote></li>
+<li><p>Provide relevent supporting details.</p></li>
+</ul></li>
+</ul></li>
+</ul>
 
 ]]></content>
   </entry>
@@ -3503,52 +3860,6 @@ Beautiful+Instandly Recognizable</li>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[2015 简短版回顾]]></title>
-    <link href="azureyu.com/2016-02-24-SimpleSum2015.html"/>
-    <updated>2016-05-10T14:36:11+08:00</updated>
-    <id>azureyu.com/2016-02-24-SimpleSum2015.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_0">科学技术</h2>
-
-<p>这一年里，对专业知识有了更深的了解。</p>
-
-<ul>
-<li>数据结构与算法，数据库，计算机网络，密码学，Web开发，java，C#，大型机等</li>
-<li>软件工程，软件需求,UML等</li>
-</ul>
-
-<p>接触了更多技术。</p>
-
-<ul>
-<li>接触的技术：Web(Html,Css,JS,JQ;PHP-&gt;ThinkPHP)，iOS(Swift-&gt;Cocoa)</li>
-<li>社区：Github，StackOverFlow，Medium，简书</li>
-</ul>
-
-<p>大二下期，除专业课外，学习基本的Web开发知识，搭建了自己的博客，参加校园APP大赛（一等奖）。</p>
-
-<p>暑假，学习游泳，教朋友游泳。开始认真学习吉他和iOS开发。</p>
-
-<p>大三上期，大部分时间在学专业知识，继续学习iOS和Web开发，参加了IBM个人赛（三等奖），微软灵雀云黑客马拉松。</p>
-
-<p>寒假前10天，参加项目开发，ERP系统，主要负责后端开发。</p>
-
-<h2 id="toc_1">兴趣爱好</h2>
-
-<ul>
-<li>阅读</li>
-<li>写作</li>
-<li>吉他入门</li>
-<li>英语 很喜欢英语文学老师</li>
-<li>影视</li>
-<li>玩（成都，九寨沟）</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[黑客马拉松——Emotion Note开发小记]]></title>
     <link href="azureyu.com/2015-12-09-EmotionNote.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
@@ -3621,97 +3932,6 @@ Beautiful+Instandly Recognizable</li>
 
 <p><a href="https://github.com/Yogayu/EmotionNote">源码地址</a></p>
 </blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IBM个人赛Part1、Part2小结]]></title>
-    <link href="azureyu.com/2015-11-15-IBMMainFrameCompetition.html"/>
-    <updated>2016-05-10T14:36:11+08:00</updated>
-    <id>azureyu.com/2015-11-15-IBMMainFrameCompetition.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">1.  先过脑子，再过机子</h2>
-
-<p>用小黑箱调试，没有办法设置断点，没有提示错误(后来上了大型机的课，也就会调试和看错误了)，只有自己不断的试错。添一段代码之后运行，对了再一点点的添，错了就不断缩小问题范围。</p>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_1">2. 要注意细节问题</h2>
-
-<p>太久没写C语言，逻辑上大多不会出错，会在基本的语法上出错。比如，本来应该是全局变量却声明为了main函数中的局部变量，单词拼写错误，未声明就使用。虽然很费事，但是也很难忘。</p>
-
-<ol>
-<li><p>zOS</p>
-
-<ul>
-<li><p>连接port</p></li>
-<li><p>登录logon</p></li>
-<li><p>登出logoff</p></li>
-</ul></li>
-<li><p>linux 基本命令 修改权限</p>
-
-<ul>
-<li><p>man，ls，cat打印到屏幕，less显示内容（大文件），mkdir，cd，cp，echo，chmod（修改权限 r,w,x ），which comandLine</p></li>
-<li><p>绝对地址与相对地址 ‘/z/bin’,’./(inside)’,’../(parent)&lsquo;</p></li>
-</ul></li>
-<li><p>主界面 ISPF</p>
-
-<ul>
-<li><p>数据管理 命令=3.4</p></li>
-<li><p>数据类型 sequential data set,  file ;partitioned data set.  a folder or a directory, members : files.</p></li>
-<li><p>添加数据 =2 PDSNAME(Membername)</p></li>
-<li><p>文本编辑 i d r</p></li>
-<li><p>=6 Command Shell 执行命令 EXEC &#39;ZOS.PUBLIC.REXX(COUNT)&rsquo; &lsquo;your_name&rsquo;</p></li>
-</ul></li>
-<li><p>编码，ASCII，EBCDIC</p>
-
-<ul>
-<li>hex on/off , hx</li>
-</ul></li>
-<li><p>JCL 运行某程序</p>
-
-<ul>
-<li><p>提交：tso submit jcl(sortjcl)</p></li>
-<li><p>查看状态：sub; =sd ; st</p></li>
-</ul></li>
-<li><p>JSON,COBOL 面向企业</p></li>
-<li><p>z/OS unix：</p>
-
-<ul>
-<li>进入：tso omvs</li>
-<li>拷贝文件：cp cp unameinfo &ldquo;//‘CN00474.P2.OUTPUT($010)&lsquo;&rdquo;</li>
-</ul></li>
-<li><p>Transaction Processing Facility (TPF) 文件</p>
-
-<ul>
-<li>JSON</li>
-<li>MongoDB
-
-<ul>
-<li>db.getCollection(’PNR’).find({PnrByNumber: {number: 88440}})
-db.getCollection(&#39;PNR&rsquo;).find({PnrByName: {name: &ldquo;JRTyler&rdquo;}})
-72 Quincy, Evanston, Illinois</li>
-</ul></li>
-</ul></li>
-<li><p>blue mix 构建云应用</p></li>
-<li><p>运行不同语言的程序，编译，连接，运行</p>
-
-<ul>
-<li>Source(POKER)-run by-&gt; JCL(POKERCMP)-output-&gt; LOAD(POKER)－run by－&gt;jcl(POKRUN16)-&gt;output result.</li>
-<li>tso submit jcl(POKERCMP)</li>
-<li>tso submit jcl(POKRUN16)</li>
-</ul></li>
-<li><p>修改程序</p>
-
-<ul>
-<li>小步加进式的调试</li>
-</ul></li>
-</ol>
-
-<h2 id="toc_2">后记</h2>
-
-<p>之后也选修大型机课程，再来看个人赛觉得是简单了很多，又系统的了解更多的大型机知识，当然多数时间在学习JCL和COBOL程序设计，不得不说编写大型机应用，更需要耐心。</p>
 
 ]]></content>
   </entry>

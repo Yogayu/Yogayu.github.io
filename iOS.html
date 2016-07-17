@@ -31,34 +31,33 @@
     <div class="marketing off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
 
-
 <nav class="top-bar docs-bar hide-for-small" data-topbar>
-
 
   <section class="top-bar-section">
   <div class="row">
       <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
         <ul id="main-menu" class="left">
         <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+        <li id="menu_item_archives"><a href="archives.html">ARCHIVES</a></li>
         <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
         </ul>
 
         <ul class="right" id="search-wrap">
           <li>
-<form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
-    <input type="hidden" id="search_q" name="q" value="" />
-    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
-</form>
-</li>
+            <form target="_blank" onsubmit="return before_search();" action="http://google.com/search" method="get">
+                <input type="hidden" id="search_q" name="q" value="" />
+                <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+            </form>
+          </li>
           </ul>
-      </div></div>
+      </div>
+    </div>
   </div>
   </section>
 
 </nav>
 
-        <nav class="tab-bar show-for-small">
+<nav class="tab-bar show-for-small">
   <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
     <span> &nbsp; Azure Yu</span>
   </a>
@@ -68,32 +67,37 @@
       <ul class="off-canvas-list">
        
        <li><a href="index.html">HOME</a></li>
-    <li><a href="archives.html">Archives</a></li>
-    <li><a href="about.html">ABOUT</a></li>
+       <li><a href="archives.html">ARCH</a></li>
+       <li><a href="about.html">ABOUT</a></li>
 
-    <li><label>Categories</label></li>
+       <li><label>Categories</label></li>
 
         
-            <li><a href="Books.html">Books</a></li>
-        
-            <li><a href="Hum.html">Hum</a></li>
-        
-            <li><a href="Tech.html">Tech</a></li>
+            <li><a href="Tip.html">Tip</a></li>
         
             <li><a href="iOS.html">iOS</a></li>
         
             <li><a href="Life.html">Life</a></li>
         
-            <li><a href="HUM.html">一日一</a></li>
+            <li><a href="Book.html">Book</a></li>
+        
+            <li><a href="Tech.html">Tech</a></li>
          
-
+  
+       <li><label>SITES</label></li>
+       <li class="post"><a href="http://azureyu.com/pulse">App</a></li>
+       <li class="post"><a href="http://azureyu.com/book">Books</a></li>
+       
+       <li><label>Links</label></li>
+       <li class="post"><a href="https://github.com/yogayu">Github</a></li>
+       <li class="post"><a href="http://www.jianshu.com/users/313e5a37caee/latest_articles">Jianshu</a></li>
       </ul>
     </aside>
 
 <a class="exit-off-canvas" href="#"></a>
 
 
-        <section id="main-content" role="main" class="scroll-container">
+<section id="main-content" role="main" class="scroll-container">
         
        
 
@@ -106,6 +110,53 @@
 	<div class="large-8 medium-8 columns">
 		<div class="markdown-body home-categories">
 		
+			<div class="article">
+                <a class="clearlink" href="2016-07-17-arc.html">
+                
+                  <h1>自动引用计数（ Auto Reference Count, ARC）</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<blockquote>
+<p>2016-5-25 初稿</p>
+</blockquote>
+
+<ol>
+<li><p>解决什么样的问题？什么时候释放对象。</p>
+
+<p>对象不同于一般的变量，生存周期受其作用域的影响。比如在函数内声明的变量，在函数之外就没有了作用。对象的生存周期是受其引用对象的影响。</p>
+
+<p>引用的实质是使用指向其内存的指针。</p>
+
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="2016-07-17-arc.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2016/7/17</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+                        <a href="2016-07-17-arc.html#disqus_thread">comments</a>
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
 			<div class="article">
                 <a class="clearlink" href="iOSDevRecord.html">
                 
@@ -139,7 +190,7 @@
                   <div class="more-right right">
                   <span class="comments">
                       
-                        <a href="azureyu.com/iOSDevRecord.html#disqus_thread">comments</a>
+                        <a href="iOSDevRecord.html#disqus_thread">comments</a>
                       
 
                        
@@ -202,7 +253,7 @@
                   <div class="more-right right">
                   <span class="comments">
                       
-                        <a href="azureyu.com/2016-05-14-iOS-Localizable.html#disqus_thread">comments</a>
+                        <a href="2016-05-14-iOS-Localizable.html#disqus_thread">comments</a>
                       
 
                        
@@ -230,9 +281,9 @@
                     <span class="date">2016/4/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
@@ -240,7 +291,7 @@
                   <div class="more-right right">
                   <span class="comments">
                       
-                        <a href="azureyu.com/2016-04-15-iOSProgramming.html#disqus_thread">comments</a>
+                        <a href="2016-04-15-iOSProgramming.html#disqus_thread">comments</a>
                       
 
                        
@@ -278,7 +329,7 @@
                   <div class="more-right right">
                   <span class="comments">
                       
-                        <a href="azureyu.com/2016-03-24-iOSLearning.html#disqus_thread">comments</a>
+                        <a href="2016-03-24-iOSLearning.html#disqus_thread">comments</a>
                       
 
                        
@@ -306,9 +357,9 @@
                     <span class="date">2016/3/15</span>
                     <span>posted in&nbsp;</span> 
           				  
-          					    <span class="posted-in"><a href='Books.html'>Books</a></span>
-          				  
           					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
+          				  
+          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				  
           					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
           				   
@@ -316,55 +367,7 @@
                   <div class="more-right right">
                   <span class="comments">
                       
-                        <a href="azureyu.com/2016-03-15-iOSUI.html#disqus_thread">comments</a>
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="2015-10-24-cocoaPods.html">
-                
-                  <h1>使用CocoaPods</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<h2 id="toc_0">CocoaPods是什么?</h2>
-
-<p>当你想要用别人造好的轮子(第三方开源库，简单说，就是别人写好的功能代码)，一开始，你是不是都是下载之后，添加到自己项目中？要是项目多了是不是麻烦？而且一直在变动，有不同的版本等等。有了Cocoapods，就像有了助手，帮你管理这些轮子。你需要做的就是告诉它，你需要哪些库，什么版本。</p>
-
-<blockquote>
-<p>你需要：<br/>
-- 会使用终端，知道基本的命令含义，比如 cd<br/>
-- 了解有的服务器在墙在外，需要更换为国内镜像</p>
-</blockquote>
-
-<p>CocoaPods官网: <a href="https://cocoapods.org">https://cocoapods.org</a></p>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="2015-10-24-cocoaPods.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2015/10/24</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='iOS.html'>iOS</a></span>
-          				  
-          					    <span class="posted-in"><a href='Tech.html'>Tech</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-                        <a href="azureyu.com/2015-10-24-cocoaPods.html#disqus_thread">comments</a>
+                        <a href="2016-03-15-iOSUI.html#disqus_thread">comments</a>
                       
 
                        
@@ -384,7 +387,7 @@
 			  </div>
 			  <div class="large-6 columns">
 			<p class="text-right" style="padding-top:25px;">
-			
+			 <a href="iOS_1.html">&raquo; Next Page</a> 
 			</p>
 			  </div>
 			</div>
@@ -426,9 +429,9 @@
                     <li class="post"><a href="http://azureyu.com/book">
                       Books: My Reading List</a></li>
                     <li class="post"><a href="http://azureyu.com/pulse">
-                      Pulse: My first iOS App</a></li>
+                      Pulse: My First iOS App</a></li>
                     <li class="post"><a href="http://www.jianshu.com/users/313e5a37caee/latest_articles">
-                    My blog in Jianshu</a></li>
+                    My Blog in Jianshu</a></li>
                   </ol>
                 </div>
               </div>
@@ -437,98 +440,93 @@
                 <div class="side-header">
                   <h2>Categories</h2>
                 </div>
-                <div class="side-content">
-
-      	<p class="cat-list">
-        
-            <a href="Books.html"><strong>Books</strong></a>
-        
-            <a href="Hum.html"><strong>Hum</strong></a>
-        
-            <a href="Tech.html"><strong>Tech</strong></a>
-        
-            <a href="iOS.html"><strong>iOS</strong></a>
-        
-            <a href="Life.html"><strong>Life</strong></a>
-        
-            <a href="HUM.html"><strong>一日一</strong></a>
-         
-        </p>
-
-
+              <div class="side-content">
+              	<p class="cat-list">
+                
+                    <a href="Tip.html"><strong>Tip</strong></a>
+                
+                    <a href="iOS.html"><strong>iOS</strong></a>
+                
+                    <a href="Life.html"><strong>Life</strong></a>
+                
+                    <a href="Book.html"><strong>Book</strong></a>
+                
+                    <a href="Tech.html"><strong>Tech</strong></a>
+                 
+                </p>
                 </div>
               </div>
-
-              <div id="site-categories" class="side-item">
+        
+             <!--  <div id="site-categories" class="side-item">
                 <div class="side-header">
                   <h2>Recent Posts</h2>
                 </div>
                 <div class="side-content">
                 <ul class="posts-list">
-	      
-		      
-			      <li class="post">
-			        <a href="programminglanguage.html">关于编程语言的思考（上）Thinking of the Programming Language (Part 1)</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="2016-06-10-RM.html">Mac快速远程控制Windows电脑桌面</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="2016-06-05-connectRaspberryPi.html">校园网无路由器无显示器情况下使用树莓派</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="iOSDevRecord.html">iOS 独立开发记录</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="2016-05-29-Reread.html">【一日一系列】重读</a>
-			      </li>
-		     
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		  
-		      
-		   
-		  		</ul>
+          	      
+          		      
+          			      <li class="post">
+          			        <a href="douban-intern.html">豆蔻年华 与你为瓣——在豆瓣实习</a>
+          			      </li>
+          		     
+          		    
+          		      
+          			      <li class="post">
+          			        <a href="14711002551177.html">Technology Biscuit</a>
+          			      </li>
+          		     
+          		    
+          		      
+          			      <li class="post">
+          			        <a href="2016-07-17-arc.html">自动引用计数（ Auto Reference Count, ARC）</a>
+          			      </li>
+          		     
+          		    
+          		      
+          			      <li class="post">
+          			        <a href="programminglanguage.html">关于编程语言的思考（上）Thinking of the Programming Language (Part 1)</a>
+          			      </li>
+          		     
+          		    
+          		      
+          			      <li class="post">
+          			        <a href="2016-06-10-RM.html">Mac快速远程控制Windows电脑桌面</a>
+          			      </li>
+          		     
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		    
+          		      
+          		     
+      		  		</ul>
                 </div>
-              </div>
+              </div> -->
         </div><!-- sidebar -->
       </div><!-- hide for small -->
 </div><!-- large 4 -->
@@ -537,7 +535,7 @@
 
  <div class="page-bottom clearfix">
   <div class="row">
-   <p class="copyright">Copyright &copy; 2015-2016 Azure Yu.&nbsp; 
+   <p class="copyright">Copyright &copy; 2014-2016 Azure Yu.&nbsp; 
 Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
   </div>
 </div>
@@ -587,9 +585,8 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
      
     </script>
 
-    
-
-
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -612,8 +609,6 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
       s.parentNode.insertBefore(hm, s);
     })();
 </script>
-
-
 
   </body>
 </html>
