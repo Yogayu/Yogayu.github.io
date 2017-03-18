@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
   <title><![CDATA[Azure Yu]]></title>
   <link href="atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2016-12-06T13:59:41+08:00</updated>
+  <updated>2017-03-18T22:20:54+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
-    
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
@@ -17,8 +15,7 @@
     <link href="azureyu.com/douban-intern.html"/>
     <updated>2016-07-26T22:27:01+08:00</updated>
     <id>azureyu.com/douban-intern.html</id>
-    <content type="html"><![CDATA[
-<blockquote>
+    <content type="html"><![CDATA[<blockquote>
 <p>豆瓣在乎你的工作，你一定也在意吧。还记得你上学第一天吗？那天早上你遇到了什么样的人，同学、老师&hellip;&hellip; 在豆瓣的实习生活，可能是你人生又一个重要的第一天，你又将遇到些什么样的人，开始什么样的工作和生活。在这里是新的起点，这段经历你不只是一个实习生。——<a href="https://jobs.douban.com/jobs/intern/">工作在豆瓣</a></p>
 </blockquote>
 
@@ -232,7 +229,6 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
 </blockquote>
 
 <p><img src="http://7xle3b.com1.z0.glb.clouddn.com/douban/img/cat.jpeg" alt="Dadan.cat"/></p>
-
 ]]></content>
   </entry>
   
@@ -241,8 +237,7 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
     <link href="azureyu.com/14711002551177.html"/>
     <updated>2016-08-13T22:57:35+08:00</updated>
     <id>azureyu.com/14711002551177.html</id>
-    <content type="html"><![CDATA[
-<p>文章就像精神食粮，饕餮大餐的书籍吃多了，偶尔来点小饼干也不错。</p>
+    <content type="html"><![CDATA[<p>文章就像精神食粮，饕餮大餐的书籍吃多了，偶尔来点小饼干也不错。</p>
 
 <p>所以这里烹饪的文章多短篇，记录日常开发中的配置、工具使用或问题解决等等。</p>
 
@@ -260,7 +255,6 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
 <li><a href="./2016-08-13-jekyll-wrong.html">Jekyll Error</a></li>
 <li><a href="./2016-iOSYoga.html">iOSYoga</a></li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -269,8 +263,7 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
     <link href="azureyu.com/2016-07-17-arc.html"/>
     <updated>2016-05-25T22:23:40+08:00</updated>
     <id>azureyu.com/2016-07-17-arc.html</id>
-    <content type="html"><![CDATA[
-<blockquote>
+    <content type="html"><![CDATA[<blockquote>
 <p>2016-5-25 初稿</p>
 </blockquote>
 
@@ -315,7 +308,6 @@ Java中采用的是垃圾回收机制(Garbage Collection, GC)。垃圾回收机�
 <p>看编译原理第七章运行时环境，很多东西都讲了的。</p>
 
 <p>突然意识到，很多博客，不过是书籍的个人阐述，不如自己读书。</p>
-
 ]]></content>
   </entry>
   
@@ -324,8 +316,7 @@ Java中采用的是垃圾回收机制(Garbage Collection, GC)。垃圾回收机�
     <link href="azureyu.com/programminglanguage.html"/>
     <updated>2016-06-27T19:47:29+08:00</updated>
     <id>azureyu.com/programminglanguage.html</id>
-    <content type="html"><![CDATA[
-<ul>
+    <content type="html"><![CDATA[<ul>
 <li>
 <a href="#toc_0">问题 Problems</a>
 </li>
@@ -533,7 +524,6 @@ The following thinking is based on my own limit experience with programming lang
 
 </ol>
 </div>
-
 ]]></content>
   </entry>
   
@@ -542,8 +532,7 @@ The following thinking is based on my own limit experience with programming lang
     <link href="azureyu.com/2016-06-10-RM.html"/>
     <updated>2016-06-10T17:02:31+08:00</updated>
     <id>azureyu.com/2016-06-10-RM.html</id>
-    <content type="html"><![CDATA[
-<p>我个人在学校使用两台电脑，一台MacBook Air，一台Acer。每次同时开启使用时，总是很不习惯，一直来回切换控制。想着，如果能直接在Mac上控制Windows桌面，那么能省去不少麻烦。</p>
+    <content type="html"><![CDATA[<p>我个人在学校使用两台电脑，一台MacBook Air，一台Acer。每次同时开启使用时，总是很不习惯，一直来回切换控制。想着，如果能直接在Mac上控制Windows桌面，那么能省去不少麻烦。</p>
 
 <p>最开始选择Windows Desktop Remote ，总是提示连接未成功。然后尝试VNC Viewer，依旧未果。最后选择了，Google Chrome的远程桌面插件。</p>
 
@@ -560,7 +549,6 @@ The following thinking is based on my own limit experience with programming lang
 <p><img src="media/14655493510316/Chrome_%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2.png" alt="Chrome_远程桌面"/></p>
 
 <p>这样同时控制两天电脑就方便多了。</p>
-
 ]]></content>
   </entry>
   
@@ -569,8 +557,7 @@ The following thinking is based on my own limit experience with programming lang
     <link href="azureyu.com/2016-06-05-connectRaspberryPi.html"/>
     <updated>2016-06-05T00:02:51+08:00</updated>
     <id>azureyu.com/2016-06-05-connectRaspberryPi.html</id>
-    <content type="html"><![CDATA[
-<p>就如标题所言，我们的处境很艰难。</p>
+    <content type="html"><![CDATA[<p>就如标题所言，我们的处境很艰难。</p>
 
 <p>想玩树莓派，但是没有额外的显示器。<br/>
 还是在校园网的环境下，无法通过路由器查看树莓派IP地址。</p>
@@ -795,7 +782,6 @@ update-rc.d vncboot defaults
 <p>重启你的树莓派，VNC Server就会自动运行了。</p>
 
 <p>愉快的开始玩吧。</p>
-
 ]]></content>
   </entry>
   
@@ -804,8 +790,7 @@ update-rc.d vncboot defaults
     <link href="azureyu.com/iOSDevRecord.html"/>
     <updated>2016-04-27T00:19:05+08:00</updated>
     <id>azureyu.com/iOSDevRecord.html</id>
-    <content type="html"><![CDATA[
-<blockquote>
+    <content type="html"><![CDATA[<blockquote>
 <p>前期思考要全面，设计要具体，在具体实现过程中，需要兵来将挡，水来土掩。</p>
 </blockquote>
 
@@ -1830,7 +1815,6 @@ Support :
 <p>麻雀虽小，五脏俱全。虽只是一个简单的节拍器，也没用到复杂的算法和很难的技术。</p>
 
 <p>但学习本就是从易到难的吧。重要的是有想法并去实现，然后不断去完善。</p>
-
 ]]></content>
   </entry>
   
@@ -1839,8 +1823,7 @@ Support :
     <link href="azureyu.com/2016-05-29-Reread.html"/>
     <updated>2016-05-29T22:54:30+08:00</updated>
     <id>azureyu.com/2016-05-29-Reread.html</id>
-    <content type="html"><![CDATA[
-<p>人们往往爱说，我最近读了几本书，却很少说，我最近重读了哪几本书。</p>
+    <content type="html"><![CDATA[<p>人们往往爱说，我最近读了几本书，却很少说，我最近重读了哪几本书。</p>
 
 <p>而我认为，当你读书到一定量之后，你重读的书的数量，才决定了你读书的质量。</p>
 
@@ -1874,7 +1857,6 @@ Support :
 
 <p></br><br/>
 如果你之前读的书中，没有一本值得一读再读的书，那么你就要好好审视自己的书单了。</p>
-
 ]]></content>
   </entry>
   
@@ -1883,8 +1865,7 @@ Support :
     <link href="azureyu.com/words.html"/>
     <updated>2016-05-28T21:20:13+08:00</updated>
     <id>azureyu.com/words.html</id>
-    <content type="html"><![CDATA[
-<p>《思考的整理术》中曾提到可以将自己的经验整理为自己的谚语，作为高度的总结。和自己常做的事，一拍即合，只是之前未给它们命名。现在想来，叫做“自己的谚语”确实有几分道理。</p>
+    <content type="html"><![CDATA[<p>《思考的整理术》中曾提到可以将自己的经验整理为自己的谚语，作为高度的总结。和自己常做的事，一拍即合，只是之前未给它们命名。现在想来，叫做“自己的谚语”确实有几分道理。</p>
 
 <span id="more"></span><!-- more -->
 
@@ -1920,7 +1901,6 @@ Support :
 <li>人与人之间的关系，是会随着时间空间以及彼此的内心变化而改变的。不可强求，不可强求，不可强求。</li>
 <li> 个人的力量是有限的，要有燃烧其他人热情的能力，要有让他人相信你的能力，要有智慧，有主见，远见。</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -1929,8 +1909,7 @@ Support :
     <link href="azureyu.com/choose.html"/>
     <updated>2016-05-25T15:53:33+08:00</updated>
     <id>azureyu.com/choose.html</id>
-    <content type="html"><![CDATA[
-<blockquote>
+    <content type="html"><![CDATA[<blockquote>
 <p>去年写的文章，翻出来看看。感觉很温暖，希望依旧有定力吧。</p>
 </blockquote>
 
@@ -1975,7 +1954,6 @@ Support :
 <p>人生，持续不断的是意义。</p>
 
 <p>2015-11</p>
-
 ]]></content>
   </entry>
   
@@ -1984,8 +1962,7 @@ Support :
     <link href="azureyu.com/2016-05-14-iOS-Localizable.html"/>
     <updated>2016-05-14T16:37:28+08:00</updated>
     <id>azureyu.com/2016-05-14-iOS-Localizable.html</id>
-    <content type="html"><![CDATA[
-<ul>
+    <content type="html"><![CDATA[<ul>
 <li>
 <a href="#toc_0">本地化的重要性</a>
 </li>
@@ -2209,7 +2186,6 @@ Support :
 <li>iOS Programming Foundation with Swift Chapter 9</li>
 </ul>
 </blockquote>
-
 ]]></content>
   </entry>
   
@@ -2218,8 +2194,7 @@ Support :
     <link href="azureyu.com/2016-05-10-HelloMWeb.html"/>
     <updated>2016-05-10T18:24:17+08:00</updated>
     <id>azureyu.com/2016-05-10-HelloMWeb.html</id>
-    <content type="html"><![CDATA[
-<p>作为重度Markdown使用者，个人很喜欢MWeb。决定将博客从Jekyll转为MWeb生成。</p>
+    <content type="html"><![CDATA[<p>作为重度Markdown使用者，个人很喜欢MWeb。决定将博客从Jekyll转为MWeb生成。</p>
 
 <p>下面是简单的步骤。</p>
 
@@ -2279,7 +2254,6 @@ Support :
 <p>其实就是把很多之前文档配置的内容，转化为了GUI展现。</p>
 
 <p>Jekyll用多了，再用这些其实都很简单。</p>
-
 ]]></content>
   </entry>
   
@@ -2288,8 +2262,7 @@ Support :
     <link href="azureyu.com/2016-05-01-April.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-05-01-April.html</id>
-    <content type="html"><![CDATA[
-<p>四月天气也是奇怪，前一天人们还穿着短袖，后一天就披上棉袄。<br/>
+    <content type="html"><![CDATA[<p>四月天气也是奇怪，前一天人们还穿着短袖，后一天就披上棉袄。<br/>
 开始和队友一起做项目，每天都往返于学院楼和寝室。<br/>
 最近去学院楼的时间，都比去上课的时间要多了。</p>
 
@@ -2414,7 +2387,6 @@ Support :
 <li>两门期末考试</li>
 <li>写货运达APP</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -2423,8 +2395,7 @@ Support :
     <link href="azureyu.com/2016-04-24-HowToStudy.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-04-24-HowToStudy.html</id>
-    <content type="html"><![CDATA[
-<p>大学与其说实在学习具体的学科，不如说是在学习<strong>如何学习</strong>。<br/>
+    <content type="html"><![CDATA[<p>大学与其说实在学习具体的学科，不如说是在学习<strong>如何学习</strong>。<br/>
 关于学习，有两门书对我的影响极大。这两本书前前后后读了不下4遍，平时也在不断重温。</p>
 
 <p>第一本，极有名气，是<strong>《如何阅读一本书》(《How to read a book》)</strong>。初看是在高三暑假，现在大三，还在读。第一次读是了解大概，之后都带着不同的中心问题的重读。</p>
@@ -2670,7 +2641,6 @@ He who knows, and knows that he knows, is wise; follow him.</p>
 <blockquote>
 <p>Free Download <a href="http://digilibraries.com/ebook/how-to-study">Here</a></p>
 </blockquote>
-
 ]]></content>
   </entry>
   
@@ -2679,8 +2649,7 @@ He who knows, and knows that he knows, is wise; follow him.</p>
     <link href="azureyu.com/The-Student-Writer.html"/>
     <updated>2016-04-16T17:40:20+08:00</updated>
     <id>azureyu.com/The-Student-Writer.html</id>
-    <content type="html"><![CDATA[
-<ul>
+    <content type="html"><![CDATA[<ul>
 <li>
 <a href="#toc_0">Chapter 1 The Connection between Reading and Writing</a>
 <ul>
@@ -3050,7 +3019,6 @@ He who knows, and knows that he knows, is wise; follow him.</p>
 </ul></li>
 </ul></li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -3059,8 +3027,7 @@ He who knows, and knows that he knows, is wise; follow him.</p>
     <link href="azureyu.com/2016-04-15-iOSProgramming.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-04-15-iOSProgramming.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
+    <content type="html"><![CDATA[<span id="more"></span><!-- more -->
 
 <ul>
 <li>
@@ -3270,7 +3237,6 @@ eg. Core Graphic</p>
 <li>Sample code 下一章具体介绍</li>
 <li>Body</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -3279,8 +3245,7 @@ eg. Core Graphic</p>
     <link href="azureyu.com/2016-03-24-iOSLearning.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-03-24-iOSLearning.html</id>
-    <content type="html"><![CDATA[
-<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的App并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
+    <content type="html"><![CDATA[<p>我有一个清单，列着希望在大学里完成的事。比如，学一门乐器，和朋友去旅游，搭建自己的博客，去滑翔，看各主题的书籍。其中一项是，写自己的App并且上架。去年开始，我准备完成这一项，所以踏上了iOS开发之旅。现在，投入了约200个小时，我上架了自己的第一个简单的App。</p>
 
 <span id="more"></span><!-- more -->
 
@@ -3484,7 +3449,6 @@ Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.i
 <hr/>
 
 <p>我只列出了常用的资源，资料不在于多，而在于合理的利用。一个想法的开始很简单，按下收藏也很简单。不简单的是，开始去做，开始去实现。相信，如果你也愿意付出200小时，你也能完整的将自己的想法实现为应用。</p>
-
 ]]></content>
   </entry>
   
@@ -3493,8 +3457,7 @@ Yair D&#39;areglia的博客也值得一读：<a href="http://www.thinkandbuild.i
     <link href="azureyu.com/2016-03-15-iOSUI.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2016-03-15-iOSUI.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
+    <content type="html"><![CDATA[<span id="more"></span><!-- more -->
 
 <h2 id="toc_0">Chapter 1. UI Fundamentals</h2>
 
@@ -3830,7 +3793,6 @@ Beautiful+Instandly Recognizable</li>
 <li>如何获取用户的操作？</li>
 <li>如何判断操作的度量？</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -3839,8 +3801,7 @@ Beautiful+Instandly Recognizable</li>
     <link href="azureyu.com/14628621714939.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/14628621714939.html</id>
-    <content type="html"><![CDATA[
-<p>我不是太阳，不用负责永远灿烂</p>
+    <content type="html"><![CDATA[<p>我不是太阳，不用负责永远灿烂</p>
 
 <p>我只是地球，一半光明，一半黑暗</p>
 
@@ -3855,7 +3816,6 @@ Beautiful+Instandly Recognizable</li>
 <p>标准答案</p>
 
 <p>——2014.4.21 于重庆</p>
-
 ]]></content>
   </entry>
   
@@ -3864,8 +3824,7 @@ Beautiful+Instandly Recognizable</li>
     <link href="azureyu.com/2015-12-09-EmotionNote.html"/>
     <updated>2016-05-10T14:36:11+08:00</updated>
     <id>azureyu.com/2015-12-09-EmotionNote.html</id>
-    <content type="html"><![CDATA[
-<span id="more"></span><!-- more -->
+    <content type="html"><![CDATA[<span id="more"></span><!-- more -->
 
 <ul class="clearing-thumbs small-block-grid-2" data-clearing>
 
@@ -3932,7 +3891,6 @@ Beautiful+Instandly Recognizable</li>
 
 <p><a href="https://github.com/Yogayu/EmotionNote">源码地址</a></p>
 </blockquote>
-
 ]]></content>
   </entry>
   
