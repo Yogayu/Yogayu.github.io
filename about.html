@@ -108,13 +108,13 @@
 - [阅读各类主题的书籍](http://azureyu.com/book)
 -  关注[iOS](iOS.html)和Web开发-->
 
-<p><em>独立开发的App <a href="http://azureyu.com/pulse">Pulse 2.0版本</a> 已经上线</em></p>
+<!--*独立开发的App [Pulse 2.0版本](http://azureyu.com/pulse) 已经上线*-->
 
-<!--*[我的在线简历](http://azueryu.com/cv)*-->
+<p><em><a href="http://azueryu.com/cv">我的在线简历</a></em></p>
 
 <h3 id="toc_1">Me in 10 seconds</h3>
 
-<p>I am Xinyu You, a student major in software engineering at <a href="http://www.cqu.edu.cn">Chongqing University.</p>
+<p>I am Xinyu You, a student major in software engineering at <a href="http://www.cqu.edu.cn">Chongqing University</a>.</p>
 
 <p>I love <a href="azureyu.com/2014-12-01-CreateExperience.html">technology and literature</a>. Technology gives me the power of creating and Literature gives me different life experience.</p>
 
@@ -129,9 +129,9 @@
 - Focus on the [iOS](./iOS.html) and Web developing
 -->
 
-<p><em>My first App <a href="http://azureyu.com/pulse">Pulse 2.0 Version</a> now available on apple store</em></p>
+<!--*My first App [Pulse 2.0 Version](http://azureyu.com/pulse) now available on apple store*-->
 
-<!--*[My Online Resume](http://azureyu.com/cv/)*-->
+<p><em><a href="http://azureyu.com/cv/">My Online Resume</a></em></p>
 
             </div>
         </div>
@@ -144,6 +144,29 @@
 </section>
 </div>
 </div>
+
+<script type="text/javascript">
+var disqus_shortname = 'yogayuw';
+
+(function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<script type="text/javascript">
+var disqus_shortname = 'yogayuw';
+
+(function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
  
 <script src="asset/js/foundation.min.js"></script>
 <script>
@@ -163,9 +186,30 @@ $(window).load(function() {
     fixSidebarHeight();
 });
 </script>
- 
- 
+<script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script> 
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-78816000-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+    var _baId = '7e918b457095c138d6ce710350596dfc';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
