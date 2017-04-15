@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>azureyu.com/</loc>
-  <lastmod>2017-04-15T15:37:37+08:00</lastmod>
+  <lastmod>2017-04-15T16:27:14+08:00</lastmod>
 </url>
 
 <url>
@@ -11,7 +11,7 @@
 </url>
 
 <url>
-  <loc>azureyu.com/14711002551177.html</loc>
+  <loc>azureyu.com/Technology-Biscuit.html</loc>
   <lastmod>2016-08-13T22:57:35+08:00</lastmod>
 </url>
 
@@ -158,7 +158,7 @@
 
 <url>
   <loc>azureyu.com/about.html</loc>
-  <lastmod>2017-04-15T15:37:27+08:00</lastmod>
+  <lastmod>2017-04-15T15:37:38+08:00</lastmod>
 </url>
 
 <url>
@@ -219,6 +219,11 @@
 <url>
   <loc>azureyu.com/DailySoftware.html</loc>
   <lastmod>2016-12-06T13:47:08+08:00</lastmod>
+</url>
+
+<url>
+  <loc>azureyu.com/git-cherry-pick.html</loc>
+  <lastmod>2017-04-15T16:25:03+08:00</lastmod>
 </url>
 
 

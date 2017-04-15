@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-         Technology Biscuit - Azure Yu 
+         将一个分支中特定commit合并另外一个分支上 - Azure Yu 
     </title> 
     <link href="atom.xml" rel="alternate" title="Azure Yu" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
@@ -83,122 +83,40 @@
                 </ul>
             </aside>
             <a class="exit-off-canvas" href="#"></a>
-            <section id="main-content" role="main" class="scroll-container"> 
-<script type="text/javascript">
-$(function() {
-    $('#menu_item_index').addClass('is_active');
-});
-</script>
-<div class="row">
-    <div class="large-8 medium-8 columns">
-        <div class="markdown-body article-wrap">
-            <div class="article">
-                
-                <h1>Technology Biscuit</h1>
-                <div class="read-more clearfix">
-                    <span class="date">2016/8/13</span> <span>posted in&nbsp;</span>  
-                    <span class="posted-in"><a href='Tech.html'>Tech</a></span> 
-                    <span class="comments">
-                    <a href="14711002551177.html#disqus_thread">comments</a>
-                    </span>
-                </div>
-            </div>
-            <!-- article -->
-            <div class="article-content">
-                <p>文章就像精神食粮，饕餮大餐的书籍吃多了，偶尔来点小饼干也不错。</p>
+            <section id="main-content" role="main" class="scroll-container">     
+    <script type="text/javascript">
+    $(function() {
+        var currentURL = 'git-cherry-pick.html';
+        currentURL = currentURL.substr(0, currentURL.length - 5);
+        $('#menu_item_' + currentURL).addClass('is_active');
+    });
+    </script>
+    <div class="row">
+        <div id="single-page-wrap">
+            <h1>将一个分支中特定commit合并另外一个分支上</h1>
+            <div class="markdown-body post-page">
+                <p>有时候团队切了新分支，但是你忘记了，所以你需要将自己的commit合并到新分支上去。此时你的commit却夹杂在其他人的commit之中，所以你可以使用cherry-pick选择commit进行合并。</p>
 
-<p>所以这里烹饪的文章多短篇，记录日常开发中的配置、工具使用或问题解决等等。</p>
+<ol>
+<li><p>查看你要合并的commit id</p>
 
-<span id="more"></span><!-- more -->
+<pre><code>git log 
 
-<p>之后还会烹饪些什么呢？本糕点师还在思考中&hellip;&hellip;</p>
+commit 4d2b29d6e7f1208e7f672998a511c81ac011e22f
+</code></pre></li>
+<li><p>切换到将要添加commit的分支,比如你要加到maser分支上</p>
 
-<ul>
-<li><a href="./2016-08-13-Xcode-Command-Tool.html">Install Xcode Command Tool</a></li>
-<li><a href="./2016-08-13-Kindle-Reset.html">Kindle Reset</a></li>
-<li><a href="./2016-08-14-git-alias.html">Git 别名 Git Alias</a></li>
-<li><a href="./2016-08-07-Basic-Linux.html">Linux Basic</a></li>
-<li><a href="./2016-07-19-iterm2.html">iTerm 2 配置和快捷键</a></li>
-<li><a href="./2016-07-10-Vim.html">Vim Bsaic</a></li>
-<li><a href="./2016-08-13-jekyll-wrong.html">Jekyll Error</a></li>
-<li><a href="./2016-iOSYoga.html">iOSYoga</a></li>
-</ul>
+<pre><code>git co master
+</code></pre></li>
+<li><p>合并</p>
 
-            </div>
-            <br>
-            <div class="cc-license">
-                作者「<a href="azureyu.com/" rel="author" class="pjax">AzureYu</a>」于 <span class="date">2016/8/13</span> 更新<a href="14711002551177.html">本文</a>
-                <br>自由转载-非商用-非衍生-保持署名 | <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank" rel="nofollow">BY-NC-SA</a>
-            </div>
-            <div class="row">
-                <div class="large-6 columns">
-                    <p class="text-left" style="padding:15px 0px;">
-                        <a href="douban-intern.html" title="Previous Post: 豆蔻年华 与你为瓣——在豆瓣实习">&laquo; 豆蔻年华 与你为瓣——在豆瓣实习</a> 
-                    </p>
-                </div>
-                <div class="large-6 columns">
-                    <p class="text-right" style="padding:15px 0px;">
-                        <a href="2016-07-17-arc.html" title="Next Post: 自动引用计数（ Auto Reference Count, ARC）">自动引用计数（ Auto Reference Count, ARC） &raquo;</a> 
-                    </p>
-                </div>
-            </div>
-            <div class="comments-wrap">
-                <div class="share-comments">
-                     
-                    <div id="disqus_thread"></div>
-                     
-                </div>
+<pre><code>git cherry-pick 4d2b29d6e7f1208e7f672998a511c81ac011e22f
+</code></pre></li>
+</ol>
+
             </div>
         </div>
-        <!-- article-wrap -->
-    </div>
-    <!-- large 8 --> <div class="large-4 medium-4 columns">
-    <div class="hide-for-small">
-        <div id="sidebar" class="sidebar">
-            <div id="site-info" class="site-info">
-                <div class="site-a-logo"><img src="img/avatar.jpg" /></div>
-                
-                <h1>Azure Yu</h1>
-                <div class="site-des">去创造 去体验</div>
-                <div class="social">
-                          <a class="instagram" href="https://www.instagram.com/starflys" title="Instagram">Instagram</a> 
-                    <a class="weibo" target="_blank" href="http://weibo.com/yxydiscovery" title="weibo">Weibo</a>  
-                    <a class="twitter" target="_blank" href="https://twitter.com/yxydiscovery" title="Twitter">Twitter</a> 
-                    <a class="github" target="_blank" href="https://github.com/yogayu" title="GitHub">GitHub</a> 
-                    <a class="rss" target="_blank" href="atom.xml" title="RSS">RSS</a>
-                </div>
-            </div>
-            <div id="site-categories" class="side-item ">
-                <div class="side-header">
-                    <h2>Sites</h2>
-                </div>
-                <div class="side-content">
-                    <ol class="posts-list">
-                        <li class="post"><a href="http://azureyu.com/book">Books: My Reading List</a></li>
-                        <li class="post"><a href="http://azureyu.com/pulse">Pulse: My First iOS App</a></li>
-                        <li class="post"><a href="http://www.jianshu.com/users/313e5a37caee/latest_articles">My Blog in Jianshu</a></li>
-                    </ol>
-                </div>
-            </div>
-            <div id="site-categories" class="side-item ">
-                <div class="side-header">
-                    <h2>Categories</h2>
-                </div>
-                <div class="side-content">
-                    <p class="cat-list">
-                        <a href="Tip.html"><strong>Tip</strong></a> 
-                        <a href="iOS.html"><strong>iOS</strong></a> 
-                        <a href="Life.html"><strong>Life</strong></a> 
-                        <a href="Book.html"><strong>Book</strong></a> 
-                        <a href="Tech.html"><strong>Tech</strong></a> 
-                        
-                    </p>
-                </div>
-            </div>
-        </div><!-- sidebar -->
-    </div><!-- hide for small -->
-</div><!-- large 4 -->
-</div><!-- row --> 
+    </div> 
 <div class="page-bottom clearfix">
     <div class="row">
         <p class="copyright">Copyright &copy; 2014-2017 Azure Yu.&nbsp; Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>

@@ -3,7 +3,7 @@
   <title><![CDATA[Azure Yu]]></title>
   <link href="atom.xml" rel="self"/>
   <link href="azureyu.com/"/>
-  <updated>2017-04-15T15:36:09+08:00</updated>
+  <updated>2017-04-15T16:26:51+08:00</updated>
   <id>azureyu.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -234,9 +234,9 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
   
   <entry>
     <title type="html"><![CDATA[Technology Biscuit]]></title>
-    <link href="azureyu.com/14711002551177.html"/>
+    <link href="azureyu.com/Technology-Biscuit.html"/>
     <updated>2016-08-13T22:57:35+08:00</updated>
-    <id>azureyu.com/14711002551177.html</id>
+    <id>azureyu.com/Technology-Biscuit.html</id>
     <content type="html"><![CDATA[<p>文章就像精神食粮，饕餮大餐的书籍吃多了，偶尔来点小饼干也不错。</p>
 
 <p>所以这里烹饪的文章多短篇，记录日常开发中的配置、工具使用或问题解决等等。</p>
@@ -246,6 +246,7 @@ Python真的是无处不在。弹性办公时间，不打卡。有着引以为�
 <p>之后还会烹饪些什么呢？本糕点师还在思考中&hellip;&hellip;</p>
 
 <ul>
+<li><a href="./git-cherry-pick.html">将一个分支中特定commit合并另外一个分支上</a></li>
 <li><a href="./2016-08-13-Xcode-Command-Tool.html">Install Xcode Command Tool</a></li>
 <li><a href="./2016-08-13-Kindle-Reset.html">Kindle Reset</a></li>
 <li><a href="./2016-08-14-git-alias.html">Git 别名 Git Alias</a></li>
