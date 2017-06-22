@@ -1,0 +1,34 @@
+---
+layout: default
+title: 'Tag'
+lang: en
+ref: blog
+permalink: /tag/
+---
+{% include core/metabar.html %}
+
+<article class="content">
+  <section id="posts" class="section">
+      <h2 class="section-title">Tags</h2>
+      <article class="section-writing">
+          {% for tag in site.tags %}
+            <!-- {% if tag[0] != 'wiki' %} -->
+             <h2 class="section-header"><span class="fa fa-tag listing-seperator" id="{{ tag[0] }}"><span>  {{ tag[0] }}</span></span></h2>
+             {% for post in tag[1] %}
+             <li class="section-body" style="margin:0;"><a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">  {{ post.title }}</a></li>
+             {% endfor %}
+            <!-- {% endif %} -->
+          {% endfor %}
+      </article>
+  </section>
+
+</article>
+
+
+{% include core/footer.html %}
+
+<!-- <div id='tag_cloud' class="tags">
+    {% for tag in site.tags %}
+    <a href="{{ site.github.url }}/tag#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    {% endfor %}
+</div> -->

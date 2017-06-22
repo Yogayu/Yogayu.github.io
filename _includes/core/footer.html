@@ -1,0 +1,32 @@
+<footer class="footer">
+	<div class="footer-container">
+		<div class="footer-logo">
+			<a href="http://azureyu.com/{% if site.url == 'http://azureyu.com' and page.url == '/' %}#" data-scroll{% else %}"{% endif %} aria-label="Visit 'Made by Connor.'">{% include custom/logo.html %}</a>
+		</div>
+		<div class="footer-navigation">
+			<div class="footer-links">
+				<h4 class="footer-title">{{ site.title }}</h4>
+				<nav>
+					{% include core/navigation.html %}
+				</nav>
+			</div>
+			<div class="footer-links">
+				<h4 class="footer-title">Contact</h4>
+				<nav>
+					<ul class="nav">
+						<li class="nav-link">
+							<a href="http://weibo.com/yxydiscovery/home?wvr=5" target="_blank" rel="noopener noreferrer" aria-label="Weibo">Weibo</a>
+						</li>
+						<li class="nav-link">
+							<a href="https://www.douban.com/people/POKUI/" target="_blank" rel="noopener noreferrer" aria-label="Douban">Douban</a>
+						</li>
+						<li class="nav-link">
+							<a href="http://azureyu.com/book" target="_blank" rel="noopener noreferrer" aria-label="Reading">Reading</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<h6 class="footer-text">© {{ site.time | date: '%Y' }} <a href="https://twitter.com/{{ site.author.twitter }}" aria-label="Follow {{ site.author.name }} on Twitter.">{{ site.author.name }}</a>. All rights reserved.</h6>
+	</div>
+</footer>

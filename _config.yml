@@ -1,0 +1,90 @@
+# Dependencies
+markdown:             kramdown
+highlighter:          rouge
+
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+
+# Settings
+exclude:              [CNAME, README.md, NOTES.md, LICENSE.md, .gitignore, package.json, bower.json, _js, _scss, _images, gulpfile.js, gulpconfig.js, node_modules, bower_components, gemfile, Gemfile.lock]
+permalink:            /:title/
+compress_html:
+  clippings: all
+  comments: all
+
+
+# Site meta
+title:                'AzureYu'
+tagline:              '去创造 去体验'
+description:          'Shall I compare thee to a summer’s day? ——<a href="https://www.poets.org/poetsorg/poem/shall-i-compare-thee-summers-day-sonnet-18" target="_blank" rel="noopener noreferrer">William Shakespeare</a>'
+wiki_description:     '精神食粮小饼干'
+keywords:             'yxy,游薪渝,azureyu,blog,azure'
+url:                  http://azureyu.com
+baseurl:              
+assets:               /assets
+images:               /images/
+image:                index-large.jpg
+logo:                 /assets/icons/apple-icon-144x144.png
+dark_theme:           false
+
+author:
+  name:               You Xinyu
+  bio:                你好哇，我是薪渝。
+  image:              author
+  url:                http://azureyu.com
+  email:              youxinyu07@qq.com
+  twitter:            yxydiscovery
+
+social:
+  twitter:            https://twitter.com/yxydiscovery
+  instagram:          https://instagram.com/connor_baer
+  github:             https://github.com/yogayu
+  # medium:             http://azureyu.com
+
+version:              3.1.3
+
+github:
+  repo:               https://github.com/yogayu
+
+
+# Integrations
+# typekit:              fcv7rfe
+
+google_fonts:
+  Overpass:           400, 600, 800
+
+# google_analytics_key: UA-94021817-2
+# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
+
+
+# Content
+excerpt_separator: <!-- more -->
+
+navigation:
+  # GitHub: https://github.com/yogayu
+
+collections:
+  recipes:
+    output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      lang: en
+      permalink: /:title/
+  - scope:
+      path: ''
+      type: recipes
+    values:
+      layout: recipe
+      lang: en
+      permalink: /:title/
