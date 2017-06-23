@@ -129,114 +129,115 @@ labelColor|Black|white|Black|Black|
 代码实现：
 
 1. Struct方式
-    
-        public protocol YXYTheme {
-            // MetreView
-            var blockColor              : UIColor { get set }
-            var blockFillColor          : UIColor { get set }
-            var blockBdrColor           : UIColor { get set }
-            var blockShadowColor        : UIColor { get set }
-            // View
-            var backgroundColor         : UIColor { get set }
-            var nameIncDecTextColor     : UIColor { get set }
-            var labelColor              : UIColor { get set }
-            var incAndDecLabelTextColor : UIColor { get set }
-            // Slider
-            var sliderBackgroundColor   : UIColor { get set }
-            var sliderStartColor        : UIColor { get set }
-            var sliderEndColor          : UIColor { get set }
-            var sliderHandleColor       : UIColor { get set }
-        }   
-        
-        struct DarkTheme : YXYTheme, AnyObjectConvertible {
-            var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
-            var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
-            var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
-            var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
-            var backgroundColor         = UIColor(red:0.34, green:0.34, blue:0.34, alpha:1)
-            var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
-            
-            var labelColor              = UIColor.whiteColor()
-            var incAndDecLabelTextColor = UIColor.whiteColor()
-            var sliderBackgroundColor   = UIColor.lightGrayColor()
-            var sliderStartColor        = UIColor.grayColor()
-            var sliderEndColor          = UIColor.greenColor()
-            var sliderHandleColor       = UIColor.greenColor()
-        }
-    
+    {% highlight swift %}
+   public protocol YXYTheme {
+       // MetreView
+       var blockColor              : UIColor { get set }
+       var blockFillColor          : UIColor { get set }
+       var blockBdrColor           : UIColor { get set }
+       var blockShadowColor        : UIColor { get set }
+       // View
+       var backgroundColor         : UIColor { get set }
+       var nameIncDecTextColor     : UIColor { get set }
+       var labelColor              : UIColor { get set }
+       var incAndDecLabelTextColor : UIColor { get set }
+       // Slider
+       var sliderBackgroundColor   : UIColor { get set }
+       var sliderStartColor        : UIColor { get set }
+       var sliderEndColor          : UIColor { get set }
+       var sliderHandleColor       : UIColor { get set }
+   }   
+   
+   struct DarkTheme : YXYTheme, AnyObjectConvertible {
+       var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
+       var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+       var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
+       var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
+       var backgroundColor         = UIColor(red:0.34, green:0.34, blue:0.34, alpha:1)
+       var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+       
+       var labelColor              = UIColor.whiteColor()
+       var incAndDecLabelTextColor = UIColor.whiteColor()
+       var sliderBackgroundColor   = UIColor.lightGrayColor()
+       var sliderStartColor        = UIColor.grayColor()
+       var sliderEndColor          = UIColor.greenColor()
+       var sliderHandleColor       = UIColor.greenColor()
+   }
+    {% endhighlight %}
 2. class 方式
+{% highlight swift %}
+//
+//  LightTheme.swift
+//  GuitarFere
+//
+//  Created by youxinyu on 16/3/10.
+//  Copyright © 2016年 yogayu.github.io. All rights reserved.
+//
     
-        //
-        //  LightTheme.swift
-        //  GuitarFere
-        //
-        //  Created by youxinyu on 16/3/10.
-        //  Copyright © 2016年 yogayu.github.io. All rights reserved.
-        //
-    
-        import UIKit
-        
-        class LightTheme : NSObject, YXYTheme, AnyObjectConvertible
-        {
-            var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
-            var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
-            var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
-            var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
-            var backgroundColor         = UIColor.whiteColor()
-            var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
-            var labelColor              = UIColor.whiteColor()
-            var incAndDecLabelTextColor = UIColor.whiteColor()
-            var sliderBackgroundColor   = UIColor.lightGrayColor()
-            var sliderStartColor        = UIColor.grayColor()
-            var sliderEndColor          = UIColor.redColor()
-            var sliderHandleColor       = UIColor.greenColor()
-        
-        init( blockColor:UIColor, blockFillColor:UIColor, blockBdrColor:UIColor, blockShadowColor:UIColor, 
-                backgroundColor:UIColor, nameIncDecTextColor:UIColor, labelColor:UIColor, incAndDecLabelTextColor:UIColor, 
-                sliderBackgroundColor:UIColor, sliderStartColor:UIColor, sliderEndColor:UIColor, sliderHandleColor:UIColor){
-            
-            self.blockColor = blockColor
-            self.blockFillColor = blockFillColor
-            self.blockBdrColor = blockBdrColor
-            self.blockShadowColor = blockShadowColor
-            self.backgroundColor = backgroundColor
-            self.nameIncDecTextColor = nameIncDecTextColor
-            self.labelColor = labelColor
-            self.incAndDecLabelTextColor = incAndDecLabelTextColor
-            self.sliderBackgroundColor = sliderBackgroundColor
-            self.sliderStartColor = sliderStartColor
-            self.sliderEndColor = sliderEndColor
-            self.sliderHandleColor = sliderHandleColor
-            
-            }
-        }   
-
+import UIKit
+   
+class LightTheme : NSObject, YXYTheme, AnyObjectConvertible
+{
+  var blockColor              = UIColor(red:0.72, green:0.72, blue:0.72, alpha:1)
+  var blockFillColor          = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+  var blockBdrColor           = UIColor(red:0.21, green:0.21, blue:0.21, alpha:1)
+  var blockShadowColor        = UIColor(red:0.16, green:0.17, blue:0.19, alpha:1)
+  var backgroundColor         = UIColor.whiteColor()
+  var nameIncDecTextColor     = UIColor(red:0.95, green:0.95, blue:0.95, alpha:1)
+  var labelColor              = UIColor.whiteColor()
+  var incAndDecLabelTextColor = UIColor.whiteColor()
+  var sliderBackgroundColor   = UIColor.lightGrayColor()
+  var sliderStartColor        = UIColor.grayColor()
+  var sliderEndColor          = UIColor.redColor()
+  var sliderHandleColor       = UIColor.greenColor()
+   
+init( blockColor:UIColor, blockFillColor:UIColor, blockBdrColor:UIColor, blockShadowColor:UIColor, 
+      backgroundColor:UIColor, nameIncDecTextColor:UIColor, labelColor:UIColor, incAndDecLabelTextColor:UIColor, 
+      sliderBackgroundColor:UIColor, sliderStartColor:UIColor, sliderEndColor:UIColor, sliderHandleColor:UIColor){
+  
+  self.blockColor = blockColor
+  self.blockFillColor = blockFillColor
+  self.blockBdrColor = blockBdrColor
+  self.blockShadowColor = blockShadowColor
+  self.backgroundColor = backgroundColor
+  self.nameIncDecTextColor = nameIncDecTextColor
+  self.labelColor = labelColor
+  self.incAndDecLabelTextColor = incAndDecLabelTextColor
+  self.sliderBackgroundColor = sliderBackgroundColor
+  self.sliderStartColor = sliderStartColor
+  self.sliderEndColor = sliderEndColor
+  self.sliderHandleColor = sliderHandleColor
+  
+  }
+}   
+{% endhighlight %}
 ### 本地化 
 参见我之前[博文](http://azureyu.com/2016-05-14-iOS-Localizable.html)或[简书博文](http://www.jianshu.com/p/782aaf3bf7da)。
 
 ### 保持用户设置
+
+```swift
+let userDefaultsLastTempoKey = "DefaultsTempoKey"   
     
-    let userDefaultsLastTempoKey = "DefaultsTempoKey"   
+let defaults = NSUserDefaults.standardUserDefaults()
     
-    let defaults = NSUserDefaults.standardUserDefaults()
-    
-    func saveTempo(tempo:Int){
-        defaults.setInteger(tempo, forKey: userDefaultsLastTempoKey)
-        defaults.synchronize()
-    }
-    
+func saveTempo(tempo:Int){
+defaults.setInteger(tempo, forKey: userDefaultsLastTempoKey)
+defaults.synchronize()
+}
+```
 读取：
-    
-    func initialTempo(){
-        let savedTempo = NSUserDefaults.standardUserDefaults().objectForKey( userDefaultsLastTempoKey) as? Int
-        if let tempo = savedTempo {
-            metronome.tempo = tempo
-            tempoLabel.text = "\(metronome.tempo)"
-        }else {
-            tempoLabel.text = "\(metronome.tempo)"
-        }
-    }
-    
+ ```swift   
+func initialTempo(){
+   let savedTempo = NSUserDefaults.standardUserDefaults().objectForKey( userDefaultsLastTempoKey) as? Int
+   if let tempo = savedTempo {
+       metronome.tempo = tempo
+       tempoLabel.text = "\(metronome.tempo)"
+   }else {
+       tempoLabel.text = "\(metronome.tempo)"
+   }
+}
+  ```  
 
 #### Struct如何转为AnyObject？
 
@@ -318,6 +319,7 @@ When you read back the array you need to unarchive the NSData to get back your B
 
 ### 摇一摇换肤
 
+{% highlight swift %}
     override func canBecomeFirstResponder() -> Bool {
         return true
     }
@@ -337,7 +339,7 @@ When you read back the array you need to unarchive the NSData to get back your B
         saveTheme(index)
         UIApplication.ch_switchTheme(randomTheme)
     }
-  
+  {% endhighlight %}
 
 ### 钟摆绘制
 

@@ -126,7 +126,7 @@ option+Command+return快捷键，选择preview：
 
 比如：
 
-
+{% highlight swift %}
     fun loadSampleSettingList()  {
         let help_1 = NSLocalizedString("help_1", comment: "Saved settings")
         let help_2 = NSLocalizedString("help_2", comment: "Press + to add")
@@ -141,29 +141,29 @@ option+Command+return快捷键，选择preview：
         
         settingList += [setting_1,setting_2,setting_3]
     }
-
+{% endhighlight %}
 再比如：
-
-    @IBAction fund mailBtnDidTouched(sender: AnyObject) {
-        let sendTitle = NSLocalizedString("sendFeedback", comment: "send feedback to me")
-        let sendMessage = NSLocalizedString("sendMessage", comment: "send feedback message")
-        let okTitle = NSLocalizedString("Send_Ok", comment: "accept to send")
-        let cancel = NSLocalizedString("Cancel", comment: "cancel send")
-        
-        let alert = UIAlertController(title: sendTitle, message: sendMessage, preferredStyle: UIAlertControllerStyle.Alert)
-        self.presentViewController(alert, animated: true, completion: nil)
-        let defaultAction = UIAlertAction(title: okTitle, style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
-            
-            let email = "yudelovesong@icloud.com"
-            let url = NSURL(string: "mailto:\(email)")
-            UIApplication.sharedApplication().openURL(url!)
-        }
-        let cancelAction = UIAlertAction(title: cancel, style: UIAlertActionStyle.Cancel, handler: nil)
-        
-        alert.addAction(defaultAction)
-        alert.addAction(cancelAction)
-    }
-
+{% highlight swift %}
+@IBAction fund mailBtnDidTouched(sender: AnyObject) {
+   let sendTitle = NSLocalizedString("sendFeedback", comment: "send feedback to me")
+   let sendMessage = NSLocalizedString("sendMessage", comment: "send feedback message")
+   let okTitle = NSLocalizedString("Send_Ok", comment: "accept to send")
+   let cancel = NSLocalizedString("Cancel", comment: "cancel send")
+   
+   let alert = UIAlertController(title: sendTitle, message: sendMessage, preferredStyle: UIAlertControllerStyle.Alert)
+   self.presentViewController(alert, animated: true, completion: nil)
+   let defaultAction = UIAlertAction(title: okTitle, style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+       
+       let email = "yudelovesong@icloud.com"
+       let url = NSURL(string: "mailto:\(email)")
+       UIApplication.sharedApplication().openURL(url!)
+   }
+   let cancelAction = UIAlertAction(title: cancel, style: UIAlertActionStyle.Cancel, handler: nil)
+   
+   alert.addAction(defaultAction)
+   alert.addAction(cancelAction)
+}
+{% endhighlight %}
 
 然后，同理，新建一个String File类文件，命名为Localizable，注意命名的大小写。
 

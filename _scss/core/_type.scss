@@ -253,16 +253,15 @@ pre {
   margin: 0 0 1.75em;
   padding: 1.75em;
   border: 1px solid palette(gray, light);
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.3125;
-  white-space: pre-wrap;
   overflow: auto;
   word-wrap: break-word;
 }
 
 code {
   padding: 0.125em 0.25em;
-  background-color: palette(gray, light);
+  text-align: left;
 }
 
 abbr,
