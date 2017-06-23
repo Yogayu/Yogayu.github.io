@@ -1,11 +1,13 @@
-# Personal Blog
+# [Personal Blog](http://azureyu.com)
 This is my personal blog, thanks for reading!
+
+![build](https://travis-ci.com/Yogayu/Yogayu.github.io.svg?token=3QmaipS8XXbGb9eeJE9z&branch=master)
 
 ## Thanks
 The theme is modified from [`Change`](https://github.com/madebyconnor/change).
 Thanks Connor Bär！
 
-# 个人博客
+# [个人博客](http://azureyu.com)
 这是我的个人博客，欢迎阅读。
 
 ## 主题
