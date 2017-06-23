@@ -12,5 +12,9 @@
 
 <div class="meta">
 	<time class="meta-text" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>
-	{% if timeToRead %}<span class="meta-text">&#160;&#183;&#160;&#160;{{ timeToRead }} min read</span>{% endif %}
+    {% if page.time %}
+        <span class="meta-text">&#160;&#183;&#160;&#160;{{ page.time }} min read</span>
+    {% else %}
+    	{% if timeToRead %}<span class="meta-text">&#160;&#183;&#160;&#160;{{ timeToRead }} min read</span>{% endif %}
+    {% endif %}
 </div>

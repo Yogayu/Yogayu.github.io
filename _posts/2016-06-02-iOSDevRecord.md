@@ -3,6 +3,7 @@ layout: post
 lang: en
 title: iOS 独立开发记录
 image: false
+time: 15
 tags: [iOS]
 ---
 

@@ -51,6 +51,20 @@ exclude: true
       <a class="section-link" href="{{ site.baseurl }}/blog">Read More</a>
     </article>
   </section>
+
+  <section id="posts" class="section">
+    <h2 class="section-title">Wiki</h2>
+    <article class="section-writing">
+      {% assign recipes = site.recipes | where: "lang", page.lang %}
+      {% for page in recipes limit: 2 %}
+             <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+             {% include core/date.html %}
+             <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>
+      {% endfor %}
+      <a class="section-link" href="{{ site.baseurl }}/wiki">Read More</a>
+    </article>
+  </section>
+
 </article>
 
 {% include core/footer.html %}

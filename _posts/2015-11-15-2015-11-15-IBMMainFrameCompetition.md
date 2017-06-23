@@ -2,6 +2,7 @@
 layout: post
 lang: en
 title: IBM个人赛Part1、Part2小结
+time: 5
 image: false
 tags: [Techology]
 ---

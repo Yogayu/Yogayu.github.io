@@ -3,6 +3,7 @@ layout: post
 lang: en
 title: 关于编程语言的思考（上）Thinking of the Programming Language (Part 1)
 image: false
+time: 8
 tags: [Techology]
 ---
 
@@ -136,3 +137,5 @@ SCIP:
 - [Complier](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811?ie=UTF8&*Version*=1&*entries*=0)
 - https://zh.wikipedia.org/wiki/ALGOL
 - SCIP
+
+

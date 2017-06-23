@@ -11,6 +11,8 @@ tags: [Jekyll]
 Jekyll部署到Github之后，有时候会提示你Page Build Failed，但是却没有给出具体失败的原因。
 很可能你本地使用`Bundle exec jekyll server`命令运行，一切正常。这时候要怎么排查问题呢？
 
+<!-- more -->
+
 你可以使用
 
     jekyll build --safe
@@ -33,3 +35,4 @@ Jekyll部署到Github之后，有时候会提示你Page Build Failed，但是却
 也就是在/Users/apple/GitHub/Yogayu.github.io/Yogayu.github.io/_includes/core/wikiHead.html，在此目录的文件wikiHead中，使用了没有定义的表情fedd_meta。
 
 这样一来，问题就能很好的定位到了。
+

@@ -3,6 +3,7 @@ layout: post
 lang: en
 title: 校园网无路由器无显示器情况下使用树莓派
 image: false
+time: 8
 tags: [Techology]
 ---
 
@@ -190,3 +191,5 @@ OK，大功告成。
 重启你的树莓派，VNC Server就会自动运行了。
 
 愉快的开始玩吧。
+
+
