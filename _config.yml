@@ -59,7 +59,8 @@ github:
 google_fonts:
   Overpass:           400, 600, 800
 
-# google_analytics_key: UA-94021817-2
+google_analytics_key: UA-78816000-1
+baidu_analytics_key: 7e918b457095c138d6ce710350596dfc
 # google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 
