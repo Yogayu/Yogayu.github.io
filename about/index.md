@@ -2,6 +2,7 @@
 layout: page
 title: About
 image: true
+onlineImg: https://ws1.sinaimg.cn/large/006tKfTcgy1fgv2uubr9lj31400qoth1.jpg
 lang: en
 ref: sky
 ---

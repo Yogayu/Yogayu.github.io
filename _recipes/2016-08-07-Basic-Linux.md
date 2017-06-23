@@ -2,6 +2,7 @@
 title: '基本Linux操作'
 ref: physalis-salad
 image: true
+onlineImg: http://www.ostechnix.com/wp-content/uploads/2016/02/ubuntu.png
 time: 5
 category: Tech
 tags: [Linux]

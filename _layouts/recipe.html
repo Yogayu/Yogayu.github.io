@@ -8,8 +8,15 @@ font: macro
     {% include core/metabar.html %}
 
     {% if page.image %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
-      <div class="hero-overlay"></div>
+    
+      {% if page.onlineImg %}
+        <div class="hero-background" style="background-image: url('{{page.onlineImg}}'); background-image: -webkit-image-set( url('{{page.onlineImg}}') 1x, url('{{page.onlineImg}}') 2x )"></div>
+        <div class="hero-overlay"></div>
+      {% else %}
+        <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
+        <div class="hero-overlay"></div>
+      {% endif %}
+      
     {% endif %}
 
     <header class="content hero">

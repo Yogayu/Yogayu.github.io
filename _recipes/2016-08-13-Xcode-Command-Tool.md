@@ -2,6 +2,7 @@
 title: '安装Xcode Command Tool'
 ref: physalis-salad
 image: false
+onlineImg: https://developer.apple.com/xcode/images/xcode-9-simulator-large.png
 time: 1
 category: Tech
 tags: [Xcode]

@@ -3,6 +3,7 @@ layout: wikiDefault
 font: macro
 lang: en
 ref: about
+onlineImg: https://ws1.sinaimg.cn/large/006tKfTcgy1fgv2w1ppqzj30rs0iin6j.jpg
 title: 'Wiki'
 image: true
 ---
@@ -10,8 +11,13 @@ image: true
 <div class="index{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
     {% if page.image %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
-      <div class="hero-overlay"></div>
+      {% if page.onlineImg %}
+        <div class="hero-background" style="background-image: url('{{page.onlineImg}}'); background-image: -webkit-image-set( url('{{page.onlineImg}}') 1x, url('{{page.onlineImg}}') 2x )"></div>
+        <div class="hero-overlay"></div>
+      {% else %}
+        <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
+        <div class="hero-overlay"></div>
+      {% endif %}
       {% include core/metabar.html color="-white" %}
     {% else %}
       {% include core/metabar.html %}
@@ -72,7 +78,11 @@ image: true
       <li class="list-recipe">
         <article>
           <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
+            {% if page.onlineImg %}
+            <div class="list-image" style="background-image: url('{{page.onlineImg}}')"></div>
+            {% else %}
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}-small.jpg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+            {% endif %}
             <div class="list-body">
               <span class="list-category category">{{ page.category }}</span>
               <h3 class="list-header title">{{ page.title }}</h3>

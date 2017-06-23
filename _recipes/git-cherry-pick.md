@@ -2,6 +2,7 @@
 title: '将一个分支中特定commit合并另外一个分支上'
 ref: physalis-marmelade
 image: true
+onlineImg: https://git-scm.com/images/reset/reset-soft.png
 time: 2
 category: Tech
 tags: [git]

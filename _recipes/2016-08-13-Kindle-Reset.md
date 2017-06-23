@@ -2,6 +2,7 @@
 title: 'Kindle备份与重置'
 ref: physalis-salad
 image: true
+onlineImg: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498207408928&di=b4970ba72fe534085da2cd2e4bf6675a&imgtype=0&src=http%3A%2F%2Fwww.blogcdn.com%2Fcn.engadget.com%2Fmedia%2F2013%2F02%2Fkindleforios.jpg
 time: 5
 category: Life
 tags: [Kindle]
