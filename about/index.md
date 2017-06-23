@@ -55,3 +55,12 @@ ref: sky
 
 - 🏓  乒乓球
 - 🏊  游泳
+
+## Social
+
+Github:[@yogayu](https://github.com/yogayu)<br>
+<!--Weibo:[@游薪渝](http://weibo.com/yxydiscovery/)<br>-->
+Douban:[@鱼北游](https://www.douban.com/people/POKUI/)<br>
+Twitter:[@yxydiscovery](https://twitter.com/yxydiscovery)<br>
+Instagram:@starflys
+

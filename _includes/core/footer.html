@@ -15,18 +15,24 @@
 				<nav>
 					<ul class="nav">
 						<li class="nav-link">
+							<a href="{{site.baseurl}}/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="Douban">RSS</a>
+						</li>
+						<li class="nav-link">
+							<a href="mailto:youxinyu07@qq.com" target="_blank"  aria-label="Email" >Email</a>
+						</li>
+						<li class="nav-link">
 							<a href="http://weibo.com/yxydiscovery/home?wvr=5" target="_blank" rel="noopener noreferrer" aria-label="Weibo">Weibo</a>
 						</li>
 						<li class="nav-link">
-							<a href="https://www.douban.com/people/POKUI/" target="_blank" rel="noopener noreferrer" aria-label="Douban">Douban</a>
+							<a href="https://github.com/yogayu" target="_blank" rel="noopener noreferrer" aria-label="Github">Github</a>
 						</li>
-						<li class="nav-link">
+						<!-- <li class="nav-link">
 							<a href="http://azureyu.com/book" target="_blank" rel="noopener noreferrer" aria-label="Reading">Reading</a>
-						</li>
+						</li> -->
 					</ul>
 				</nav>
 			</div>
 		</div>
-		<h6 class="footer-text">© {{ site.time | date: '%Y' }} <a href="https://twitter.com/{{ site.author.twitter }}" aria-label="Follow {{ site.author.name }} on Twitter.">{{ site.author.name }}</a>. All rights reserved.</h6>
+		<h6 class="footer-text">© 2014-{{ site.time | date: '%Y' }} <a href="{{ site.social.github }}" aria-label="Follow {{ site.author.name }} on Twitter.">{{ site.author.name }}</a>. All rights reserved. <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">BY-NC-DN</a></h6>
 	</div>
 </footer>
