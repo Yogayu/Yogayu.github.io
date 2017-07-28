@@ -211,7 +211,7 @@ option+Command+return快捷键，选择preview：
 
 ## 参考
 
-> - [WWDC 2014 412](https://developer.apple.com/videos/play/wwdc2014/412/)
-> - iOS Programming Foundation with Swift Chapter 9
+- [WWDC 2014 412](https://developer.apple.com/videos/play/wwdc2014/412/)
+- iOS Programming Foundation with Swift Chapter 9
 
 

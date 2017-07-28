@@ -151,3 +151,9 @@ One way to develop self-confidence is to do the thing you fear and get a record 
 所以你要战胜外来的敌人之前，先得战胜你内在的敌人。不必害怕沉沦堕落，只消你能不断的自拔与更新。——傅雷《约翰・克里斯多夫》序
 
 
+
+---
+
+
+As my friend, the dearly departed Princess Leia said to me, take your broken heart, make it into art. Thank you friend. ——Meryl Streep
+

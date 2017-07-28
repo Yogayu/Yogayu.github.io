@@ -68,7 +68,3 @@ time: 2
     终止不住那不老的雄心，去努力，去探寻，去发现，永不退让，不屈伏。
 
 
-
----
-
-**Reference to the famous quote from 1961 by Walter Ulbricht, then head of state of the German Democratic Republic: “Nobody has the intention of building a wall!”  —  two month later work began on what was to become the <a href="http://en.wikipedia.org/wiki/Berlin_Wall">Berlin Wall</a>. At the moment workers and politicians struggle to finish the new Berlin Brandenburg airport that is supposed to replace the two old airports Tegel & Schönefeld and should have started operation over a year ago.*

@@ -7,16 +7,14 @@ lang: en
 ref: sky
 ---
 
->我不是太阳，不用负责永远灿烂<br>
+<!-->我不是太阳，不用负责永远灿烂<br>
 >我只是地球，一半光明，一半黑暗<br>
 >若活出自己，总要赤裸一番<br>
 >就携几分颤抖，走走看看<br>
 >谁知道尽头，是怎样<br>
 >就像这世界本没有 标准答案<br>
->——2014.4.21 于重庆
+>——2014.4.21 于重庆-->
 
-## Resume
-<a href="http://azureyu.com/cv" target="_blank">My Resume</a>
 
 ## Programming
 
@@ -63,4 +61,7 @@ Github:[@yogayu](https://github.com/yogayu)<br>
 Douban:[@鱼北游](https://www.douban.com/people/POKUI/)<br>
 Twitter:[@yxydiscovery](https://twitter.com/yxydiscovery)<br>
 Instagram:@starflys
+
+## Resume
+<a href="http://azureyu.com/cv" target="_blank">My Resume</a>
 
