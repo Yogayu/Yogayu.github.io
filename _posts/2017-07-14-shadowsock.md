@@ -1,15 +1,81 @@
-# 在服务器上搭建Shadowsock以实现网络自由
+---
+layout: post
+lang: en
+title: 在服务器上搭建Shadowsocks以实现网络自由
+time: 5
+onlineImg: 
+image: false
+tags: [Techology]
+---
 
-搜索引擎几乎是我们在解决日常问题时，不可或缺的工具。对于中国化的问题而言，百度、Bing可能已经够用。但作为程序员，你在解决实际问题时，如果不用Google，毫不夸张的说，解决问题的时间会成倍增长。而就目前形式而言，没有哪一种方式，比拥有自己的独立服务器，并在上面搭建Shadowsock的方式更为便利和安全。
+# 在服务器上搭建Shadowsocks以实现网络自由
 
-所以，本文将简明具体的介绍，如何使用DigitalOcean中的服务器，搭建你私人Shadowsock。
+搜索引擎几乎是我们在解决日常问题时，不可或缺的工具。对于中国化的问题而言，百度、Bing可能已经够用。但作为程序员，你在解决实际问题时，如果不用Google，毫不夸张的说，解决问题的时间会成倍增长。<!-- more -->而就目前形式而言，没有哪一种方式，比拥有自己的独立服务器，并在上面搭建Shadowsocks的方式更为便利和安全。
 
-DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。
-	
+所以，本文将简明具体的介绍，如何使用DigitalOcean中的服务器，搭建你私人Shadowsocks。
+
+
+
+![概要](http://7xle3b.com1.z0.glb.clouddn.com/DigitalOcean-N-7.png)
+
+DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。因为DigitalOcean有邀请制，若你使用我的邀请链接注册使用，还能再免费够获得$10。
+
+另外，若你现在是高校学生，还能使用[Github Eduaction](https://education.github.com/)免费提供的$50的优惠券。在使用时，可能需要信用卡付费信息，我在使用该优惠券时，使用支付宝充入了$5，所以没有通过人工的方式去验证付费信息。
+
+![可选方案](http://7xle3b.com1.z0.glb.clouddn.com/digitalocean-5.png)
+
 ## 安装
-### Step 1
+### 1. 下载Shadowsocks
 
-	apt-get install python-pip
- 	pip install shadowsocks
+- Debian / Ubuntu:
+
+		apt-get install python-pip
+		pip install git+https://github.com/shadowsocks/shadowsocks.git@master
+
+- CentOS:
+
+		yum install python-setuptools && easy_install pip
+		pip install git+https://github.com/shadowsocks/shadowsocks.git@master
+
+### 2. 服务器配置
+
+1. 新建目录(此处我使用的根路径)
+	
+		mkdir ss
+	
+2. 新建配置文件
+	
+		vim shadowsocks.json
+	
+	输入（[不知道怎么用Vim？](http://azureyu.com/Vim/)）    
+		
+		{
+	        "server":"你服务器的ip或域名地址",
+	        "server_port":8388,
+	        "local_address": "127.0.0.1",
+	        "local_port":1080,
+	        "password":"你自己设定的密码",
+	        "timeout":300,
+	        "method":"aes-256-cfb",
+	        "fast_open": false
+	    }
+
+3. 运行
+	
+		ssserver -c ./ss/shadowsocks.json
+    
+	或者在后台运行：
+   
+	    ssserver -c ./ss/shadowsocks.json -d start
+	
+	停止：
+	
+	    ssserver -c ./ss/shadowsocks.json -d stop
+	    
+	更为详细的配置使用可参考[官方文档](https://github.com/shadowsocks/shadowsocks/wiki)。
+
+### 配置
+1. 手动配置
+2. 二维码识别
 
 
