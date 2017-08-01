@@ -4,6 +4,8 @@ lang: en
 title: 在服务器上搭建Shadowsocks以实现网络自由
 time: 5
 onlineImg: 
+keywords: Shadowsocks, 翻墙
+description: 在服务器上搭建Shadowsocks以实现网络自由
 image: false
 tags: [Techology]
 ---

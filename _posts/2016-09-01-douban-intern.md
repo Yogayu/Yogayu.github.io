@@ -3,6 +3,8 @@ layout: post
 lang: en
 ref: english
 title: 豆蔻年华 与你为瓣——在豆瓣实习
+keywords: douban intern 豆瓣实习
+description: 豆瓣实习记录
 image: false
 time: 10
 tags: [Life]

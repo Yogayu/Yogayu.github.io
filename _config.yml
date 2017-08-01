@@ -22,7 +22,8 @@ compress_html:
 # Site meta
 title:                'AzureYu'
 tagline:              '去创造 去体验'
-description:          'Shall I compare thee to a summer’s day? ——<a href="https://www.poets.org/poetsorg/poem/shall-i-compare-thee-summers-day-sonnet-18" target="_blank" rel="noopener noreferrer">William Shakespeare</a>'
+description:          '游薪渝的博客'
+description1:          'Shall I compare thee to a summer’s day? ——<a href="https://www.poets.org/poetsorg/poem/shall-i-compare-thee-summers-day-sonnet-18" target="_blank" rel="noopener noreferrer">William Shakespeare</a>'
 wiki_description:     '精神食粮小饼干'
 keywords:             'yxy,游薪渝,azureyu,blog,azure'
 url:                  http://azureyu.com

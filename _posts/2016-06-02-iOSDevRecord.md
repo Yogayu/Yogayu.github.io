@@ -2,6 +2,8 @@
 layout: post
 lang: en
 title: iOS 独立开发记录
+keywords: iOS, 独立开发
+description: 这篇总结，概览了iOS独立开发从想法、设计、开发到最终发布的过程。
 image: false
 time: 15
 tags: [iOS]

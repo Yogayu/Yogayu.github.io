@@ -2,6 +2,8 @@
 layout: post
 lang: en
 title: 关于编程语言的思考（上）Thinking of the Programming Language (Part 1)
+keywords: 编程语言, 语言设计
+description: 编程语言的思考Thinking of the Programming Language
 image: false
 time: 8
 tags: [Techology]

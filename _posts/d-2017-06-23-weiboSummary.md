@@ -55,3 +55,7 @@ ROUGE
 3. 评估：如何对不同算法的结果进行评估？（ROUGE评估方式，中文评估注意点）
 4. 展现：如何实现前端展现和后台管理的系统？（Flask、Flask-Admin；Bootstrap、E-Charts）如何部署系统到服务器？
 
+
+
+如何开始学习Python语言？
+

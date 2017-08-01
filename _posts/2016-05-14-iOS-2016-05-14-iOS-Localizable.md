@@ -2,6 +2,8 @@
 layout: post
 lang: en
 title: 让你的App说出多国语言——iOS开发之本地化(国际化)
+keywords: iOS, 本地化, 国际化
+description: iOS开发之本地化
 time: 10
 image: false
 tags: [iOS]
