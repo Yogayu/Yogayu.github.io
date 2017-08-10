@@ -1,18 +1,13 @@
 ---
 title: '一块移动硬盘，三种分区，用于Mac、Windows和TimeMachine'
-ref: physalis-salad
-image: false
-onlineImg: https://developer.apple.com/xcode/images/xcode-9-simulator-large.png
-time: 1
+image: true
+onlineImg: http://7xle3b.com1.z0.glb.clouddn.com/2017-08-10-15023490080571.png
+time: 3
 category: Tech
 tags: [Mac]
 ingredients:
   -
-    name: mac
-  -
-    name: dick
-  -
-  	name: Time Machine
+    name: disk
 --- 
 
 ## 1. 修改格式
