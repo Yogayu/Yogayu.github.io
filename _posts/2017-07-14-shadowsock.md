@@ -73,6 +73,10 @@ DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。�
    
 	    ssserver -c ./ss/shadowsocks.json -d start
 	
+	如果上面后台运行命令失效，可以使用`nohup`的方式运行：
+	
+		nohup ssserver -c ./ss/shadowsocks.json -d start
+	
 	停止：
 	
 	    ssserver -c ./ss/shadowsocks.json -d stop
