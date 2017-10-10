@@ -25,7 +25,7 @@ tags: [Techology]
 
 DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。因为DigitalOcean有邀请制，若你使用[我的邀请链接](https://m.do.co/c/fa78810fab23)注册使用，还能再免费够获得$10。
 
-另外，若你现在是高校学生，还能使用[Github Eduaction](https://education.github.com/)免费提供的$50的优惠券。在使用时，可能需要信用卡付费信息，我在使用该优惠券时，使用支付宝充入了$5，所以没有通过人工的方式去验证付费信息。
+另外，若你现在是高校学生，还能使用[Github Eduaction](https://education.github.com/)免费提供的$50的优惠券。在使用时，可能需要信用卡付费信息，我在使用该优惠券时，使用PayBal支付（支持支付宝）充入了$5，所以没有通过人工的方式去验证付费信息。
 
 ![可选方案](http://7xle3b.com1.z0.glb.clouddn.com/digitalocean-5.png)
 
@@ -77,6 +77,8 @@ DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。�
 	
 		nohup ssserver -c ./ss/shadowsocks.json -d start
 	
+	*一般情况下推荐后台运行，因为后台运行时不需要一直开启终端。*
+	
 	停止：
 	
 	    ssserver -c ./ss/shadowsocks.json -d stop
@@ -84,10 +86,14 @@ DigitalOcean支持支付宝付款，推荐使用美国或日本的服务器。�
 	更为详细的配置使用可参考[官方文档](https://github.com/shadowsocks/shadowsocks/wiki)。
 
 ### 客户端下载
+
 [客户端下载地址](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E#%E5%AE%A2%E6%88%B7%E7%AB%AF)
 
-[Mac版网盘地址](https://pan.baidu.com/s/1mhHajxu)
-密码：gik2
+
+
+[如果需要翻墙，对于Mac版本，网盘地址](https://pan.baidu.com/s/1mhHajxu)，密码：gik2。
+
+对于iOS版本，可以使用美区的Apple ID去下载客户端，例如 Potatso Lite。
 
 ### 配置
 1. 手动配置
