@@ -5,6 +5,8 @@ onlineImg: http://7xle3b.com1.z0.glb.clouddn.com/2017-08-10-15023490080571.png
 time: 3
 category: Tech
 tags: [Mac]
+keywords: Mac分区, 磁盘工具
+description: 使用磁盘工具给Mac分区
 ingredients:
   -
     name: disk
@@ -21,7 +23,13 @@ ingredients:
 
 ![](http://7xle3b.com1.z0.glb.clouddn.com/2017-08-10-15023476174655.png)
 
+**提示：**
+如果抹掉之后你发现，选择左侧移动硬盘之后，分区按钮还是为灰。那么就代表你选择错了。
+可以这样设置以显示：
 
+![屏幕快照 2017-10-14 下午4.40.52](http://7xle3b.com1.z0.glb.clouddn.com/2017-10-14-屏幕快照 2017-10-14 下午4.40.52.png)
+
+选择移动硬盘根目录抹掉之后，就能看到分区选项了。
 
 ## 2. 分区
 
