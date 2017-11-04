@@ -1,4 +1,16 @@
-# Mysql导入大Sql文件
+---
+title: 'Mysql导入大Sql文件'
+image: true
+time: 2
+category: Tech
+tags: [SQL]
+keywords: 大sql文件, mysql
+description: Mysql导入大Sql文件'
+ingredients:
+  -
+    name: sql
+--- 
+
 
 昨天，实验室平台的数据直接传给我，大概有5G左右。直接用mysqlwork bench 导入会提示错误，使用命令行导入也会提示错误。
 
