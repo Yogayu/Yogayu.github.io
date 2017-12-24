@@ -11,29 +11,6 @@ exclude: true
 
 <article class="content">
 
-  <header class="hero">
-    <h1 class="hero-title">{{ site.description1 }}</h1>
-    {% include core/share.html %}
-    {% if page.image %}
-    {% if page.onlineImg %}
-        <div class="hero-image" style="background-image: url('{{page.onlineImg}}'); background-image: -webkit-image-set( url('{{page.onlineImg}}') 1x, url('{{page.onlineImg}}') 2x )"></div>
-      {% else %}
-        <div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}-large.jpg') 2x )"></div>
-      {% endif %}
-      
-     <!--  <a href="https://www.douban.com/photos/photo/2464037281/"><div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}-large.jpg') 2x )"></div></a> -->
-    {% endif %}
-  </header>
-
-  <section id="about" class="section">
-    <h2 class="section-title">About</h2>
-    <article>
-      <h3 class="section-header">科技 人文 梦</h3>
-      <p class="section-body">科技 人文 梦</p>
-      <a class="section-link" href="{{ site.baseurl }}/about">Read More</a>
-    </article>
-  </section>
-
   <section id="posts" class="section">
     <h2 class="section-title">Posts</h2>
     <article class="section-writing">

@@ -1,11 +1,14 @@
----
+<!-- ---
 layout: page
 title: About
 image: true
 onlineImg: https://ws1.sinaimg.cn/large/006tKfTcgy1fgv2uubr9lj31400qoth1.jpg
 lang: en
 ref: sky
----
+--- -->
+
+
+
 
 <!-->我不是太阳，不用负责永远灿烂<br>
 >我只是地球，一半光明，一半黑暗<br>
@@ -15,15 +18,9 @@ ref: sky
 >就像这世界本没有 标准答案<br>
 >——2014.4.21 于重庆-->
 
-
+<!-- 
 ## Programming
 
-<!-- Main Language: -->
-<!-- - Swift, Objective-C
-- Python
-- HTML/CSS, JavaScript -->
-
-<!-- Field: -->
 - iOS
 - Web
 - Data Science
@@ -32,12 +29,6 @@ ref: sky
 
 🎸
 
-<!--### Singer
-@王菲
-@田馥甄
-@陈绮贞
-@杨千嬅
-@林宥嘉-->
 
 ### 词
 @林夕:<br>
@@ -57,7 +48,7 @@ ref: sky
 ## Social
 
 Github:[@yogayu](https://github.com/yogayu)<br>
-<!--Weibo:[@游薪渝](http://weibo.com/yxydiscovery/)<br>-->
+Weibo:[@游薪渝](http://weibo.com/yxydiscovery/)<br>
 Douban:[@鱼北游](https://www.douban.com/people/POKUI/)<br>
 Twitter:[@yxydiscovery](https://twitter.com/yxydiscovery)<br>
 Instagram:@starflys
@@ -65,3 +56,4 @@ Instagram:@starflys
 ## Resume
 <a href="http://azureyu.com/cv" target="_blank">My Resume</a>
 
+ -->

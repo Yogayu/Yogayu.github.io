@@ -26,7 +26,7 @@ ingredients:
 	
 		mysql>  SET GLOBAL max_allowed_packet=214748;
 	
-最大大小可根据需求制定，单位为M。
+最大大小可根据需求指定，单位为M。
 
 3. 设置等待时间
 		
@@ -34,7 +34,7 @@ ingredients:
 		
 4. 退出mysql
 	
-	quit
+		quit
 	
 5. 进入到sql文件所在目录
 
@@ -42,8 +42,8 @@ ingredients:
 
 		mysql -h localhost -u root -p -- educoder < dbtrustie-Nov-2.sql
 
-	localhost 服务器地址
-	root mysql用户名
+	localhost ：服务器地址
+	root ：mysql用户名
 
 	
 
