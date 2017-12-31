@@ -1,0 +1,136 @@
+---
+title: 'Ubuntu常用开发环境配置'
+ref: physalis-marmelade
+image: true
+onlineImg: https://developer.apple.com/develop/images/image-develop-hero-medium.png
+time: 10
+keywords: Ubuntu,开发环境,配置
+category: Tech
+tags: [Linux]
+---
+
+
+[TOC]
+
+## Miniconda
+
+Miniconda：Python环境管理工具。通常开发时，Python都会存在环境问题，将其安装在一个虚拟环境中，各个版本的Python可以独立共存，互不干扰，便于之后的开发。
+
+安装[Miniconda](https://conda.io/docs/user-guide/install/download.html
+)，[下载地址](https://repo.continuum.io/miniconda/)。
+
+1. 新建名字为`my_root`的环境
+
+    ```bash
+    conda create -n my_root --clone="/home/yxy/miniconda3"
+    ```
+
+2. bash
+
+    ```bash
+    # To activate this environment, use:
+    # > source activate my_root
+    #
+    # To deactivate an active environment, use:
+    # > source deactivate
+    ```
+
+3. 安装所需包：
+
+    ```bash
+    conda install numpy pandas scikit-learn matplotlib seaborn jupyter
+    ```
+	启动jupyter：
+
+	```bash
+    # Notebook模式
+    jupyter notebook
+    # Shell模式
+    ipython
+    ```
+
+- [详细教程参考](https://conda.io/docs/user-guide/getting-started.html#managing-python)
+
+
+## Linux添加自定义命令
+在使用终端时，我们经常输入一下重复性的命令，例如进入某个文件夹或激活虚拟环境。将这些命令进行简短的重命名，可以减轻记忆负担、提高输入效率。
+
+`Bash`配置：
+
+```bash
+vim .bashrc
+```
+
+配置文件中加入：
+```bash
+alias commandName="command"
+```
+
+例如，在`.bashrc`文件中加入：
+
+```bash
+# Alias by myself
+alias aroot='source activate my_root'
+alias mybg='cd Documents/github/Yogayu.github.io/'
+```
+
+**注意等号与两边之间没有间隔。**
+
+重新加载配置文件以生效：
+```bash
+source .bashrc
+```
+## Jekyll
+
+Ruby环境：
+```bash
+sudo apt install ruby
+```
+
+安装Jekyll：
+```bash
+sudo apt install jekyll
+jekyll server
+```
+
+或者
+
+```bash
+sudo gem install jekyll bundler
+# 启动：
+bundle install
+bundle exec jekyll serve
+```
+
+## Vim
+
+安装Vim：
+```bash
+sudo apt install vim
+```
+
+## Tree
+
+在终端中以树状查看目录。
+
+```bash
+sudo apt-get install tree
+# 查看
+tree
+```
+
+## Npm
+
+```BASH
+sudo apt install npm
+```
+### Gulp
+
+```bash
+sudo npm install --global gulp
+```
+
+## VNC Server
+
+- [RealVNC](https://www.realvnc.com/en/connect/download/vnc/)
+
