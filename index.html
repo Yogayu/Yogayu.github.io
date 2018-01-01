@@ -32,8 +32,8 @@ exclude: true
   <section id="posts" class="section">
     <h2 class="section-title">Wiki</h2>
     <article class="section-writing">
-      {% assign recipes = site.recipes | where: "lang", page.lang %}
-      {% for page in recipes limit: 2 %}
+      {% assign recipes = site.recipes %}
+      {% for page in recipes reversed limit:2 %}
              <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
              {% include core/date.html %}
              <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>

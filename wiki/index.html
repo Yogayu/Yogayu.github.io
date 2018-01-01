@@ -70,10 +70,10 @@ image: true
         </label>
       </fieldset> -->
     </form>
-
+    
     <ul class="list">
-      {% assign recipes = site.recipes | where: "lang", page.lang %}
-      {% for page in recipes %}
+      {% assign recipes = site.recipes %}
+      {% for page in recipes reversed %}
 
       <li class="list-recipe">
         <article>
@@ -85,7 +85,7 @@ image: true
             {% endif %}
             <div class="list-body">
               <span class="list-category category">{{ page.category }}</span>
-              <h3 class="list-header title">{{ page.title }}</h3>
+              <h3 class="list-header title" date='{{ page.date | date:"%y-%m-%d" }}'>{{ page.title }}</h3>
               {% include custom/meta.html %}
               <span class="list-ingredients ingredients" data-ingredients="{% for i in page.ingredients %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
             </div>
