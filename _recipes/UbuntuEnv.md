@@ -52,6 +52,33 @@ Miniconda：Python环境管理工具。通常开发时，Python都会存在环�
 - [详细教程参考](https://conda.io/docs/user-guide/getting-started.html#managing-python)
 
 
+[在Mac中安装](https://conda.io/docs/user-guide/install/macos.html)
+
+下载并安装：
+
+    ```bash
+    wget http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+    bash ~/miniconda.sh -b -p $HOME/miniconda
+    export PATH="$HOME/miniconda/bin:$PATH"
+    ```
+
+在配置文件中添加路径，
+例如对于zsh，
+    ```bash
+    vim ~/.zshrc
+    # 在最后一行中加入
+    export PATH="$HOME/miniconda/bin:$PATH"
+    ``` 
+
+激活环境：
+    
+    ```bash
+    export PATH="$HOME/miniconda/bin:$PATH"
+    ```
+
+为了便捷可以将激活环境的命令写入配置文件的自定义命令中，具体操作请见下一小节。
+
+
 ## Linux添加自定义命令
 在使用终端时，我们经常输入一下重复性的命令，例如进入某个文件夹或激活虚拟环境。将这些命令进行简短的重命名，可以减轻记忆负担、提高输入效率。
 
