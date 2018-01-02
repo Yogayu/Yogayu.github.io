@@ -9,6 +9,7 @@ category: Tech
 tags: [Linux]
 ---
 
+记录使用Ubuntu作为日常开发的环境配置过程。
 
 [TOC]
 
