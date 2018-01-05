@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 lang: en
 ref: english
 title: 去创造，去体验

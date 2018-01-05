@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 lang: en
 title: 使用CocoaPods
 image: false

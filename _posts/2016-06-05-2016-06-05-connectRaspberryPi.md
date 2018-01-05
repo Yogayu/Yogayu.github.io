@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 lang: en
 title: 校园网无路由器无显示器情况下使用树莓派
 image: false
