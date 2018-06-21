@@ -26,7 +26,7 @@ description:          '游薪渝的博客'
 description1:          'Shall I compare thee to a summer’s day? ——<a href="https://www.poets.org/poetsorg/poem/shall-i-compare-thee-summers-day-sonnet-18" target="_blank" rel="noopener noreferrer">William Shakespeare</a>'
 wiki_description:     '精神食粮小饼干'
 keywords:             'yxy,游薪渝,azureyu,blog,azure'
-url:                  http://azureyu.com
+url:                  http://data2art.com
 baseurl:              
 assets:               /assets
 images:               /images/
@@ -38,7 +38,7 @@ author:
   name:               You Xinyu
   bio:                Nice to meet you.
   image:              author
-  url:                http://azureyu.com
+  url:                http://data2art.com
   email:              youxinyu07@qq.com
   twitter:            yxydiscovery
 

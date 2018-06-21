@@ -1,4 +1,4 @@
-# [Personal Blog](http://azureyu.com)
+# [Personal Blog](http://data2art.com)
 This is my personal blog, thanks for reading!
 
 ![build](https://travis-ci.com/Yogayu/Yogayu.github.io.svg?token=3QmaipS8XXbGb9eeJE9z&branch=master)
@@ -7,7 +7,7 @@ This is my personal blog, thanks for reading!
 The theme is modified from [`Change`](https://github.com/madebyconnor/change).
 Thanks Connor Bär！
 
-# [个人博客](http://azureyu.com)
+# [个人博客](http://data2art.com)
 这是我的个人博客，欢迎阅读。
 
 ## 主题
