@@ -1,5 +1,5 @@
 {
-  "name": "change",
+  "name": "data2art",
   "description": "Change is a minimalist Jekyll theme built by @connor_baer.",
   "main": "index.html",
   "authors": [
@@ -16,7 +16,7 @@
     "developer",
     "theme"
   ],
-  "homepage": "http://connorbaer.co",
+  "homepage": "http://data2art.co",
   "private": true,
   "ignore": [
     "**/.*",
